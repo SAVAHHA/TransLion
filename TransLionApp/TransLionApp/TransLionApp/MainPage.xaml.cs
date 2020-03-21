@@ -15,7 +15,20 @@ namespace TransLionApp
     {
         public MainPage()
         {
-            InitializeComponent();
+            StackLayout stackLayout = new StackLayout();
+            for (int i = 1; i < 20; i++)
+            {
+                Label label = new Label
+                {
+                    Text = "Метка " + i,
+                    FontSize = 23
+                };
+                stackLayout.Children.Add(label);
+            }
+            ScrollView scrollView = new ScrollView();
+            scrollView.Content = stackLayout;
+            this.Content = scrollView;
+            //InitializeComponent();
         }
     }
 }
