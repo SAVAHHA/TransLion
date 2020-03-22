@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Nj/oPstGHdp4ZMVh9ksx354j9bAyN/co4SGIu5QHk5hITVrkDibxdVdleySSTwA0wl5NqcfCqnK845Z6y4z5Kg==",
+  "dgSpecHash": "a2d6GpSuaC6HkYKnc42UzCRmg4P3PmA7jJYQKqjA9zT3tSQlt30VwP2bPgQwA7Ytd5LMCHcBaHAswmv617x4fw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
   ],

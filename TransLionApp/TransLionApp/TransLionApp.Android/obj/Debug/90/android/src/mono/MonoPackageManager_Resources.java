@@ -4,6 +4,8 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "TransLionApp.Android.dll" comes first in this list. */
 		"TransLionApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Plugin.Messaging.Abstractions.dll",
+		"Plugin.Messaging.dll",
 		"TransLionApp.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
