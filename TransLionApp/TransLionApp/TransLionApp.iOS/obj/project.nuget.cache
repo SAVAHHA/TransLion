@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DS9mtQ7edWJcnUTLqUt9i3Nvrss2lAwwfRPo2lZbkd8TQXVT5rqZ2SYFB9YH/NgCY2nEYUVq3edMNcHtm6oOKw==",
+  "dgSpecHash": "sELk6V0dEPqbhQe7MhDdeUYxVFBncNrVvWmOfpYtTKC9stjfml6IitUCJdaiWUAln+YPN99j/y0zURXEppiVoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",

@@ -1996,11 +1996,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Anna\\source\\repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
       "projectName": "TransLionApp.Android",
-      "projectPath": "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+      "projectPath": "C:\\Users\\Anna\\source\\repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
       "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\Anna\\source\\repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2021,8 +2021,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
-              "projectPath": "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
+            "C:\\Users\\Anna\\source\\repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+              "projectPath": "C:\\Users\\Anna\\source\\repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
             }
           }
         }

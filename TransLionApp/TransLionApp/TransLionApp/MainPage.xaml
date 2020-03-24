@@ -6,11 +6,47 @@
              mc:Ignorable="d"
              x:Class="TransLionApp.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
+    <!--<StackLayout>
+        --><!-- Place new controls here --><!--
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    </StackLayout>-->
+    <Grid x:Name="MainGrid" RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="LabelGrid" Grid.Row="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Column="0" Spacing="0">
+                <Label Text="Trans Lion" TextColor="Silver" FontSize="20" Margin="20, 10, 0, 0"></Label>
+                <Label Text="De HRM dienstverlener" TextColor = "#6095be" FontSize="9" Margin="22, 0, 0, 0"></Label>
+            </StackLayout>
+
+            <Image Source="menu" HorizontalOptions="End" VerticalOptions="Center" ></Image>
+        </Grid>
+
+        <ScrollView Grid.Row="1">
+            <Grid RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <BoxView Color="#2e2e2e" Grid.Row="0"></BoxView>
+                <Label Text="Contact us" TextColor="White" FontSize="8" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" ></Label>
+                <Button x:Name="emailButton" Grid.Row="0" Text="info@translion.nl" FontSize="8" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Grid.Row="0" Text="010 - 264 3030" FontSize="9" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
+                
+            </Grid>
+        </ScrollView>
+    </Grid>
+    
 
 </ContentPage>
