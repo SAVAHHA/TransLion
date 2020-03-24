@@ -4,7 +4,6 @@ C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLion
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\bin\Debug\netstandard2.0\TransLionApp.pdb
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csprojAssemblyReference.cache
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.AssemblyInfoInputs.cache
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.AssemblyInfo.cs
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.dll
@@ -12,3 +11,13 @@ C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLion
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.pdb
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csproj.CoreCompileInputs.cache
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\1eEn2eSpoor.xaml.g.cs
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Jobhunting.xaml.g.cs
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\ReIntegratie2eSpoor.xaml.g.cs
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\SchemaWetVerbeteringPoortwachter.xaml.g.cs
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\UWV.xaml.g.cs
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Verzuimbegeleiding.xaml.g.cs
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\WerkwijzerWetVerbeteringPoortwachter.xaml.g.cs
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\WieZijnWij.xaml.g.cs
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\ShellPage.xaml.g.cs
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs

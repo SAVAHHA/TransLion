@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pages="clr-namespace:TransLionApp.Pages"
+             xmlns:views="clr-namespace:TransLionApp.Pages"
+             mc:Ignorable="d"
+             x:Class="TransLionApp.ShellPage"
+             >
+ 
+    <!--<FlyoutItem Title="Main" Icon="paw">
+        --><!--<ShellContent ContentTemplate="{DataTemplate pages:MainPage}"></ShellContent>--><!--
+        <ContentPage x:Name="mainPage"  IconImageSource="paw" 
+             Shell.BackgroundColor="White"
+             Shell.ForegroundColor="Black"
+             Shell.TitleColor="Blue"
+             Shell.DisabledColor="#95FFFFFF"
+             Shell.UnselectedColor="#B4FFFFFF" 
+             >
+            
+        </ContentPage>
+    </FlyoutItem>-->
+
+    <FlyoutItem Title="Home page">
+        <ShellContent ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Verzuimbegeleiding">
+        <ShellContent ContentTemplate="{DataTemplate pages:Verzuimbegeleiding}"></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Jobhunting">
+        <ShellContent ContentTemplate="{DataTemplate pages:Jobhunting}"></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Re-integratie 2e spoor">
+        <ShellContent ContentTemplate="{DataTemplate pages:ReIntegratie2eSpoor}"></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="UWV">
+        <ShellContent ContentTemplate="{DataTemplate pages:UWV}"></ShellContent>
+    </FlyoutItem>
+
+    <!--<FlyoutItem Title="Informatie">
+        
+    </FlyoutItem>-->
+
+    <FlyoutItem Title="Werkwijzer wet verbetering poortwachter">
+        <ShellContent ContentTemplate="{DataTemplate pages:WerkwijzerWetVerbeteringPoortwachter}"></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Wie zijn wij">
+        <ShellContent ContentTemplate="{DataTemplate pages:WieZijnWij}"></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="1e en 2e spoor">
+        <ShellContent ContentTemplate="{DataTemplate pages:_1eEn2eSpoor}"></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Schema wet verbetering">
+        <ShellContent ContentTemplate="{DataTemplate pages:SchemaWetVerbeteringPoortwachter}"></ShellContent>
+    </FlyoutItem>
+</Shell>

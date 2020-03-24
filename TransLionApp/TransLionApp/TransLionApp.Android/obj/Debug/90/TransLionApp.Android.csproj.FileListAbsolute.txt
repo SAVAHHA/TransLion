@@ -481,3 +481,5 @@ C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLion
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\flata\3FFC315EAD9C52CC.flata
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\flata\645C616807BA97C7.flata
 C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\flata\1766537587705D48.flata
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\label.jpg
+C:\Users\Anna\source\repos\SAVAHHA\TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\paw.png
