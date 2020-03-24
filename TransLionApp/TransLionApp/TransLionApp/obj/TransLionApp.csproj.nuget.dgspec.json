@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Анна\\source\\repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {}
+    "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Анна\\source\\repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+    "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Анна\\source\\repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+        "projectUniqueName": "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
         "projectName": "TransLionApp",
-        "projectPath": "C:\\Users\\Анна\\source\\repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+        "projectPath": "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
         "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Анна\\source\\repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\obj\\",
+        "outputPath": "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -67,7 +67,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

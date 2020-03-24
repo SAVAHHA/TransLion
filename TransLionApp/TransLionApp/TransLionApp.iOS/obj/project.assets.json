@@ -1024,11 +1024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Анна\\source\\repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
       "projectName": "TransLionApp.iOS",
-      "projectPath": "C:\\Users\\Анна\\source\\repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+      "projectPath": "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
       "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Анна\\source\\repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1049,8 +1049,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Анна\\source\\repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
-              "projectPath": "C:\\Users\\Анна\\source\\repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
+            "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+              "projectPath": "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
             }
           }
         }
