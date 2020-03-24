@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IzdgIc9TFip3DSvJvPi4bmk0LkxzHE9GW8B9wKCPFpakSieexZOGjxQV7JwLDLKGaWn4I+cltvpZFYiGKDU4Iw==",
+  "dgSpecHash": "SS9Vq08DO0lpMKLh0gunGp8Wnx/Kp56OIKdLR+SqinPAcWHexXx5uGwk7DEf8MdWXQAOW8qyJagv+tx36bAtwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion2\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
