@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TransLionApp",
+    "\\TransLionApp\\TransLionApp",
+    "\\TransLionApp\\TransLionApp\\TransLionApp"
   ],
+  "SelectedNode": "\\TransLionApp\\TransLionApp.sln",
   "PreviewInSolutionExplorer": false
 }
