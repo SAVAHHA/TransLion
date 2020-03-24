@@ -18,6 +18,7 @@ namespace TransLionApp
         public MainPage()
         {
             InitializeComponent();
+
         }
 
         private void emailButton_Clicked(object sender, EventArgs e)
