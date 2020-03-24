@@ -11,6 +11,20 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Messaging/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -153,6 +167,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -174,6 +189,20 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Messaging/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -316,6 +345,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -337,6 +367,20 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Messaging/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -479,6 +523,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -500,6 +545,20 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Messaging/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -642,6 +701,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -700,6 +760,47 @@
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xam.Plugins.Messaging/5.2.0": {
+      "sha512": "oTBg4tZjkkLHuUuXaybC/pwi0SugrJeyZ7Nq60IAxBliO7FMYaPq9mmmPQvCAEwEhtWaZAjbBzwG/I71CcQrmA==",
+      "type": "package",
+      "path": "xam.plugins.messaging/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Messaging.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.xml",
+        "lib/UAP10/Plugin.Messaging.Abstractions.dll",
+        "lib/UAP10/Plugin.Messaging.Abstractions.pdb",
+        "lib/UAP10/Plugin.Messaging.Abstractions.xml",
+        "lib/UAP10/Plugin.Messaging.dll",
+        "lib/UAP10/Plugin.Messaging.pdb",
+        "lib/UAP10/Plugin.Messaging.pri",
+        "lib/UAP10/Plugin.Messaging.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.xml",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Messaging.deps.json",
+        "lib/netstandard1.0/Plugin.Messaging.dll",
+        "lib/netstandard1.0/Plugin.Messaging.pdb",
+        "lib/netstandard1.0/Plugin.Messaging.xml",
+        "lib/tizen40/Plugin.Messaging.Abstractions.dll",
+        "lib/tizen40/Plugin.Messaging.Abstractions.pdb",
+        "lib/tizen40/Plugin.Messaging.Abstractions.xml",
+        "lib/tizen40/Plugin.Messaging.deps.json",
+        "lib/tizen40/Plugin.Messaging.dll",
+        "xam.plugins.messaging.5.2.0.nupkg.sha512",
+        "xam.plugins.messaging.nuspec"
       ]
     },
     "Xamarin.Essentials/1.3.1": {
@@ -1018,24 +1119,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Анна\\.nuget\\packages\\": {},
+    "C:\\Users\\Anna\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
       "projectName": "TransLionApp.iOS",
-      "projectPath": "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Анна\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1049,8 +1150,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
-              "projectPath": "C:\\Users\\Анна\\Source\\Repos\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
+            "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+              "projectPath": "C:\\Users\\Anna\\Source\\Repos\\SAVAHHA\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
             }
           }
         }

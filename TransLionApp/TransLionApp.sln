@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransLionApp.Android", "Tra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransLionApp.iOS", "TransLionApp\TransLionApp.iOS\TransLionApp.iOS.csproj", "{4645E8F3-303A-4C09-B290-FECB675C9EEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransLionApp", "TransLionApp\TransLionApp\TransLionApp.csproj", "{7BF0A8CC-D4C6-4EB5-8152-3EDC0115D83A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransLionApp", "TransLionApp\TransLionApp\TransLionApp.csproj", "{7BF0A8CC-D4C6-4EB5-8152-3EDC0115D83A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94E0B437-0236-491B-AB94-4A282AF9D6F9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Downloads\menu.jpg = ..\..\..\..\..\Downloads\menu.jpg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
