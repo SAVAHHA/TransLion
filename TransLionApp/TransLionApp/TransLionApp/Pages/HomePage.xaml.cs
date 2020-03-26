@@ -15,7 +15,10 @@ namespace TransLionApp.Pages
         public HomePage()
         {
             //var HomePage = new NavigationPage(new HomePage());
+
+            
             InitializeComponent();
+            
         }
 
         private void emailButton_Clicked(object sender, EventArgs e)

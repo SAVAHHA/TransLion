@@ -4,7 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:view="clr-namespace:TransLionApp.Views"
              x:Class="TransLionApp.Pages.UWV">
+
+    <Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>
+    
     <!--<ContentPage.Resources>
         <ResourceDictionary>
             <x:Array x:Key="info" Type="{x:Type x:String}">
@@ -16,6 +22,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
+                <BoxView HorizontalOptions="Fill" Color="#518bb8"></BoxView>
                 <Label Text="Werkzoekenden" TextColor="Black" FontSize="40"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold"   />
                 <Label Text="Bent u op zoek naar passend werk en ontvangt u een Ziektewetuitkering of een arbeidsongeschiktheidsuitkering (WGA, WIA, WAO, Wajong of WAZ) van het UWV, dan kan Trans Lion u helpen bij het vinden van een nieuwe baan. Trans Lion ondersteunt bij:"></Label>
                 <!--<ListView ItemsSource="{StaticResource Key=info}"></ListView>-->
