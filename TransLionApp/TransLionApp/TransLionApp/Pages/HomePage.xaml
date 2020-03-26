@@ -10,19 +10,6 @@
     <Shell.TitleView>
         <view:BarView/>
     </Shell.TitleView>
-    <!--<NavigationPage.TitleView>
-        <Image Source="menu"
-               VerticalOptions="CenterAndExpand"
-               HorizontalOptions="CenterAndExpand" />
-    </NavigationPage.TitleView>-->
-
-    <!--<ContentPage.ToolbarItems>
-        <ToolbarItem  Icon="paw" ></ToolbarItem>
-    </ContentPage.ToolbarItems>-->
-
-    <!--<Shell.SearchHandler>
-        
-    </Shell.SearchHandler>-->
     
     <ContentPage.Content>
         <!--<Grid x:Name="MainGrid" RowSpacing="0">
