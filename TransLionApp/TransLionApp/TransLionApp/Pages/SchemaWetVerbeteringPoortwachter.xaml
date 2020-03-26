@@ -6,10 +6,25 @@
              mc:Ignorable="d"
              x:Class="TransLionApp.Pages.SchemaWetVerbeteringPoortwachter">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Spacing="0">
+                <Label Text="Schema Wet verbetering poortwachter" TextColor="Black" FontSize="30" Margin="10, 10, 0, 10"></Label>
+                <Label Text="Bij langdurig ziekteverzuim hebben werkgever en werknemer verplichtingen omtrent de re-integratie in het kader van de Wet verbetering poortwachter. Voor de keuring van het UWV moeten werkgever en werknemer voor een periode van 2 jaar alle mogelijkheden binnen het arbeidsproces onderzoeken."></Label>
+                <Label Text="Werkgever en werknemer zullen eerst moeten onderzoeken of terugkeer bij de huidige werkgever haalbaar is. Dit wordt het 1e spoor genoemd. Daarnaast kan ook het 2e spoor worden opgestart. In het 2e spoor worden de mogelijkheden bij een nieuwe werkgever onderzocht. Gedurende het 1e en 2e spoor moeten de volgende zaken gebeuren:"></Label>
+                <Label Text="Probleemanalyse, uiterlijk in week 6" TextColor="Black" FontAttributes="Bold"></Label>
+                <Label Text="Binnen 6 weken na de ziekmelding moet er een probleemanalyse opgesteld zijn door de bedrijfsarts."></Label>
+                <Label Text="De bedrijfsarts geeft hierbij de belastbaarheid aan en eventueel een advies over de re-integratie."></Label>
+                <Label Text="Plan van Aanpak, uiterlijk week 8" TextColor="Black" FontAttributes="Bold"></Label>
+                <Label Text="Binnen 2 weken nadat de probleemanalyse is opgesteld, moet er door de werkgever en de werknemer een Plan van Aanpak zijn gemaakt."></Label>
+                <Label Text="Hierin staat beschreven hoe er aan de re-integratie zal worden gewerkt."></Label>
+                <Label Text="Bijstelling probleemanalyse" TextColor="Black" FontAttributes="Bold"></Label>
+                <Label Text="Gedurende de periode van ziekte dient de bedrijfsarts geregeld de voortgang te evalueren en een bijstelling van de probleemanalyse te maken."></Label>
+                <Label Text="De bedrijfsarts geeft doorgaans aan wanneer dit moet gebeuren."></Label>
+                <Label Text="Bijstelling Plan van Aanpak" TextColor="Black" FontAttributes="Bold"></Label>
+                <Label Text="Gedurende de ziekmelding zal de werkgever samen met de werknemer de adviezen van de bedrijfsarts moeten evalueren en uitvoeren."></Label>
+                <Label Text="Afspraken hierover worden vastgelegd in een bijstelling van het Plan van Aanpak en periodieke evaluatie."></Label>
+                <Label Text="Ziekmelding UWV, week 42" TextColor="Black" FontAttributes="Bold"></Label>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

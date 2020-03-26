@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using TransLionApp.Pages;
 
 namespace TransLionApp
 {
@@ -9,6 +10,7 @@ namespace TransLionApp
         public App()
         {
             InitializeComponent();
+            //MainPage = new NavigationPage(new HomePage());
             MainPage = new ShellPage();
             //Verzuimbegeleiding verzuimbegeleiding = new Verzuimbegeleiding();
         }

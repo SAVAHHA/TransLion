@@ -5,6 +5,21 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TransLionApp.Pages.HomePage">
+
+    <!--<NavigationPage.TitleView>
+        <Image Source="menu"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+    </NavigationPage.TitleView>-->
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Icon="paw" ></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <!--<Shell.SearchHandler>
+        
+    </Shell.SearchHandler>-->
+    
     <ContentPage.Content>
         <Grid x:Name="MainGrid" RowSpacing="0">
             <Grid.RowDefinitions>
