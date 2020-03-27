@@ -136,4 +136,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\menu.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\point.jpg" />
+  </ItemGroup>
 </Project>

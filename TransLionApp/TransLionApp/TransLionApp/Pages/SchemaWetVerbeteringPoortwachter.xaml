@@ -36,6 +36,40 @@
                 <Label Text="Uiterlijk in week 93 kan de werknemer de WIA-uitkering aanvragen bij het UWV. Hierna volgt een gesprek met de verzekeringsarts en arbeidsdeskundige van het UWV. Naar aanleiding deze gesprekken wordt bepaald of iemand in aanmerking komt voor een WIA-uitkering."></Label>
                 <Label Text="Begeleiding 1e en 2e spoor"  TextColor="Black" FontAttributes="Bold"></Label>
                 <Label Text="Tijdens de begeleiding gedurende de 2 jaar zal nagegaan moeten worden:"></Label>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Is terugkeer in eigen functie mogelijk (1e spoor)" Grid.Column="1" Grid.Row="0"></Label>
+                    <Label Text="Is terugkeer in een andere functie binnen het eigen bedrijf mogelijk (1e spoor)" Grid.Column="1" Grid.Row="1"></Label>
+                    <Label Text="Is terugkeer binnen het 1e spoor niet mogelijk, dan zal het 2e spoor opgestart moeten worden. Dit betekent zoeken naar ander werk bij een andere werkgever. Een arbeidsdeskundige dient de mogelijkheden binnen het 1e en 2e spoor in kaart te brengen." Grid.Column="1" Grid.Row="2"></Label>
+                    <Image Source="point" Grid.Column="0" Grid.Row="0" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                    <Image Source="point" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                    <Image Source="point" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                </Grid>
+
+                <Label Text="Trans Lion en re-integratie 2e spoor" Margin="10, 15, 0, 0" FontSize="20" FontAttributes="Bold"></Label>
+                <Label Text="Trans Lion kan werkgevers en werknemers helpen bij de begeleiding in het 2e spoor."></Label>
+                <Label Text="Trans Lion werkt landelijk. Begeleidende gesprekken vinden bij de medewerker thuis plaats of indien gewenst op locatie. Ieder dossier heeft als vast aanspreekpunt een adviseur en in-house jobhunter."></Label>
+                <Grid ColumnSpacing="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Wilt u meer informatie over onze begeleiding" Grid.Column="0" Grid.Row="0" FontSize="9" VerticalTextAlignment="Center" Margin="10, 0, 0, 0"></Label>
+                    <Button x:Name="klikHierButton" Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="klikHierButton_Clicked" Grid.Column="1" Grid.Row="0" FontSize="7" HorizontalOptions="Start" VerticalOptions="Start"></Button>
+                </Grid>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -16,5 +16,10 @@ namespace TransLionApp.Pages
         {
             InitializeComponent();
         }
+
+        private void klikHierButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

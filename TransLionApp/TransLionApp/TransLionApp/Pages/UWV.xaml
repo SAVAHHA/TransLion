@@ -54,6 +54,10 @@
                     <Label Text="het sollicitatieproces (aandragen van vacatures en hulp bij soliciteren)" Grid.Column="1" Grid.Row="1"></Label>
                     <Label Text="het opdoen van werkervaring, bijvoorbeeld via een werkervaringsplaats" Grid.Column="1" Grid.Row="2"></Label>
                     <Label Text="het aanvaarden van een nieuwe baan" Grid.Column="1" Grid.Row="3"></Label>
+                    <Image Source="point" Grid.Column="0" Grid.Row="0" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                    <Image Source="point" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                    <Image Source="point" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                    <Image Source="point" Grid.Column="0" Grid.Row="3" HorizontalOptions="End" VerticalOptions="Start"></Image>
                 </Grid>
 
                 <Label Text="Tijdens het intakegesprek onderzoekt u met de adviseur van Trans Lion wat de mogelijkheden zijn. Dit wordt uitgewerkt in een trajectplan 'Werkfit maken' en/of 'Naar werk'. Dit pla wordt ingediend bij het UWV zal het traject bij Trans Lion opgestart worden."></Label>
