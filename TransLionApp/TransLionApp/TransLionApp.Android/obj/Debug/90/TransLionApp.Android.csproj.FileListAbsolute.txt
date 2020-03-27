@@ -968,3 +968,6 @@ C:\Users\Anna\source\repos\TransLion2\TransLionApp\TransLionApp\TransLionApp.And
 C:\Users\Anna\source\repos\TransLion2\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Anna\source\repos\TransLion2\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Anna\source\repos\TransLion2\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\build.props
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\adb.props

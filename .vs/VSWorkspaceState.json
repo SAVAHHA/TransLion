@@ -3,8 +3,9 @@
     "",
     "\\TransLionApp",
     "\\TransLionApp\\TransLionApp",
-    "\\TransLionApp\\TransLionApp\\TransLionApp"
+    "\\TransLionApp\\TransLionApp\\TransLionApp",
+    "\\TransLionApp\\TransLionApp\\TransLionApp.Android"
   ],
-  "SelectedNode": "\\TransLionApp\\TransLionApp.sln",
+  "SelectedNode": "\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
   "PreviewInSolutionExplorer": false
 }
