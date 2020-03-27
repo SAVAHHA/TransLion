@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zUL66Qb2CTph4br7atgdocnwOYUeezY56kXl785lB4xGz+/Uho92YkyMXmKAUfbgeawz/+dVoWOXltanauhChQ==",
+  "dgSpecHash": "LUcCNE2Zyovw17KiIfiK5yCOMwk0IzwFP8L5pykB3r27wf+6aHnfP8yGR4I7IRadmKJUFUtA7DPO6VnZrzy9tw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anna\\OneDrive\\Documents\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
   "expectedPackageFiles": [
@@ -43,8 +43,14 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.vector.drawable\\28.0.0.3\\xamarin.android.support.vector.drawable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.build.download\\0.4.9\\xamarin.build.download.0.4.9.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms.maps\\4.4.0.991265\\xamarin.forms.maps.4.4.0.991265.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.googleplayservices.base\\60.1142.1\\xamarin.googleplayservices.base.60.1142.1.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.googleplayservices.basement\\60.1142.1\\xamarin.googleplayservices.basement.60.1142.1.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.googleplayservices.maps\\60.1142.1\\xamarin.googleplayservices.maps.60.1142.1.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.googleplayservices.tasks\\60.1142.1\\xamarin.googleplayservices.tasks.60.1142.1.nupkg.sha512"
   ],
   "logs": []
 }
