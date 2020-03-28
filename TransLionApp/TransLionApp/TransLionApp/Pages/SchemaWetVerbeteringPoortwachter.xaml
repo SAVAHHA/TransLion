@@ -13,7 +13,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Spacing="0">
-                <BoxView HorizontalOptions="Fill" Color="#518bb8"></BoxView>
+                <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
                 <Label Text="Schema Wet verbetering poortwachter" TextColor="Black" FontSize="30" Margin="10, 10, 0, 10"></Label>
                 <Label Margin="5, 0, 5, 0" Text="Bij langdurig ziekteverzuim hebben werkgever en werknemer verplichtingen omtrent de re-integratie in het kader van de Wet verbetering poortwachter. Voor de keuring van het UWV moeten werkgever en werknemer voor een periode van 2 jaar alle mogelijkheden binnen het arbeidsproces onderzoeken."></Label>
                 <Label Text="Werkgever en werknemer zullen eerst moeten onderzoeken of terugkeer bij de huidige werkgever haalbaar is. Dit wordt het 1e spoor genoemd. Daarnaast kan ook het 2e spoor worden opgestart. In het 2e spoor worden de mogelijkheden bij een nieuwe werkgever onderzocht." Margin="5, 5, 5, 0"></Label>
