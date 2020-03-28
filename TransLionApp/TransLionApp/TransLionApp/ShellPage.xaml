@@ -22,7 +22,10 @@
 
     <FlyoutItem Title="Home page" Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
-        <ShellContent x:Name="HomePage" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
+        <Tab Title="Contacts">
+            <ShellContent x:Name="HomePage" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
+        </Tab>
+        <!--<ShellContent x:Name="HomePage" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>-->
     </FlyoutItem>
 
     <FlyoutItem Title="Verzuimbegeleiding" Shell.BackgroundColor="White"

@@ -22,22 +22,22 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Spacing="0">
-                <Grid RowSpacing="0">
+                <!--<Grid RowSpacing="0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="40"></RowDefinition>
                         <RowDefinition Height="Auto"></RowDefinition>
                     </Grid.RowDefinitions>
 
-                    <BoxView Color="#2e2e2e" Grid.Row="0"></BoxView>
+                    
                     <Label Text="Contact us" TextColor="White" FontSize="8" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" ></Label>
                     <Button x:Name="emailButton" Grid.Row="0" Text="info@translion.nl" FontSize="8" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" ></Button>
                     <Button x:Name="callButton" Grid.Row="0" Text="010 - 264 3030" FontSize="9" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5"></Button>
-                </Grid>
-                
-                <BoxView HorizontalOptions="Fill" Color="#518bb8"></BoxView>
+                </Grid>-->
+
+                <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
                 <Label Text="Werkzoekenden" TextColor="Black" FontSize="40"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold"   />
                 <Label Text="Bent u op zoek naar passend werk en ontvangt u een Ziektewetuitkering of een arbeidsongeschiktheidsuitkering (WGA, WIA, WAO, Wajong of WAZ) van het UWV, dan kan Trans Lion u helpen bij het vinden van een nieuwe baan. Trans Lion ondersteunt bij:"></Label>
-                <!--<ListView ItemsSource="{StaticResource Key=info}"></ListView>-->
+   
                 <Grid >
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="40"></ColumnDefinition>
@@ -54,10 +54,10 @@
                     <Label Text="het sollicitatieproces (aandragen van vacatures en hulp bij soliciteren)" Grid.Column="1" Grid.Row="1"></Label>
                     <Label Text="het opdoen van werkervaring, bijvoorbeeld via een werkervaringsplaats" Grid.Column="1" Grid.Row="2"></Label>
                     <Label Text="het aanvaarden van een nieuwe baan" Grid.Column="1" Grid.Row="3"></Label>
-                    <Image Source="point" Grid.Column="0" Grid.Row="0" HorizontalOptions="End" VerticalOptions="Start"></Image>
-                    <Image Source="point" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Start"></Image>
-                    <Image Source="point" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
-                    <Image Source="point" Grid.Column="0" Grid.Row="3" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                    <Image Source="newPoint" Grid.Column="0" Grid.Row="0" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                    <Image Source="newPoint" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                    <Image Source="newPoint" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                    <Image Source="newPoint" Grid.Column="0" Grid.Row="3" HorizontalOptions="End" VerticalOptions="Start"></Image>
                 </Grid>
 
                 <Label Text="Tijdens het intakegesprek onderzoekt u met de adviseur van Trans Lion wat de mogelijkheden zijn. Dit wordt uitgewerkt in een trajectplan 'Werkfit maken' en/of 'Naar werk'. Dit pla wordt ingediend bij het UWV zal het traject bij Trans Lion opgestart worden."></Label>

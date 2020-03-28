@@ -30,5 +30,8 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.translionapp" />
       </intent-filter>
     </receiver>
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
   </application>
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
 </manifest>

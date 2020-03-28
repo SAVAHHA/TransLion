@@ -14,6 +14,9 @@ namespace TransLionApp.Pages
     {
         public ContactPage()
         {
+            Title = "Content Page";
+            Label label = new Label { Text = "YY" };
+            Content = label;
             InitializeComponent();
         }
     }

@@ -17,8 +17,9 @@ namespace TransLionApp.Pages
             InitializeComponent();
         }
 
-        private void contactButton_Clicked(object sender, EventArgs e)
+        private async void contactButton_Clicked(object sender, EventArgs e)
         {
+            await Navigation.PushAsync(new ContactPage());
 
         }
     }

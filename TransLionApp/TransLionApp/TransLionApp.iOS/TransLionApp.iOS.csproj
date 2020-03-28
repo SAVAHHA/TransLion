@@ -139,4 +139,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\point.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BluePictureForPages.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\newPoint.jpg" />
+  </ItemGroup>
 </Project>

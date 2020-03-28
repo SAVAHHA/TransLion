@@ -112,3 +112,6 @@ C:\Users\Anna\OneDrive\Documents\TransLion\TransLionApp\TransLionApp\TransLionAp
 C:\Users\Anna\OneDrive\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\ref\TransLionApp.dll
 C:\Users\Anna\OneDrive\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.pdb
 C:\Users\Anna\OneDrive\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Views\BarView.xaml.g.cs
+C:\Users\Anna\OneDrive\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\ContactPage.xaml.g.cs
+C:\Users\Anna\OneDrive\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csproj.CoreCompileInputs.cache
+C:\Users\Anna\OneDrive\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\XamlC.stamp

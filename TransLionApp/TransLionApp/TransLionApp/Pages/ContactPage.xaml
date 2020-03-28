@@ -4,10 +4,20 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:view="clr-namespace:TransLionApp.Views"
              x:Class="TransLionApp.Pages.ContactPage">
-    <ContentPage.Content>
+    <!--<NavigationPage.TitleIconImageSource>
+        <ImageSource
+    </NavigationPage.TitleIconImageSource>-->
+
+    <!--<Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>-->
+
+    <!--<ContentPage.Content>
         <StackLayout>
-            
+            <Label Text="EEEEEEEEEEEE"></Label>
         </StackLayout>
-    </ContentPage.Content>
+    </ContentPage.Content>-->
+    
 </ContentPage>
