@@ -34,7 +34,6 @@
                     <Button x:Name="callButton" Grid.Row="0" Text="010 - 264 3030" FontSize="9" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5"></Button>
                 </Grid>
 
-                <BoxView HorizontalOptions="Fill" Color="#518bb8"></BoxView>
                 <Label Text="1e en 2e spoor" TextColor="Black" FontSize="40"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic" />
                 <Label Text="Indien een werknemer (langdurig) arbeidsongeschikt wordt, zal de werkgever samen met de werknemer moeten werken aan de re-integratie. Concreet betekent dit dat de werkgever en werknemer er alles aan moeten doen om ervoor te zorgen dat de werknemer zo snel mogelijk weer deelneemt aan het arbeidsproces.">
                     <Label.FontFamily>
@@ -136,8 +135,8 @@
                         </OnPlatform>
                     </Label.FontFamily>
                 </Label>
-                
-                <Label Text="Wilt u meer informatie over de begeleiding van Trans Lion klik dan hier.">
+
+                <Label Text="Wilt u meer informatie over de begeleiding van Trans Lion klik dan">
                     <Label.FontFamily>
                         <OnPlatform x:TypeArguments="x:String">
                             <On Platform="iOS" Value="Roboto-Light" />
@@ -145,19 +144,8 @@
                             <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
                         </OnPlatform>
                     </Label.FontFamily>
-                </Label> 
-
-   
-                <Grid Padding="0, 10, 0, 0">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-
-                    
-                </Grid>
+                </Label>
+                <Button  Text=" hier." TextColor="#7ba6c6" IsEnabled="True" BackgroundColor="Transparent" x:Name="HierTo2eButton" HorizontalOptions="Start" Clicked="HierTo2eButton_Clicked"></Button>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

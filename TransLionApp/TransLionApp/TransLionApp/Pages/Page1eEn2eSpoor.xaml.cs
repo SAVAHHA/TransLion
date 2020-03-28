@@ -15,6 +15,11 @@ namespace TransLionApp.Pages
         public Page1eEn2eSpoor()
         {
             InitializeComponent();
+
+        }
+        private void HierTo2eButton_Clicked(object sender, EventArgs e)
+        {
+           var reitegratie2espoor = Navigation.PushModalAsync(new ReIntegratie2eSpoor());
         }
     }
 }
