@@ -116,7 +116,6 @@ C:\Users\Anna\OneDrive\Documents\TransLion\TransLionApp\TransLionApp\TransLionAp
 C:\Users\Anna\OneDrive\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csproj.CoreCompileInputs.cache
 C:\Users\Anna\OneDrive\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Anna\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csprojAssemblyReference.cache
-C:\Users\Anna\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Anna\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\ContactPage.xaml.g.cs
 C:\Users\Anna\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs
 C:\Users\Anna\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Jobhunting.xaml.g.cs
@@ -165,3 +164,4 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csproj.CoreCompileInputs.cache
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Anna\Documents\TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\obj\Debug\netstandard2.0\App.xaml.g.cs
