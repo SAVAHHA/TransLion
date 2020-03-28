@@ -8,17 +8,29 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TransLionApp.Pages.1eEn2eSpoor.xaml", "Pages/1eEn2eSpoor.xaml", typeof(global::TransLionApp.Pages._1eEn2eSpoor))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TransLionApp.Pages.1eEn2eSpoor.xaml", "Pages/1eEn2eSpoor.xaml", typeof(global::TransLionApp.Pages.UWV))]
 
 namespace TransLionApp.Pages {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\1eEn2eSpoor.xaml")]
-    public partial class _1eEn2eSpoor : global::Xamarin.Forms.ContentPage {
+    public partial class UWV : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button emailButton;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button callButton;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button contactButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(_1eEn2eSpoor));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(UWV));
+            emailButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "emailButton");
+            callButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "callButton");
+            contactButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "contactButton");
         }
     }
 }
