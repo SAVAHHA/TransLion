@@ -11,10 +11,60 @@
     </Shell.TitleView>
     
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Wie zijn wij" TextColor="Black" FontSize="50"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic"></Label>
+                <Label FontSize="20" Text="Sinds 2000 ondersteunt Trans Lion het UWV, gemeentes, verzekeringsmaatschappijen en bedrijven bij verschillende vakgerichte vraagstukken op het gebied van HRM. Gedacht kan worden aan 2e spoortrajecten, WGA-trajecten en aan de re-integratie van uitkeringsgerechtigden">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="Roboto-Light" />
+                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
+
+                <Label Text="Re-integratie" TextColor="Black" FontSize="36"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic"></Label>
+                <Label FontSize="20" Text="Door de jaren heen heeft Trans Lion een overzichtelijke en succesvolle werkwijze ontwikkeld om werknemers te motiveren en te re-integreren op de arbeidsmarkt. Trans Lion werkt landelijk. Begeleidende gesprekken vinden bij de medewerker thuis plaats of indien gewenst op locatie. Ieder dossier heeft als vast aanspreekpunt een re-integratieadviseur en in-house jobhunter." Margin="0,0,0,10">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="Roboto-Light" />
+                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
+                <Label FontSize="20" Text="De adviseur zal na een intakegesprek een trajectplan opstellen. Dit trajectplan zal door de adviseur gedurende het traject met de medewerker worden geëvalueerd en uitgevoerd. De voortgang zal worden vastgelegd in rapportages. Hierbij zal Trans Lion op zoek gaan naar de snelste weg naar duurzame arbeid. Indien nodig helpt de adviseur bij het zoeken en doorlopen van een opleiding." Margin="0,0,0,10">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="Roboto-Light" />
+                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
+                <Label FontSize="20" Text="De in-house jobhunter ondersteunt en begeleidt de werknemer bij het zoeken naar en solliciteren op vacatures.">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="Roboto-Light" />
+                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
+
+                <Label Text="Het personeel" TextColor="Black" FontSize="36"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic"></Label>
+                <Label FontSize="20" Text="Naast een prettige werksfeer investeert Trans Lion altijd in haar eigen organisatie. Zo is Trans Lion Blik op werk gecertificeerd en wordt door middel van bijscholing in de kwalificaties van het personeel geïnvesteerd.">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="Roboto-Light" />
+                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
