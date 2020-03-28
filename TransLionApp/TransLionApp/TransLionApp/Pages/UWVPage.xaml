@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:view="clr-namespace:TransLionApp.Views"
+             x:Class="TransLionApp.Pages.UWVPage">
+    <Shell.TitleView>
+        <view:BarView/>
+        </Shell.TitleView>
+
+        <!--<ContentPage.Resources>
+        <ResourceDictionary>
+            <x:Array x:Key="info" Type="{x:Type x:String}">
+                <x:String>het zoeken van aanvullen scholing</x:String>
+                <x:String>het sollicitatieproces (aandragen van vacatures en hulp bij soliciteren)</x:String>
+            </x:Array>
+        </ResourceDictionary>
+    </ContentPage.Resources>-->
+        <ContentPage.Content>
+            <ScrollView>
+                <StackLayout Spacing="0">
+                    <!--<Grid RowSpacing="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    
+                    <Label Text="Contact us" TextColor="White" FontSize="8" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" ></Label>
+                    <Button x:Name="emailButton" Grid.Row="0" Text="info@translion.nl" FontSize="8" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" ></Button>
+                    <Button x:Name="callButton" Grid.Row="0" Text="010 - 264 3030" FontSize="9" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5"></Button>
+                </Grid>-->
+
+                    <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
+                    <Label Text="Werkzoekenden" TextColor="Black" FontSize="40"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold"   />
+                    <Label Text="Bent u op zoek naar passend werk en ontvangt u een Ziektewetuitkering of een arbeidsongeschiktheidsuitkering (WGA, WIA, WAO, Wajong of WAZ) van het UWV, dan kan Trans Lion u helpen bij het vinden van een nieuwe baan. Trans Lion ondersteunt bij:"></Label>
+
+                    <Grid >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"></ColumnDefinition>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Label Text="het zoeken van aanvullen scholing" Grid.Column="1" Grid.Row="0"></Label>
+                        <Label Text="het sollicitatieproces (aandragen van vacatures en hulp bij soliciteren)" Grid.Column="1" Grid.Row="1"></Label>
+                        <Label Text="het opdoen van werkervaring, bijvoorbeeld via een werkervaringsplaats" Grid.Column="1" Grid.Row="2"></Label>
+                        <Label Text="het aanvaarden van een nieuwe baan" Grid.Column="1" Grid.Row="3"></Label>
+                        <Image Source="newPoint" Grid.Column="0" Grid.Row="0" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                        <Image Source="newPoint" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                        <Image Source="newPoint" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                        <Image Source="newPoint" Grid.Column="0" Grid.Row="3" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                    </Grid>
+
+                    <Label Text="Tijdens het intakegesprek onderzoekt u met de adviseur van Trans Lion wat de mogelijkheden zijn. Dit wordt uitgewerkt in een trajectplan 'Werkfit maken' en/of 'Naar werk'. Dit pla wordt ingediend bij het UWV zal het traject bij Trans Lion opgestart worden."></Label>
+                    <Grid Padding="0, 10, 0, 0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <BoxView Color="#518bb8" Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill"></BoxView>
+                        <StackLayout Grid.Column="0" Grid.Row="0" Spacing="2">
+                            <Label Text="Heeft u vragen?" TextColor="White" FontSize="20" Margin="15, 5, 0, 0" HorizontalTextAlignment="Start"></Label>
+                            <Label Text="Neem dan contact met ons op via telefoonnummer 010 - 264 30 30 of via het contactformulier." FontSize="15" TextColor="White" Margin="10, 0, 10, 0"></Label>
+                           
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+</ContentPage>

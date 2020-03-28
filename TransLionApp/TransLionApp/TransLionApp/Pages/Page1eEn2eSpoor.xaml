@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:view="clr-namespace:TransLionApp.Views"
+             x:Class="TransLionApp.Pages.Page1eEn2eSpoor">
+
+    <Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>
+
+    <!--<ContentPage.Resources>
+        <ResourceDictionary>
+            <x:Array x:Key="info" Type="{x:Type x:String}">
+                <x:String>het zoeken van aanvullen scholing</x:String>
+                <x:String>het sollicitatieproces (aandragen van vacatures en hulp bij soliciteren)</x:String>
+            </x:Array>
+        </ResourceDictionary>
+    </ContentPage.Resources>-->
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="0">
+                <Grid RowSpacing="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <BoxView Color="#2e2e2e" Grid.Row="0"></BoxView>
+                    <Label Text="Contact us" TextColor="White" FontSize="8" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" ></Label>
+                    <Button x:Name="emailButton" Grid.Row="0" Text="info@translion.nl" FontSize="8" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" ></Button>
+                    <Button x:Name="callButton" Grid.Row="0" Text="010 - 264 3030" FontSize="9" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5"></Button>
+                </Grid>
+
+                <BoxView HorizontalOptions="Fill" Color="#518bb8"></BoxView>
+                <Label Text="1e en 2e spoor" TextColor="Black" FontSize="40"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold"   />
+                <Label Text="Indien een werknemer (langdurig) arbeidsongeschikt wordt, zal de werkgever samen met de werknemer moeten werken aan de re-integratie. Concreet betekent dit dat de werkgever en werknemer er alles aan moeten doen om ervoor te zorgen dat de werknemer zo snel mogelijk weer deelneemt aan het arbeidsproces.
+
+Eerst moeten de mogelijkheden binnen het 1e spoor (terugkeer bij de huidige werkgever) worden onderzocht. Er dient gekeken te worden naar terugkeer in de eigen functie en als dit niet mogelijk is naar terugkeer binnen de organisatie in een andere functie. Zijn er geen duurzame mogelijkheden binnen de organisatie, dan kan het 2e spoor worden opgestart."></Label>
+
+                <Label Text="Het 2e spoor" TextColor="Black" FontSize="29"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold"   />
+                <Label Text="Binnen het 2e spoor wordt gekeken naar de snelste weg voor een passende baan bij een nieuwe werkgever. Een arbeidsdeskundige of bedrijfsarts kan adviseren om het 2e spoor op te starten. Aan de hand van de werkervaring, kennis en affiniteit van de werknemer worden de verschillende functiemogelijkheden in kaart gebracht. Hierna zullen verschillende werkgevers worden benaderd. Tevens worden de mogelijkheden voor eventuele (om)scholing en werkervaringsplaatsen onderzocht.
+Op basis van een contract of detacheringsovereenkomst kan de werknemer werkzaamheden verrichten bij een nieuwe werkgever. Hierbij kan de werknemer het contract bij de huidige werkgever behouden. Het voordeel hiervan is dat de werknemer alsnog de WIA-keuring bij het UWV kan doorlopen.
+
+Het UWV zal de inspanningen binnen het 1e en 2e spoor beoordelen bij de WIA-keuring."></Label>
+                <Grid Padding="0, 10, 0, 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <BoxView Color="#518bb8" Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill"></BoxView>
+                    <StackLayout Grid.Column="0" Grid.Row="0" Spacing="2">
+                        <Label Text="Heeft u vragen?" TextColor="White" FontSize="20" Margin="15, 5, 0, 0" HorizontalTextAlignment="Start"></Label>
+                        <Label Text="Neem dan contact met ons op via telefoonnummer 010 - 264 30 30 of via het contactformulier." FontSize="15" TextColor="White" Margin="10, 0, 10, 0"></Label>
+                        <Button x:Name="contactButton" Text="Neem contact op" WidthRequest="170" TextColor="White" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 8, 15, 10" ></Button>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

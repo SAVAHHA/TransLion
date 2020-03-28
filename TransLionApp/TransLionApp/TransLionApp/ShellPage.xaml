@@ -45,7 +45,7 @@
 
     <FlyoutItem Title="UWV" Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
-        <ShellContent ContentTemplate="{DataTemplate pages:UWV}"></ShellContent>
+        <ShellContent ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
     </FlyoutItem>
 
     <FlyoutItem Title="Informatie">
@@ -64,7 +64,7 @@
 
     <FlyoutItem Title="1e en 2e spoor" Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
-        <ShellContent ContentTemplate="{DataTemplate pages:_1eEn2eSpoor}"></ShellContent>
+        <ShellContent ContentTemplate="{DataTemplate pages:Page1eEn2eSpoor}"></ShellContent>
     </FlyoutItem>
 
     <FlyoutItem Title="Schema wet verbetering" Shell.BackgroundColor="White"
