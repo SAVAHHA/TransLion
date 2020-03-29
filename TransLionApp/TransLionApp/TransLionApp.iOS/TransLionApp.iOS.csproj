@@ -123,13 +123,16 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.495" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
+    <PackageReference Include="Xamarin.Forms.Maps">
+      <Version>4.5.0.495</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\TransLionApp\TransLionApp.csproj">
-      <Project>{54AC6A7E-2397-4011-9C0D-C4FE455A2A8D}</Project>
+      <Project>{7BF0A8CC-D4C6-4EB5-8152-3EDC0115D83A}</Project>
       <Name>TransLionApp</Name>
     </ProjectReference>
   </ItemGroup>
