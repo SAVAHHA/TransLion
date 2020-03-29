@@ -11,10 +11,11 @@
         "dependencies": {
           "LiveXAML": "2.1.73",
           "NETStandard.Library": "2.0.3",
+          "Syncfusion.Xamarin.Pdf": "17.4.0.55",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.4.0.991265",
-          "Xamarin.Forms.Maps": "4.4.0.991265"
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.495",
+          "Xamarin.Forms.Maps": "4.5.0.495"
         },
         "runtime": {
           "TransLionApp.dll": {}
@@ -25,6 +26,34 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Syncfusion.Licensing/17.4.0.55": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "17.4.0.55",
+            "fileVersion": "17.4.0.55"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Compression/17.4.0.55": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "17.4451.0.55",
+            "fileVersion": "17.4451.0.55"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Pdf/17.4.0.55": {
+        "dependencies": {
+          "Syncfusion.Licensing": "17.4.0.55",
+          "Syncfusion.Xamarin.Compression": "17.4.0.55"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
+            "assemblyVersion": "17.4451.0.55",
+            "fileVersion": "17.4451.0.55"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -50,7 +79,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.3.1": {
+      "Xamarin.Essentials/1.5.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -61,30 +90,30 @@
           }
         }
       },
-      "Xamarin.Forms/4.4.0.991265": {
+      "Xamarin.Forms/4.5.0.495": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.4.0.398"
+            "fileVersion": "4.5.0.198"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.4.0.398"
+            "fileVersion": "4.5.0.198"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.4.0.398"
+            "fileVersion": "4.5.0.198"
           }
         }
       },
-      "Xamarin.Forms.Maps/4.4.0.991265": {
+      "Xamarin.Forms.Maps/4.5.0.495": {
         "dependencies": {
-          "Xamarin.Forms": "4.4.0.991265"
+          "Xamarin.Forms": "4.5.0.495"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.4.0.398"
+            "fileVersion": "4.5.0.198"
           }
         }
       }
@@ -117,6 +146,27 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
+    "Syncfusion.Licensing/17.4.0.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OiadVAyHgL8hqsnrl4cyrhcu6pUngz/IOQqzuHe6AfF6B0CyZRGoyij+B/EsIAeQ036jgkiZ+GXxBCSdxsLgEg==",
+      "path": "syncfusion.licensing/17.4.0.55",
+      "hashPath": "syncfusion.licensing.17.4.0.55.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Compression/17.4.0.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xYli+U07UWXMEyA5X/dFpSy67JDcsIjZHV7ZtHEe3vNKRmWsHCFJvHR5/S1bz9SULMpZauQLjgcHivyCA2n3Vw==",
+      "path": "syncfusion.xamarin.compression/17.4.0.55",
+      "hashPath": "syncfusion.xamarin.compression.17.4.0.55.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Pdf/17.4.0.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hwjJgL5vOejQMdob5YTHVYh71+XP6TeEgpwU+stYS2DfZCTPvxl/LbIHKD9YdMX/7S1omDkzl6ai8RdpKLNL3Q==",
+      "path": "syncfusion.xamarin.pdf/17.4.0.55",
+      "hashPath": "syncfusion.xamarin.pdf.17.4.0.55.nupkg.sha512"
+    },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -131,26 +181,26 @@
       "path": "xam.plugins.messaging/5.2.0",
       "hashPath": "xam.plugins.messaging.5.2.0.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.3.1": {
+    "Xamarin.Essentials/1.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
-      "path": "xamarin.essentials/1.3.1",
-      "hashPath": "xamarin.essentials.1.3.1.nupkg.sha512"
+      "sha512": "sha512-XEKAp7BXfZkTGbMqySXtuhwxb06ULjkJNQ8p44e8amOPm4m4VTVV92F13ov0a8NFNU+6JFm98510QK9Q/HBD5A==",
+      "path": "xamarin.essentials/1.5.1",
+      "hashPath": "xamarin.essentials.1.5.1.nupkg.sha512"
     },
-    "Xamarin.Forms/4.4.0.991265": {
+    "Xamarin.Forms/4.5.0.495": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FhG5Sq2wzY8A6IzW3iMVVKqQf4G3hry0joDDGnw1SWBQ5cfW6YNpOiuh2wB/BRPoVnO0SuUBY+b1NPXve72NDQ==",
-      "path": "xamarin.forms/4.4.0.991265",
-      "hashPath": "xamarin.forms.4.4.0.991265.nupkg.sha512"
+      "sha512": "sha512-ipufpdjFh+YHHw1E3I+8FIQWk1KmlB77PSHg32YRnuBSCUNEHjoMnvEmY9YCK4DTWfOenV0HHZVvGjB9qDtI9w==",
+      "path": "xamarin.forms/4.5.0.495",
+      "hashPath": "xamarin.forms.4.5.0.495.nupkg.sha512"
     },
-    "Xamarin.Forms.Maps/4.4.0.991265": {
+    "Xamarin.Forms.Maps/4.5.0.495": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yOl1O+P/Im5zjiF76NJVLIzD7STyVtS43cEJ/DYUWc4rWkOClT9WF3oAMshVR5WxoJzcxoCK3fCanUAPmeZptw==",
-      "path": "xamarin.forms.maps/4.4.0.991265",
-      "hashPath": "xamarin.forms.maps.4.4.0.991265.nupkg.sha512"
+      "sha512": "sha512-RMk9n/SBo5y/nqhLP+fP3Pnh+UdmUrkYnmJYC+GeJsIGQ5+SJoLESPEdzO/Bbgjm9PpVp5hR0xa2W0mqQUJmMg==",
+      "path": "xamarin.forms.maps/4.5.0.495",
+      "hashPath": "xamarin.forms.maps.4.5.0.495.nupkg.sha512"
     }
   }
 }
