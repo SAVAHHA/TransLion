@@ -17,6 +17,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugins.Messaging/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -169,10 +178,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.4.0.991265": {
+      "Xamarin.Forms.Maps/4.5.0.495": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.4.0.991265"
+          "Xamarin.Forms": "4.5.0.495"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -188,10 +197,11 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "LiveXAML": "2.1.73",
+          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.4.0.991265",
-          "Xamarin.Forms.Maps": "4.4.0.991265"
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.495",
+          "Xamarin.Forms.Maps": "4.5.0.495"
         },
         "compile": {
           "bin/placeholder/TransLionApp.dll": {}
@@ -217,6 +227,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugins.Messaging/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -369,10 +388,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.4.0.991265": {
+      "Xamarin.Forms.Maps/4.5.0.495": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.4.0.991265"
+          "Xamarin.Forms": "4.5.0.495"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -388,10 +407,11 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "LiveXAML": "2.1.73",
+          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.4.0.991265",
-          "Xamarin.Forms.Maps": "4.4.0.991265"
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.495",
+          "Xamarin.Forms.Maps": "4.5.0.495"
         },
         "compile": {
           "bin/placeholder/TransLionApp.dll": {}
@@ -417,6 +437,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugins.Messaging/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -569,10 +598,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.4.0.991265": {
+      "Xamarin.Forms.Maps/4.5.0.495": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.4.0.991265"
+          "Xamarin.Forms": "4.5.0.495"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -588,10 +617,11 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "LiveXAML": "2.1.73",
+          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.4.0.991265",
-          "Xamarin.Forms.Maps": "4.4.0.991265"
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.495",
+          "Xamarin.Forms.Maps": "4.5.0.495"
         },
         "compile": {
           "bin/placeholder/TransLionApp.dll": {}
@@ -617,6 +647,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "Xam.Plugins.Messaging/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -769,10 +808,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.4.0.991265": {
+      "Xamarin.Forms.Maps/4.5.0.495": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.4.0.991265"
+          "Xamarin.Forms": "4.5.0.495"
         },
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
@@ -788,10 +827,11 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "LiveXAML": "2.1.73",
+          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.4.0.991265",
-          "Xamarin.Forms.Maps": "4.4.0.991265"
+          "Xamarin.Essentials": "1.5.1",
+          "Xamarin.Forms": "4.5.0.495",
+          "Xamarin.Forms.Maps": "4.5.0.495"
         },
         "compile": {
           "bin/placeholder/TransLionApp.dll": {}
@@ -869,6 +909,21 @@
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+      "sha512": "CAxjraz7v27mWxrChvLLggDRq5Icf3OA0IL3lpGY+rfUGH488kZzBB3WJmfbgh7q5yfBbva51Iuv4tFleepV2A==",
+      "type": "package",
+      "path": "thrivegmbh.bottomnavigationbar.xf/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/BottomBar.Droid.dll",
+        "lib/MonoAndroid10/BottomBar.XamarinForms.dll",
+        "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll",
+        "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll",
+        "thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
+        "thrivegmbh.bottomnavigationbar.xf.nuspec"
       ]
     },
     "Xam.Plugins.Messaging/5.2.0": {
@@ -1214,16 +1269,16 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/4.4.0.991265": {
-      "sha512": "yOl1O+P/Im5zjiF76NJVLIzD7STyVtS43cEJ/DYUWc4rWkOClT9WF3oAMshVR5WxoJzcxoCK3fCanUAPmeZptw==",
+    "Xamarin.Forms.Maps/4.5.0.495": {
+      "sha512": "RMk9n/SBo5y/nqhLP+fP3Pnh+UdmUrkYnmJYC+GeJsIGQ5+SJoLESPEdzO/Bbgjm9PpVp5hR0xa2W0mqQUJmMg==",
       "type": "package",
-      "path": "xamarin.forms.maps/4.4.0.991265",
+      "path": "xamarin.forms.maps/4.5.0.495",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/MonoAndroid81/Xamarin.Forms.Maps.Android.dll",
-        "lib/MonoAndroid81/Xamarin.Forms.Maps.dll",
-        "lib/MonoAndroid81/Xamarin.Forms.Maps.xml",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
         "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
         "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
         "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
@@ -1240,10 +1295,13 @@
         "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
         "lib/tizen40/Xamarin.Forms.Maps.dll",
         "lib/tizen40/Xamarin.Forms.Maps.xml",
-        "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
-        "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
-        "lib/uap10.0/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.4.4.0.991265.nupkg.sha512",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.4.5.0.495.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     },
@@ -1261,24 +1319,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Анна\\.nuget\\packages\\": {},
+    "C:\\Users\\Anna\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Anna\\Documents\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
       "projectName": "TransLionApp.iOS",
-      "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Anna\\Documents\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anna\\Documents\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Анна\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1292,8 +1350,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
-              "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
+            "C:\\Users\\Anna\\Documents\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+              "projectPath": "C:\\Users\\Anna\\Documents\\TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
             }
           }
         }
@@ -1324,5 +1382,33 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Essentials с 1.5.1 на 1.3.1. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.iOS -> TransLionApp -> Xamarin.Essentials (>= 1.5.1) \r\n TransLionApp.iOS -> Xamarin.Essentials (>= 1.3.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Forms с 4.5.0.495 на 4.4.0.991265. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms (>= 4.5.0.495) \r\n TransLionApp.iOS -> Xamarin.Forms (>= 4.4.0.991265)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }
