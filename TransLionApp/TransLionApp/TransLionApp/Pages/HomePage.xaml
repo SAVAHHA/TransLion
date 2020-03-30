@@ -13,10 +13,10 @@
     </Shell.TitleView>
 
     <!--<controls:BottomBarContent />-->
-    
+
 
     <ContentPage.Content>
-        
+
         <!--<Grid x:Name="MainGrid" RowSpacing="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="60"></RowDefinition>
@@ -36,57 +36,58 @@
 
                 <Image Source="menu" HorizontalOptions="End" VerticalOptions="Center" ></Image>
             </Grid>-->
-        <!--<StackLayout Spacing="0" Padding="0">
-            <ScrollView Padding="0">
-                <StackLayout x:Name="mainStackLayout">
-                    --><!--<Grid RowSpacing="0">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="40"></RowDefinition>
-                            <RowDefinition Height="Auto"></RowDefinition>
-                        </Grid.RowDefinitions>
-
-                        <BoxView Color="#2e2e2e" Grid.Row="0"></BoxView>
-                        <Label Text="Contact us" TextColor="White" FontSize="8" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" ></Label>
-                        <Button x:Name="emailButton" Grid.Row="0" Text="info@translion.nl" FontSize="8" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
-                        <Button x:Name="callButton" Grid.Row="0" Text="010 - 264 3030" FontSize="9" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
-                    </Grid>--><!--
-
-                    <StackLayout Spacing="0">
-                        <Label x:Name="logoLabel" Text="Trans Lion" FontAttributes="Bold"  TextColor="Black" FontSize="40" Margin="15, 10, 0, 0" HorizontalTextAlignment="Start"></Label>
-                        <Label Text="De HRM dienstverlener" FontSize="20" Margin="15, 7, 0, 0" HorizontalTextAlignment="Start" FontAttributes="Italic"></Label>
-
-
-                    </StackLayout>
-                </StackLayout>
-            </ScrollView>
-            --><!--<Grid RowSpacing="0" VerticalOptions="EndAndExpand" Padding="0">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="40"></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                </Grid.RowDefinitions>
-
-                <BoxView Color="#2e2e2e" Grid.Row="0" VerticalOptions="FillAndExpand"></BoxView>
-                <Label Text="Contact us" TextColor="White" FontSize="8" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" ></Label>
-                <Button x:Name="emailButton" Grid.Row="0" Text="info@translion.nl" FontSize="8" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
-                <Button x:Name="callButton" Grid.Row="0" Text="010 - 264 3030" FontSize="9" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
-            </Grid>-->
-            <!--</Grid>--><!--
-            
-        </StackLayout>-->
         <RelativeLayout>
-            <Frame x:Name="bottomSheet" HasShadow="true" CornerRadius="8" Padding="1,4,1,0" BackgroundColor="#faf9f8" 
+            <StackLayout Spacing="0" Padding="0">
+                <ScrollView Padding="0">
+                    <StackLayout x:Name="mainStackLayout">
+                        <!--<Grid RowSpacing="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="40"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <BoxView Color="#2e2e2e" Grid.Row="0"></BoxView>
+                            <Label Text="Contact us" TextColor="White" FontSize="8" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" ></Label>
+                            <Button x:Name="emailButton" Grid.Row="0" Text="info@translion.nl" FontSize="8" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                            <Button x:Name="callButton" Grid.Row="0" Text="010 - 264 3030" FontSize="9" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
+                        </Grid>-->
+
+                        <StackLayout Spacing="0">
+                            <Label x:Name="logoLabel" Text="Trans Lion" FontAttributes="Bold"  TextColor="Black" FontSize="40" Margin="15, 10, 0, 0" HorizontalTextAlignment="Start"></Label>
+                            <Label Text="De HRM dienstverlener" FontSize="20" Margin="15, 7, 0, 0" HorizontalTextAlignment="Start" FontAttributes="Italic"></Label>
+
+
+                        </StackLayout>
+                    </StackLayout>
+                </ScrollView>
+                <!--<Grid RowSpacing="0" VerticalOptions="EndAndExpand" Padding="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <BoxView Color="#2e2e2e" Grid.Row="0" VerticalOptions="FillAndExpand"></BoxView>
+                    <Label Text="Contact us" TextColor="White" FontSize="8" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="0" ></Label>
+                    <Button x:Name="emailButton" Grid.Row="0" Text="info@translion.nl" FontSize="8" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                    <Button x:Name="callButton" Grid.Row="0" Text="010 - 264 3030" FontSize="9" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
+                </Grid>-->
+
+            </StackLayout>
+
+            <Frame x:Name="bottomSheet" HasShadow="true" CornerRadius="8" Padding="1,4,1,0" BackgroundColor="#2e2e2e" 
         RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.9,Constant=0}"
         RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
         RelativeLayout.HeightConstraint="{ConstraintExpression
          Type=RelativeToParent,Property=Height,Factor=1,Constant=0}">
-                <Frame.GestureRecognizers>
+                <!--<Frame.GestureRecognizers>
                     <PanGestureRecognizer PanUpdated="OnPanUpdated" />
-                </Frame.GestureRecognizers>
+                </Frame.GestureRecognizers>-->
+                <!--<BoxView HeightRequest="5" CornerRadius="2" WidthRequest="50" BackgroundColor="Gray" HorizontalOptions="Center"/>-->
+                <!--<SearchBar x:Name="SearchBox" BackgroundColor="Transparent"/>
+                <ListView BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" HeightRequest="400">
+                </ListView>-->
             </Frame>
-            <SearchBar x:Name="SearchBox" BackgroundColor="Transparent"/>
-            <ListView BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" HeightRequest="400">
-            </ListView>
-            <BoxView HeightRequest="5" CornerRadius="2" WidthRequest="50" BackgroundColor="Gray" HorizontalOptions="Center"/>
+          
         </RelativeLayout>
     </ContentPage.Content>
 </ContentPage>
