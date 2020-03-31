@@ -11,10 +11,28 @@
     </Shell.TitleView>
     
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
+                <StackLayout Margin="10,0,10,0">
+                    <Label Text="Verzuimbegeleiding" HorizontalOptions="Start" FontSize="40" FontAttributes="Bold,Italic" ></Label>
+                    <Label Text="In het kader van verzuimbegeleiding kan Trans Lion werkgevers, intermediairs en werknemers ondersteunen. Afhankelijk van de wensen van de werkgever en mogelijkheden van de werknemer zal na een intakegesprek een trajectplan worden opgesteld. Gedurende de begeleiding zal de adviseur dit plan samen met de betrokken partijen regelmatig evalueren. De voortgang zal worden vastgelegd in rapportages. Bij de verzuimbegeleiding kan Trans Lion ondersteuning bieden middels onderstaande producten." FontAttributes="Bold"></Label>
+                    <Label Text="Jobhunting" FontSize="35" FontAttributes="Bold,Italic"></Label>
+                    <Label Text="De adviseur zal samen met de werknemer op zoek gaan naar een passende baan. Onze jobhunter biedt ondersteuning bij het zoeken van geschikte vacatures, het opstellen van een optimaal cv en goede motivatiebrieven."></Label>
+                    <StackLayout Orientation="Horizontal" >
+                        <Label Text="Meer informatie "></Label>
+                        <Button Text="klik hier" Font="16" TranslationX="-5" HeightRequest="-2" TranslationY="0" />
+                        <Label Text="." TranslationX="-12"/>
+                    </StackLayout>
+                    <Label Text="Re-integratie 2e spoor" FontSize="35" FontAttributes="Bold,Italic"></Label>
+                    <Label Text="Als een werknemer (gedeeltelijk) arbeidsongeschikt is voor zijn eigen functie, wordt binnen het 2e spoor Wet verbetering poortwachter gezocht naar een passende functie bij een andere werkgever."></Label>
+                    <StackLayout Orientation="Horizontal" >
+                        <Label Text="Meer informatie "></Label>
+                        <Button Text="klik hier" Font="16" TranslationX="-5" HeightRequest="-2" TranslationY="0" />
+                        <Label Text="." TranslationX="-12"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

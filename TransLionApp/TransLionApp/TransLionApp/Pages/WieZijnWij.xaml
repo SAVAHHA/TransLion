@@ -13,6 +13,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
+                <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
                 <Label Text="Wie zijn wij" TextColor="Black" FontSize="50"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic"></Label>
                 <Label FontSize="20" Text="Sinds 2000 ondersteunt Trans Lion het UWV, gemeentes, verzekeringsmaatschappijen en bedrijven bij verschillende vakgerichte vraagstukken op het gebied van HRM. Gedacht kan worden aan 2e spoortrajecten, WGA-trajecten en aan de re-integratie van uitkeringsgerechtigden">
                     <Label.FontFamily>
