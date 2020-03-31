@@ -113,6 +113,20 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\BluePictureForPages.JPG" />
+    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Label.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Label.imageset\Label.jpg" />
+    <ImageAsset Include="Assets.xcassets\menu.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\menu.imageset\menu.jpg" />
+    <ImageAsset Include="Assets.xcassets\newLogo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\newLogo.imageset\newLogo.jpg" />
+    <ImageAsset Include="Assets.xcassets\newPoint.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\newPoint.imageset\newPoint.jpg" />
+    <ImageAsset Include="Assets.xcassets\paw.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\paw.imageset\paw.png" />
+    <ImageAsset Include="Assets.xcassets\point.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\point.imageset\point.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -124,7 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.495" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
     <PackageReference Include="Xamarin.Forms.Maps">
       <Version>4.5.0.495</Version>
     </PackageReference>
@@ -137,15 +151,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\menu.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\point.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\BluePictureForPages.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\newPoint.jpg" />
+    <Folder Include="Assets.xcassets\BluePictureForPages.imageset\" />
+    <Folder Include="Assets.xcassets\Label.imageset\" />
+    <Folder Include="Assets.xcassets\menu.imageset\" />
+    <Folder Include="Assets.xcassets\newLogo.imageset\" />
+    <Folder Include="Assets.xcassets\newPoint.imageset\" />
+    <Folder Include="Assets.xcassets\paw.imageset\" />
+    <Folder Include="Assets.xcassets\point.imageset\" />
   </ItemGroup>
 </Project>

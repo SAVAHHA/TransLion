@@ -86,7 +86,7 @@
           "lib/netstandard1.0/Plugin.Messaging.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.1": {
+      "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -444,10 +444,10 @@
         "xam.plugins.messaging.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.5.1": {
-      "sha512": "XEKAp7BXfZkTGbMqySXtuhwxb06ULjkJNQ8p44e8amOPm4m4VTVV92F13ov0a8NFNU+6JFm98510QK9Q/HBD5A==",
+    "Xamarin.Essentials/1.5.2": {
+      "sha512": "qHxkrkx5jIC0X/qWhxCPZ3MuuOJm8bfCzAoUtlpOBSE4oV0JhrkTezK0A+IV+k/MeJ3zKc8FexaIXah9rlCTIw==",
       "type": "package",
-      "path": "xamarin.essentials/1.5.1",
+      "path": "xamarin.essentials/1.5.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -488,7 +488,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.5.1.nupkg.sha512",
+        "xamarin.essentials.1.5.2.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -820,37 +820,30 @@
       "NETStandard.Library >= 2.0.3",
       "Syncfusion.Xamarin.Pdf >= 17.4.0.55",
       "Xam.Plugins.Messaging >= 5.2.0",
-      "Xamarin.Essentials >= 1.5.1",
+      "Xamarin.Essentials >= 1.5.2",
       "Xamarin.Forms >= 4.5.0.495",
       "Xamarin.Forms.Maps >= 4.5.0.495"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anna\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/elenavolkova/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anna\\Documents\\TransLion_theLast\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+      "projectUniqueName": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj",
       "projectName": "TransLionApp",
-      "projectPath": "C:\\Users\\Anna\\Documents\\TransLion_theLast\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
-      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anna\\Documents\\TransLion_theLast\\TransLionApp\\TransLionApp\\TransLionApp\\obj\\",
+      "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj",
+      "packagesPath": "/Users/elenavolkova/.nuget/packages/",
+      "outputPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/elenavolkova/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -887,7 +880,7 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.5.1, )"
+            "version": "[1.5.2, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
@@ -908,7 +901,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
       }
     }
   }

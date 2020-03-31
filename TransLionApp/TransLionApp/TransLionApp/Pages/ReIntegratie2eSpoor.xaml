@@ -11,10 +11,35 @@
     </Shell.TitleView>
     
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
+                <StackLayout Margin="10,0,10,0">
+                    <Label Text="Re-integratie 2e spoor" FontSize="40" FontAttributes="Bold,Italic"></Label>
+                    <Label Text="Trans Lion ondersteunt werkgevers, werknemers en intermediairs bij de begeleiding binnen het 2e spoor Wet verbetering poortwachter. Binnen het 2e spoor worden de mogelijkheden op de arbeidsmarkt bij een nieuwe werkgever onderzocht. Hierbij wordt uitgegaan van de arbeidsmogelijkheden die een werknemer heeft." FontAttributes="Bold"></Label>
+                    <Label Text="Als een werknemer langdurig arbeidsongeschikt is, moet worden gekeken of re-integratie binnen het bedrijf van de huidige werkgever mogelijk is. Dit kan bijvoorbeeld in de eigen functie of een aangepaste functie. Het traject waarin deze mogelijkheden worden onderzocht, wordt het 1e spoor genoemd. Naast het 1e spoor kan het 2e spoor worden gestart. Dit gebeurt doorgaans op advies van de bedrijfsarts of arbeidsdeskundige. Binnen het 2e spoor moeten de mogelijkheden bij een nieuwe werkgever worden onderzocht met als doel het vinden van een passende, duurzame functie bij een nieuwe werkgever. Het UWV zal de inspanningen binnen het 1e en 2e spoor beoordelen bij de WIA-keuring. Gedurende het 1e en 2e spoor blijven de verplichtingen vanuit de Wet verbetering poortwachter van toepassing."></Label>
+                    <Label Text="Na het intakegesprek wordt een trajectplan opgesteld. Hierbij kijkt de adviseur naar de mogelijkheden van de werknemer op de arbeidsmarkt. Samen met de in-house jobhunter wordt er gezocht naar een passende functie voor de werknemer. De voortgang wordt vastgelegd in rapportages."></Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="Klik hier" Font="16" TranslationY="-13" />
+                        <Label Text="voor meer informatie over het 1e en 2e spoor." FlowDirection="MatchParent" LineBreakMode="NoWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" >
+                        <Label BackgroundColor="#518bb8" Text="1" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="90" HeightRequest="90" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="90"/>
+                        <StackLayout>
+                            <Label Text="Fase 1 – Intakefase (intake binnen 10 werkdagen vanaf aanmelding)" FontAttributes="Bold"></Label>
+                            <StackLayout Orientation="Horizontal" >
+                                <Image Source="newPoint"></Image>
+                                <Label Text="Intakegesprek en onderbouwd trajectplan"></Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Image Source="newPoint"></Image>
+                                <Label Text="Benoemen van geschikte functies"></Label>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
