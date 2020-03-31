@@ -17,6 +17,9 @@ namespace TransLionApp.Pages
             InitializeComponent();
             Uri siteUri = new Uri("https://www.translion.nl/images/werkwijzer-poortwachter.pdf");
             Device.OpenUri(siteUri);
+            
+            
+
         }
     }
 }
