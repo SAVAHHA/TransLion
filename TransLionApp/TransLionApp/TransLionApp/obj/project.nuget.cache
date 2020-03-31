@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E3TFH5XDczVtJVA1vkB0bYWgHP2qkD8ycmG//1HDYOPQATTl+BmIAV+xmjyazF/fpT3Eg6gXlpNAWoXzSMkOyw==",
+  "dgSpecHash": "6QzrCcNf2Y3CNy0Nu+2EHjaBtsbcgBeNkJN/wQMG/PXrftoujb/uuFX2efu5xAuTqwRKpVZdwE2D2BkLV0cnHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anna\\Documents\\TransLion_theLast\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.xamarin.pdf\\17.4.0.55\\syncfusion.xamarin.pdf.17.4.0.55.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.essentials\\1.5.1\\xamarin.essentials.1.5.1.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.495\\xamarin.forms.maps.4.5.0.495.nupkg.sha512"
   ],

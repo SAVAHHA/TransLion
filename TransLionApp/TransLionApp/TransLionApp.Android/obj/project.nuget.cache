@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TUx0FLilePM4Cgo9VLchE9jyg05GqtOFuUPa6I8odGEx7Ja51VNJao7Y4Fxf7VCk+JytJ2IVoDpJzX+jHiQO+Q==",
+  "dgSpecHash": "01lRflB9jXjZo+lMvXZGMB4rw83Q/W2QQ5f2h6LgcRtTV9VPVkGy9E5Jci8v+ONmgZiNbKqkCXo3qsSlmqsemw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anna\\Documents\\TransLion_theLast\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
   "expectedPackageFiles": [
@@ -55,5 +55,16 @@
     "C:\\Users\\Anna\\.nuget\\packages\\xamarin.googleplayservices.maps\\71.1610.0\\xamarin.googleplayservices.maps.71.1610.0.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\xamarin.googleplayservices.tasks\\71.1601.0\\xamarin.googleplayservices.tasks.71.1601.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Essentials с 1.5.2 на 1.5.1. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.Android -> TransLionApp -> Xamarin.Essentials (>= 1.5.2) \r\n TransLionApp.Android -> Xamarin.Essentials (>= 1.5.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Plugin.Messaging;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace TransLionApp.Pages
 {
@@ -37,6 +38,17 @@ namespace TransLionApp.Pages
             {
                 phoneDialer.MakePhoneCall("010 - 264 3030");
             }
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ReIntegratie2eSpoor());
+        }
+
+        private void linkedinButton_Clicked(object sender, EventArgs e)
+        {
+            Uri siteUri = new Uri("https://www.linkedin.com/company/trans-lion");
+            Launcher.OpenAsync(siteUri);
         }
     }
 }
