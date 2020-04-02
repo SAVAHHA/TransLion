@@ -3709,3 +3709,6 @@ C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp
 C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\man.jpg
 C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\linkedinnew.png
 C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\linkedinsmall.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\man.jpg
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\linkedinnew.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\linkedinsmall.png
