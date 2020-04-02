@@ -13,6 +13,9 @@ namespace TransLionApp.Pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class UWVPage : ContentPage
     {
+        private double lastScrollPoint = 0;
+        private bool translating = false;
+        private bool isVisible = true;
         public UWVPage()
         {
             InitializeComponent();
@@ -38,10 +41,43 @@ namespace TransLionApp.Pages
             }
         }
 
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ReIntegratie2eSpoor());
+        }
+
         private void linkedinButton_Clicked(object sender, EventArgs e)
         {
             Uri siteUri = new Uri("https://www.linkedin.com/company/trans-lion");
             Launcher.OpenAsync(siteUri);
+        }
+
+        private async void ScrollView_Scrolled(object sender, ScrolledEventArgs e)
+        {
+            if (translating)
+                return;
+            uint mills = 100;
+            translating = true;
+            if (e.ScrollY > lastScrollPoint)
+            {
+                // hide
+                if (isVisible)
+                {
+                    await PanelGrid.TranslateTo(PanelGrid.TranslationX, PanelGrid.TranslationY + PanelGrid.HeightRequest, mills);
+                    isVisible = false;
+                }
+            }
+            else
+            {
+                // show
+                if (!isVisible)
+                {
+                    await PanelGrid.TranslateTo(PanelGrid.TranslationX, PanelGrid.TranslationY - PanelGrid.HeightRequest, mills);
+                    isVisible = true;
+                }
+            }
+            lastScrollPoint = e.ScrollY;
+            translating = false;
         }
     }
 }

@@ -6,26 +6,11 @@
              xmlns:pages="clr-namespace:TransLionApp.Pages"
              mc:Ignorable="d"
              x:Class="TransLionApp.ShellPage">
- 
-    <!--<FlyoutItem Title="Mainnyy" Icon="paw">
-        --><!--<ShellContent ContentTemplate="{DataTemplate pages:MainPage}"></ShellContent>--><!--
-        <ContentPage x:Name="mainPage" Title="gg\njjhh" IconImageSource="paw" 
-             Shell.BackgroundColor="ForestGreen"
-             Shell.ForegroundColor="White"
-             Shell.TitleColor="Blue"
-             Shell.DisabledColor="#95FFFFFF"
-             Shell.UnselectedColor="#B4FFFFFF" 
-             >
-            
-        </ContentPage>
-    </FlyoutItem>-->
+
 
     <FlyoutItem Title="Home page" Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
-        <Tab Title="Contacts">
-            <ShellContent x:Name="HomePage" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
-        </Tab>
-        <!--<ShellContent x:Name="HomePage" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>-->
+        <ShellContent x:Name="HomePage" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
     </FlyoutItem>
 
     <FlyoutItem Title="Verzuimbegeleiding" Shell.BackgroundColor="White"
@@ -48,9 +33,9 @@
         <ShellContent ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
     </FlyoutItem>
 
-    <FlyoutItem Title="Informatie">
+    <!--<FlyoutItem Title="Informatie">
         
-    </FlyoutItem>
+    </FlyoutItem>-->
 
     <FlyoutItem Title="Werkwijzer wet verbetering poortwachter" Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">

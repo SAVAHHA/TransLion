@@ -208,11 +208,10 @@ C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp
 C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\WieZijnWij.xaml.g.cs
 C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\ShellPage.xaml.g.cs
 C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Views\BarView.xaml.g.cs
-C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Views\BottomBarContent.xaml.g.cs
-C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csproj.CoreCompileInputs.cache
 C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.AssemblyInfoInputs.cache
 C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.AssemblyInfo.cs
-C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.dll
 C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\ref\TransLionApp.dll
 C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.pdb
+C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csproj.CoreCompileInputs.cache
+C:\Users\Anna\Documents\TransLion_theLast\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\XamlC.stamp

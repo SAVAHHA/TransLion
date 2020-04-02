@@ -11263,6 +11263,9 @@ namespace TransLionApp.Droid
 			// aapt resource value: 0x7F07008F
 			public const int tooltip_frame_light = 2131165327;
 			
+			// aapt resource value: 0x7F070090
+			public const int whiteinsmall = 2131165328;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

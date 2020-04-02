@@ -11,140 +11,413 @@
     </Shell.TitleView>
     
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
-                <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
-                <StackLayout Margin="10,0,10,0">
-                    <Label Text="Jobhunting" HorizontalOptions="Start" FontSize="40" FontAttributes="Bold,Italic" ></Label>
-                    <Label Text="Tijdens het jobhuntingtraject gaat Trans Lion met een werknemer op zoek naar een nieuwe passende functie. Gedurende het traject zal een in-house jobhunter samen met de werknemer wekelijks werkgevers benaderen. Hierbij wordt onder andere gebruik gemaakt van het netwerk van Trans Lion en de vraag vanuit de markt. De adviseur van Trans Lion zal de voortgang monitoren en vastleggen in rapportages." FontAttributes="Bold"></Label>
-                    <Label Text="Na het intakegesprek zal er een trajectplan worden opgesteld. Het traject wordt door de adviseur met werknemer regelmatig geëvalueerd en waar nodig bijgesteld."></Label>
-                    <Label Text="Gedurende het traject zal de jobhunter ondersteuning bieden bij het sollicitatieproces:"></Label>
-                    <StackLayout Orientation="Horizontal" >
-                        <Image Source="newPoint"></Image>
-                        <Label Text="Opstellen of optimaliseren van het curriculum vitae"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" >
-                        <Image Source="newPoint"></Image>
-                        <Label Text="Opstellen van gerichte voorbeeld sollicitatiebrieven"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" >
-                        <Image Source="newPoint"></Image>
-                        <Label Text="Intensief zoeken naar vacatures"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" >
-                        <Image Source="newPoint"></Image>
-                        <Label Text="Aanleveren van concrete vacatures"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" >
-                        <Image Source="newPoint"></Image>
-                        <Label Text="Solliciteren op passende vacatures"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" >
-                        <Image Source="newPoint"></Image>
-                        <Label Text="Voorbereiden en evalueren van sollicitatiegesprekken"></Label>
-                    </StackLayout>
-                    <Label Text="Binnen het traject zal rekening worden gehouden met de beperkingen, persoonlijke omstandigheden, specifieke vaardigheden en wensen van de werknemer. "></Label>
-                    <Label Text="De fases van het jobhuntingtraject" FontAttributes="Bold,Italic" FontSize="35"/>
-                    <Label Text="Het jobhuntingtraject wordt onderverdeeld in de volgende fases:"></Label>
-                    <StackLayout Orientation="Horizontal" >
-                        <Label BackgroundColor="#518bb8" Text="1" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Center" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
-                        <StackLayout>
-                            <Label Text="Fase 1 – Intakefase (intake binnen 10 werkdagen vanaf aanmelding)" FontAttributes="Bold"></Label>
+        <Grid RowSpacing="0">
+            <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
+                <StackLayout x:Name="mainStackLayout">
+                    <StackLayout>
+                        <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
+                        <StackLayout Margin="5,0,5,0">
+                            <Label Text="Jobhunting" HorizontalOptions="Start" TextColor="Black" FontSize="36" FontAttributes="Bold,Italic" ></Label>
+                            <Label Text="Tijdens het jobhuntingtraject gaat Trans Lion met een werknemer op zoek naar een nieuwe passende functie. Gedurende het traject zal een in-house jobhunter samen met de werknemer wekelijks werkgevers benaderen. Hierbij wordt onder andere gebruik gemaakt van het netwerk van Trans Lion en de vraag vanuit de markt. De adviseur van Trans Lion zal de voortgang monitoren en vastleggen in rapportages." FontAttributes="Bold">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <Label Text="Na het intakegesprek zal er een trajectplan worden opgesteld. Het traject wordt door de adviseur met werknemer regelmatig geëvalueerd en waar nodig bijgesteld.">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <Label Text="Gedurende het traject zal de jobhunter ondersteuning bieden bij het sollicitatieproces:">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <StackLayout Orientation="Horizontal" >
+                                <Image Source="newPoint"></Image>
+                                <Label Text="Opstellen of optimaliseren van het curriculum vitae">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Image Source="newPoint"></Image>
+                                <Label Text="Opstellen van gerichte voorbeeld sollicitatiebrieven">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Image Source="newPoint"></Image>
+                                <Label Text="Intensief zoeken naar vacatures">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Image Source="newPoint"></Image>
+                                <Label Text="Aanleveren van concrete vacatures">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Image Source="newPoint"></Image>
+                                <Label Text="Solliciteren op passende vacatures">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Image Source="newPoint"></Image>
+                                <Label Text="Voorbereiden en evalueren van sollicitatiegesprekken">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                            </StackLayout>
+                            <Label Text="Binnen het traject zal rekening worden gehouden met de beperkingen, persoonlijke omstandigheden, specifieke vaardigheden en wensen van de werknemer. ">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <Label Text="De fases van het jobhuntingtraject" TextColor="Black" FontAttributes="Bold,Italic" FontSize="24"/>
+                            <Label Text="Het jobhuntingtraject wordt onderverdeeld in de volgende fases:">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label BackgroundColor="#518bb8" Text="1" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Center" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
+                                <StackLayout>
+                                    <Label Text="Fase 1 – Intakefase (intake binnen 10 werkdagen vanaf aanmelding)" FontAttributes="Bold">
+                                        <Label.FontFamily>
+                                            <OnPlatform x:TypeArguments="x:String">
+                                                <On Platform="iOS" Value="Roboto-Light" />
+                                                <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                            </OnPlatform>
+                                        </Label.FontFamily>
+                                    </Label>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Intakegesprek en onderbouwd trajectplan">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Benoemen van geschikte functies">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label BackgroundColor="#518bb8" Text="2" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
+                                <StackLayout>
+                                    <Label Text="Fase 2 – Aanbodversterkende fase (vanaf realiseren intakeverslag)" FontAttributes="Bold">
+                                        <Label.FontFamily>
+                                            <OnPlatform x:TypeArguments="x:String">
+                                                <On Platform="iOS" Value="Roboto-Light" />
+                                                <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                            </OnPlatform>
+                                        </Label.FontFamily>
+                                    </Label>
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Realiseren van curriculum vitae">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Realisatie van sollicitatiebrieven">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Digitaal solliciteren (met behulp van onze in-house jobhunters)">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Voorbereiding op een sollicitatiegesprek (training op gesprekstechnieken)">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label BackgroundColor="#518bb8" Text="3" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
+                                <StackLayout>
+                                    <Label Text="Fase 3 – Oriëntatie- en sollicitatiefase" FontAttributes="Bold">
+                                        <Label.FontFamily>
+                                            <OnPlatform x:TypeArguments="x:String">
+                                                <On Platform="iOS" Value="Roboto-Light" />
+                                                <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                            </OnPlatform>
+                                        </Label.FontFamily>
+                                    </Label>
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Solliciteren op vacatures of open sollicitaties sturen, inclusief begeleiding en bewaking van sollicitatieactiviteiten (jobhunting)">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Zoeken naar leerwerktrajecten of werkervaringsplaatsen">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Inschrijving bij minimaal 2 uitzendbureaus">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Beroepskeuzetest indien nodig">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label BackgroundColor="#518bb8" Text="4" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
+                                <StackLayout>
+                                    <Label Text="Fase 4 – Werk en nazorg" FontAttributes="Bold">
+                                        <Label.FontFamily>
+                                            <OnPlatform x:TypeArguments="x:String">
+                                                <On Platform="iOS" Value="Roboto-Light" />
+                                                <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                            </OnPlatform>
+                                        </Label.FontFamily>
+                                    </Label>
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Ondersteuning bij arbeids- of detacheringcontract bij nieuwe werkgever">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Image Source="newPoint"></Image>
+                                        <Label Text="Begeleiding van uw medewerker bij nieuwe werkgever">
+                                            <Label.FontFamily>
+                                                <OnPlatform x:TypeArguments="x:String">
+                                                    <On Platform="iOS" Value="Roboto-Light" />
+                                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                                </OnPlatform>
+                                            </Label.FontFamily>
+                                        </Label>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                            <Label Text="Kenmerkend voor onze begeleiding" TextColor="Black" FontAttributes="Bold,Italic" FontSize="24"></Label>
                             <StackLayout Orientation="Horizontal">
                                 <Image Source="newPoint"></Image>
-                                <Label Text="Intakegesprek en onderbouwd trajectplan"></Label>
+                                <Label Text="Minimaal tweewekelijks contact">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
                             </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
+                            <StackLayout Orientation="Horizontal">
                                 <Image Source="newPoint"></Image>
-                                <Label Text="Benoemen van geschikte functies"></Label>
+                                <Label Text="Face-to-face gesprek bij het intakegesprek en eventueel op de helft van het traject (overige gesprekken vinden telefonisch plaats)">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="newPoint"></Image>
+                                <Label Text="Per 4-6 weken een schriftelijke rapportage omtrent de begeleiding naar werk en de verrichte acties">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="newPoint"></Image>
+                                <Label Text="Korte communicatielijnen">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="newPoint"></Image>
+                                <Label Text="Landelijke dekking">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="newPoint"></Image>
+                                <Label Text="In bezit van in-house jobhunter">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
                             </StackLayout>
                         </StackLayout>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" >
-                        <Label BackgroundColor="#518bb8" Text="2" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
-                        <StackLayout>
-                            <Label Text="Fase 2 – Aanbodversterkende fase (vanaf realiseren intakeverslag)" FontAttributes="Bold"></Label>
-                            <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
-                                <Label Text="Realiseren van curriculum vitae"></Label>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
-                                <Label Text="Realisatie van sollicitatiebrieven"></Label>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
-                                <Label Text="Digitaal solliciteren (met behulp van onze in-house jobhunters)"></Label>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
-                                <Label Text="Voorbereiding op een sollicitatiegesprek (training op gesprekstechnieken)"></Label>
-                            </StackLayout>
-                        </StackLayout>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" >
-                        <Label BackgroundColor="#518bb8" Text="3" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
-                        <StackLayout>
-                            <Label Text="Fase 3 – Oriëntatie- en sollicitatiefase" FontAttributes="Bold"></Label>
-                            <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
-                                <Label Text="Solliciteren op vacatures of open sollicitaties sturen, inclusief begeleiding en bewaking van sollicitatieactiviteiten (jobhunting)"></Label>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
-                                <Label Text="Zoeken naar leerwerktrajecten of werkervaringsplaatsen"></Label>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
-                                <Label Text="Inschrijving bij minimaal 2 uitzendbureaus"></Label>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
-                                <Label Text="Beroepskeuzetest indien nodig"></Label>
-                            </StackLayout>
-                        </StackLayout>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal" >
-                        <Label BackgroundColor="#518bb8" Text="4" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
-                        <StackLayout>
-                            <Label Text="Fase 4 – Werk en nazorg" FontAttributes="Bold"></Label>
-                            <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
-                                <Label Text="Ondersteuning bij arbeids- of detacheringcontract bij nieuwe werkgever"></Label>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
-                                <Label Text="Begeleiding van uw medewerker bij nieuwe werkgever"></Label>
-                            </StackLayout>
-                        </StackLayout>
-                    </StackLayout>
-                    <Label Text="Kenmerkend voor onze begeleiding" FontAttributes="Bold,Italic" FontSize="35"></Label>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="newPoint"></Image>
-                        <Label Text="Minimaal tweewekelijks contact"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="newPoint"></Image>
-                        <Label Text="Face-to-face gesprek bij het intakegesprek en eventueel op de helft van het traject (overige gesprekken vinden telefonisch plaats)"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="newPoint"></Image>
-                        <Label Text="Per 4-6 weken een schriftelijke rapportage omtrent de begeleiding naar werk en de verrichte acties"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="newPoint"></Image>
-                        <Label Text="Korte communicatielijnen"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="newPoint"></Image>
-                        <Label Text="Landelijke dekking"></Label>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Image Source="newPoint"></Image>
-                        <Label Text="In bezit van in-house jobhunter"></Label>
                     </StackLayout>
                 </StackLayout>
-            </StackLayout>
-        </ScrollView>
+            </ScrollView>
+            <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
+                <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

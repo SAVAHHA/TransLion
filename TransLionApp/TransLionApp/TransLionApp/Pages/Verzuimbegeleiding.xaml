@@ -11,28 +11,77 @@
     </Shell.TitleView>
     
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
-                <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
-                <StackLayout Margin="10,0,10,0">
-                    <Label Text="Verzuimbegeleiding" HorizontalOptions="Start" FontSize="40" FontAttributes="Bold,Italic" ></Label>
-                    <Label Text="In het kader van verzuimbegeleiding kan Trans Lion werkgevers, intermediairs en werknemers ondersteunen. Afhankelijk van de wensen van de werkgever en mogelijkheden van de werknemer zal na een intakegesprek een trajectplan worden opgesteld. Gedurende de begeleiding zal de adviseur dit plan samen met de betrokken partijen regelmatig evalueren. De voortgang zal worden vastgelegd in rapportages. Bij de verzuimbegeleiding kan Trans Lion ondersteuning bieden middels onderstaande producten." FontAttributes="Bold"></Label>
-                    <Label Text="Jobhunting" FontSize="35" FontAttributes="Bold,Italic"></Label>
-                    <Label Text="De adviseur zal samen met de werknemer op zoek gaan naar een passende baan. Onze jobhunter biedt ondersteuning bij het zoeken van geschikte vacatures, het opstellen van een optimaal cv en goede motivatiebrieven."></Label>
-                    <StackLayout Orientation="Horizontal" >
-                        <Label Text="Meer informatie "></Label>
-                        <Button Text="klik hier" Font="16" TranslationX="-5" HeightRequest="-2" TranslationY="0" />
-                        <Label Text="." TranslationX="-12"/>
-                    </StackLayout>
-                    <Label Text="Re-integratie 2e spoor" FontSize="35" FontAttributes="Bold,Italic"></Label>
-                    <Label Text="Als een werknemer (gedeeltelijk) arbeidsongeschikt is voor zijn eigen functie, wordt binnen het 2e spoor Wet verbetering poortwachter gezocht naar een passende functie bij een andere werkgever."></Label>
-                    <StackLayout Orientation="Horizontal" >
-                        <Label Text="Meer informatie "></Label>
-                        <Button Text="klik hier" Font="16" TranslationX="-5" HeightRequest="-2" TranslationY="0" />
-                        <Label Text="." TranslationX="-12"/>
+        <Grid RowSpacing="0">
+            <ScrollView Grid.Row="0" Scrolled="ScrollView_Scrolled">
+                <StackLayout x:Name="mainStackLayout">
+                    <StackLayout Spacing="0">
+                        <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
+                        <StackLayout Margin="5,0,5,0">
+                            <Label Text="Verzuimbegeleiding" HorizontalOptions="Start" FontSize="36" TextColor="Black" FontAttributes="Bold,Italic" ></Label>
+                            <Label Text="In het kader van verzuimbegeleiding kan Trans Lion werkgevers, intermediairs en werknemers ondersteunen. Afhankelijk van de wensen van de werkgever en mogelijkheden van de werknemer zal na een intakegesprek een trajectplan worden opgesteld. Gedurende de begeleiding zal de adviseur dit plan samen met de betrokken partijen regelmatig evalueren. De voortgang zal worden vastgelegd in rapportages. Bij de verzuimbegeleiding kan Trans Lion ondersteuning bieden middels onderstaande producten." FontAttributes="Bold">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <Label Text="Jobhunting" FontSize="24" TextColor="Black" FontAttributes="Bold,Italic"></Label>
+                            <Label Text="De adviseur zal samen met de werknemer op zoek gaan naar een passende baan. Onze jobhunter biedt ondersteuning bij het zoeken van geschikte vacatures, het opstellen van een optimaal cv en goede motivatiebrieven.">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Meer informatie ">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                                <Button Text="klik hier" Font="16" TranslationX="-5" HeightRequest="-2" TranslationY="0" />
+                                <Label Text="." TranslationX="-12"/>
+                            </StackLayout>
+                            <Label Text="Re-integratie 2e spoor" TextColor="Black" FontSize="24" FontAttributes="Bold,Italic"></Label>
+                            <Label Text="Als een werknemer (gedeeltelijk) arbeidsongeschikt is voor zijn eigen functie, wordt binnen het 2e spoor Wet verbetering poortwachter gezocht naar een passende functie bij een andere werkgever.">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Meer informatie ">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                                <Button Text="klik hier" Font="16" TranslationX="-5" HeightRequest="-2" TranslationY="0" />
+                                <Label Text="." TranslationX="-12"/>
+                            </StackLayout>
+                        </StackLayout>
                     </StackLayout>
                 </StackLayout>
-            </StackLayout>
-        </ScrollView>
+            </ScrollView>
+            <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
+                <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
