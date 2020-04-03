@@ -70,7 +70,7 @@
                                         </Label.FontFamily>
                                     </Label>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Intakegesprek en onderbouwd trajectplan">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -82,7 +82,7 @@
                                         </Label>
                                     </StackLayout>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Benoemen van geschikte functies">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">

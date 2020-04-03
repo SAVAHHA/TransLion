@@ -8,7 +8,9 @@
              x:Class="TransLionApp.ShellPage">
 
 
-    <FlyoutItem Title="Home page" Shell.BackgroundColor="White"
+
+
+    <FlyoutItem FlyoutIcon="None" Icon="None" Title="Home page" Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
         <ShellContent x:Name="HomePage" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
     </FlyoutItem>

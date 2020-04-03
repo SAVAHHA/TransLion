@@ -46,7 +46,7 @@
                                 </Label.FontFamily>
                             </Label>
                             <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="Opstellen of optimaliseren van het curriculum vitae">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -58,7 +58,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="Opstellen van gerichte voorbeeld sollicitatiebrieven">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -70,7 +70,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="Intensief zoeken naar vacatures">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -82,7 +82,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="Aanleveren van concrete vacatures">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -94,7 +94,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="Solliciteren op passende vacatures">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -106,7 +106,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal" >
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="Voorbereiden en evalueren van sollicitatiegesprekken">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -149,7 +149,7 @@
                                         </Label.FontFamily>
                                     </Label>
                                     <StackLayout Orientation="Horizontal">
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Intakegesprek en onderbouwd trajectplan">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -161,7 +161,7 @@
                                         </Label>
                                     </StackLayout>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Benoemen van geschikte functies">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -187,7 +187,7 @@
                                         </Label.FontFamily>
                                     </Label>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Realiseren van curriculum vitae">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -199,7 +199,7 @@
                                         </Label>
                                     </StackLayout>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Realisatie van sollicitatiebrieven">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -211,7 +211,7 @@
                                         </Label>
                                     </StackLayout>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Digitaal solliciteren (met behulp van onze in-house jobhunters)">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -223,7 +223,7 @@
                                         </Label>
                                     </StackLayout>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Voorbereiding op een sollicitatiegesprek (training op gesprekstechnieken)">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -249,7 +249,7 @@
                                         </Label.FontFamily>
                                     </Label>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Solliciteren op vacatures of open sollicitaties sturen, inclusief begeleiding en bewaking van sollicitatieactiviteiten (jobhunting)">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -261,7 +261,7 @@
                                         </Label>
                                     </StackLayout>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Zoeken naar leerwerktrajecten of werkervaringsplaatsen">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -273,7 +273,7 @@
                                         </Label>
                                     </StackLayout>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Inschrijving bij minimaal 2 uitzendbureaus">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -285,7 +285,7 @@
                                         </Label>
                                     </StackLayout>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Beroepskeuzetest indien nodig">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -311,7 +311,7 @@
                                         </Label.FontFamily>
                                     </Label>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Ondersteuning bij arbeids- of detacheringcontract bij nieuwe werkgever">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -323,7 +323,7 @@
                                         </Label>
                                     </StackLayout>
                                     <StackLayout Orientation="Horizontal" >
-                                        <Image Source="newPoint"></Image>
+                                        <Image Source="bluecheck"></Image>
                                         <Label Text="Begeleiding van uw medewerker bij nieuwe werkgever">
                                             <Label.FontFamily>
                                                 <OnPlatform x:TypeArguments="x:String">
@@ -338,7 +338,7 @@
                             </StackLayout>
                             <Label Text="Kenmerkend voor onze begeleiding" TextColor="Black" FontAttributes="Bold,Italic" FontSize="24"></Label>
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="Minimaal tweewekelijks contact">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -350,7 +350,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="Face-to-face gesprek bij het intakegesprek en eventueel op de helft van het traject (overige gesprekken vinden telefonisch plaats)">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -362,7 +362,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="Per 4-6 weken een schriftelijke rapportage omtrent de begeleiding naar werk en de verrichte acties">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -374,7 +374,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="Korte communicatielijnen">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -386,7 +386,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="Landelijke dekking">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -398,7 +398,7 @@
                                 </Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="newPoint"></Image>
+                                <Image Source="bluecheck"></Image>
                                 <Label Text="In bezit van in-house jobhunter">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">

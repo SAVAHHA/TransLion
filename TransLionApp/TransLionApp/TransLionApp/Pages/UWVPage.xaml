@@ -75,10 +75,10 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <Image Source="newPoint" Grid.Column="0" Grid.Row="0" HorizontalOptions="End" VerticalOptions="Start"></Image>
-                            <Image Source="newPoint" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Start"></Image>
-                            <Image Source="newPoint" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
-                            <Image Source="newPoint" Grid.Column="0" Grid.Row="3" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                            <Image Source="bluecheck" Grid.Column="0" Grid.Row="0" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                            <Image Source="bluecheck" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                            <Image Source="bluecheck" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                            <Image Source="bluecheck" Grid.Column="0" Grid.Row="3" HorizontalOptions="End" VerticalOptions="Start"></Image>
                         </Grid>
 
                         <Label Margin="5,0,5,0" Text="Tijdens het intakegesprek onderzoekt u met de adviseur van Trans Lion wat de mogelijkheden zijn. Dit wordt uitgewerkt in een trajectplan 'Werkfit maken' en/of 'Naar werk'. Dit pla wordt ingediend bij het UWV zal het traject bij Trans Lion opgestart worden.">

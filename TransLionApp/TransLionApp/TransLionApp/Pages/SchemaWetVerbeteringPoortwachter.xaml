@@ -184,9 +184,9 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <Image Source="point" Grid.Column="0" Grid.Row="0" HorizontalOptions="End" VerticalOptions="Start"></Image>
-                            <Image Source="point" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Start"></Image>
-                            <Image Source="point" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                            <Image Source="bluecheck" Grid.Column="0" Grid.Row="0" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                            <Image Source="bluecheck" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                            <Image Source="bluecheck" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
                         </Grid>
 
                         <Label Text="Trans Lion en re-integratie 2e spoor" Margin="10, 15, 0, 0" FontSize="24" TextColor="Black" FontAttributes="Bold,Italic">
