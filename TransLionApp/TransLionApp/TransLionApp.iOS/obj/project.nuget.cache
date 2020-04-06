@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nq8kKB8+OF0lnLazxqPsmY5J/PRuU7afTr48+bL20JFhcWd6jCOHNiWsprnF1lOPR2cTqe+WLYG3I1jkiebFwg==",
+  "dgSpecHash": "pYbmaD9qIiAhp4vyd4RH7wXA2I6t1UAxq1Z8wa40qGuzUwqTdLlQZB8gyafoL8lqzvkO0QQy/m5ihpm1G3B7QQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\Documents\\TransLion_theLast\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.licensing\\17.4.0.55\\syncfusion.licensing.17.4.0.55.nupkg.sha512",

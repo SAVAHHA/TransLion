@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6QzrCcNf2Y3CNy0Nu+2EHjaBtsbcgBeNkJN/wQMG/PXrftoujb/uuFX2efu5xAuTqwRKpVZdwE2D2BkLV0cnHQ==",
+  "dgSpecHash": "6265RfQe+T5A/FwsCCGpvpE3KuckorRVxnHhjD6LM46hcxUfZXC0RIqcLNh8hi4AeVG7fXlxiihkHo2+YseOYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\Documents\\TransLion_theLast\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

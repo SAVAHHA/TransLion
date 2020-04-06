@@ -5,8 +5,11 @@ using System.Linq;
 using System.Text;
 using Plugin.Messaging;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
+using System;
 
 namespace TransLionApp
 {
@@ -15,10 +18,12 @@ namespace TransLionApp
     [DesignTimeVisible(false)]
     public partial class ShellPage : Shell
     {
+        public ICommand PdfCommand => new Command<string>(async (url) => await Launcher.OpenAsync(url));
         public ShellPage()
         {
           
             InitializeComponent();
+            BindingContext = this;
             //Verzuimbegeleiding verzuimbegeleiding = new Verzuimbegeleiding();
         }
     }
