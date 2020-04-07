@@ -6,26 +6,65 @@
              xmlns:pages="clr-namespace:TransLionApp.Pages"
              mc:Ignorable="d"
              x:Class="TransLionApp.ShellPage">
- 
-    <!--<FlyoutItem Title="Mainnyy" Icon="paw">
-        --><!--<ShellContent ContentTemplate="{DataTemplate pages:MainPage}"></ShellContent>--><!--
-        <ContentPage x:Name="mainPage" Title="gg\njjhh" IconImageSource="paw" 
-             Shell.BackgroundColor="ForestGreen"
-             Shell.ForegroundColor="White"
-             Shell.TitleColor="Blue"
-             Shell.DisabledColor="#95FFFFFF"
-             Shell.UnselectedColor="#B4FFFFFF" 
-             >
-            
-        </ContentPage>
-    </FlyoutItem>-->
+
+    <Shell.Resources>
+        <Style x:Key="FloutItemStyle" TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="#bbd3e3"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </Shell.Resources>
+
+    <Shell.ItemTemplate>
+        <DataTemplate >
+            <Grid Style="{StaticResource FloutItemStyle}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*" />
+                    <ColumnDefinition Width="0.8*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="{Binding FlyoutIcon}"
+                       Margin="5"
+                       HeightRequest="45" />
+                <Label Grid.Column="1" Grid.ColumnSpan="2"
+                       Text="{Binding Title}"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <Shell.MenuItemTemplate>
+        <DataTemplate>
+            <Grid Style="{StaticResource FloutItemStyle}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*" />
+                    <ColumnDefinition Width="0.8*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="{Binding FlyoutIcon}"
+                       Margin="5"
+                       HeightRequest="45" />
+                <Label Grid.Column="1" Grid.ColumnSpan="2"
+                       Text="{Binding Title}"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>
 
     <FlyoutItem Title="Home page" Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
-        <Tab Title="Contacts">
-            <ShellContent x:Name="HomePage" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
-        </Tab>
-        <!--<ShellContent x:Name="HomePage" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>-->
+        <ShellContent x:Name="HomePage" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
     </FlyoutItem>
 
     <FlyoutItem Title="Verzuimbegeleiding" Shell.BackgroundColor="White"
@@ -48,14 +87,19 @@
         <ShellContent ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
     </FlyoutItem>
 
-    <FlyoutItem Title="Informatie">
+    <!--<FlyoutItem Title="Informatie">
         
-    </FlyoutItem>
+    </FlyoutItem>-->
 
-    <FlyoutItem Title="Werkwijzer wet verbetering poortwachter" Shell.BackgroundColor="White"
+    <!--<FlyoutItem Title="Werkwijzer wet verbetering poortwachter" Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:WerkwijzerWetVerbeteringPoortwachter}"></ShellContent>
-    </FlyoutItem>
+    </FlyoutItem>-->
+
+    <MenuItem Text="Werkwijzer wet verbetering poortwachter"
+              Command="{Binding PdfCommand}"
+              CommandParameter="https://www.translion.nl/images/werkwijzer-poortwachter.pdf" />
+
 
     <FlyoutItem Title="Wie zijn wij" Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
@@ -71,4 +115,10 @@
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:SchemaWetVerbeteringPoortwachter}"></ShellContent>
     </FlyoutItem>
+
+    <FlyoutItem Title="Contacts" Shell.BackgroundColor="White"
+             Shell.ForegroundColor="Black">
+        <ShellContent ContentTemplate="{DataTemplate pages:ContactPage}"></ShellContent>
+    </FlyoutItem>
+
 </Shell>

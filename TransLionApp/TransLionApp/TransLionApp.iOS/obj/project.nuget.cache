@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "tDvopPuA48YvAZhZQaDScgi0M/eIbT0p7qUKmoy4tVSDEcesH906LParOtCW38YiMOFbDTnSVh0MSi8pxlZWUw==",
+  "dgSpecHash": "pYbmaD9qIiAhp4vyd4RH7wXA2I6t1UAxq1Z8wa40qGuzUwqTdLlQZB8gyafoL8lqzvkO0QQy/m5ihpm1G3B7QQ==",
   "success": true,
-  "projectFilePath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Анна\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.licensing\\17.4.0.55\\syncfusion.licensing.17.4.0.55.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.xamarin.compression\\17.4.0.55\\syncfusion.xamarin.compression.17.4.0.55.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.xamarin.pdf\\17.4.0.55\\syncfusion.xamarin.pdf.17.4.0.55.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.495\\xamarin.forms.maps.4.5.0.495.nupkg.sha512"
+    "C:\\Users\\Anna\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.licensing\\17.4.0.55\\syncfusion.licensing.17.4.0.55.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.xamarin.compression\\17.4.0.55\\syncfusion.xamarin.compression.17.4.0.55.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.xamarin.pdf\\17.4.0.55\\syncfusion.xamarin.pdf.17.4.0.55.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.495\\xamarin.forms.maps.4.5.0.495.nupkg.sha512"
   ],
   "logs": []
 }

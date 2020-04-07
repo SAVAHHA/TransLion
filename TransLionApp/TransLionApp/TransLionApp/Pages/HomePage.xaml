@@ -5,7 +5,6 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:view="clr-namespace:TransLionApp.Views"
-             xmlns:controls="clr-namespace:TransLionApp.Views"
              x:Class="TransLionApp.Pages.HomePage">
 
     <Shell.TitleView>
@@ -13,26 +12,13 @@
     </Shell.TitleView>
 
     <ContentPage.Content>
-        <Grid RowSpacing="0" VerticalOptions="FillAndExpand">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="44"></RowDefinition>
-            </Grid.RowDefinitions>
-
-            <ScrollView Padding="0" Grid.Row="0">
+        <Grid RowSpacing="0">
+            <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
                 <StackLayout x:Name="mainStackLayout">
                     <StackLayout Spacing="0">
-                        <Label x:Name="logoLabel" Text="Trans Lion" FontAttributes="Bold,Italic"  TextColor="Black" FontSize="40" Margin="15, 10, 0, 0" HorizontalTextAlignment="Start"></Label>
-                        <Label Text="De HRM dienstverlener" FontSize="20" Margin="15, 7, 0, 0" HorizontalTextAlignment="Start" FontAttributes="Italic" >
-                            <!--<Label.FontFamily>
-                                <OnPlatform x:TypeArguments="x:String">
-                                    <On Platform="iOS" Value="Roboto-Light" />
-                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
-                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
-                                </OnPlatform>
-                            </Label.FontFamily>-->
-                        </Label>
-                        <Label Margin="5, 0, 5, 0" Text="Trans Lion ondersteunt sinds 2000 landelijk werkgevers met verschillende HRM-vraagstukken. Hierbij kunt u denken aan begeleiding bij langdurig ziekteverzuim in het kader van de Wet verbetering Poort­wachter 2e spoor, 3e spoor, werving en selectie, loopbaanbegeleiding, personeelsbeheer en outplacement. Door onze pragmatische en persoonlijke benadering behaalt Trans Lion al jaren een perfect resultaat voor zowel werkgever en werknemer. Kenmerkend voor deze benadering is dat Trans Lion werkt met een vaste adviseur en overzichtelijk trajectplan. ">
+                        <Label x:Name="logoLabel" Text="Trans Lion" FontAttributes="Bold,Italic"  TextColor="Black" FontSize="44" Margin="15, 10, 0, 0" HorizontalTextAlignment="Start"></Label>
+                        <Label Text="De HRM dienstverlener" FontSize="24" Margin="15, 7, 0, 0" HorizontalTextAlignment="Start" FontAttributes="Italic" ></Label>
+                        <Label Margin="5, 5, 5, 0" Text="Trans Lion ondersteunt sinds 2000 landelijk werkgevers met verschillende HRM-vraagstukken. Hierbij kunt u denken aan begeleiding bij langdurig ziekteverzuim in het kader van de Wet verbetering Poort­wachter 2e spoor, 3e spoor, werving en selectie, loopbaanbegeleiding, personeelsbeheer en outplacement. Door onze pragmatische en persoonlijke benadering behaalt Trans Lion al jaren een perfect resultaat voor zowel werkgever en werknemer. Kenmerkend voor deze benadering is dat Trans Lion werkt met een vaste adviseur en overzichtelijk trajectplan. ">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -44,30 +30,40 @@
                         <Grid ColumnSpacing="0" Margin="0, 15, 0, 0">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="50"></RowDefinition>
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="11*"></ColumnDefinition>
-                                <ColumnDefinition Width="10*"></ColumnDefinition>
+                                <ColumnDefinition Width="110*"></ColumnDefinition>
+                                <ColumnDefinition Width="105*"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
 
-                            <Image Source="man" HorizontalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"></Image>
-                            <BoxView Color="#518bb8" Opacity="0.3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" WidthRequest="150"></BoxView>
-                            <BoxView Color="#518bb8" Opacity="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="150" Grid.Column="1" Grid.Row="0"></BoxView>
+                            <!--<Image Source="man" HorizontalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2"></Image>-->
+                            <BoxView Color="#518bb8" Opacity="0.3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" WidthRequest="150"></BoxView>
+                            <BoxView Color="#518bb8" Opacity="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="150" Grid.Column="1" Grid.RowSpan="2" Grid.Row="0"></BoxView>
                             <StackLayout Grid.Column="1" Grid.Row="0">
                                 <Label Text="Re-integratie 2e spoor" TextColor="White" Margin="10, 5, 0, 0"></Label>
-                                <Label Text="Binnen het 2e spoor worden de mogelijkheden op de arbeidsmarkt bij een nieuwe werkgever onderzocht in het kader van de Wet verbetering poortwachter. Trans Lion biedt hierbij ondersteuning aan werkgevers, werknemers en intermediairs." TextColor="White" Margin="10, 5, 10, 0"></Label>
-                                <Button Text="Lees meer..." BackgroundColor="#4dc08f" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0, 0, 5, 5" WidthRequest="110" Clicked="Button_Clicked"></Button>
+                                <Label Text="Binnen het 2e spoor worden de mogelijkheden op de arbeidsmarkt bij een nieuwe werkgever onderzocht in het kader van de Wet verbetering poortwachter. Trans Lion biedt hierbij ondersteuning aan werkgevers, werknemers en intermediairs." TextColor="White" FontSize="11" Margin="10, 5, 10, 0">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                                <!--<Button Text="Lees meer..." BackgroundColor="#4dc08f" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0, 0, 5, 5" WidthRequest="110" Clicked="Button_Clicked"></Button>-->
                             </StackLayout>
+                            <Button Text="Lees meer..." BackgroundColor="#4dc08f" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0, 0, 5, 5" WidthRequest="110" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked"></Button>
                         </Grid>
                     </StackLayout>
                 </StackLayout>
             </ScrollView>
 
-            <BoxView Color="#2e2e2e" Grid.Row="1" VerticalOptions="FillAndExpand"></BoxView>
-            <Button x:Name="linkedinButton" Grid.Row="1" ImageSource="linkedinsmall" BackgroundColor="Transparent" Clicked="linkedinButton_Clicked" WidthRequest="100" HorizontalOptions="Center" Margin="0, 0, 0, 0"></Button>
-            <Button x:Name="emailButton" Grid.Row="1" Text="info@translion.nl" FontSize="8" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
-            <Button x:Name="callButton" Grid.Row="1" Text="010 - 264 3030" FontSize="9" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
-
+            <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
+                <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
+            </Grid>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

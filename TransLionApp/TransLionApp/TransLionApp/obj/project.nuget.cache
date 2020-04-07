@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "jP1SW5ZOknK78CQ2MhG2LSWWIhGwz3gGsD8ZN3IFbu80Ec7IjFvRvhlOSt63yo6f487SxPz00SAZ6GFyeS+2bg==",
+  "dgSpecHash": "6265RfQe+T5A/FwsCCGpvpE3KuckorRVxnHhjD6LM46hcxUfZXC0RIqcLNh8hi4AeVG7fXlxiihkHo2+YseOYg==",
   "success": true,
-  "projectFilePath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Анна\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.licensing\\17.4.0.55\\syncfusion.licensing.17.4.0.55.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.xamarin.compression\\17.4.0.55\\syncfusion.xamarin.compression.17.4.0.55.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.xamarin.pdf\\17.4.0.55\\syncfusion.xamarin.pdf.17.4.0.55.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.495\\xamarin.forms.maps.4.5.0.495.nupkg.sha512"
+    "C:\\Users\\Anna\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.licensing\\17.4.0.55\\syncfusion.licensing.17.4.0.55.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.xamarin.compression\\17.4.0.55\\syncfusion.xamarin.compression.17.4.0.55.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.xamarin.pdf\\17.4.0.55\\syncfusion.xamarin.pdf.17.4.0.55.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.495\\xamarin.forms.maps.4.5.0.495.nupkg.sha512"
   ],
   "logs": []
 }

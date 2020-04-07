@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Syncfusion.PdfViewer;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace TransLionApp.Pages
 {
@@ -15,14 +16,10 @@ namespace TransLionApp.Pages
         public WerkwijzerWetVerbeteringPoortwachter()
         {
             InitializeComponent();
+            //Uri siteUri = new Uri("https://www.translion.nl/images/werkwijzer-poortwachter.pdf");
+            //Device.OpenUri(siteUri);
             Uri siteUri = new Uri("https://www.translion.nl/images/werkwijzer-poortwachter.pdf");
-            Device.OpenUri(siteUri);
-            var home = Navigation.PushModalAsync(new HomePage());
-        
-            
-
-
-
+            Launcher.OpenAsync(siteUri);
         }
     }
 }

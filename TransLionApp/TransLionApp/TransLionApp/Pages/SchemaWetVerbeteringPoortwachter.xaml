@@ -11,66 +11,233 @@
     </Shell.TitleView>
     
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Spacing="0">
-                <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
-                <Label Text="Schema Wet verbetering poortwachter" TextColor="Black" FontSize="30" Margin="10, 10, 0, 10"></Label>
-                <Label Margin="5, 0, 5, 0" Text="Bij langdurig ziekteverzuim hebben werkgever en werknemer verplichtingen omtrent de re-integratie in het kader van de Wet verbetering poortwachter. Voor de keuring van het UWV moeten werkgever en werknemer voor een periode van 2 jaar alle mogelijkheden binnen het arbeidsproces onderzoeken."></Label>
-                <Label Text="Werkgever en werknemer zullen eerst moeten onderzoeken of terugkeer bij de huidige werkgever haalbaar is. Dit wordt het 1e spoor genoemd. Daarnaast kan ook het 2e spoor worden opgestart. In het 2e spoor worden de mogelijkheden bij een nieuwe werkgever onderzocht." Margin="5, 5, 5, 0"></Label>
-                <Label Text="Gedurende het 1e en 2e spoor moeten de volgende zaken gebeuren:" Margin="5, 5, 5, 0"></Label>
-                <Label Text="Probleemanalyse, uiterlijk in week 6" TextColor="Black" FontAttributes="Bold" Margin="5, 10, 5, 0"></Label>
-                <Label Text="Binnen 6 weken na de ziekmelding moet er een probleemanalyse opgesteld zijn door de bedrijfsarts. De bedrijfsarts geeft hierbij de belastbaarheid aan en eventueel een advies over de re-integratie."></Label>
-                <Label Text="Plan van Aanpak, uiterlijk week 8" TextColor="Black" FontAttributes="Bold"></Label>
-                <Label Text="Binnen 2 weken nadat de probleemanalyse is opgesteld, moet er door de werkgever en de werknemer een Plan van Aanpak zijn gemaakt. Hierin staat beschreven hoe er aan de re-integratie zal worden gewerkt."></Label>
-                <Label Text="Bijstelling probleemanalyse" TextColor="Black" FontAttributes="Bold"></Label>
-                <Label Text="Gedurende de periode van ziekte dient de bedrijfsarts geregeld de voortgang te evalueren en een bijstelling van de probleemanalyse te maken. De bedrijfsarts geeft doorgaans aan wanneer dit moet gebeuren."></Label>
-                <Label Text="Bijstelling Plan van Aanpak" TextColor="Black" FontAttributes="Bold"></Label>
-                <Label Text="Gedurende de ziekmelding zal de werkgever samen met de werknemer de adviezen van de bedrijfsarts moeten evalueren en uitvoeren. Afspraken hierover worden vastgelegd in een bijstelling van het Plan van Aanpak en periodieke evaluatie."></Label>
-                <Label Text="Ziekmelding UWV, week 42" TextColor="Black" FontAttributes="Bold"></Label>
-                <Label Text="De werkgever dient werknemer bij 42 weken arbeidsongeschiktheid ziek te melden bij het UWV."></Label>
-                <Label Text="Eerstejaarsevaluatie, week 52" TextColor="Black" FontAttributes="Bold"></Label>
-                <Label Text="Na 52 weken moeten de werkgever en werknemer een eerstejaarsevaluatie maken. Hierin staat beschreven wat er het afgelopen jaar aan de re-integratie is gedaan en welke stappen nog ondernomen moeten worden."></Label>
-                <Label Text="Week 88 t/m week 91" TextColor="Black" FontAttributes="Bold"></Label>
-                <Label Text="De werkgever zorgt samen met de werknemer voor een compleet re-integratiedossier. Voor de WIA-keuring dient dit dossier bij het UWV ingediend te worden. Documenten van de bedrijfsarts moeten ook in het re-integratiedossier aanwezig zijn, denk hierbij aan het actueel oordeel en de eindevaluatie."></Label>
-                <Label Text="WIA-aanvraag en WIA-keuring, week 93" TextColor="Black" FontAttributes="Bold"></Label>
-                <Label Text="Uiterlijk in week 93 kan de werknemer de WIA-uitkering aanvragen bij het UWV. Hierna volgt een gesprek met de verzekeringsarts en arbeidsdeskundige van het UWV. Naar aanleiding deze gesprekken wordt bepaald of iemand in aanmerking komt voor een WIA-uitkering."></Label>
-                <Label Text="Begeleiding 1e en 2e spoor"  TextColor="Black" FontAttributes="Bold"></Label>
-                <Label Text="Tijdens de begeleiding gedurende de 2 jaar zal nagegaan moeten worden:"></Label>
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="40"></ColumnDefinition>
-                        <ColumnDefinition Width="Auto"></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
+        <Grid RowSpacing="0">
+            <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
+                <StackLayout x:Name="mainStackLayout">
+                    <StackLayout Spacing="0">
+                        <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
+                        <Label Text="Schema Wet verbetering poortwachter" TextColor="Black" FontAttributes="Bold,Italic" FontSize="36" Margin="10, 10, 0, 10">                        </Label>
+                        <Label Margin="5, 0, 5, 0" Text="Bij langdurig ziekteverzuim hebben werkgever en werknemer verplichtingen omtrent de re-integratie in het kader van de Wet verbetering poortwachter. Voor de keuring van het UWV moeten werkgever en werknemer voor een periode van 2 jaar alle mogelijkheden binnen het arbeidsproces onderzoeken.">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Werkgever en werknemer zullen eerst moeten onderzoeken of terugkeer bij de huidige werkgever haalbaar is. Dit wordt het 1e spoor genoemd. Daarnaast kan ook het 2e spoor worden opgestart. In het 2e spoor worden de mogelijkheden bij een nieuwe werkgever onderzocht." Margin="5, 5, 5, 0">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Gedurende het 1e en 2e spoor moeten de volgende zaken gebeuren:" Margin="5, 5, 5, 0">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Probleemanalyse, uiterlijk in week 6" TextColor="Black" FontAttributes="Bold" Margin="5, 10, 5, 0"></Label>
+                        <Label Margin="5, 0, 5, 0" Text="Binnen 6 weken na de ziekmelding moet er een probleemanalyse opgesteld zijn door de bedrijfsarts. De bedrijfsarts geeft hierbij de belastbaarheid aan en eventueel een advies over de re-integratie.">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Margin="5, 5, 5, 0" Text="Plan van Aanpak, uiterlijk week 8" TextColor="Black" FontAttributes="Bold">
+                        </Label>
+                        <Label Margin="5, 0, 5, 0" Text="Binnen 2 weken nadat de probleemanalyse is opgesteld, moet er door de werkgever en de werknemer een Plan van Aanpak zijn gemaakt. Hierin staat beschreven hoe er aan de re-integratie zal worden gewerkt.">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Bijstelling probleemanalyse" TextColor="Black" Margin="5, 5, 5, 0" FontAttributes="Bold">
+                        </Label>
+                        <Label Margin="5, 0, 5, 0" Text="Gedurende de periode van ziekte dient de bedrijfsarts geregeld de voortgang te evalueren en een bijstelling van de probleemanalyse te maken. De bedrijfsarts geeft doorgaans aan wanneer dit moet gebeuren.">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Bijstelling Plan van Aanpak" Margin="5, 5, 5, 0" TextColor="Black" FontAttributes="Bold">
+                        </Label>
+                        <Label Margin="5, 0, 5, 0" Text="Gedurende de ziekmelding zal de werkgever samen met de werknemer de adviezen van de bedrijfsarts moeten evalueren en uitvoeren. Afspraken hierover worden vastgelegd in een bijstelling van het Plan van Aanpak en periodieke evaluatie.">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Margin="5, 5, 5, 0" Text="Ziekmelding UWV, week 42" TextColor="Black" FontAttributes="Bold">
+                        </Label>
+                        <Label Margin="5, 0, 5, 0" Text="De werkgever dient werknemer bij 42 weken arbeidsongeschiktheid ziek te melden bij het UWV.">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Margin="5, 5, 5, 0" Text="Eerstejaarsevaluatie, week 52" TextColor="Black" FontAttributes="Bold">
+                            
+                        </Label>
+                        <Label Margin="5, 0, 5, 0" Text="Na 52 weken moeten de werkgever en werknemer een eerstejaarsevaluatie maken. Hierin staat beschreven wat er het afgelopen jaar aan de re-integratie is gedaan en welke stappen nog ondernomen moeten worden.">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Margin="5, 5, 5, 0" Text="Week 88 t/m week 91" TextColor="Black" FontAttributes="Bold">
+                            
+                        </Label>
+                        <Label Margin="5, 0, 5, 0" Text="De werkgever zorgt samen met de werknemer voor een compleet re-integratiedossier. Voor de WIA-keuring dient dit dossier bij het UWV ingediend te worden. Documenten van de bedrijfsarts moeten ook in het re-integratiedossier aanwezig zijn, denk hierbij aan het actueel oordeel en de eindevaluatie.">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Margin="5, 5, 5, 0" Text="WIA-aanvraag en WIA-keuring, week 93" TextColor="Black" FontAttributes="Bold">
+                            
+                        </Label>
+                        <Label Margin="5, 0, 5, 0" Text="Uiterlijk in week 93 kan de werknemer de WIA-uitkering aanvragen bij het UWV. Hierna volgt een gesprek met de verzekeringsarts en arbeidsdeskundige van het UWV. Naar aanleiding deze gesprekken wordt bepaald of iemand in aanmerking komt voor een WIA-uitkering.">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="Begeleiding 1e en 2e spoor" Margin="5, 5, 5, 0" TextColor="Black" FontAttributes="Bold">
+                           
+                        </Label>
+                        <Label Margin="5, 0, 5, 0" Text="Tijdens de begeleiding gedurende de 2 jaar zal nagegaan moeten worden:">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40"></ColumnDefinition>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
 
-                    <Label Text="Is terugkeer in eigen functie mogelijk (1e spoor)" Grid.Column="1" Grid.Row="0"></Label>
-                    <Label Text="Is terugkeer in een andere functie binnen het eigen bedrijf mogelijk (1e spoor)" Grid.Column="1" Grid.Row="1"></Label>
-                    <Label Text="Is terugkeer binnen het 1e spoor niet mogelijk, dan zal het 2e spoor opgestart moeten worden. Dit betekent zoeken naar ander werk bij een andere werkgever. Een arbeidsdeskundige dient de mogelijkheden binnen het 1e en 2e spoor in kaart te brengen." Grid.Column="1" Grid.Row="2"></Label>
-                    <Image Source="point" Grid.Column="0" Grid.Row="0" HorizontalOptions="End" VerticalOptions="Start"></Image>
-                    <Image Source="point" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Start"></Image>
-                    <Image Source="point" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
-                </Grid>
+                            <Label Margin="0, 0, 5, 0" Text="Is terugkeer in eigen functie mogelijk (1e spoor)" Grid.Column="1" Grid.Row="0">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <Label Margin="0, 0, 5, 0" Text="Is terugkeer in een andere functie binnen het eigen bedrijf mogelijk (1e spoor)" Grid.Column="1" Grid.Row="1">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <Label Margin="0, 0, 5, 0" Text="Is terugkeer binnen het 1e spoor niet mogelijk, dan zal het 2e spoor opgestart moeten worden. Dit betekent zoeken naar ander werk bij een andere werkgever. Een arbeidsdeskundige dient de mogelijkheden binnen het 1e en 2e spoor in kaart te brengen." Grid.Column="1" Grid.Row="2">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <Image Source="bluecheck" Grid.Column="0" Grid.Row="0" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                            <Image Source="bluecheck" Grid.Column="0" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                            <Image Source="bluecheck" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
+                        </Grid>
 
-                <Label Text="Trans Lion en re-integratie 2e spoor" Margin="10, 15, 0, 0" FontSize="20" FontAttributes="Bold"></Label>
-                <Label Text="Trans Lion kan werkgevers en werknemers helpen bij de begeleiding in het 2e spoor."></Label>
-                <Label Text="Trans Lion werkt landelijk. Begeleidende gesprekken vinden bij de medewerker thuis plaats of indien gewenst op locatie. Ieder dossier heeft als vast aanspreekpunt een adviseur en in-house jobhunter."></Label>
-                <Grid ColumnSpacing="0">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"></RowDefinition>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"></ColumnDefinition>
-                        <ColumnDefinition Width="Auto"></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
+                        <Label Text="Trans Lion en re-integratie 2e spoor" Margin="10, 15, 0, 0" FontSize="24" TextColor="Black" FontAttributes="Bold,Italic">
+         
+                        </Label>
+                        <Label Margin="5, 5, 5, 0" Text="Trans Lion kan werkgevers en werknemers helpen bij de begeleiding in het 2e spoor.">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                                </Label.FontFamily> 
+                        </Label>
+                        <Label Margin="5, 0, 5, 0" Text="Trans Lion werkt landelijk. Begeleidende gesprekken vinden bij de medewerker thuis plaats of indien gewenst op locatie. Ieder dossier heeft als vast aanspreekpunt een adviseur en in-house jobhunter.">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                         </Label>
+                        <Grid ColumnSpacing="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
 
-                    <Label Text="Wilt u meer informatie over onze begeleiding" Grid.Column="0" Grid.Row="0" FontSize="9" VerticalTextAlignment="Center" Margin="10, 0, 0, 0"></Label>
-                    <Button x:Name="klikHierButton" Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="klikHierButton_Clicked" Grid.Column="1" Grid.Row="0" FontSize="7" HorizontalOptions="Start" VerticalOptions="Start"></Button>
-                </Grid>
-            </StackLayout>
-        </ScrollView>
+                            <Label Text="Wilt u meer informatie over onze begeleiding" Grid.Column="0" Grid.Row="0" FontSize="9" VerticalTextAlignment="Center" Margin="10, 0, 0, 0">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <Button x:Name="klikHierButton" Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="klikHierButton_Clicked" Grid.Column="1" Grid.Row="0" FontSize="7" HorizontalOptions="Start" VerticalOptions="Start"></Button>
+                        </Grid>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+            <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
+                <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
