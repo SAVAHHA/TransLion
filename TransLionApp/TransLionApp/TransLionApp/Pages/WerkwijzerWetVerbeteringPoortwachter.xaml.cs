@@ -15,9 +15,7 @@ namespace TransLionApp.Pages
     {
         public WerkwijzerWetVerbeteringPoortwachter()
         {
-            InitializeComponent();
-            //Uri siteUri = new Uri("https://www.translion.nl/images/werkwijzer-poortwachter.pdf");
-            //Device.OpenUri(siteUri);
+            InitializeComponent(); 
             Uri siteUri = new Uri("https://www.translion.nl/images/werkwijzer-poortwachter.pdf");
             Launcher.OpenAsync(siteUri);
         }

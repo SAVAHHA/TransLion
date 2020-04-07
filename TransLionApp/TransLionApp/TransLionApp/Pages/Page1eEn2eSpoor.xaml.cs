@@ -23,7 +23,7 @@ namespace TransLionApp.Pages
         }
         private void HierTo2eButton_Clicked(object sender, EventArgs e)
         {
-           var reitegratie2espoor = Navigation.PushModalAsync(new ReIntegratie2eSpoor());
+           var reitegratie2espoor = Navigation.PushAsync(new ReIntegratie2eSpoor());
         }
 
         private void emailButton_Clicked(object sender, EventArgs e)
