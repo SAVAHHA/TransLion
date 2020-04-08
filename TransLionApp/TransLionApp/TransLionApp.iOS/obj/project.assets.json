@@ -8,7 +8,7 @@
           "build/netstandard2.0/_._": {}
         }
       },
-      "Syncfusion.Licensing/17.4.0.55": {
+      "Syncfusion.Licensing/18.1.0.43": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -17,7 +17,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Compression/17.4.0.55": {
+      "Syncfusion.Xamarin.Compression/18.1.0.43": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
@@ -26,11 +26,11 @@
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Pdf/17.4.0.55": {
+      "Syncfusion.Xamarin.Pdf/18.1.0.43": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "17.4.0.55",
-          "Syncfusion.Xamarin.Compression": "17.4.0.55"
+          "Syncfusion.Licensing": "18.1.0.43",
+          "Syncfusion.Xamarin.Compression": "18.1.0.43"
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
@@ -206,7 +206,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "LiveXAML": "2.1.73",
-          "Syncfusion.Xamarin.Pdf": "17.4.0.55",
+          "Syncfusion.Xamarin.Pdf": "18.1.0.43",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.530",
@@ -227,7 +227,7 @@
           "build/netstandard2.0/_._": {}
         }
       },
-      "Syncfusion.Licensing/17.4.0.55": {
+      "Syncfusion.Licensing/18.1.0.43": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -236,7 +236,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Compression/17.4.0.55": {
+      "Syncfusion.Xamarin.Compression/18.1.0.43": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
@@ -245,11 +245,11 @@
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Pdf/17.4.0.55": {
+      "Syncfusion.Xamarin.Pdf/18.1.0.43": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "17.4.0.55",
-          "Syncfusion.Xamarin.Compression": "17.4.0.55"
+          "Syncfusion.Licensing": "18.1.0.43",
+          "Syncfusion.Xamarin.Compression": "18.1.0.43"
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
@@ -425,7 +425,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "LiveXAML": "2.1.73",
-          "Syncfusion.Xamarin.Pdf": "17.4.0.55",
+          "Syncfusion.Xamarin.Pdf": "18.1.0.43",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.530",
@@ -446,7 +446,7 @@
           "build/netstandard2.0/_._": {}
         }
       },
-      "Syncfusion.Licensing/17.4.0.55": {
+      "Syncfusion.Licensing/18.1.0.43": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -455,7 +455,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Compression/17.4.0.55": {
+      "Syncfusion.Xamarin.Compression/18.1.0.43": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
@@ -464,11 +464,11 @@
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Pdf/17.4.0.55": {
+      "Syncfusion.Xamarin.Pdf/18.1.0.43": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "17.4.0.55",
-          "Syncfusion.Xamarin.Compression": "17.4.0.55"
+          "Syncfusion.Licensing": "18.1.0.43",
+          "Syncfusion.Xamarin.Compression": "18.1.0.43"
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
@@ -644,7 +644,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "LiveXAML": "2.1.73",
-          "Syncfusion.Xamarin.Pdf": "17.4.0.55",
+          "Syncfusion.Xamarin.Pdf": "18.1.0.43",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.530",
@@ -665,7 +665,7 @@
           "build/netstandard2.0/_._": {}
         }
       },
-      "Syncfusion.Licensing/17.4.0.55": {
+      "Syncfusion.Licensing/18.1.0.43": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -674,7 +674,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Compression/17.4.0.55": {
+      "Syncfusion.Xamarin.Compression/18.1.0.43": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
@@ -683,11 +683,11 @@
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Pdf/17.4.0.55": {
+      "Syncfusion.Xamarin.Pdf/18.1.0.43": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "17.4.0.55",
-          "Syncfusion.Xamarin.Compression": "17.4.0.55"
+          "Syncfusion.Licensing": "18.1.0.43",
+          "Syncfusion.Xamarin.Compression": "18.1.0.43"
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
@@ -863,7 +863,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "LiveXAML": "2.1.73",
-          "Syncfusion.Xamarin.Pdf": "17.4.0.55",
+          "Syncfusion.Xamarin.Pdf": "18.1.0.43",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.530",
@@ -900,10 +900,10 @@
         "livexaml.nuspec"
       ]
     },
-    "Syncfusion.Licensing/17.4.0.55": {
-      "sha512": "OiadVAyHgL8hqsnrl4cyrhcu6pUngz/IOQqzuHe6AfF6B0CyZRGoyij+B/EsIAeQ036jgkiZ+GXxBCSdxsLgEg==",
+    "Syncfusion.Licensing/18.1.0.43": {
+      "sha512": "DjNl4PYMo1oxTuhxQEgDpyyoqiXpWw1Wu0h7HWuTTR8RfANEaMKRXvTSSIM7ju1952gOMb4ec9UJOjBLGwelUA==",
       "type": "package",
-      "path": "syncfusion.licensing/17.4.0.55",
+      "path": "syncfusion.licensing/18.1.0.43",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -923,14 +923,14 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.17.4.0.55.nupkg.sha512",
+        "syncfusion.licensing.18.1.0.43.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Compression/17.4.0.55": {
-      "sha512": "xYli+U07UWXMEyA5X/dFpSy67JDcsIjZHV7ZtHEe3vNKRmWsHCFJvHR5/S1bz9SULMpZauQLjgcHivyCA2n3Vw==",
+    "Syncfusion.Xamarin.Compression/18.1.0.43": {
+      "sha512": "tZwqVFnEXjeKcBxPREf8AQW9jOua3S1sAgHbAPxcZ+NSqYYYkzbYSWriZI0GmvR3JRm9tqJ1/2vghdsd5oW6gA==",
       "type": "package",
-      "path": "syncfusion.xamarin.compression/17.4.0.55",
+      "path": "syncfusion.xamarin.compression/18.1.0.43",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -940,14 +940,14 @@
         "lib/netstandard2.0/Syncfusion.Compression.Portable.xml",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.xml",
-        "syncfusion.xamarin.compression.17.4.0.55.nupkg.sha512",
+        "syncfusion.xamarin.compression.18.1.0.43.nupkg.sha512",
         "syncfusion.xamarin.compression.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Pdf/17.4.0.55": {
-      "sha512": "hwjJgL5vOejQMdob5YTHVYh71+XP6TeEgpwU+stYS2DfZCTPvxl/LbIHKD9YdMX/7S1omDkzl6ai8RdpKLNL3Q==",
+    "Syncfusion.Xamarin.Pdf/18.1.0.43": {
+      "sha512": "07ssAjej/wZ/hC5doSye9r1f7otPi6WWYYTvhwYnpItZ3Kba+OEQFOETqQ7tbR+p+Uza6SXKPJQUu6HxT8ZFdw==",
       "type": "package",
-      "path": "syncfusion.xamarin.pdf/17.4.0.55",
+      "path": "syncfusion.xamarin.pdf/18.1.0.43",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -957,7 +957,7 @@
         "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.XML",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.dll",
-        "syncfusion.xamarin.pdf.17.4.0.55.nupkg.sha512",
+        "syncfusion.xamarin.pdf.18.1.0.43.nupkg.sha512",
         "syncfusion.xamarin.pdf.nuspec"
       ]
     },
@@ -972,6 +972,7 @@
         "lib/MonoAndroid10/Plugin.Messaging.Abstractions.pdb",
         "lib/MonoAndroid10/Plugin.Messaging.Abstractions.xml",
         "lib/MonoAndroid10/Plugin.Messaging.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.dll.mdb",
         "lib/MonoAndroid10/Plugin.Messaging.pdb",
         "lib/MonoAndroid10/Plugin.Messaging.xml",
         "lib/UAP10/Plugin.Messaging.Abstractions.dll",
@@ -1386,39 +1387,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anna\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/elenavolkova/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+      "projectUniqueName": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/TransLionApp.iOS.csproj",
       "projectName": "TransLionApp.iOS",
-      "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\obj\\",
+      "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/TransLionApp.iOS.csproj",
+      "packagesPath": "/Users/elenavolkova/.nuget/packages/",
+      "outputPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/elenavolkova/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
-              "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
+            "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj": {
+              "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj"
             }
           }
         }
@@ -1459,8 +1453,8 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Обнаружено понижение версии пакета Xamarin.Forms.Maps с 4.5.0.530 на 4.5.0.495. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms.Maps (>= 4.5.0.530) \r\n TransLionApp.iOS -> Xamarin.Forms.Maps (>= 4.5.0.495)",
-      "libraryId": "Xamarin.Forms.Maps",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.530 to 4.5.0.495. Reference the package directly from the project to select a different version. \n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms (>= 4.5.0.530) \n TransLionApp.iOS -> Xamarin.Forms (>= 4.5.0.495)",
+      "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
         "Xamarin.iOS,Version=v1.0/win",
@@ -1472,8 +1466,8 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Обнаружено понижение версии пакета Xamarin.Forms с 4.5.0.530 на 4.5.0.495. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms (>= 4.5.0.530) \r\n TransLionApp.iOS -> Xamarin.Forms (>= 4.5.0.495)",
-      "libraryId": "Xamarin.Forms",
+      "message": "Detected package downgrade: Xamarin.Forms.Maps from 4.5.0.530 to 4.5.0.495. Reference the package directly from the project to select a different version. \n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms.Maps (>= 4.5.0.530) \n TransLionApp.iOS -> Xamarin.Forms.Maps (>= 4.5.0.495)",
+      "libraryId": "Xamarin.Forms.Maps",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
         "Xamarin.iOS,Version=v1.0/win",
