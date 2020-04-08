@@ -21,6 +21,16 @@ namespace TransLionApp.Pages
             InitializeComponent();
         }
 
+        private async void klikHier1Button_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("///jobhunting");
+        }
+
+        private async void klikHier2Button_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("///reintegratie");
+        }
+
         private void emailButton_Clicked(object sender, EventArgs e)
         {
             var emailMessenger = CrossMessaging.Current.EmailMessenger;

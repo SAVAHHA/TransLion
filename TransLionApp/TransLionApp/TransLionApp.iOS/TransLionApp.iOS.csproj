@@ -156,6 +156,17 @@
     <ImageAsset Include="Assets.xcassets\point.imageset\point.jpg">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\bluecheck.png" />
+    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\linkedinsmall.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\linkedinsmall.imageset\linkedinsmall.png" />
+    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\linkedinnew.png" />
+    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\linkedinnew-1.png" />
+    <ImageAsset Include="Assets.xcassets\logos.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\logos.imageset\logos.jpg" />
+    <ImageAsset Include="Assets.xcassets\man.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\man.imageset\man.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -175,7 +186,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\TransLionApp\TransLionApp.csproj">
-      <Project>{7BF0A8CC-D4C6-4EB5-8152-3EDC0115D83A}</Project>
+      <Project>{70A70473-79C7-4FFC-9F1A-DC4DE3C9FCC7}</Project>
       <Name>TransLionApp</Name>
     </ProjectReference>
   </ItemGroup>
@@ -187,6 +198,11 @@
     <Folder Include="Assets.xcassets\newPoint.imageset\" />
     <Folder Include="Assets.xcassets\paw.imageset\" />
     <Folder Include="Assets.xcassets\point.imageset\" />
+    <Folder Include="Assets.xcassets\bluecheck.imageset\" />
+    <Folder Include="Assets.xcassets\linkedinsmall.imageset\" />
+    <Folder Include="Assets.xcassets\linkedinnew.imageset\" />
+    <Folder Include="Assets.xcassets\logos.imageset\" />
+    <Folder Include="Assets.xcassets\man.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\logos.jpg" />

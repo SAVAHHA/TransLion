@@ -16,7 +16,7 @@
                 <StackLayout x:Name="mainStackLayout">
                     <StackLayout Spacing="0">
                         <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
-                        <StackLayout Margin="5,0,5,0">
+                        <StackLayout Margin="10,0,10,0">
                             <Label Text="Verzuimbegeleiding" HorizontalOptions="Start" FontSize="36" TextColor="Black" FontAttributes="Bold,Italic" ></Label>
                             <Label Text="In het kader van verzuimbegeleiding kan Trans Lion werkgevers, intermediairs en werknemers ondersteunen. Afhankelijk van de wensen van de werkgever en mogelijkheden van de werknemer zal na een intakegesprek een trajectplan worden opgesteld. Gedurende de begeleiding zal de adviseur dit plan samen met de betrokken partijen regelmatig evalueren. De voortgang zal worden vastgelegd in rapportages. Bij de verzuimbegeleiding kan Trans Lion ondersteuning bieden middels onderstaande producten." FontAttributes="Bold">
                                 <Label.FontFamily>
@@ -47,7 +47,7 @@
                                         </OnPlatform>
                                     </Label.FontFamily>
                                 </Label>
-                                <Button Text="klik hier" BackgroundColor="Transparent" WidthRequest="110" TextColor="#518bb8" TranslationX="-5" TranslationY="0" />
+                                <Button Clicked="klikHier1Button_Clicked" Text="klik hier" Font="16" BackgroundColor="Transparent" TextColor="#518bb8" TranslationX="-5" TranslationY="-12" />
                                 <Label Text="." TranslationX="-12"/>
                             </StackLayout>
                             <Label Text="Re-integratie 2e spoor" TextColor="Black" FontSize="24" FontAttributes="Bold,Italic"></Label>
@@ -70,7 +70,7 @@
                                         </OnPlatform>
                                     </Label.FontFamily>
                                 </Label>
-                                <Button Text="klik hier" Font="16" TranslationX="-5" HeightRequest="-2" TranslationY="0" />
+                                <Button Clicked="klikHier2Button_Clicked" Text="klik hier" Font="16" TranslationX="-5" HeightRequest="-2" TextColor="#518bb8" TranslationY="0" />
                                 <Label Text="." TranslationX="-12"/>
                             </StackLayout>
                         </StackLayout>

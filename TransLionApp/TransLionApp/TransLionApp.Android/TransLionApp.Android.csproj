@@ -93,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TransLionApp\TransLionApp.csproj">
-      <Project>{7BF0A8CC-D4C6-4EB5-8152-3EDC0115D83A}</Project>
+      <Project>{70A70473-79C7-4FFC-9F1A-DC4DE3C9FCC7}</Project>
       <Name>TransLionApp</Name>
     </ProjectReference>
   </ItemGroup>
