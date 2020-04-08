@@ -58,7 +58,7 @@
                                 </Label>
                                
                             </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
+                            <!--<StackLayout Orientation="Horizontal" >
                                 <Label BackgroundColor="#518bb8" Text="1" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="90" HeightRequest="90" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="90"/>
                                 <StackLayout>
                                     <Label Text="Fase 1 – Intakefase (intake binnen 10 werkdagen vanaf aanmelding)" FontAttributes="Bold">
@@ -96,7 +96,7 @@
                                     </StackLayout>
 
                                 </StackLayout>
-                            </StackLayout>
+                            </StackLayout>-->
                         </StackLayout>
                     </StackLayout>
                 </StackLayout>

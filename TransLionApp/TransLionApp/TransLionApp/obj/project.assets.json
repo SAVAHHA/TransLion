@@ -115,10 +115,10 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.495": {
+      "Xamarin.Forms.Maps/4.5.0.530": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.5.0.495"
+          "Xamarin.Forms": "4.5.0.530"
         },
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {}
@@ -804,10 +804,10 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/4.5.0.495": {
-      "sha512": "RMk9n/SBo5y/nqhLP+fP3Pnh+UdmUrkYnmJYC+GeJsIGQ5+SJoLESPEdzO/Bbgjm9PpVp5hR0xa2W0mqQUJmMg==",
+    "Xamarin.Forms.Maps/4.5.0.530": {
+      "sha512": "2wyq7r3CIiXfgJvBI/SUphUgaT+HX6BdAZC+ZkF0TpZ16xMIAPDskyqBjmKt0iRQLV/1NV/s0ov16/xMqm5XLw==",
       "type": "package",
-      "path": "xamarin.forms.maps/4.5.0.495",
+      "path": "xamarin.forms.maps/4.5.0.530",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -836,7 +836,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
         "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.4.5.0.495.nupkg.sha512",
+        "xamarin.forms.maps.4.5.0.530.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     }
@@ -849,27 +849,27 @@
       "Xam.Plugins.Messaging >= 5.2.0",
       "Xamarin.Essentials >= 1.5.2",
       "Xamarin.Forms >= 4.5.0.530",
-      "Xamarin.Forms.Maps >= 4.5.0.495"
+      "Xamarin.Forms.Maps >= 4.5.0.530"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Анна\\.nuget\\packages\\": {},
+    "C:\\Users\\Anna\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+      "projectUniqueName": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
       "projectName": "TransLionApp",
-      "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
-      "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\obj\\",
+      "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Анна\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -922,7 +922,7 @@
           },
           "Xamarin.Forms.Maps": {
             "target": "Package",
-            "version": "[4.5.0.495, )"
+            "version": "[4.5.0.530, )"
           }
         },
         "imports": [

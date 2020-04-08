@@ -15,7 +15,7 @@
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.530",
-          "Xamarin.Forms.Maps": "4.5.0.495"
+          "Xamarin.Forms.Maps": "4.5.0.530"
         },
         "runtime": {
           "TransLionApp.dll": {}
@@ -106,14 +106,14 @@
           }
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.495": {
+      "Xamarin.Forms.Maps/4.5.0.530": {
         "dependencies": {
           "Xamarin.Forms": "4.5.0.530"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.5.0.198"
+            "fileVersion": "4.5.0.203"
           }
         }
       }
@@ -195,12 +195,12 @@
       "path": "xamarin.forms/4.5.0.530",
       "hashPath": "xamarin.forms.4.5.0.530.nupkg.sha512"
     },
-    "Xamarin.Forms.Maps/4.5.0.495": {
+    "Xamarin.Forms.Maps/4.5.0.530": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RMk9n/SBo5y/nqhLP+fP3Pnh+UdmUrkYnmJYC+GeJsIGQ5+SJoLESPEdzO/Bbgjm9PpVp5hR0xa2W0mqQUJmMg==",
-      "path": "xamarin.forms.maps/4.5.0.495",
-      "hashPath": "xamarin.forms.maps.4.5.0.495.nupkg.sha512"
+      "sha512": "sha512-2wyq7r3CIiXfgJvBI/SUphUgaT+HX6BdAZC+ZkF0TpZ16xMIAPDskyqBjmKt0iRQLV/1NV/s0ov16/xMqm5XLw==",
+      "path": "xamarin.forms.maps/4.5.0.530",
+      "hashPath": "xamarin.forms.maps.4.5.0.530.nupkg.sha512"
     }
   }
 }
