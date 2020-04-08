@@ -3,120 +3,223 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:pages="clr-namespace:TransLionApp.Pages"
+             xmlns:pages="clr-namespace:TransLionApp.Pages" 
+             xmlns:controls="clr-namespace:TransLionApp.Controls"
              mc:Ignorable="d"
-             x:Class="TransLionApp.ShellPage">
+             x:Class="TransLionApp.ShellPage"
+             Shell.ItemTemplate="{StaticResource itemTemplateSelector}"
+             Shell.MenuItemTemplate="{StaticResource menuItemTemplateSelector}">
+
+    <Shell.FlyoutHeader>
+        <controls:FlyoutHeader />
+    </Shell.FlyoutHeader>
 
     <Shell.Resources>
-        <Style x:Key="FloutItemStyle" TargetType="Grid">
-            <Setter Property="VisualStateManager.VisualStateGroups">
-                <VisualStateGroupList>
-                    <VisualStateGroup x:Name="CommonStates">
-                        <VisualState x:Name="Normal" />
-                        <VisualState x:Name="Selected">
-                            <VisualState.Setters>
-                                <Setter Property="BackgroundColor" Value="#bbd3e3"/>
-                            </VisualState.Setters>
-                        </VisualState>
-                    </VisualStateGroup>
-                </VisualStateGroupList>
-            </Setter>
-        </Style>
+        <ResourceDictionary>
+            <DataTemplate x:Key="TitleMenu">
+                <Grid Style="{StaticResource FlyoutItemStyle}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.2*" />
+                        <ColumnDefinition Width="0.8*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="1" Grid.ColumnSpan="2"
+                       TextColor="Black"
+                       Text="{Binding Title}"
+                       FontAttributes="Bold,Italic"
+                       HeightRequest="45"
+                       FontSize="Subtitle"
+                       
+                       HorizontalTextAlignment="Start"
+                       VerticalTextAlignment="Center" />
+                </Grid>
+            </DataTemplate>
+
+            <DataTemplate x:Key="subMenu">
+                <Grid Style="{StaticResource FlyoutItemStyle}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.2*" />
+                        <ColumnDefinition Width="0.8*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="1" Grid.ColumnSpan="2"
+                       Text="{Binding Title}"
+                       TextColor="Black"
+                       FontAttributes="Italic"
+                       HeightRequest="40"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Start"
+                       Margin="25, 0, 0, 0"
+                       VerticalTextAlignment="Center" />
+                </Grid>
+            </DataTemplate>
+
+            <DataTemplate x:Key="spaceMenu">
+                <Grid Style="{StaticResource FlyoutItemStyle}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.2*" />
+                        <ColumnDefinition Width="0.8*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="1" Grid.ColumnSpan="2"
+                       Text="{Binding Title}"
+                       TextColor="Black"
+                       FontAttributes="Italic"
+                       HeightRequest="15"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Start"
+                       Margin="25, 0, 0, 0"
+                       VerticalTextAlignment="Center" />
+                </Grid>
+            </DataTemplate>
+
+            <controls:MenuItemDataTemplateSelector x:Key="menuItemTemplateSelector"
+                                                   SpaceTemplate="{StaticResource spaceMenu}"
+                                                   TitleTemplate="{StaticResource TitleMenu}"
+                                                   SubTemplate="{StaticResource subMenu}"/>
+
+            <DataTemplate x:Key="normal">
+                <Grid Style="{StaticResource FlyoutItemStyle}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.2*" />
+                        <ColumnDefinition Width="0.8*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="1" Grid.ColumnSpan="2"
+                       TextColor="Black"
+                       Text="{Binding Title}"
+                       FontAttributes="Bold,Italic"
+                       HeightRequest="40"
+                       FontSize="Subtitle"
+                       
+                       HorizontalTextAlignment="Start"
+                       VerticalTextAlignment="Center" />
+                </Grid>
+            </DataTemplate>
+
+            <DataTemplate x:Key="space">
+                <Grid Style="{StaticResource FlyoutItemStyle}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.2*" />
+                        <ColumnDefinition Width="0.8*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="1" Grid.ColumnSpan="2"
+                       TextColor="Black"
+                       Text="{Binding Title}"
+                       FontAttributes="Bold,Italic"
+                       HeightRequest="20"
+                       FontSize="Subtitle"
+                       
+                       HorizontalTextAlignment="Start"
+                       VerticalTextAlignment="Center" />
+                </Grid>
+            </DataTemplate>
+
+            <DataTemplate x:Key="sub">
+                <Grid Style="{StaticResource FlyoutItemStyle}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.2*" />
+                        <ColumnDefinition Width="0.8*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="1" Grid.ColumnSpan="2"
+                       Text="{Binding Title}"
+                       TextColor="Black"
+                       FontAttributes="Italic"
+                       HeightRequest="40"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Start"
+                       Margin="25, 0, 0, 0"
+                       VerticalTextAlignment="Center" />
+                </Grid>
+            </DataTemplate>
+
+            <controls:ItemDataTemplateSelector x:Key="itemTemplateSelector"
+                                            NormalTemplate="{StaticResource normal}"
+                                            SubTemplate="{StaticResource sub}"
+                                            SpaceTemplate="{StaticResource space}"/>
+
+
+            <Style x:Key="FlyoutItemStyle" TargetType="Grid">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="#bbd3e3"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+
+        </ResourceDictionary>
     </Shell.Resources>
 
-    <Shell.ItemTemplate>
-        <DataTemplate >
-            <Grid Style="{StaticResource FloutItemStyle}">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="0.2*" />
-                    <ColumnDefinition Width="0.8*" />
-                </Grid.ColumnDefinitions>
-                <Image Source="{Binding FlyoutIcon}"
-                       Margin="5"
-                       HeightRequest="45" />
-                <Label Grid.Column="1" Grid.ColumnSpan="2"
-                       Text="{Binding Title}"
-                       FontAttributes="Bold"
-                       TextColor="Black"
-                       VerticalTextAlignment="Center" />
-            </Grid>
-        </DataTemplate>
-    </Shell.ItemTemplate>
-
-    <Shell.MenuItemTemplate>
-        <DataTemplate>
-            <Grid Style="{StaticResource FloutItemStyle}">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="0.2*" />
-                    <ColumnDefinition Width="0.8*" />
-                </Grid.ColumnDefinitions>
-                <Image Source="{Binding FlyoutIcon}"
-                       Margin="5"
-                       HeightRequest="45" />
-                <Label Grid.Column="1" Grid.ColumnSpan="2"
-                       Text="{Binding Title}"
-                       FontAttributes="Bold"
-                       TextColor="Black"
-                       VerticalTextAlignment="Center" />
-            </Grid>
-        </DataTemplate>
-    </Shell.MenuItemTemplate>
-
-    <FlyoutItem Title="Home page" Shell.BackgroundColor="White"
+    <FlyoutItem Title="HOME PAGE"  Shell.BackgroundColor="White" Route="headerHomepage"
              Shell.ForegroundColor="Black">
-        <ShellContent x:Name="HomePage" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
+        <ShellContent x:Name="HomePage"  Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
     </FlyoutItem>
 
-    <FlyoutItem Title="Verzuimbegeleiding" Shell.BackgroundColor="White"
+  
+    <FlyoutItem Title=" " IsEnabled="False" Route="space1">
+        <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
+    </FlyoutItem>
+    
+
+    <FlyoutItem Title="VERZUIMBEGELEIDING" Route="headerVerzuimbegeleiding" Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:Verzuimbegeleiding}"></ShellContent>
     </FlyoutItem>
 
-    <FlyoutItem Title="Jobhunting" Shell.BackgroundColor="White"
+    <FlyoutItem Title="JOBHUNTING" Route="jobhunting"  Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:Jobhunting}"></ShellContent>
     </FlyoutItem>
 
-    <FlyoutItem Title="Re-integratie 2e spoor" Shell.BackgroundColor="White"
+    <FlyoutItem Title="RE-INTEGRATIE 2E SPOOR" Route="reintegratie" Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:ReIntegratie2eSpoor}"></ShellContent>
     </FlyoutItem>
 
-    <FlyoutItem Title="UWV" Shell.BackgroundColor="White"
+    <FlyoutItem Title=" " IsEnabled="False" Route="space2">
+        <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="UWV" Shell.BackgroundColor="White" Route="headerUwv"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
     </FlyoutItem>
 
-    <!--<FlyoutItem Title="Informatie">
-        
-    </FlyoutItem>-->
+    <FlyoutItem Title=" " IsEnabled="False" Route="space3">
+        <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
+    </FlyoutItem>
 
-    <!--<FlyoutItem Title="Werkwijzer wet verbetering poortwachter" Shell.BackgroundColor="White"
-             Shell.ForegroundColor="Black">
-        <ShellContent ContentTemplate="{DataTemplate pages:WerkwijzerWetVerbeteringPoortwachter}"></ShellContent>
-    </FlyoutItem>-->
-
-    <MenuItem Text="Werkwijzer wet verbetering poortwachter"
+    <FlyoutItem Title="INFORMATIE" IsEnabled="False" Route="headerInformatie">
+        <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
+    </FlyoutItem>
+    
+    <MenuItem Text="WERKWIJZER WET VERBETERING" x:Name="subtitle"
               Command="{Binding PdfCommand}"
               CommandParameter="https://www.translion.nl/images/werkwijzer-poortwachter.pdf" />
-
-
-    <FlyoutItem Title="Wie zijn wij" Shell.BackgroundColor="White"
+ 
+    <FlyoutItem Title="WIE ZIJN WIJ" Shell.BackgroundColor="White" Route="wiezijnwij"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:WieZijnWij}"></ShellContent>
     </FlyoutItem>
 
-    <FlyoutItem Title="1e en 2e spoor" Shell.BackgroundColor="White"
+    <FlyoutItem Title="1E EN 2E SPOOR" Shell.BackgroundColor="White" Route="spoor"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:Page1eEn2eSpoor}"></ShellContent>
     </FlyoutItem>
 
-    <FlyoutItem Title="Schema wet verbetering" Shell.BackgroundColor="White"
+    <FlyoutItem Title="SCHEMA WET VERBETERING" Shell.BackgroundColor="White" Route="schemawetverbetering"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:SchemaWetVerbeteringPoortwachter}"></ShellContent>
     </FlyoutItem>
 
-    <FlyoutItem Title="Contacts" Shell.BackgroundColor="White"
+    <FlyoutItem Title=" " IsEnabled="False" Route="space4">
+        <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="CONTACTS" Shell.BackgroundColor="White" Route="headerContacts"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:ContactPage}"></ShellContent>
     </FlyoutItem>

@@ -41,7 +41,8 @@ namespace TransLionApp.Pages
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ReIntegratie2eSpoor());
+            //await Navigation.PushAsync(new ReIntegratie2eSpoor());
+            await Shell.Current.GoToAsync("///reintegratie");
         }
 
         private void linkedinButton_Clicked(object sender, EventArgs e)

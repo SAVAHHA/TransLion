@@ -16,17 +16,3 @@
         </StackLayout>
     </ContentView.Content>
 </ContentView>
-    <!--<ContentView.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="300"></ColumnDefinition>
-                <ColumnDefinition Width="Auto"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-
-            <BoxView Color="Aquamarine" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill"></BoxView>
-        </Grid>
-    </ContentView.Content>
-</ContentView>-->

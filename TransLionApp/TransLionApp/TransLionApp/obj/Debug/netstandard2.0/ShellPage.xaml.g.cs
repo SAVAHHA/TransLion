@@ -20,9 +20,13 @@ namespace TransLionApp {
         private global::Xamarin.Forms.ShellContent HomePage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.MenuItem subtitle;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ShellPage));
             HomePage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ShellContent>(this, "HomePage");
+            subtitle = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.MenuItem>(this, "subtitle");
         }
     }
 }

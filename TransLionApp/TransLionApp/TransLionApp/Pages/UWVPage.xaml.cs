@@ -79,5 +79,10 @@ namespace TransLionApp.Pages
             lastScrollPoint = e.ScrollY;
             translating = false;
         }
+
+        private async void toContactsButton_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("///headerContacts");
+        }
     }
 }
