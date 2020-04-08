@@ -21,9 +21,9 @@ namespace TransLionApp.Pages
             InitializeComponent();
         }
 
-        private void klikHierButton_Clicked(object sender, EventArgs e)
+        private async void klikHierButton_Clicked(object sender, EventArgs e)
         {
-
+            await Shell.Current.GoToAsync("///reintegratie");
         }
 
         private void emailButton_Clicked(object sender, EventArgs e)

@@ -118,6 +118,7 @@
                                         </OnPlatform>
                                     </Label.FontFamily>
                                 </Label>
+                                <Button x:Name="toContactsButton" Text="Neem contact op" TextColor="White" FontAttributes="Italic" Clicked="toContactsButton_Clicked" VerticalOptions="End" HorizontalOptions="End" BackgroundColor="#4dc08f"></Button>
                                 <BoxView BackgroundColor="Transparent"></BoxView>
                             </StackLayout>
                         </Grid>

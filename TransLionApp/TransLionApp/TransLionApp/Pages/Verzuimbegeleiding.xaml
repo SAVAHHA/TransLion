@@ -47,7 +47,7 @@
                                         </OnPlatform>
                                     </Label.FontFamily>
                                 </Label>
-                                <Button Text="klik hier" Font="16" TranslationX="-5" HeightRequest="-2" TranslationY="0" />
+                                <Button Text="klik hier" BackgroundColor="Transparent" WidthRequest="110" TextColor="#518bb8" TranslationX="-5" TranslationY="0" />
                                 <Label Text="." TranslationX="-12"/>
                             </StackLayout>
                             <Label Text="Re-integratie 2e spoor" TextColor="Black" FontSize="24" FontAttributes="Bold,Italic"></Label>

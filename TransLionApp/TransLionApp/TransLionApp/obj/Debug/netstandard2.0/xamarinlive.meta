@@ -13,7 +13,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp\Pages\HomePage.xaml</FilePath>
-      <Hash>34-7B-F9-33-B6-0C-C7-5F-F9-7F-15-DD-76-49-5E-A7</Hash>
+      <Hash>59-44-EE-91-7D-F1-7D-24-C2-D4-42-D5-CF-76-E0-C4</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
@@ -33,17 +33,17 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp\Pages\SchemaWetVerbeteringPoortwachter.xaml</FilePath>
-      <Hash>D9-CC-AA-CF-7B-3D-11-11-77-2D-9F-CD-12-AE-C2-0E</Hash>
+      <Hash>1D-9D-2D-45-38-B6-87-28-BD-57-CF-28-4B-C1-2C-D3</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp\Pages\UWVPage.xaml</FilePath>
-      <Hash>E8-AC-FA-78-0A-3D-DB-2F-52-42-B5-D9-6D-CE-6E-6E</Hash>
+      <Hash>A4-4A-63-6E-26-CD-E9-9F-87-21-59-F9-F8-1E-F0-BA</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp\Pages\Verzuimbegeleiding.xaml</FilePath>
-      <Hash>58-34-E9-13-21-50-E8-0B-11-1E-44-BC-57-6B-9D-BD</Hash>
+      <Hash>1E-1A-B8-05-13-04-80-3D-26-76-AF-41-49-FB-F4-71</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
@@ -58,8 +58,10 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp\ShellPage.xaml</FilePath>
-      <Hash>D0-95-E5-BF-C1-8A-E0-F2-7A-21-28-4B-76-7E-73-10</Hash>
-      <Properties />
+      <Hash>A4-B8-6C-C7-52-C0-27-30-C2-2A-9A-78-C6-36-5D-F0</Hash>
+      <Properties>
+        <string>Shell.ItemTemplate</string>
+      </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp\Views\BarView.xaml</FilePath>
