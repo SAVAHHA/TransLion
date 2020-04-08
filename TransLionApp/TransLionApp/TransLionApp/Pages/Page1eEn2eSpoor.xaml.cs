@@ -21,9 +21,10 @@ namespace TransLionApp.Pages
             InitializeComponent();
 
         }
-        private void HierTo2eButton_Clicked(object sender, EventArgs e)
+       
+        private async void HierTo2eButton_Clicked(object sender, EventArgs e)
         {
-           var reitegratie2espoor = Navigation.PushAsync(new ReIntegratie2eSpoor());
+            await Shell.Current.GoToAsync("///reintegratie");
         }
 
         private void emailButton_Clicked(object sender, EventArgs e)
