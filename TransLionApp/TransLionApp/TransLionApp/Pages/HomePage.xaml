@@ -37,7 +37,7 @@
                                 <ColumnDefinition Width="105*"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
 
-                            <!--<Image Source="man" HorizontalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2"></Image>-->
+                            <Image Source="man" HorizontalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2"></Image>
                             <BoxView Color="#518bb8" Opacity="0.3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" WidthRequest="150"></BoxView>
                             <BoxView Color="#518bb8" Opacity="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="150" Grid.Column="1" Grid.RowSpan="2" Grid.Row="0"></BoxView>
                             <StackLayout Grid.Column="1" Grid.Row="0">
