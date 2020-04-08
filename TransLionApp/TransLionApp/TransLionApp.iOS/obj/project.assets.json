@@ -209,7 +209,7 @@
           "Syncfusion.Xamarin.Pdf": "17.4.0.55",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.495",
+          "Xamarin.Forms": "4.5.0.530",
           "Xamarin.Forms.Maps": "4.5.0.495"
         },
         "compile": {
@@ -428,7 +428,7 @@
           "Syncfusion.Xamarin.Pdf": "17.4.0.55",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.495",
+          "Xamarin.Forms": "4.5.0.530",
           "Xamarin.Forms.Maps": "4.5.0.495"
         },
         "compile": {
@@ -647,7 +647,7 @@
           "Syncfusion.Xamarin.Pdf": "17.4.0.55",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.495",
+          "Xamarin.Forms": "4.5.0.530",
           "Xamarin.Forms.Maps": "4.5.0.495"
         },
         "compile": {
@@ -866,7 +866,7 @@
           "Syncfusion.Xamarin.Pdf": "17.4.0.55",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.495",
+          "Xamarin.Forms": "4.5.0.530",
           "Xamarin.Forms.Maps": "4.5.0.495"
         },
         "compile": {
@@ -1386,24 +1386,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Анна\\.nuget\\packages\\": {},
+    "C:\\Users\\Anna\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
       "projectName": "TransLionApp.iOS",
-      "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Анна\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1417,8 +1417,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
-              "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
+            "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+              "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
             }
           }
         }
@@ -1453,5 +1453,20 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Forms с 4.5.0.530 на 4.5.0.495. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms (>= 4.5.0.530) \r\n TransLionApp.iOS -> Xamarin.Forms (>= 4.5.0.495)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

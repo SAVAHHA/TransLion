@@ -16,6 +16,7 @@
             <ScrollView Padding="0" Scrolled="ScrollView_Scrolled" VerticalOptions="FillAndExpand">
                 <StackLayout x:Name="mainStackLayout" VerticalOptions="FillAndExpand">
                     <StackLayout Spacing="0" VerticalOptions="FillAndExpand">
+                        <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
                         <Label x:Name="logoLabel" Text="Trans Lion" FontAttributes="Bold,Italic"  TextColor="Black" FontSize="44" Margin="15, 10, 0, 0" HorizontalTextAlignment="Start"></Label>
                         <Label Text="De HRM dienstverlener" FontSize="24" Margin="15, 7, 0, 0" HorizontalTextAlignment="Start" FontAttributes="Italic" ></Label>
                         <Label Margin="5, 20, 5, 0" Text="Trans Lion ondersteunt sinds 2000 landelijk werkgevers met verschillende HRM-vraagstukken. Hierbij kunt u denken aan begeleiding bij langdurig ziekteverzuim in het kader van de Wet verbetering Poort­wachter 2e spoor, 3e spoor, werving en selectie, loopbaanbegeleiding, personeelsbeheer en outplacement. Door onze pragmatische en persoonlijke benadering behaalt Trans Lion al jaren een perfect resultaat voor zowel werkgever en werknemer. Kenmerkend voor deze benadering is dat Trans Lion werkt met een vaste adviseur en overzichtelijk trajectplan. ">
