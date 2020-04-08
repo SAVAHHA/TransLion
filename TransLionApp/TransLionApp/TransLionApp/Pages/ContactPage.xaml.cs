@@ -25,6 +25,12 @@ namespace TransLionApp.Pages
             InitializeComponent();
         }
 
+        private void linkedinButton0_Clicked(object sender, EventArgs e)
+        {
+            Uri siteUri = new Uri("https://www.linkedin.com/company/trans-lion");
+            Launcher.OpenAsync(siteUri);
+        }
+
         private void emailButton_Clicked(object sender, EventArgs e)
         {
             var emailMessenger = CrossMessaging.Current.EmailMessenger;

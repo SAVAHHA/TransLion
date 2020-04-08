@@ -14,7 +14,40 @@
         <Grid RowSpacing="0">
             <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
                 <StackLayout x:Name="mainStackLayout">
-                    <StackLayout Spacing="0">
+                    <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
+                    <StackLayout Spacing="0" Margin="10,0,10,0">
+                        <Label Text="Contact" FontSize="36" Padding="10" FontAttributes="Bold,Italic"></Label>
+                        <Label Text="Admiraal Helfrichweg 2P" >
+                            <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                        </Label>
+                        <Label Text="2901 AB Capelle aan den IJssel" Margin="0,0,0,20">
+                            <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                        </Label>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="010 - 264 30 30"></Label>
+                        </StackLayout>
+                        <StackLayout Margin="0,0,0,20" Orientation="Horizontal">
+                            <Label Text="010 - 450 29 31"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="info@translion.nl">
+                            </Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Button Text="Linkedin" FontSize="16" Clicked="linkedinButton0_Clicked"></Button>
+                        </StackLayout>
                     </StackLayout>
                 </StackLayout>
             </ScrollView>
