@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "IVKbglXUTtkbHaxth6yVr1Kn3QnYsEmg11jJP2/3u4G8vr3mnrnUZIrybBOlOuH/PDrDSQT49AviAG0AU5gDbQ==",
+  "dgSpecHash": "nDYrQ1VXTzu88TKEBkR2GwBi00s0oHH2TAjzAeDjwQeVPkIr2PqVmViZp+fSFTPDtHDQpmTaEtf8SpCE7eByVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.licensing\\17.4.0.55\\syncfusion.licensing.17.4.0.55.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.xamarin.compression\\17.4.0.55\\syncfusion.xamarin.compression.17.4.0.55.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.xamarin.pdf\\17.4.0.55\\syncfusion.xamarin.pdf.17.4.0.55.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.licensing\\18.1.0.43\\syncfusion.licensing.18.1.0.43.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.xamarin.compression\\18.1.0.43\\syncfusion.xamarin.compression.18.1.0.43.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.xamarin.pdf\\18.1.0.43\\syncfusion.xamarin.pdf.18.1.0.43.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

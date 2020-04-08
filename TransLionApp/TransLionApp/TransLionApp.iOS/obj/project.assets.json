@@ -1387,32 +1387,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/elenavolkova/.nuget/packages/": {}
+    "C:\\Users\\Anna\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/TransLionApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
       "projectName": "TransLionApp.iOS",
-      "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/TransLionApp.iOS.csproj",
-      "packagesPath": "/Users/elenavolkova/.nuget/packages/",
-      "outputPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/",
+      "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/elenavolkova/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj": {
-              "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj"
+            "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+              "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
             }
           }
         }
@@ -1453,8 +1460,8 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.530 to 4.5.0.495. Reference the package directly from the project to select a different version. \n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms (>= 4.5.0.530) \n TransLionApp.iOS -> Xamarin.Forms (>= 4.5.0.495)",
-      "libraryId": "Xamarin.Forms",
+      "message": "Обнаружено понижение версии пакета Xamarin.Forms.Maps с 4.5.0.530 на 4.5.0.495. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms.Maps (>= 4.5.0.530) \r\n TransLionApp.iOS -> Xamarin.Forms.Maps (>= 4.5.0.495)",
+      "libraryId": "Xamarin.Forms.Maps",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
         "Xamarin.iOS,Version=v1.0/win",
@@ -1466,8 +1473,8 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms.Maps from 4.5.0.530 to 4.5.0.495. Reference the package directly from the project to select a different version. \n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms.Maps (>= 4.5.0.530) \n TransLionApp.iOS -> Xamarin.Forms.Maps (>= 4.5.0.495)",
-      "libraryId": "Xamarin.Forms.Maps",
+      "message": "Обнаружено понижение версии пакета Xamarin.Forms с 4.5.0.530 на 4.5.0.495. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms (>= 4.5.0.530) \r\n TransLionApp.iOS -> Xamarin.Forms (>= 4.5.0.495)",
+      "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
         "Xamarin.iOS,Version=v1.0/win",

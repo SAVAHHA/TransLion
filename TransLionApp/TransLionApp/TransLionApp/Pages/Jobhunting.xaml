@@ -16,7 +16,7 @@
                 <StackLayout x:Name="mainStackLayout">
                     <StackLayout>
                         <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
-                        <StackLayout Margin="5,0,5,0">
+                        <StackLayout Margin="10,0,10,0">
                             <Label Text="Jobhunting" HorizontalOptions="Start" TextColor="Black" FontSize="36" FontAttributes="Bold,Italic" ></Label>
                             <Label Text="Tijdens het jobhuntingtraject gaat Trans Lion met een werknemer op zoek naar een nieuwe passende functie. Gedurende het traject zal een in-house jobhunter samen met de werknemer wekelijks werkgevers benaderen. Hierbij wordt onder andere gebruik gemaakt van het netwerk van Trans Lion en de vraag vanuit de markt. De adviseur van Trans Lion zal de voortgang monitoren en vastleggen in rapportages." FontAttributes="Bold">
                                 <Label.FontFamily>

@@ -156,17 +156,39 @@
     <ImageAsset Include="Assets.xcassets\point.imageset\point.jpg">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\bluecheck.png" />
-    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\linkedinsmall.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\linkedinsmall.imageset\linkedinsmall.png" />
-    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\linkedinnew.png" />
-    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\linkedinnew-1.png" />
-    <ImageAsset Include="Assets.xcassets\logos.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\logos.imageset\logos.jpg" />
-    <ImageAsset Include="Assets.xcassets\man.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\man.imageset\man.jpg" />
+    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\bluecheck.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\linkedinsmall.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\linkedinsmall.imageset\linkedinsmall.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\linkedinnew.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\linkedinnew-1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\logos.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\logos.imageset\logos.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\man.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\man.imageset\man.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

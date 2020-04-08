@@ -2291,32 +2291,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/elenavolkova/.nuget/packages/": {}
+    "C:\\Users\\Anna\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/TransLionApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
       "projectName": "TransLionApp.Android",
-      "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/TransLionApp.Android.csproj",
-      "packagesPath": "/Users/elenavolkova/.nuget/packages/",
-      "outputPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/obj/",
+      "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/elenavolkova/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj": {
-              "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj"
+            "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+              "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
             }
           }
         }
@@ -2350,7 +2357,17 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Essentials from 1.5.2 to 1.5.1. Reference the package directly from the project to select a different version. \n TransLionApp.Android -> TransLionApp -> Xamarin.Essentials (>= 1.5.2) \n TransLionApp.Android -> Xamarin.Essentials (>= 1.5.1)",
+      "message": "Обнаружено понижение версии пакета Xamarin.Forms.Maps с 4.5.0.530 на 4.5.0.495. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.Android -> TransLionApp -> Xamarin.Forms.Maps (>= 4.5.0.530) \r\n TransLionApp.Android -> Xamarin.Forms.Maps (>= 4.5.0.495)",
+      "libraryId": "Xamarin.Forms.Maps",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Essentials с 1.5.2 на 1.5.1. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.Android -> TransLionApp -> Xamarin.Essentials (>= 1.5.2) \r\n TransLionApp.Android -> Xamarin.Essentials (>= 1.5.1)",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"
@@ -2360,18 +2377,8 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.530 to 4.5.0.495. Reference the package directly from the project to select a different version. \n TransLionApp.Android -> TransLionApp -> Xamarin.Forms (>= 4.5.0.530) \n TransLionApp.Android -> Xamarin.Forms (>= 4.5.0.495)",
+      "message": "Обнаружено понижение версии пакета Xamarin.Forms с 4.5.0.530 на 4.5.0.495. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.Android -> TransLionApp -> Xamarin.Forms (>= 4.5.0.530) \r\n TransLionApp.Android -> Xamarin.Forms (>= 4.5.0.495)",
       "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "MonoAndroid,Version=v9.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms.Maps from 4.5.0.530 to 4.5.0.495. Reference the package directly from the project to select a different version. \n TransLionApp.Android -> TransLionApp -> Xamarin.Forms.Maps (>= 4.5.0.530) \n TransLionApp.Android -> Xamarin.Forms.Maps (>= 4.5.0.495)",
-      "libraryId": "Xamarin.Forms.Maps",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"
       ]
