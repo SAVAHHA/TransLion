@@ -36,16 +36,21 @@
                                     </Label.FontFamily>
                         </Label>
                         <StackLayout Orientation="Horizontal">
+                            <Image Source="phone"></Image>
                             <Label Text="010 - 264 30 30"></Label>
                         </StackLayout>
                         <StackLayout Margin="0,0,0,20" Orientation="Horizontal">
+
+                            <Image Source="phone"></Image>
                             <Label Text="010 - 450 29 31"></Label>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal">
+                            <Image Source="mail"></Image>
                             <Label Text="info@translion.nl">
                             </Label>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal">
+                            <Image Source="phone"></Image>
                             <Button Text="Linkedin" FontSize="16" Clicked="linkedinButton0_Clicked"></Button>
                         </StackLayout>
                     </StackLayout>

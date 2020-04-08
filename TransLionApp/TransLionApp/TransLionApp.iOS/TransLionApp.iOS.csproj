@@ -189,6 +189,10 @@
     <ImageAsset Include="Assets.xcassets\man.imageset\man.jpg">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\phone.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\phone.imageset\phone.png" />
+    <ImageAsset Include="Assets.xcassets\mail.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\mail.imageset\ic_action_mail.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -225,6 +229,8 @@
     <Folder Include="Assets.xcassets\linkedinnew.imageset\" />
     <Folder Include="Assets.xcassets\logos.imageset\" />
     <Folder Include="Assets.xcassets\man.imageset\" />
+    <Folder Include="Assets.xcassets\phone.imageset\" />
+    <Folder Include="Assets.xcassets\mail.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\logos.jpg" />
