@@ -153,28 +153,6 @@
         </ResourceDictionary>
     </Shell.Resources>
 
-    <!--<Shell.MenuItemTemplate >
-        <DataTemplate>
-            <Grid Style="{StaticResource FlyoutItemStyle}">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="0.2*" />
-                    <ColumnDefinition Width="0.8*" />
-                </Grid.ColumnDefinitions>
-                <Label Grid.Column="1" Grid.ColumnSpan="2"
-                       Text="{Binding Title}"
-                       FontAttributes="Bold"
-                       TextColor="Black"
-                       FontSize="Subtitle"
-                       HeightRequest="45"
-                       VerticalTextAlignment="Center" />
-            </Grid>
-        </DataTemplate>
-    </Shell.MenuItemTemplate>-->
-
-    <!--<FlyoutItem Title=" " IsEnabled="False" Route="space10">
-        <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
-    </FlyoutItem>-->
-
     <FlyoutItem Title="HOME PAGE"  Shell.BackgroundColor="White" Route="headerHomepage"
              Shell.ForegroundColor="Black">
         <ShellContent x:Name="HomePage"  Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
@@ -214,18 +192,14 @@
         <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
     </FlyoutItem>
 
-    <!--<MenuItem Text="INFORMATIE" Routing.Route="title" x:Name="title"></MenuItem>-->
     <FlyoutItem Title="INFORMATIE" IsEnabled="False" Route="headerInformatie">
         <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
     </FlyoutItem>
     
-
     <MenuItem Text="WERKWIJZER WET VERBETERING" x:Name="subtitle"
               Command="{Binding PdfCommand}"
               CommandParameter="https://www.translion.nl/images/werkwijzer-poortwachter.pdf" />
-
-    
-
+ 
     <FlyoutItem Title="WIE ZIJN WIJ" Shell.BackgroundColor="White" Route="wiezijnwij"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:WieZijnWij}"></ShellContent>

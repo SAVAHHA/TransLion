@@ -187,4 +187,7 @@
     <Folder Include="Assets.xcassets\paw.imageset\" />
     <Folder Include="Assets.xcassets\point.imageset\" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logos.jpg" />
+  </ItemGroup>
 </Project>

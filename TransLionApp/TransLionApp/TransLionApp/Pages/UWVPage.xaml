@@ -17,7 +17,7 @@
                     <StackLayout Spacing="0">
                         <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
                         <Label Text="Werkzoekenden" TextColor="Black" FontSize="36"  HorizontalOptions="Start" Padding="10"  FontAttributes="Bold,Italic">                        </Label>
-                        <Label Margin="5,0,5,0" Text="Bent u op zoek naar passend werk en ontvangt u een Ziektewetuitkering of een arbeidsongeschiktheidsuitkering (WGA, WIA, WAO, Wajong of WAZ) van het UWV, dan kan Trans Lion u helpen bij het vinden van een nieuwe baan. Trans Lion ondersteunt bij:">
+                        <Label Margin="10,0,10,0" Text="Bent u op zoek naar passend werk en ontvangt u een Ziektewetuitkering of een arbeidsongeschiktheidsuitkering (WGA, WIA, WAO, Wajong of WAZ) van het UWV, dan kan Trans Lion u helpen bij het vinden van een nieuwe baan. Trans Lion ondersteunt bij:">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -27,7 +27,7 @@
                             </Label.FontFamily>
                         </Label>
 
-                        <Grid >
+                        <Grid Margin="0,5,0,0">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="40"></ColumnDefinition>
                                 <ColumnDefinition Width="Auto"></ColumnDefinition>
@@ -39,7 +39,7 @@
                                 <RowDefinition Height="Auto"></RowDefinition>
                             </Grid.RowDefinitions>
 
-                            <Label Margin="0,0,5,0" Text="het zoeken van aanvullen scholing" Grid.Column="1" Grid.Row="0">
+                            <Label Margin="0,0,10,0" Text="het zoeken van aanvullen scholing" Grid.Column="1" Grid.Row="0">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
                                         <On Platform="iOS" Value="Roboto-Light" />
@@ -48,7 +48,7 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <Label Margin="0,0,5,0" Text="het sollicitatieproces (aandragen van vacatures en hulp bij soliciteren)" Grid.Column="1" Grid.Row="1">
+                            <Label Margin="0,0,10,0" Text="het sollicitatieproces (aandragen van vacatures en hulp bij soliciteren)" Grid.Column="1" Grid.Row="1">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
                                         <On Platform="iOS" Value="Roboto-Light" />
@@ -57,7 +57,7 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <Label Margin="0,0,5,0" Text="het opdoen van werkervaring, bijvoorbeeld via een werkervaringsplaats" Grid.Column="1" Grid.Row="2">
+                            <Label Margin="0,0,10,0" Text="het opdoen van werkervaring, bijvoorbeeld via een werkervaringsplaats" Grid.Column="1" Grid.Row="2">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
                                         <On Platform="iOS" Value="Roboto-Light" />
@@ -66,7 +66,7 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <Label Margin="0,0,5,0" Text="het aanvaarden van een nieuwe baan" Grid.Column="1" Grid.Row="3">
+                            <Label Margin="0,0,10,0" Text="het aanvaarden van een nieuwe baan" Grid.Column="1" Grid.Row="3">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
                                         <On Platform="iOS" Value="Roboto-Light" />
@@ -81,7 +81,7 @@
                             <Image Source="bluecheck" Grid.Column="0" Grid.Row="3" HorizontalOptions="End" VerticalOptions="Start"></Image>
                         </Grid>
 
-                        <Label Margin="5,0,5,0" Text="Tijdens het intakegesprek onderzoekt u met de adviseur van Trans Lion wat de mogelijkheden zijn. Dit wordt uitgewerkt in een trajectplan 'Werkfit maken' en/of 'Naar werk'. Dit pla wordt ingediend bij het UWV zal het traject bij Trans Lion opgestart worden.">
+                        <Label Margin="10,0,10,0" Text="Tijdens het intakegesprek onderzoekt u met de adviseur van Trans Lion wat de mogelijkheden zijn. Dit wordt uitgewerkt in een trajectplan 'Werkfit maken' en/of 'Naar werk'. Dit pla wordt ingediend bij het UWV zal het traject bij Trans Lion opgestart worden.">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -90,12 +90,12 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Grid Padding="0, 10, 0, 0">
+                        <Grid Padding="0, 30, 0, 10">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"></RowDefinition>
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition ></ColumnDefinition>
                             </Grid.ColumnDefinitions>
 
                             <BoxView Color="#518bb8" Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill"></BoxView>
@@ -118,8 +118,8 @@
                                         </OnPlatform>
                                     </Label.FontFamily>
                                 </Label>
-                                <Button x:Name="toContactsButton" Text="Neem contact op" TextColor="White" FontAttributes="Italic" Clicked="toContactsButton_Clicked" VerticalOptions="End" HorizontalOptions="End" BackgroundColor="#4dc08f"></Button>
-                                <BoxView BackgroundColor="Transparent"></BoxView>
+                                <Button x:Name="toContactsButton" Text="Neem contact op" TextColor="White" FontAttributes="Italic" Clicked="toContactsButton_Clicked" VerticalOptions="End" HorizontalOptions="End" BackgroundColor="#4dc08f" Margin="0,10,7,7"></Button>
+                                <!--<BoxView BackgroundColor="Transparent"></BoxView>-->
                             </StackLayout>
                         </Grid>
                     </StackLayout>

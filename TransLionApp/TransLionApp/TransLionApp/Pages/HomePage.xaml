@@ -19,7 +19,7 @@
                         <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
                         <Label x:Name="logoLabel" Text="Trans Lion" FontAttributes="Bold,Italic"  TextColor="Black" FontSize="44" Margin="15, 10, 0, 0" HorizontalTextAlignment="Start"></Label>
                         <Label Text="De HRM dienstverlener" FontSize="24" Margin="15, 7, 0, 0" HorizontalTextAlignment="Start" FontAttributes="Italic" ></Label>
-                        <Label Margin="5, 20, 5, 0" Text="Trans Lion ondersteunt sinds 2000 landelijk werkgevers met verschillende HRM-vraagstukken. Hierbij kunt u denken aan begeleiding bij langdurig ziekteverzuim in het kader van de Wet verbetering Poort­wachter 2e spoor, 3e spoor, werving en selectie, loopbaanbegeleiding, personeelsbeheer en outplacement. Door onze pragmatische en persoonlijke benadering behaalt Trans Lion al jaren een perfect resultaat voor zowel werkgever en werknemer. Kenmerkend voor deze benadering is dat Trans Lion werkt met een vaste adviseur en overzichtelijk trajectplan. ">
+                        <Label Margin="10, 20, 10, 0" Text="Trans Lion ondersteunt sinds 2000 landelijk werkgevers met verschillende HRM-vraagstukken. Hierbij kunt u denken aan begeleiding bij langdurig ziekteverzuim in het kader van de Wet verbetering Poort­wachter 2e spoor, 3e spoor, werving en selectie, loopbaanbegeleiding, personeelsbeheer en outplacement. Door onze pragmatische en persoonlijke benadering behaalt Trans Lion al jaren een perfect resultaat voor zowel werkgever en werknemer. Kenmerkend voor deze benadering is dat Trans Lion werkt met een vaste adviseur en overzichtelijk trajectplan. ">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -38,10 +38,11 @@
                                 <ColumnDefinition Width="105*"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
 
-                            <Image Source="man" HorizontalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2"></Image>
-                            <BoxView Color="#518bb8" Opacity="0.3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" WidthRequest="150"></BoxView>
-                            <BoxView Color="#518bb8" Opacity="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="150" Grid.Column="1" Grid.RowSpan="2" Grid.Row="0"></BoxView>
-                            <StackLayout Grid.Column="1" Grid.Row="0">
+                            <!--<Image Source="man" HorizontalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2"></Image>-->
+                            
+                            <!--<BoxView Color="#518bb8" Opacity="0.3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" WidthRequest="150"></BoxView>-->
+                            <BoxView Color="#518bb8" Opacity="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.ColumnSpan="2" Grid.Column="0" Grid.RowSpan="2" Grid.Row="0"></BoxView>
+                            <StackLayout Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0">
                                 <Label Text="Re-integratie 2e spoor" TextColor="White" Margin="10, 5, 0, 0"></Label>
                                 <Label Text="Binnen het 2e spoor worden de mogelijkheden op de arbeidsmarkt bij een nieuwe werkgever onderzocht in het kader van de Wet verbetering poortwachter. Trans Lion biedt hierbij ondersteuning aan werkgevers, werknemers en intermediairs." TextColor="White" FontSize="11" Margin="10, 5, 10, 0">
                                     <Label.FontFamily>
@@ -54,8 +55,46 @@
                                 </Label>
                                 <!--<Button Text="Lees meer..." BackgroundColor="#4dc08f" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0, 0, 5, 5" WidthRequest="110" Clicked="Button_Clicked"></Button>-->
                             </StackLayout>
-                            <Button Text="Lees meer..." BackgroundColor="#4dc08f" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0, 0, 5, 5" WidthRequest="110" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked"></Button>
+                            <Button Text="Lees meer..." BackgroundColor="#4dc08f" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0, 0, 7, 7" WidthRequest="110" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked"></Button>
                         </Grid>
+                        <!--<Label Text="Trans Lion" TextColor="#518bb8" HorizontalOptions="Center" FontAttributes="Bold,Italic" FontSize="22" Margin="0,25,0,0"></Label>-->
+                        <Label Text="Admiraal Helfrichweg 2P" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center" Margin="0,15,0,0">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="2901 AB  Capelle aan den IJssel" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center" Margin="0,0,0,0">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="010 - 264 30 30" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center" Margin="0,0,0,0">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Text="info@translion.nl" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center" Margin="0,0,0,0">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String">
+                                    <On Platform="iOS" Value="Roboto-Light" />
+                                    <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                    <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                </OnPlatform>
+                            </Label.FontFamily>
+                        </Label>
+                        <Image Source="logos" HorizontalOptions="Start" Margin="10,15,0,10"></Image>
                     </StackLayout>
                 </StackLayout>
             </ScrollView>
