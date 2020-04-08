@@ -71,5 +71,10 @@ namespace TransLionApp.Pages
             lastScrollPoint = e.ScrollY;
             translating = false;
         }
+
+        private async void KlikHierReintegratie_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("///spoor"); 
+        }
     }
 }

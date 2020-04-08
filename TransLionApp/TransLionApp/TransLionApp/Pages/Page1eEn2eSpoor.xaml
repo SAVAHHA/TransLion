@@ -119,8 +119,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-
-                        <Label Margin="5,0,5,0" Text="Wilt u meer informatie over de begeleiding van Trans Lion klik dan">
+                        <Label Text="Wilt u meer informatie over de begeleiding van Trans Lion klik dan"  Grid.Row="0" FontSize="11" VerticalTextAlignment="Center" Margin="10, 0, 0, 0">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -129,7 +128,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Button  Text=" hier." TextColor="#7ba6c6" IsEnabled="True" BackgroundColor="Transparent" x:Name="HierTo2eButton" HorizontalOptions="Start" Clicked="HierTo2eButton_Clicked"></Button>
+                        <Button x:Name="HierTo2eButton"  Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="HierTo2eButton_Clicked" Grid.Row="0" FontSize="11" HorizontalOptions="Start" VerticalOptions="Start"></Button>
                     </StackLayout>
                 </StackLayout>
             </ScrollView>

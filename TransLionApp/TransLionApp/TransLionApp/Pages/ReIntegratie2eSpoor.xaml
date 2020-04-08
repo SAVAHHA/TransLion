@@ -46,7 +46,7 @@
                                 </Label.FontFamily>
                             </Label>
                             <StackLayout Orientation="Horizontal">
-                                <Button Text="Klik hier" Font="16" TranslationY="-13" />
+                                <Button Text="Klik hier" Font="16" TranslationY="-13"  TextColor="#518bb8" BackgroundColor="Transparent" x:Name="KlikHierReintegratie" Clicked="KlikHierReintegratie_Clicked"/>
                                 <Label Text="voor meer informatie over het 1e en 2e spoor." FlowDirection="MatchParent" LineBreakMode="NoWrap">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -56,6 +56,7 @@
                                         </OnPlatform>
                                     </Label.FontFamily>
                                 </Label>
+                               
                             </StackLayout>
                             <StackLayout Orientation="Horizontal" >
                                 <Label BackgroundColor="#518bb8" Text="1" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="90" HeightRequest="90" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="90"/>
