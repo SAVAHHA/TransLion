@@ -10,9 +10,8 @@ namespace TransLionApp
         public App()
         {
             InitializeComponent();
-            //MainPage = new NavigationPage(new HomePage());
+            
             MainPage = new ShellPage();
-            //Verzuimbegeleiding verzuimbegeleiding = new Verzuimbegeleiding();
         }
 
         protected override void OnStart()

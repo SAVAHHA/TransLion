@@ -3782,17 +3782,7 @@ C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLio
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\menu.jpg
-C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\label.jpg
-C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\paw.png
-C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\newlogo.jpg
-C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\point.jpg
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\bluepictureforpages.jpg
-C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\newpoint.jpg
-C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\man.jpg
-C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\linkedinnew.png
-C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\linkedinsmall.png
-C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\whiteinsmall.png
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\bluecheck.png
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\uploadflags.txt
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\resolvedassemblies.hash
@@ -4290,3 +4280,5 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\bluecheck.png
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\logos.jpg
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\logos.jpg
+C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\splash_screen.xml
+C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\logotl.png
