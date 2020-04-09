@@ -42,18 +42,18 @@
                         </StackLayout>
                         <StackLayout Margin="0,0,0,20" Orientation="Horizontal">
 
-                            <Image Source="phone"></Image>
-                            <Label Text="010 - 450 29 31"></Label>
+                            <Image Source="fax.png" Margin="0,10,0,10"></Image>
+                            <Label Text="010 - 450 29 31" Margin="0,10,0,10"></Label>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal">
-                            <Image Source="phone"></Image>
+                            <Image Source="mail"></Image>
                             <Label Text="info@translion.nl">
                             </Label>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal">
                             <!--<Image Source="phone"></Image>-->
-                            <Label Text="in" TextColor="#518bb5" VerticalOptions="Center" FontAttributes="Bold"></Label>
-                            <Button Text="Linkedin" Clicked="linkedinButton0_Clicked" TextColor="Default" BackgroundColor="Transparent" FontSize="14"></Button>
+                            <Label Text="in" TextColor="#518bb8" VerticalOptions="Center" FontAttributes="Bold"></Label>
+                            <Button Text="Linkedin" TextColor="#518bb8" Clicked="linkedinButton0_Clicked" BackgroundColor="Transparent" FontSize="14"></Button>
                         </StackLayout>
                     </StackLayout>
                     <map:Map x:Name="map" MapType="Street" HasZoomEnabled="True"
