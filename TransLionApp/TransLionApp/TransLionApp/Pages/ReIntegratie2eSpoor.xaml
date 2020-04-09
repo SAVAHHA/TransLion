@@ -17,7 +17,7 @@
                     <StackLayout Spacing="0">
                         <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
                         <StackLayout Margin="10,0,10,0">
-                            <Label Margin="0,10,0,10" Text="Re-integratie 2e spoor" FontSize="36" TextColor="Black" FontAttributes="Bold,Italic"></Label>
+                            <Label Margin="0,0,0,0" Text="Re-integratie 2e spoor" FontSize="36" TextColor="Black" FontAttributes="Bold,Italic"></Label>
                             <Label Text="Trans Lion ondersteunt werkgevers, werknemers en intermediairs bij de begeleiding binnen het 2e spoor Wet verbetering poortwachter. Binnen het 2e spoor worden de mogelijkheden op de arbeidsmarkt bij een nieuwe werkgever onderzocht. Hierbij wordt uitgegaan van de arbeidsmogelijkheden die een werknemer heeft." FontAttributes="Bold">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
@@ -27,7 +27,7 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <Label Margin="0,20,0,0" Text="Als een werknemer langdurig arbeidsongeschikt is, moet worden gekeken of re-integratie binnen het bedrijf van de huidige werkgever mogelijk is. Dit kan bijvoorbeeld in de eigen functie of een aangepaste functie. Het traject waarin deze mogelijkheden worden onderzocht, wordt het 1e spoor genoemd. Naast het 1e spoor kan het 2e spoor worden gestart. Dit gebeurt doorgaans op advies van de bedrijfsarts of arbeidsdeskundige. Binnen het 2e spoor moeten de mogelijkheden bij een nieuwe werkgever worden onderzocht met als doel het vinden van een passende, duurzame functie bij een nieuwe werkgever. Het UWV zal de inspanningen binnen het 1e en 2e spoor beoordelen bij de WIA-keuring. Gedurende het 1e en 2e spoor blijven de verplichtingen vanuit de Wet verbetering poortwachter van toepassing.">
+                            <Label Margin="0,10,0,0" Text="Als een werknemer langdurig arbeidsongeschikt is, moet worden gekeken of re-integratie binnen het bedrijf van de huidige werkgever mogelijk is. Dit kan bijvoorbeeld in de eigen functie of een aangepaste functie. Het traject waarin deze mogelijkheden worden onderzocht, wordt het 1e spoor genoemd. Naast het 1e spoor kan het 2e spoor worden gestart. Dit gebeurt doorgaans op advies van de bedrijfsarts of arbeidsdeskundige. Binnen het 2e spoor moeten de mogelijkheden bij een nieuwe werkgever worden onderzocht met als doel het vinden van een passende, duurzame functie bij een nieuwe werkgever. Het UWV zal de inspanningen binnen het 1e en 2e spoor beoordelen bij de WIA-keuring. Gedurende het 1e en 2e spoor blijven de verplichtingen vanuit de Wet verbetering poortwachter van toepassing.">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
                                         <On Platform="iOS" Value="Roboto-Light" />
@@ -36,7 +36,7 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <Label Margin="0,20,0,0" Text="Na het intakegesprek wordt een trajectplan opgesteld. Hierbij kijkt de adviseur naar de mogelijkheden van de werknemer op de arbeidsmarkt. Samen met de in-house jobhunter wordt er gezocht naar een passende functie voor de werknemer. De voortgang wordt vastgelegd in rapportages.">
+                            <Label Margin="0,10,0,0" Text="Na het intakegesprek wordt een trajectplan opgesteld. Hierbij kijkt de adviseur naar de mogelijkheden van de werknemer op de arbeidsmarkt. Samen met de in-house jobhunter wordt er gezocht naar een passende functie voor de werknemer. De voortgang wordt vastgelegd in rapportages.">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
                                         <On Platform="iOS" Value="Roboto-Light" />

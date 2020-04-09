@@ -17,8 +17,17 @@
                     <StackLayout>
                         <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
                         <StackLayout Margin="10,0,10,0">
-                            <Label Text="Jobhunting" HorizontalOptions="Start" TextColor="Black" Margin="0,10,0,10" FontSize="36" FontAttributes="Bold,Italic" ></Label>
+                            <Label Text="Jobhunting" HorizontalOptions="Start" TextColor="Black" Margin="0,0,0,0" FontSize="36" FontAttributes="Bold,Italic" ></Label>
                             <Label Text="Tijdens het jobhuntingtraject gaat Trans Lion met een werknemer op zoek naar een nieuwe passende functie. Gedurende het traject zal een in-house jobhunter samen met de werknemer wekelijks werkgevers benaderen. Hierbij wordt onder andere gebruik gemaakt van het netwerk van Trans Lion en de vraag vanuit de markt. De adviseur van Trans Lion zal de voortgang monitoren en vastleggen in rapportages." FontAttributes="Bold">
+                                <!--<Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>-->
+                            </Label>
+                            <Label Text="Na het intakegesprek zal er een trajectplan worden opgesteld. Het traject wordt door de adviseur met werknemer regelmatig geëvalueerd en waar nodig bijgesteld." Margin="0,10,0,0">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
                                         <On Platform="iOS" Value="Roboto-Light" />
@@ -27,16 +36,7 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <Label Text="Na het intakegesprek zal er een trajectplan worden opgesteld. Het traject wordt door de adviseur met werknemer regelmatig geëvalueerd en waar nodig bijgesteld.">
-                                <Label.FontFamily>
-                                    <OnPlatform x:TypeArguments="x:String">
-                                        <On Platform="iOS" Value="Roboto-Light" />
-                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
-                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
-                                    </OnPlatform>
-                                </Label.FontFamily>
-                            </Label>
-                            <Label Text="Gedurende het traject zal de jobhunter ondersteuning bieden bij het sollicitatieproces:">
+                            <Label Text="Gedurende het traject zal de jobhunter ondersteuning bieden bij het sollicitatieproces:" Margin="0,10,0,0">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
                                         <On Platform="iOS" Value="Roboto-Light" />
@@ -117,7 +117,7 @@
                                     </Label.FontFamily>
                                 </Label>
                             </StackLayout>
-                            <Label Text="Binnen het traject zal rekening worden gehouden met de beperkingen, persoonlijke omstandigheden, specifieke vaardigheden en wensen van de werknemer. ">
+                            <Label Text="Binnen het traject zal rekening worden gehouden met de beperkingen, persoonlijke omstandigheden, specifieke vaardigheden en wensen van de werknemer. " Margin="0,10,0,0">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
                                         <On Platform="iOS" Value="Roboto-Light" />
@@ -126,7 +126,7 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <Label Text="De fases van het jobhuntingtraject" TextColor="Black" FontAttributes="Bold,Italic" FontSize="24"/>
+                            <Label Text="De fases van het jobhuntingtraject" TextColor="Black" FontAttributes="Bold,Italic" FontSize="24" Margin="0,10,0,0"/>
                             <Label Text="Het jobhuntingtraject wordt onderverdeeld in de volgende fases:">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
@@ -136,17 +136,17 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <StackLayout Orientation="Horizontal" >
+                            <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
                                 <Label BackgroundColor="#518bb8" Text="1" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Center" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
                                 <StackLayout>
                                     <Label Text="Fase 1 – Intakefase (intake binnen 10 werkdagen vanaf aanmelding)" FontAttributes="Bold">
-                                        <Label.FontFamily>
+                                        <!--<Label.FontFamily>
                                             <OnPlatform x:TypeArguments="x:String">
                                                 <On Platform="iOS" Value="Roboto-Light" />
                                                 <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
                                                 <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
                                             </OnPlatform>
-                                        </Label.FontFamily>
+                                        </Label.FontFamily>-->
                                     </Label>
                                     <StackLayout Orientation="Horizontal">
                                         <Image Source="bluecheck"></Image>
@@ -174,17 +174,17 @@
                                     </StackLayout>
                                 </StackLayout>
                             </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
+                            <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
                                 <Label BackgroundColor="#518bb8" Text="2" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
                                 <StackLayout>
                                     <Label Text="Fase 2 – Aanbodversterkende fase (vanaf realiseren intakeverslag)" FontAttributes="Bold">
-                                        <Label.FontFamily>
+                                        <!--<Label.FontFamily>
                                             <OnPlatform x:TypeArguments="x:String">
                                                 <On Platform="iOS" Value="Roboto-Light" />
                                                 <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
                                                 <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
                                             </OnPlatform>
-                                        </Label.FontFamily>
+                                        </Label.FontFamily>-->
                                     </Label>
                                     <StackLayout Orientation="Horizontal" >
                                         <Image Source="bluecheck"></Image>
@@ -236,17 +236,17 @@
                                     </StackLayout>
                                 </StackLayout>
                             </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
+                            <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
                                 <Label BackgroundColor="#518bb8" Text="3" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
                                 <StackLayout>
                                     <Label Text="Fase 3 – Oriëntatie- en sollicitatiefase" FontAttributes="Bold">
-                                        <Label.FontFamily>
+                                        <!--<Label.FontFamily>
                                             <OnPlatform x:TypeArguments="x:String">
                                                 <On Platform="iOS" Value="Roboto-Light" />
                                                 <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
                                                 <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
                                             </OnPlatform>
-                                        </Label.FontFamily>
+                                        </Label.FontFamily>-->
                                     </Label>
                                     <StackLayout Orientation="Horizontal" >
                                         <Image Source="bluecheck"></Image>
@@ -298,17 +298,17 @@
                                     </StackLayout>
                                 </StackLayout>
                             </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
+                            <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
                                 <Label BackgroundColor="#518bb8" Text="4" FontSize="35" TextColor="White" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" WidthRequest="80" HeightRequest="80" HorizontalOptions="Start" VerticalOptions="Start" MinimumWidthRequest="80"></Label>
                                 <StackLayout>
                                     <Label Text="Fase 4 – Werk en nazorg" FontAttributes="Bold">
-                                        <Label.FontFamily>
+                                        <!--<Label.FontFamily>
                                             <OnPlatform x:TypeArguments="x:String">
                                                 <On Platform="iOS" Value="Roboto-Light" />
                                                 <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
                                                 <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
                                             </OnPlatform>
-                                        </Label.FontFamily>
+                                        </Label.FontFamily>-->
                                     </Label>
                                     <StackLayout Orientation="Horizontal" >
                                         <Image Source="bluecheck"></Image>
@@ -336,7 +336,7 @@
                                     </StackLayout>
                                 </StackLayout>
                             </StackLayout>
-                            <Label Text="Kenmerkend voor onze begeleiding" TextColor="Black" FontAttributes="Bold,Italic" FontSize="24"></Label>
+                            <Label Text="Kenmerkend voor onze begeleiding" TextColor="Black" FontAttributes="Bold,Italic" FontSize="24" Margin="0,10,0,0"></Label>
                             <StackLayout Orientation="Horizontal">
                                 <Image Source="bluecheck"></Image>
                                 <Label Text="Minimaal tweewekelijks contact">

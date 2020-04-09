@@ -18,7 +18,7 @@
                     <StackLayout Spacing="0">
                         <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
 
-                        <Label Text="1e en 2e spoor" TextColor="Black" FontSize="36"  HorizontalOptions="Start" Margin="10,10,10,10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic" />
+                        <Label Text="1e en 2e spoor" TextColor="Black" FontSize="36"  HorizontalOptions="Start" Margin="10,0,10,0" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic" />
                         <Label Margin="10, 0, 10, 0" Text="Indien een werknemer (langdurig) arbeidsongeschikt wordt, zal de werkgever samen met de werknemer moeten werken aan de re-integratie. Concreet betekent dit dat de werkgever en werknemer er alles aan moeten doen om ervoor te zorgen dat de werknemer zo snel mogelijk weer deelneemt aan het arbeidsproces.">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
@@ -29,7 +29,7 @@
                             </Label.FontFamily>
                         </Label>
 
-                        <Label Margin="10, 20, 10, 0" Text="Eerst moeten de mogelijkheden binnen het 1e spoor (terugkeer bij de huidige werkgever) worden onderzocht. Er dient gekeken te worden naar terugkeer in de eigen functie en als dit niet mogelijk is naar terugkeer binnen de organisatie in een andere functie. Zijn er geen duurzame mogelijkheden binnen de organisatie, dan kan het 2e spoor worden opgestart.">
+                        <Label Margin="10, 10, 10, 0" Text="Eerst moeten de mogelijkheden binnen het 1e spoor (terugkeer bij de huidige werkgever) worden onderzocht. Er dient gekeken te worden naar terugkeer in de eigen functie en als dit niet mogelijk is naar terugkeer binnen de organisatie in een andere functie. Zijn er geen duurzame mogelijkheden binnen de organisatie, dan kan het 2e spoor worden opgestart.">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -39,7 +39,7 @@
                             </Label.FontFamily>
 
                         </Label>
-                        <Label Text="Het 2e spoor" TextColor="Black" FontSize="24"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic"  />
+                        <Label Text="Het 2e spoor" TextColor="Black" FontSize="24"  HorizontalOptions="Start" Margin="10,10,10,0" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic"  />
 
                         <Label Margin="10, 0, 10, 0" Text="Binnen het 2e spoor wordt gekeken naar de snelste weg voor een passende baan bij een nieuwe werkgever. Een arbeidsdeskundige of bedrijfsarts kan adviseren om het 2e spoor op te starten. Aan de hand van de werkervaring, kennis en affiniteit van de werknemer worden de verschillende functiemogelijkheden in kaart gebracht. Hierna zullen verschillende werkgevers worden benaderd. Tevens worden de mogelijkheden voor eventuele (om)scholing en werkervaringsplaatsen onderzocht.">
                             <Label.FontFamily>
@@ -50,7 +50,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Margin="10, 0, 10, 40" Text="Op basis van een contract of detacheringsovereenkomst kan de werknemer werkzaamheden verrichten bij een nieuwe werkgever. Hierbij kan de werknemer het contract bij de huidige werkgever behouden. Het voordeel hiervan is dat de werknemer alsnog de WIA-keuring bij het UWV kan doorlopen.">
+                        <Label Margin="10, 0, 10, 10" Text="Op basis van een contract of detacheringsovereenkomst kan de werknemer werkzaamheden verrichten bij een nieuwe werkgever. Hierbij kan de werknemer het contract bij de huidige werkgever behouden. Het voordeel hiervan is dat de werknemer alsnog de WIA-keuring bij het UWV kan doorlopen.">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -70,7 +70,7 @@
                             </Label.FontFamily>
                         </Label>
 
-                        <Label Text="Trans Lion en het 2e spoor" TextColor="Black" FontSize="24"  HorizontalOptions="Start" Padding="10" FontFamily="RobotoLight"  FontAttributes="Bold,Italic"  />
+                        <Label Text="Trans Lion en het 2e spoor" TextColor="Black" FontSize="24"  HorizontalOptions="Start" Margin="10,10,10,0" FontFamily="RobotoLight"  FontAttributes="Bold,Italic"  />
 
                         <Label Margin="10, 0, 10, 0" Text="Trans Lion ondersteunt werkgevers bij de invulling van het 2e spoor.">
                             <Label.FontFamily>
@@ -81,7 +81,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Enkele kenmerken van deze begeleiding:" Margin="10, 0, 10, 20">
+                        <Label Text="Enkele kenmerken van deze begeleiding:" Margin="10, 0, 10, 10">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -92,7 +92,7 @@
 
                         </Label>
 
-                        <Label Margin="5,0,5,0" Text="- Landelijk actief">
+                        <Label Margin="10,0,10,0" Text="- Landelijk actief">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -101,7 +101,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Margin="5,0,5,0" Text="- Vaste adviseur ondersteunt door een jobhunter">
+                        <Label Margin="10,0,10,0" Text="- Vaste adviseur ondersteunt door een jobhunter">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -110,7 +110,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Margin="5,0,5,10" Text="- Vaste prijzen">
+                        <Label Margin="10,0,10,10" Text="- Vaste prijzen">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
