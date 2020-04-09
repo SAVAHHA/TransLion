@@ -8,6 +8,12 @@
              >
     <ContentView.Content>
         <StackLayout HeightRequest="56" Spacing="0" BackgroundColor="White">
+            <!--<StackLayout.HeightRequest>
+                <OnPlatform x:DataType="x:Decimal">
+                    <On Platform="iOS" Value="50" />
+                    <On Platform="Android" Value="56" />
+                </OnPlatform>
+            </StackLayout.HeightRequest>-->
             <Label Text="Trans Lion" TextColor="Silver" HorizontalTextAlignment="End"
                    FontSize="25" Margin="0, 0, 12, 0"
                    />

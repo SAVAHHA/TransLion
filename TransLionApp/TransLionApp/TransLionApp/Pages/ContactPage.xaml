@@ -17,7 +17,7 @@
                 <StackLayout x:Name="mainStackLayout">
                     <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
                     <StackLayout Spacing="0" Margin="10,0,10,0">
-                        <Label Text="Contact" FontSize="36" Padding="10" FontAttributes="Bold,Italic"></Label>
+                        <Label Text="Contact" FontSize="36" Margin="0,10,0,10" TextColor="Black" FontAttributes="Bold,Italic"></Label>
                         <Label Text="Admiraal Helfrichweg 2P" >
                             <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -27,7 +27,7 @@
                                         </OnPlatform>
                                     </Label.FontFamily>
                         </Label>
-                        <Label Text="2901 AB Capelle aan den IJssel" Margin="0,0,0,20">
+                        <Label Text="2901 AB Capelle aan den IJssel" Margin="0,0,10,20">
                             <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
                                             <On Platform="iOS" Value="Roboto-Light" />
@@ -46,17 +46,18 @@
                             <Label Text="010 - 450 29 31"></Label>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal">
-                            <Image Source="mail"></Image>
+                            <Image Source="phone"></Image>
                             <Label Text="info@translion.nl">
                             </Label>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal">
-                            <Image Source="phone"></Image>
-                            <Button Text="Linkedin" FontSize="16" Clicked="linkedinButton0_Clicked"></Button>
+                            <!--<Image Source="phone"></Image>-->
+                            <Label Text="in" TextColor="#518bb5" VerticalOptions="Center" FontAttributes="Bold"></Label>
+                            <Button Text="Linkedin" Clicked="linkedinButton0_Clicked" TextColor="Default" BackgroundColor="Transparent" FontSize="14"></Button>
                         </StackLayout>
                     </StackLayout>
-                    <map:Map x:Name="map"
-                               MoveToLastRegionOnLayoutChange="False">
+                    <map:Map x:Name="map" MapType="Street" HasZoomEnabled="True"
+                               MoveToLastRegionOnLayoutChange="False" HeightRequest="400" Margin="0,0,0,10">
                         <x:Arguments>
                             <map:MapSpan>
                                 <x:Arguments>

@@ -17,7 +17,7 @@
                     <StackLayout Spacing="0">
                         <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
                         <StackLayout Margin="10,0,10,0">
-                            <Label Margin="5,0,0,0" Text="Re-integratie 2e spoor" FontSize="36" TextColor="Black" FontAttributes="Bold,Italic"></Label>
+                            <Label Margin="0,10,0,10" Text="Re-integratie 2e spoor" FontSize="36" TextColor="Black" FontAttributes="Bold,Italic"></Label>
                             <Label Text="Trans Lion ondersteunt werkgevers, werknemers en intermediairs bij de begeleiding binnen het 2e spoor Wet verbetering poortwachter. Binnen het 2e spoor worden de mogelijkheden op de arbeidsmarkt bij een nieuwe werkgever onderzocht. Hierbij wordt uitgegaan van de arbeidsmogelijkheden die een werknemer heeft." FontAttributes="Bold">
                                 <Label.FontFamily>
                                     <OnPlatform x:TypeArguments="x:String">
@@ -46,8 +46,8 @@
                                 </Label.FontFamily>
                             </Label>
                             <StackLayout Orientation="Horizontal">
-                                <Button Text="Klik hier" Font="14" TranslationY="-13"  TextColor="#518bb8" BackgroundColor="Transparent" x:Name="KlikHierReintegratie" Clicked="KlikHierReintegratie_Clicked"/>
-                                <Label Text="voor meer informatie over het 1e en 2e spoor." FlowDirection="MatchParent" LineBreakMode="NoWrap">
+                                <Button Text="Klik hier" Font="11" TranslationY="-13"  TextColor="#518bb8" BackgroundColor="Transparent" x:Name="KlikHierReintegratie" Clicked="KlikHierReintegratie_Clicked"/>
+                                <Label Text="voor meer informatie over het 1e en 2e spoor." FlowDirection="MatchParent" FontSize="11" LineBreakMode="NoWrap">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
                                             <On Platform="iOS" Value="Roboto-Light" />

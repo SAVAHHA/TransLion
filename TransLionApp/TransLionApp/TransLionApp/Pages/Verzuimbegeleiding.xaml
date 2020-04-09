@@ -59,7 +59,7 @@
                                     <ColumnDefinition Width="Auto"></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
 
-                                <Label Text="Meer informatie" Grid.Column="0" Grid.Row="0" FontSize="13" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="10, 0, 0, 0">
+                                <Label Text="Meer informatie" Grid.Column="0" Grid.Row="0" FontSize="11" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="10, 0, 0, 0">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
                                             <On Platform="iOS" Value="Roboto-Light" />
@@ -68,7 +68,7 @@
                                         </OnPlatform>
                                     </Label.FontFamily>
                                 </Label>
-                                <Button Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="klikHier1Button_Clicked" Grid.Column="1" Grid.Row="0" FontSize="13" HorizontalOptions="Start" VerticalOptions="Start"></Button>
+                                <Button Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="klikHier1Button_Clicked" Grid.Column="1" Grid.Row="0" FontSize="11" HorizontalOptions="Start" VerticalOptions="Start"></Button>
                             </Grid>
                             <Label Text="Re-integratie 2e spoor" TextColor="Black" FontSize="24" FontAttributes="Bold,Italic"></Label>
                             <Label Text="Als een werknemer (gedeeltelijk) arbeidsongeschikt is voor zijn eigen functie, wordt binnen het 2e spoor Wet verbetering poortwachter gezocht naar een passende functie bij een andere werkgever.">
@@ -102,7 +102,7 @@
                                     <ColumnDefinition Width="Auto"></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
 
-                                <Label Text="Meer informatie" Grid.Column="0" Grid.Row="0" FontSize="13" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="10, 0, 0, 0">
+                                <Label Text="Meer informatie" Grid.Column="0" Grid.Row="0" FontSize="11" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="10, 0, 0, 0">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
                                             <On Platform="iOS" Value="Roboto-Light" />
@@ -111,7 +111,7 @@
                                         </OnPlatform>
                                     </Label.FontFamily>
                                 </Label>
-                                <Button Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="klikHier2Button_Clicked" Grid.Column="1" Grid.Row="0" FontSize="13" HorizontalOptions="Start" VerticalOptions="Start"></Button>
+                                <Button Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="klikHier2Button_Clicked" Grid.Column="1" Grid.Row="0" FontSize="11" HorizontalOptions="Start" VerticalOptions="Start"></Button>
                             </Grid>
                         </StackLayout>
                     </StackLayout>

@@ -28,8 +28,6 @@
 	<string>com.companyname.TransLion</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
 	<string>TransLionApp</string>
 	<key>XSAppIconAssets</key>
@@ -45,5 +43,7 @@
 			</array>
 		</dict>
 	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch</string>
 </dict>
 </plist>

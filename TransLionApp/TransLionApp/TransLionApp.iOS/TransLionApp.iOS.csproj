@@ -70,6 +70,7 @@
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <InterfaceDefinition Include="Resources\SplashScreen.storyboard" />
+    <InterfaceDefinition Include="Launch.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets1.xcassets\AppIcons.appiconset\180logo.png">
