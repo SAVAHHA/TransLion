@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace TransLionApp.Droid
 {
-    [Activity(Label = "TransLion", Icon = "@mipmap/Logotype", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "TransLion", Icon = "@drawable/logo192", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

@@ -224,7 +224,6 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\bin\Debug\netstandard
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\bin\Debug\netstandard2.0\TransLionApp.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\bin\Debug\netstandard2.0\ref\TransLionApp.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\bin\Debug\netstandard2.0\TransLionApp.pdb
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csprojAssemblyReference.cache
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Controls\FlyoutHeader.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\ContactPage.xaml.g.cs

@@ -7,8 +7,8 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.CALL_PHONE" />
   <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
-  <application android:label="TransLionApp.Android" android:icon="@mipmap/logotype" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/logotype" android:label="TransLion" android:theme="@style/MainTheme" android:name="crc64cf7bda9a8ca5aea6.MainActivity">
+  <application android:label="TransLionApp.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/logo192" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/logo192" android:label="TransLion" android:theme="@style/MainTheme" android:name="crc64cf7bda9a8ca5aea6.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
