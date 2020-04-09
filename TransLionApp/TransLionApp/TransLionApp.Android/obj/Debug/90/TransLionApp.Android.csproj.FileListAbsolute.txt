@@ -4857,3 +4857,4 @@ C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLi
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\fax.png
