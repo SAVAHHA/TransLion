@@ -71,6 +71,9 @@
     <InterfaceDefinition Include="Resources\SplashScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
+    <ImageAsset Include="Logos.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
@@ -189,10 +192,18 @@
     <ImageAsset Include="Assets.xcassets\man.imageset\man.jpg">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\phone.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\phone.imageset\phone.png" />
-    <ImageAsset Include="Assets.xcassets\mail.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\mail.imageset\ic_action_mail.png" />
+    <ImageAsset Include="Assets.xcassets\phone.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\phone.imageset\phone.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\mail.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\mail.imageset\ic_action_mail.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -217,20 +228,20 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Assets.xcassets\bluecheck.imageset\" />
     <Folder Include="Assets.xcassets\BluePictureForPages.imageset\" />
     <Folder Include="Assets.xcassets\Label.imageset\" />
+    <Folder Include="Assets.xcassets\linkedinnew.imageset\" />
+    <Folder Include="Assets.xcassets\linkedinsmall.imageset\" />
+    <Folder Include="Assets.xcassets\logos.imageset\" />
+    <Folder Include="Assets.xcassets\mail.imageset\" />
+    <Folder Include="Assets.xcassets\man.imageset\" />
     <Folder Include="Assets.xcassets\menu.imageset\" />
     <Folder Include="Assets.xcassets\newLogo.imageset\" />
     <Folder Include="Assets.xcassets\newPoint.imageset\" />
     <Folder Include="Assets.xcassets\paw.imageset\" />
-    <Folder Include="Assets.xcassets\point.imageset\" />
-    <Folder Include="Assets.xcassets\bluecheck.imageset\" />
-    <Folder Include="Assets.xcassets\linkedinsmall.imageset\" />
-    <Folder Include="Assets.xcassets\linkedinnew.imageset\" />
-    <Folder Include="Assets.xcassets\logos.imageset\" />
-    <Folder Include="Assets.xcassets\man.imageset\" />
     <Folder Include="Assets.xcassets\phone.imageset\" />
-    <Folder Include="Assets.xcassets\mail.imageset\" />
+    <Folder Include="Assets.xcassets\point.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\logos.jpg" />

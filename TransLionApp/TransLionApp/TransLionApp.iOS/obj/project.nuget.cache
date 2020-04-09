@@ -1,44 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "pPP8b047oYUiluIgV7ivL67PEJydl0laJu5uFykek2Paw8n0i8gbYuUtCxwfZDSNYXv89D6n83EAni4T4MDZ5A==",
+  "dgSpecHash": "j+PdnFbJlY0gCxHL14tUwAkBKJLWbkOZf4/yRhXY8naSnD9pX/ru35egUgCkIahwxvpvSrZ1eY8DhiLkcJwm+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+  "projectFilePath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Anna\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.licensing\\18.1.0.43\\syncfusion.licensing.18.1.0.43.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.xamarin.compression\\18.1.0.43\\syncfusion.xamarin.compression.18.1.0.43.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.xamarin.pdf\\18.1.0.43\\syncfusion.xamarin.pdf.18.1.0.43.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.495\\xamarin.forms.maps.4.5.0.495.nupkg.sha512"
+    "C:\\Users\\Анна\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.licensing\\18.1.0.43\\syncfusion.licensing.18.1.0.43.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.xamarin.compression\\18.1.0.43\\syncfusion.xamarin.compression.18.1.0.43.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.xamarin.pdf\\18.1.0.43\\syncfusion.xamarin.pdf.18.1.0.43.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.530\\xamarin.forms.maps.4.5.0.530.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Обнаружено понижение версии пакета Xamarin.Forms.Maps с 4.5.0.530 на 4.5.0.495. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms.Maps (>= 4.5.0.530) \r\n TransLionApp.iOS -> Xamarin.Forms.Maps (>= 4.5.0.495)",
-      "libraryId": "Xamarin.Forms.Maps",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Обнаружено понижение версии пакета Xamarin.Forms с 4.5.0.530 на 4.5.0.495. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms (>= 4.5.0.530) \r\n TransLionApp.iOS -> Xamarin.Forms (>= 4.5.0.495)",
-      "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    }
-  ]
+  "logs": []
 }
