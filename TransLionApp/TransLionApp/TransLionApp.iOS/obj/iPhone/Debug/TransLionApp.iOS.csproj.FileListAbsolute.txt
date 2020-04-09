@@ -1,67 +1,134 @@
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\optimized\
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.csprojAssemblyReference.cache
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.csproj.CoreCompileInputs.cache
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\TransLionApp.iOS.exe
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\TransLionApp.iOS.pdb
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Syncfusion.Licensing.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Syncfusion.Compression.Portable.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Syncfusion.Pdf.Portable.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Plugin.Messaging.Abstractions.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Plugin.Messaging.Abstractions.pdb
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Plugin.Messaging.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\pt-br\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.iOS.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\TransLionApp.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\TransLionApp.pdb
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\XamlC.stamp
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.csproj.CopyComplete
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.exe
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.pdb
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/actool/_PartialAppManifest.items
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/coremlc/_PartialAppManifest.items
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/coremlc/_BundleResourceWithLogicalName.items
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/optimized/
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/TransLionApp.iOS.csprojAssemblyReference.cache
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/TransLionApp.iOS.csproj.CoreCompileInputs.cache
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/TransLionApp.iOS.exe
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/TransLionApp.iOS.pdb
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Syncfusion.Licensing.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Syncfusion.Compression.Portable.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Syncfusion.Pdf.Portable.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Plugin.Messaging.Abstractions.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Plugin.Messaging.Abstractions.pdb
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Plugin.Messaging.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Essentials.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Essentials.pdb
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Core.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Core.pdb
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.pdb
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/pt-br/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Maps.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Maps.iOS.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/TransLionApp.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.dll
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/TransLionApp.pdb
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.pdb
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/XamlC.stamp
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/TransLionApp.iOS.csproj.CopyComplete
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/TransLionApp.iOS.exe
+C:/GitHub TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/TransLionApp.iOS.pdb
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/TransLionApp.iOS.exe
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/TransLionApp.iOS.pdb
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Syncfusion.Licensing.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Syncfusion.Compression.Portable.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Syncfusion.Pdf.Portable.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Plugin.Messaging.Abstractions.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Plugin.Messaging.Abstractions.pdb
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Plugin.Messaging.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Essentials.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Essentials.pdb
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Core.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Core.pdb
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.pdb
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/pt-br/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Maps.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Maps.iOS.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/TransLionApp.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/TransLionApp.pdb
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/device-builds/iphone11.8-13.2.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/device-builds/iphone11.8-13.2.3/actool/_PartialAppManifest.items
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/device-builds/iphone11.8-13.2.3/actool/_BundleResourceWithLogicalName.items
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/device-builds/iphone11.8-13.2.3/coremlc/_PartialAppManifest.items
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/device-builds/iphone11.8-13.2.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/device-builds/iphone11.8-13.2.3/optimized/
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/TransLionApp.iOS.csprojAssemblyReference.cache
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/TransLionApp.iOS.csproj.CoreCompileInputs.cache
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/XamlC.stamp
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/TransLionApp.iOS.csproj.CopyComplete
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/TransLionApp.iOS.exe
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhone/Debug/TransLionApp.iOS.pdb
