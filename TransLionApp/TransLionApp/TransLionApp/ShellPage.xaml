@@ -42,10 +42,10 @@
                     </Grid.ColumnDefinitions>
                     <Label Grid.Column="1" Grid.ColumnSpan="2"
                        Text="{Binding Title}"
-                       TextColor="Black"
+                       
                        FontAttributes="Italic"
                        HeightRequest="40"
-                       FontSize="Body"
+                       FontSize="14"
                        HorizontalTextAlignment="Start"
                        Margin="25, 0, 7, 0"
                        VerticalTextAlignment="Center" />
@@ -100,11 +100,11 @@
                         <ColumnDefinition Width="0.8*" />
                     </Grid.ColumnDefinitions>
                     <Label Grid.Column="1" Grid.ColumnSpan="2"
-                       TextColor="Black"
+                       
                        Text="{Binding Title}"
                        FontAttributes="Bold,Italic"
                        HeightRequest="20"
-                       FontSize="Body"
+                       FontSize="14"
                        
                        HorizontalTextAlignment="Start"
                        VerticalTextAlignment="Center" />
@@ -119,10 +119,10 @@
                     </Grid.ColumnDefinitions>
                     <Label Grid.Column="1" Grid.ColumnSpan="2"
                        Text="{Binding Title}"
-                       TextColor="Black"
+                      
                        FontAttributes="Italic"
                        HeightRequest="40"
-                       FontSize="Body"
+                       FontSize="14"
                        HorizontalTextAlignment="Start"
                        Margin="25, 0, 7, 0"
                        VerticalTextAlignment="Center" />
