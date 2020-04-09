@@ -27,8 +27,8 @@
                        Text="{Binding Title}"
                        FontAttributes="Bold,Italic"
                        HeightRequest="45"
-                       FontSize="Subtitle"
-                       
+                       FontSize="Body"
+                       Margin="0,0,5,0"
                        HorizontalTextAlignment="Start"
                        VerticalTextAlignment="Center" />
                 </Grid>
@@ -45,9 +45,9 @@
                        TextColor="Black"
                        FontAttributes="Italic"
                        HeightRequest="40"
-                       FontSize="Subtitle"
+                       FontSize="Body"
                        HorizontalTextAlignment="Start"
-                       Margin="25, 0, 0, 0"
+                       Margin="25, 0, 7, 0"
                        VerticalTextAlignment="Center" />
                 </Grid>
             </DataTemplate>
@@ -63,7 +63,7 @@
                        TextColor="Black"
                        FontAttributes="Italic"
                        HeightRequest="15"
-                       FontSize="Subtitle"
+                       FontSize="Body"
                        HorizontalTextAlignment="Start"
                        Margin="25, 0, 0, 0"
                        VerticalTextAlignment="Center" />
@@ -86,7 +86,7 @@
                        Text="{Binding Title}"
                        FontAttributes="Bold,Italic"
                        HeightRequest="40"
-                       FontSize="Subtitle"
+                       FontSize="Body"
                        
                        HorizontalTextAlignment="Start"
                        VerticalTextAlignment="Center" />
@@ -104,7 +104,7 @@
                        Text="{Binding Title}"
                        FontAttributes="Bold,Italic"
                        HeightRequest="20"
-                       FontSize="Subtitle"
+                       FontSize="Body"
                        
                        HorizontalTextAlignment="Start"
                        VerticalTextAlignment="Center" />
@@ -122,9 +122,9 @@
                        TextColor="Black"
                        FontAttributes="Italic"
                        HeightRequest="40"
-                       FontSize="Subtitle"
+                       FontSize="Body"
                        HorizontalTextAlignment="Start"
-                       Margin="25, 0, 0, 0"
+                       Margin="25, 0, 7, 0"
                        VerticalTextAlignment="Center" />
                 </Grid>
             </DataTemplate>

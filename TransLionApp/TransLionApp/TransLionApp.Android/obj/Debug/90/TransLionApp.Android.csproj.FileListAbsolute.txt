@@ -4282,3 +4282,5 @@ C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLio
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\logos.jpg
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\splash_screen.xml
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\logotl.png
+C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\phone.png
+C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\mail.png

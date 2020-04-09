@@ -189,10 +189,18 @@
     <ImageAsset Include="Assets.xcassets\man.imageset\man.jpg">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\phone.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\phone.imageset\phone.png" />
-    <ImageAsset Include="Assets.xcassets\mail.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\mail.imageset\ic_action_mail.png" />
+    <ImageAsset Include="Assets.xcassets\phone.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\phone.imageset\phone.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\mail.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\mail.imageset\ic_action_mail.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

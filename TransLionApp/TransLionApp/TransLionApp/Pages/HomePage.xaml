@@ -58,7 +58,7 @@
                             <Button Text="Lees meer..." BackgroundColor="#4dc08f" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0, 0, 7, 7" WidthRequest="110" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked"></Button>
                         </Grid>
                         <!--<Label Text="Trans Lion" TextColor="#518bb8" HorizontalOptions="Center" FontAttributes="Bold,Italic" FontSize="22" Margin="0,25,0,0"></Label>-->
-                        <Label Text="Admiraal Helfrichweg 2P" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center" Margin="0,15,0,0">
+                        <Label Text="Admiraal Helfrichweg 2P" FontSize="15" HorizontalTextAlignment="Center" Margin="0,15,0,0">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -67,7 +67,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="2901 AB  Capelle aan den IJssel" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center" Margin="0,0,0,0">
+                        <Label Text="2901 AB  Capelle aan den IJssel" FontSize="15" HorizontalTextAlignment="Center" Margin="0,0,0,0">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -76,7 +76,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="010 - 264 30 30" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center" Margin="0,0,0,0">
+                        <Label Text="010 - 264 30 30" FontSize="15" HorizontalTextAlignment="Center" Margin="0,0,0,0">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -85,7 +85,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="info@translion.nl" TextColor="Black" FontSize="15" HorizontalTextAlignment="Center" Margin="0,0,0,0">
+                        <Label Text="info@translion.nl" FontSize="15" HorizontalTextAlignment="Center" Margin="0,0,0,0">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -101,8 +101,8 @@
 
             <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
                 <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
-                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
-                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="15, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 15, 5" Clicked="callButton_Clicked"></Button>
             </Grid>
         </Grid>
     </ContentPage.Content>
