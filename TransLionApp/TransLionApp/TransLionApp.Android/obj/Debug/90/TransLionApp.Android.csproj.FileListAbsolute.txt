@@ -2617,13 +2617,7 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\mipmap-xxhdpi\launcher_foreground.png
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\menu.jpg
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\label.jpg
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\paw.png
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\newlogo.jpg
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\point.jpg
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\bluepictureforpages.jpg
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\newpoint.jpg
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\uploadflags.txt
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\resolvedassemblies.hash
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\FormsViewGroup.dll
@@ -4273,10 +4267,6 @@ C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLio
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\man.jpg
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\linkedinnew.png
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\linkedinsmall.png
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\whiteinsmall.png
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\bluecheck.png
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\logos.jpg
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\logos.jpg
@@ -4284,3 +4274,13 @@ C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLio
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\logotl.png
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\phone.png
 C:\Users\Anna\source\repos\TransLion_sixApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\mail.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\mail.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\phone.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\splash_screen.xml
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\logotl.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\logo192.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\mipmap-xxhdpi\logo.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\mipmap-xhdpi\logo96.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\mipmap-hdpi\logo72.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\mipmap-mdpi\logo48.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\logo192.png
