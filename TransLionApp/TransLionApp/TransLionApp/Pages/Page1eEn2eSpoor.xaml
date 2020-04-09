@@ -18,7 +18,7 @@
                     <StackLayout Spacing="0">
                         <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
 
-                        <Label Text="1e en 2e spoor" TextColor="Black" FontSize="36"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic" />
+                        <Label Text="1e en 2e spoor" TextColor="Black" FontSize="36"  HorizontalOptions="Start" Margin="10,10,10,10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic" />
                         <Label Margin="10, 0, 10, 0" Text="Indien een werknemer (langdurig) arbeidsongeschikt wordt, zal de werkgever samen met de werknemer moeten werken aan de re-integratie. Concreet betekent dit dat de werkgever en werknemer er alles aan moeten doen om ervoor te zorgen dat de werknemer zo snel mogelijk weer deelneemt aan het arbeidsproces.">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">

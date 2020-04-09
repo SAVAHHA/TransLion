@@ -11,6 +11,7 @@
         "dependencies": {
           "LiveXAML": "2.1.73",
           "NETStandard.Library": "2.0.3",
+          "Syncfusion.Licensing": "18.1.0.43",
           "Syncfusion.Xamarin.Pdf": "18.1.0.43",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.2",
