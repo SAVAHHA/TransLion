@@ -46,8 +46,8 @@
                                 </Label.FontFamily>
                             </Label>
                             <StackLayout Orientation="Horizontal">
-                                <Button Text="Klik hier" Font="14" TranslationY="-13"  TextColor="#518bb8" BackgroundColor="Transparent" x:Name="KlikHierReintegratie" Clicked="KlikHierReintegratie_Clicked"/>
-                                <Label Text="voor meer informatie over het 1e en 2e spoor." FlowDirection="MatchParent" LineBreakMode="NoWrap">
+                                <Button Text="Klik hier" Font="11" TranslationY="-13"  TextColor="#518bb8" BackgroundColor="Transparent" x:Name="KlikHierReintegratie" Clicked="KlikHierReintegratie_Clicked"/>
+                                <Label Text="voor meer informatie over het 1e en 2e spoor." FlowDirection="MatchParent" FontSize="11" LineBreakMode="NoWrap">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
                                             <On Platform="iOS" Value="Roboto-Light" />

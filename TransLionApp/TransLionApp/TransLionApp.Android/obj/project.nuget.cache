@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4j3S9HEUnGsUIQWhCUz3sZ6o54RjrbbnR82Hp6O6deo5fQxTf89b/yPaNi/itYkoM1lj1f12VPjmkEWUHvJMmw==",
+  "dgSpecHash": "uhDv0MdDxHaQ0HYh4m8qDmFAqSNaT8MhfpjBGCB5CDnYjZYSdYXjdhOUiP4c3PvZZ55IuYsjsW+3HWDotoMrTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_sixApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\syncfusion.licensing\\18.1.0.43\\syncfusion.licensing.18.1.0.43.nupkg.sha512",
