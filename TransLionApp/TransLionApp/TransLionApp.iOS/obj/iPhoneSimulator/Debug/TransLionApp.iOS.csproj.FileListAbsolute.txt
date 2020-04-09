@@ -112,15 +112,18 @@ C:/Users/Anna/Source/Repos/SAVAHHA/TransLion/TransLionApp/TransLionApp/TransLion
 /Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
 /Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhoneSimulator/Debug/TransLionApp.pdb
 /Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/ibtool/_BundleResourceWithLogicalName.items
-/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/actool/_PartialAppManifest.items
-/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/actool/_BundleResourceWithLogicalName.items
-/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_PartialAppManifest.items
-/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_BundleResourceWithLogicalName.items
-/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/
 /Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/TransLionApp.iOS.csprojAssemblyReference.cache
 /Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/TransLionApp.iOS.csproj.CoreCompileInputs.cache
 /Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/TransLionApp.iOS.csproj.CopyComplete
 /Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/TransLionApp.iOS.exe
 /Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/TransLionApp.iOS.pdb
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Licensing.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Compression.Portable.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Pdf.Portable.dll
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_PartialAppManifest.items
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_BundleResourceWithLogicalName.items
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/coremlc/_PartialAppManifest.items
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/

@@ -7,6 +7,7 @@ using Xamarin.Essentials;
 using Plugin.Messaging;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Forms.Maps;
 
 namespace TransLionApp.Pages
 {
@@ -22,8 +23,10 @@ namespace TransLionApp.Pages
             Title = "Content Page";
             Label label = new Label { Text = "YY" };
             Content = label;
-            InitializeComponent();
+            InitializeComponent();    
         }
+
+        
 
         private void linkedinButton0_Clicked(object sender, EventArgs e)
         {
