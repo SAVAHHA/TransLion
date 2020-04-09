@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:map="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              mc:Ignorable="d"
              xmlns:view="clr-namespace:TransLionApp.Views"
              x:Class="TransLionApp.Pages.ContactPage">
@@ -54,13 +55,44 @@
                             <Button Text="Linkedin" FontSize="16" Clicked="linkedinButton0_Clicked"></Button>
                         </StackLayout>
                     </StackLayout>
+                    <map:Map x:Name="map"
+                               MoveToLastRegionOnLayoutChange="False">
+                        <x:Arguments>
+                            <map:MapSpan>
+                                <x:Arguments>
+                                    <map:Position>
+                                        <x:Arguments>
+                                            <x:Double>51.912252</x:Double>
+                                            <x:Double>4.562399</x:Double>
+                                        </x:Arguments>
+                                    </map:Position>
+                                     <x:Double>0.01</x:Double>
+                                     <x:Double>0.01</x:Double>
+                                 </x:Arguments>
+                             </map:MapSpan>
+                         </x:Arguments>
+                         <map:Map.Pins>
+                             <map:Pin Label="TransLion"
+                                       Address="Admiraal Helfrichweg 2P 2901 AB Capelle aan den IJssel"
+                                       Type="Place">
+                                 <map:Pin.Position>
+                                     <map:Position>
+                                         <x:Arguments>
+                                             <x:Double>51.912252</x:Double>
+                                             <x:Double>4.562399</x:Double>
+                                         </x:Arguments>
+                                     </map:Position>
+                                 </map:Pin.Position>
+                             </map:Pin>
+                         </map:Map.Pins>
+                     </map:Map>
                 </StackLayout>
             </ScrollView>
 
             <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
                 <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
-                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
-                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="15, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 15, 5" Clicked="callButton_Clicked"></Button>
             </Grid>
         </Grid>
     </ContentPage.Content>

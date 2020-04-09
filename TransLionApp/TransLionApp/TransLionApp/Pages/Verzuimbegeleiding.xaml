@@ -37,7 +37,7 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <StackLayout Orientation="Horizontal" >
+                            <!--<StackLayout Orientation="Horizontal" >
                                 <Label Text="Meer informatie ">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -49,7 +49,27 @@
                                 </Label>
                                 <Button Clicked="klikHier1Button_Clicked" Text="klik hier" Font="16" BackgroundColor="Transparent" TextColor="#518bb8" TranslationX="-5" TranslationY="-12" />
                                 <Label Text="." TranslationX="-12"/>
-                            </StackLayout>
+                            </StackLayout>-->
+                            <Grid ColumnSpacing="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="Meer informatie" Grid.Column="0" Grid.Row="0" FontSize="13" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="10, 0, 0, 0">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                                <Button Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="klikHier1Button_Clicked" Grid.Column="1" Grid.Row="0" FontSize="13" HorizontalOptions="Start" VerticalOptions="Start"></Button>
+                            </Grid>
                             <Label Text="Re-integratie 2e spoor" TextColor="Black" FontSize="24" FontAttributes="Bold,Italic"></Label>
                             <Label Text="Als een werknemer (gedeeltelijk) arbeidsongeschikt is voor zijn eigen functie, wordt binnen het 2e spoor Wet verbetering poortwachter gezocht naar een passende functie bij een andere werkgever.">
                                 <Label.FontFamily>
@@ -60,7 +80,7 @@
                                     </OnPlatform>
                                 </Label.FontFamily>
                             </Label>
-                            <StackLayout Orientation="Horizontal" >
+                            <!--<StackLayout Orientation="Horizontal" >
                                 <Label Text="Meer informatie ">
                                     <Label.FontFamily>
                                         <OnPlatform x:TypeArguments="x:String">
@@ -72,15 +92,35 @@
                                 </Label>
                                 <Button Clicked="klikHier2Button_Clicked" Text="klik hier" Font="16" TranslationX="-5" HeightRequest="-2" TextColor="#518bb8" TranslationY="0" />
                                 <Label Text="." TranslationX="-12"/>
-                            </StackLayout>
+                            </StackLayout>-->
+                            <Grid ColumnSpacing="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="Meer informatie" Grid.Column="0" Grid.Row="0" FontSize="13" HorizontalTextAlignment="End" VerticalTextAlignment="Center" Margin="10, 0, 0, 0">
+                                    <Label.FontFamily>
+                                        <OnPlatform x:TypeArguments="x:String">
+                                            <On Platform="iOS" Value="Roboto-Light" />
+                                            <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                            <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                        </OnPlatform>
+                                    </Label.FontFamily>
+                                </Label>
+                                <Button Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="klikHier2Button_Clicked" Grid.Column="1" Grid.Row="0" FontSize="13" HorizontalOptions="Start" VerticalOptions="Start"></Button>
+                            </Grid>
                         </StackLayout>
                     </StackLayout>
                 </StackLayout>
             </ScrollView>
             <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
                 <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
-                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
-                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="15, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 15, 5" Clicked="callButton_Clicked"></Button>
             </Grid>
         </Grid>
     </ContentPage.Content>

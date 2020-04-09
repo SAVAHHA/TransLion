@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<XamlProjectMeta xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Files>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\App.xaml</FilePath>
-      <Hash>6E-EE-E9-DA-AE-75-74-90-9E-34-E7-E2-15-63-91-88</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/App.xaml</FilePath>
+      <Hash>19-0D-57-41-24-2C-9D-7F-E6-39-14-25-2D-C3-E9-66</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Controls\FlyoutHeader.xaml</FilePath>
-      <Hash>29-C9-45-7A-66-0F-2F-F2-FC-DF-69-7B-B4-D8-AB-55</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Controls/FlyoutHeader.xaml</FilePath>
+      <Hash>D3-2B-83-15-9A-E7-24-85-17-0B-DA-CE-EC-2F-6A-71</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Pages\ContactPage.xaml</FilePath>
-      <Hash>B0-B5-57-37-63-41-2A-33-22-9A-02-C6-23-0C-89-63</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Pages/ContactPage.xaml</FilePath>
+      <Hash>A3-31-7C-05-AF-3B-94-35-16-6B-50-CD-BD-A7-4F-65</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Pages\HomePage.xaml</FilePath>
-      <Hash>0E-9A-C3-50-38-81-2E-2A-D6-F8-E2-DE-17-64-CA-70</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Pages/HomePage.xaml</FilePath>
+      <Hash>3D-06-42-7A-7C-EA-C7-B4-D2-05-D1-BE-F0-0E-11-BD</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Pages\Jobhunting.xaml</FilePath>
-      <Hash>84-DB-4C-9A-AC-9B-84-BF-39-DD-F3-47-37-AD-9F-06</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Pages/Jobhunting.xaml</FilePath>
+      <Hash>1C-B1-AC-AA-2C-25-57-47-0A-CA-6B-24-5A-4E-60-75</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Pages\Page1eEn2eSpoor.xaml</FilePath>
-      <Hash>93-E8-3C-67-0B-BD-0D-20-13-64-09-38-6B-AE-93-57</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Pages/Page1eEn2eSpoor.xaml</FilePath>
+      <Hash>DC-B7-90-8A-9D-35-EF-DA-B5-01-E5-6D-EE-79-53-CF</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Pages\ReIntegratie2eSpoor.xaml</FilePath>
-      <Hash>22-A4-5B-BB-BB-A1-E1-F5-A1-F7-D3-1C-40-94-5D-2C</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Pages/ReIntegratie2eSpoor.xaml</FilePath>
+      <Hash>81-C9-35-95-ED-C3-C2-92-40-57-B3-39-46-B9-4B-99</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Pages\SchemaWetVerbeteringPoortwachter.xaml</FilePath>
-      <Hash>DA-CF-97-30-83-22-1F-AF-5B-D8-02-78-0D-DF-29-1A</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Pages/SchemaWetVerbeteringPoortwachter.xaml</FilePath>
+      <Hash>B0-AF-25-3E-73-58-70-EC-70-15-31-38-0B-8B-A3-CA</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Pages\UWVPage.xaml</FilePath>
-      <Hash>70-46-3A-D6-5F-14-6A-0A-0F-87-28-4B-0B-39-C0-83</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Pages/UWVPage.xaml</FilePath>
+      <Hash>6C-F8-F0-4E-A8-41-68-60-07-F1-4C-8E-F2-10-16-9D</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Pages\Verzuimbegeleiding.xaml</FilePath>
-      <Hash>69-F5-6C-41-6A-7F-98-93-2E-12-EB-77-50-16-1C-67</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Pages/Verzuimbegeleiding.xaml</FilePath>
+      <Hash>BD-64-17-A2-A8-82-EC-52-C6-5E-FD-2C-96-F0-08-18</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Pages\WerkwijzerWetVerbeteringPoortwachter.xaml</FilePath>
-      <Hash>60-E5-2B-79-24-A8-B8-25-C7-7A-CD-DD-10-12-6B-F6</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Pages/WerkwijzerWetVerbeteringPoortwachter.xaml</FilePath>
+      <Hash>2C-07-78-7B-21-DD-B7-9C-47-3E-59-F4-90-36-0B-DB</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Pages\WieZijnWij.xaml</FilePath>
-      <Hash>46-04-88-0E-FB-9E-1C-BE-F6-95-67-C3-61-3D-79-A9</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Pages/WieZijnWij.xaml</FilePath>
+      <Hash>91-51-9D-54-E9-3E-D0-D3-93-20-84-42-03-5E-64-8C</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\ShellPage.xaml</FilePath>
-      <Hash>CB-AE-DD-95-36-90-4F-64-55-2A-55-28-C3-E3-0E-25</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/ShellPage.xaml</FilePath>
+      <Hash>8B-16-A3-6D-00-CB-3F-E1-7A-E2-14-3E-8C-90-79-59</Hash>
       <Properties>
         <string>Shell.ItemTemplate</string>
         <string>Shell.MenuItemTemplate</string>
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\Views\BarView.xaml</FilePath>
-      <Hash>41-E0-B5-32-EA-92-FC-EC-E4-61-17-3D-57-F3-27-19</Hash>
+      <FilePath>/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/Views/BarView.xaml</FilePath>
+      <Hash>61-57-3F-56-E7-31-3A-3B-87-DD-EE-AB-9C-CD-72-F4</Hash>
       <Properties />
     </XamlFileMeta>
   </Files>

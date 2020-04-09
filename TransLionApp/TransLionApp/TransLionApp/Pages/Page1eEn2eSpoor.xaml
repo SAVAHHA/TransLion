@@ -19,7 +19,7 @@
                         <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
 
                         <Label Text="1e en 2e spoor" TextColor="Black" FontSize="36"  HorizontalOptions="Start" Padding="10" FontFamily="Times New Roman Bold Italic" FontAttributes="Bold,Italic" />
-                        <Label Margin="10, 20, 10, 0" Text="Indien een werknemer (langdurig) arbeidsongeschikt wordt, zal de werkgever samen met de werknemer moeten werken aan de re-integratie. Concreet betekent dit dat de werkgever en werknemer er alles aan moeten doen om ervoor te zorgen dat de werknemer zo snel mogelijk weer deelneemt aan het arbeidsproces.">
+                        <Label Margin="10, 0, 10, 0" Text="Indien een werknemer (langdurig) arbeidsongeschikt wordt, zal de werkgever samen met de werknemer moeten werken aan de re-integratie. Concreet betekent dit dat de werkgever en werknemer er alles aan moeten doen om ervoor te zorgen dat de werknemer zo snel mogelijk weer deelneemt aan het arbeidsproces.">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -110,7 +110,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Margin="5,0,5,20" Text="- Vaste prijzen">
+                        <Label Margin="5,0,5,10" Text="- Vaste prijzen">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -119,7 +119,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Wilt u meer informatie over de begeleiding van Trans Lion klik dan"  Grid.Row="0" FontSize="14" VerticalTextAlignment="Center" Margin="10, 0, 0, 0">
+                        <!--<Label Text="Wilt u meer informatie over de begeleiding van Trans Lion klik dan"  Grid.Row="0" FontSize="14" VerticalTextAlignment="Center" Margin="10, 0, 0, 0">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -128,14 +128,36 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Button x:Name="HierTo2eButton"  Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="HierTo2eButton_Clicked" Grid.Row="0" FontSize="14" HorizontalOptions="Start" VerticalOptions="Start"></Button>
+                        <Button x:Name="HierTo2eButton"  Text="klik hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="HierTo2eButton_Clicked" Grid.Row="0" FontSize="14" HorizontalOptions="Start" VerticalOptions="Start"></Button>-->
+                       
+                        <Grid ColumnSpacing="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                <ColumnDefinition Width="45"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Text="Wilt u meer informatie over de begeleiding van Trans Lion klik dan" Grid.Column="0" Grid.Row="0" FontSize="11" VerticalTextAlignment="Center" Margin="10, 0, 0, 0">
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String">
+                                        <On Platform="iOS" Value="Roboto-Light" />
+                                        <On Platform="Android" Value="RobotoLightFont.ttf#Roboto-Light" />
+                                        <On Platform="UWP" Value="Assets/RobotoLightFont.ttf#Roboto-Light" />
+                                    </OnPlatform>
+                                </Label.FontFamily>
+                            </Label>
+                            <Button Text="hier" TextColor="#518bb8" BackgroundColor="Transparent" Clicked="HierTo2eButton_Clicked" Grid.Column="1" Grid.Row="0" FontSize="11" HorizontalOptions="Start" VerticalOptions="Start"></Button>
+                        </Grid>
                     </StackLayout>
                 </StackLayout>
             </ScrollView>
+            
             <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
                 <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
-                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="10, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
-                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 10, 5" Clicked="callButton_Clicked"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="15, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 15, 5" Clicked="callButton_Clicked"></Button>
             </Grid>
         </Grid>
     </ContentPage.Content>

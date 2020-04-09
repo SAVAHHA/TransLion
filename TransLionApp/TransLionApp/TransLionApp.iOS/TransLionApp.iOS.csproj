@@ -59,8 +59,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARM64</MtouchArch>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>Apple Development: lenavolkovs@icloud.com (7M9CZHY2UZ)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>iOS Team Provisioning Profile: com.companyname.TransLion</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -71,50 +72,8 @@
     <InterfaceDefinition Include="Resources\SplashScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Logos.xcassets\AppIcons.appiconset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\BluePictureForPages.JPG">
@@ -123,73 +82,16 @@
     <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\Label.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\Label.imageset\Label.jpg">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\menu.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\menu.imageset\menu.jpg">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\newLogo.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\newLogo.imageset\newLogo.jpg">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\newPoint.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\newPoint.imageset\newPoint.jpg">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\paw.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\paw.imageset\paw.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\point.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\point.imageset\point.jpg">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\bluecheck.imageset\bluecheck.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\bluecheck.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\linkedinsmall.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\linkedinsmall.imageset\linkedinsmall.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\linkedinnew.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\linkedinnew.imageset\linkedinnew-1.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\logos.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\logos.imageset\logos.jpg">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\man.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\man.imageset\man.jpg">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\phone.imageset\Contents.json">
@@ -201,7 +103,7 @@
     <ImageAsset Include="Assets.xcassets\mail.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\mail.imageset\ic_action_mail.png">
+    <ImageAsset Include="Assets.xcassets\mail.imageset\mail.png">
       <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
@@ -228,22 +130,44 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets.xcassets\bluecheck.imageset\" />
     <Folder Include="Assets.xcassets\BluePictureForPages.imageset\" />
     <Folder Include="Assets.xcassets\Label.imageset\" />
-    <Folder Include="Assets.xcassets\linkedinnew.imageset\" />
-    <Folder Include="Assets.xcassets\linkedinsmall.imageset\" />
-    <Folder Include="Assets.xcassets\logos.imageset\" />
-    <Folder Include="Assets.xcassets\mail.imageset\" />
-    <Folder Include="Assets.xcassets\man.imageset\" />
     <Folder Include="Assets.xcassets\menu.imageset\" />
     <Folder Include="Assets.xcassets\newLogo.imageset\" />
     <Folder Include="Assets.xcassets\newPoint.imageset\" />
     <Folder Include="Assets.xcassets\paw.imageset\" />
-    <Folder Include="Assets.xcassets\phone.imageset\" />
     <Folder Include="Assets.xcassets\point.imageset\" />
+    <Folder Include="Assets.xcassets\bluecheck.imageset\" />
+    <Folder Include="Assets.xcassets\linkedinsmall.imageset\" />
+    <Folder Include="Assets.xcassets\linkedinnew.imageset\" />
+    <Folder Include="Assets.xcassets\logos.imageset\" />
+    <Folder Include="Assets.xcassets\man.imageset\" />
+    <Folder Include="Assets.xcassets\phone.imageset\" />
+    <Folder Include="Assets.xcassets\mail.imageset\" />
+    <Folder Include="Assets.xcassets\bluecheck.imageset\" />
+    <Folder Include="Assets.xcassets\BluePictureForPages.imageset\" />
+    <Folder Include="Assets.xcassets\logos.imageset\" />
+    <Folder Include="Assets.xcassets\logotl.imageset\" />
+    <Folder Include="Assets.xcassets\mail.imageset\" />
+    <Folder Include="Assets.xcassets\phone.imageset\" />
+    <Folder Include="Assets.xcassets\AppIcon.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\logos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\bluecheck.png" />
+    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\BluePictureForPages.JPG" />
+    <ImageAsset Include="Assets.xcassets\logos.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\logos.imageset\logos.jpg" />
+    <ImageAsset Include="Assets.xcassets\logotl.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\logotl.imageset\logotl.png" />
+    <ImageAsset Include="Assets.xcassets\mail.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\mail.imageset\mail.png" />
+    <ImageAsset Include="Assets.xcassets\phone.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\phone.imageset\phone.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
   </ItemGroup>
 </Project>
