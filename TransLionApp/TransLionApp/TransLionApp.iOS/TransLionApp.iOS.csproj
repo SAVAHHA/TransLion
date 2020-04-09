@@ -156,18 +156,44 @@
     <BundleResource Include="Resources\logos.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\bluecheck.png" />
-    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\BluePictureForPages.JPG" />
-    <ImageAsset Include="Assets.xcassets\logos.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\logos.imageset\logos.jpg" />
-    <ImageAsset Include="Assets.xcassets\logotl.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\logotl.imageset\logotl.png" />
-    <ImageAsset Include="Assets.xcassets\mail.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\mail.imageset\mail.png" />
-    <ImageAsset Include="Assets.xcassets\phone.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\phone.imageset\phone.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\bluecheck.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\bluecheck.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\BluePictureForPages.JPG">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\logos.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\logos.imageset\logos.jpg">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\logotl.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\logotl.imageset\logotl.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\mail.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\mail.imageset\mail.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\phone.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\phone.imageset\phone.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
 </Project>
