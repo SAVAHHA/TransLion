@@ -16,7 +16,7 @@
                 <StackLayout x:Name="mainStackLayout">
                     <StackLayout Spacing="0">
                         <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
-                        <Label Text="Schema Wet verbetering poortwachter" TextColor="Black" FontAttributes="Bold,Italic" FontSize="36" Margin="10, 10, 0, 10">                        </Label>
+                        <Label Text="Schema Wet verbetering poortwachter" TextColor="Black" FontAttributes="Bold,Italic" FontSize="36" Margin="10, 0, 10, 0">                        </Label>
                         <Label Margin="10, 0, 10, 0" Text="Bij langdurig ziekteverzuim hebben werkgever en werknemer verplichtingen omtrent de re-integratie in het kader van de Wet verbetering poortwachter. Voor de keuring van het UWV moeten werkgever en werknemer voor een periode van 2 jaar alle mogelijkheden binnen het arbeidsproces onderzoeken.">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
@@ -26,7 +26,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Werkgever en werknemer zullen eerst moeten onderzoeken of terugkeer bij de huidige werkgever haalbaar is. Dit wordt het 1e spoor genoemd. Daarnaast kan ook het 2e spoor worden opgestart. In het 2e spoor worden de mogelijkheden bij een nieuwe werkgever onderzocht." Margin="10, 5, 10, 0">
+                        <Label Text="Werkgever en werknemer zullen eerst moeten onderzoeken of terugkeer bij de huidige werkgever haalbaar is. Dit wordt het 1e spoor genoemd. Daarnaast kan ook het 2e spoor worden opgestart. In het 2e spoor worden de mogelijkheden bij een nieuwe werkgever onderzocht." Margin="10, 10, 10, 0">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -35,7 +35,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Gedurende het 1e en 2e spoor moeten de volgende zaken gebeuren:" Margin="10, 5, 10, 0">
+                        <Label Text="Gedurende het 1e en 2e spoor moeten de volgende zaken gebeuren:" Margin="10, 10, 10, 0">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />
@@ -44,7 +44,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Probleemanalyse, uiterlijk in week 6" TextColor="Black" FontAttributes="Bold" Margin="10, 10, 10, 0"></Label>
+                        <Label Text="Probleemanalyse, uiterlijk in week 6" TextColor="Black" FontAttributes="Bold" Margin="10, 20, 10, 0"></Label>
                         <Label Margin="10, 0, 10, 0" Text="Binnen 6 weken na de ziekmelding moet er een probleemanalyse opgesteld zijn door de bedrijfsarts. De bedrijfsarts geeft hierbij de belastbaarheid aan en eventueel een advies over de re-integratie.">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
@@ -54,7 +54,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Margin="10, 5, 10, 0" Text="Plan van Aanpak, uiterlijk week 8" TextColor="Black" FontAttributes="Bold">
+                        <Label Margin="10, 20, 10, 0" Text="Plan van Aanpak, uiterlijk week 8" TextColor="Black" FontAttributes="Bold">
                         </Label>
                         <Label Margin="10, 0, 10, 0" Text="Binnen 2 weken nadat de probleemanalyse is opgesteld, moet er door de werkgever en de werknemer een Plan van Aanpak zijn gemaakt. Hierin staat beschreven hoe er aan de re-integratie zal worden gewerkt.">
                             <Label.FontFamily>
@@ -65,7 +65,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Bijstelling probleemanalyse" TextColor="Black" Margin="10, 5, 10, 0" FontAttributes="Bold">
+                        <Label Text="Bijstelling probleemanalyse" TextColor="Black" Margin="10, 20, 10, 0" FontAttributes="Bold">
                         </Label>
                         <Label Margin="10, 0, 10, 0" Text="Gedurende de periode van ziekte dient de bedrijfsarts geregeld de voortgang te evalueren en een bijstelling van de probleemanalyse te maken. De bedrijfsarts geeft doorgaans aan wanneer dit moet gebeuren.">
                             <Label.FontFamily>
@@ -76,7 +76,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Bijstelling Plan van Aanpak" Margin="10, 5, 10, 0" TextColor="Black" FontAttributes="Bold">
+                        <Label Text="Bijstelling Plan van Aanpak" Margin="10, 20, 10, 0" TextColor="Black" FontAttributes="Bold">
                         </Label>
                         <Label Margin="10, 0, 10, 0" Text="Gedurende de ziekmelding zal de werkgever samen met de werknemer de adviezen van de bedrijfsarts moeten evalueren en uitvoeren. Afspraken hierover worden vastgelegd in een bijstelling van het Plan van Aanpak en periodieke evaluatie.">
                             <Label.FontFamily>
@@ -87,7 +87,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Margin="10, 5, 10, 0" Text="Ziekmelding UWV, week 42" TextColor="Black" FontAttributes="Bold">
+                        <Label Margin="10, 20, 10, 0" Text="Ziekmelding UWV, week 42" TextColor="Black" FontAttributes="Bold">
                         </Label>
                         <Label Margin="10, 0, 10, 0" Text="De werkgever dient werknemer bij 42 weken arbeidsongeschiktheid ziek te melden bij het UWV.">
                             <Label.FontFamily>
@@ -98,7 +98,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Margin="10, 5, 10, 0" Text="Eerstejaarsevaluatie, week 52" TextColor="Black" FontAttributes="Bold">
+                        <Label Margin="10, 20, 10, 0" Text="Eerstejaarsevaluatie, week 52" TextColor="Black" FontAttributes="Bold">
                             
                         </Label>
                         <Label Margin="10, 0, 10, 0" Text="Na 52 weken moeten de werkgever en werknemer een eerstejaarsevaluatie maken. Hierin staat beschreven wat er het afgelopen jaar aan de re-integratie is gedaan en welke stappen nog ondernomen moeten worden.">
@@ -110,7 +110,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Margin="10, 5, 10, 0" Text="Week 88 t/m week 91" TextColor="Black" FontAttributes="Bold">
+                        <Label Margin="10, 20, 10, 0" Text="Week 88 t/m week 91" TextColor="Black" FontAttributes="Bold">
                             
                         </Label>
                         <Label Margin="10, 0, 10, 0" Text="De werkgever zorgt samen met de werknemer voor een compleet re-integratiedossier. Voor de WIA-keuring dient dit dossier bij het UWV ingediend te worden. Documenten van de bedrijfsarts moeten ook in het re-integratiedossier aanwezig zijn, denk hierbij aan het actueel oordeel en de eindevaluatie.">
@@ -122,7 +122,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Margin="10, 5, 10, 0" Text="WIA-aanvraag en WIA-keuring, week 93" TextColor="Black" FontAttributes="Bold">
+                        <Label Margin="10, 20, 10, 0" Text="WIA-aanvraag en WIA-keuring, week 93" TextColor="Black" FontAttributes="Bold">
                             
                         </Label>
                         <Label Margin="10, 0, 10, 0" Text="Uiterlijk in week 93 kan de werknemer de WIA-uitkering aanvragen bij het UWV. Hierna volgt een gesprek met de verzekeringsarts en arbeidsdeskundige van het UWV. Naar aanleiding deze gesprekken wordt bepaald of iemand in aanmerking komt voor een WIA-uitkering.">
@@ -134,7 +134,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Label Text="Begeleiding 1e en 2e spoor" Margin="10, 5, 10, 0" TextColor="Black" FontAttributes="Bold">
+                        <Label Text="Begeleiding 1e en 2e spoor" Margin="10, 20, 10, 0" TextColor="Black" FontAttributes="Bold">
                            
                         </Label>
                         <Label Margin="10, 0, 10, 0" Text="Tijdens de begeleiding gedurende de 2 jaar zal nagegaan moeten worden:">
@@ -146,7 +146,7 @@
                                 </OnPlatform>
                             </Label.FontFamily>
                         </Label>
-                        <Grid>
+                        <Grid Margin="0,5,0,0">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"></RowDefinition>
                                 <RowDefinition Height="Auto"></RowDefinition>
@@ -189,10 +189,10 @@
                             <Image Source="bluecheck" Grid.Column="0" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Start"></Image>
                         </Grid>
 
-                        <Label Text="Trans Lion en re-integratie 2e spoor" Margin="15, 15, 0, 0" FontSize="24" TextColor="Black" FontAttributes="Bold,Italic">
+                        <Label Text="Trans Lion en re-integratie 2e spoor" Margin="10, 20, 0, 0" FontSize="24" TextColor="Black" FontAttributes="Bold,Italic">
          
                         </Label>
-                        <Label Margin="10, 5, 10, 0" Text="Trans Lion kan werkgevers en werknemers helpen bij de begeleiding in het 2e spoor.">
+                        <Label Margin="10, 0, 10, 0" Text="Trans Lion kan werkgevers en werknemers helpen bij de begeleiding in het 2e spoor.">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String">
                                     <On Platform="iOS" Value="Roboto-Light" />

@@ -36,11 +36,31 @@
                                         </OnPlatform>
                                     </Label.FontFamily>
                         </Label>
+
+                        <!--<Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="phone" Grid.Column="0" Grid.Row="0"></Image>
+                            <Image Source="fax.png" Grid.Column="0" Grid.Row="1"></Image>
+                            <Image Source="mail" Grid.Column="0" Grid.Row="2"></Image>
+                            <Label Text="in" TextColor="#518bb8" VerticalOptions="Center" FontAttributes="Bold" Grid.Column="0" Grid.Row="3"></Label>
+                       
+                        
+                        </Grid>-->
                         <StackLayout Orientation="Horizontal">
                             <Image Source="phone"></Image>
                             <Label Text="010 - 264 30 30"></Label>
                         </StackLayout>
-                        <StackLayout Margin="0,0,0,20" Orientation="Horizontal">
+                        <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
 
                             <Image Source="fax.png" Margin="0,10,0,10"></Image>
                             <Label Text="010 - 450 29 31" Margin="0,10,0,10"></Label>
@@ -52,7 +72,7 @@
                         </StackLayout>
                         <StackLayout Orientation="Horizontal">
                             <!--<Image Source="phone"></Image>-->
-                            <Label Text="in" TextColor="#518bb8" VerticalOptions="Center" FontAttributes="Bold"></Label>
+                            <Label Text=" in" TextColor="#518bb8" VerticalOptions="Center" FontAttributes="Bold"></Label>
                             <Button Text="Linkedin" TextColor="#518bb8" Clicked="linkedinButton0_Clicked" BackgroundColor="Transparent" FontSize="14"></Button>
                         </StackLayout>
                     </StackLayout>

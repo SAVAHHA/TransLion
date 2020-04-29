@@ -55,7 +55,7 @@
                                 </Label>
                                 <!--<Button Text="Lees meer..." BackgroundColor="#4dc08f" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0, 0, 5, 5" WidthRequest="110" Clicked="Button_Clicked"></Button>-->
                             </StackLayout>
-                            <Button Text="Lees meer..." BackgroundColor="#4dc08f" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0, 0, 7, 7" WidthRequest="110" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked"></Button>
+                            <Button Text="Lees meer..." BackgroundColor="#4dc08f" TextColor="White" HorizontalOptions="End" VerticalOptions="End" Margin="0, 0, 15, 7" WidthRequest="110" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked"></Button>
                         </Grid>
                         <!--<Label Text="Trans Lion" TextColor="#518bb8" HorizontalOptions="Center" FontAttributes="Bold,Italic" FontSize="22" Margin="0,25,0,0"></Label>-->
                         <Label Text="Admiraal Helfrichweg 2P" FontSize="15" HorizontalTextAlignment="Center" Margin="0,15,0,0">

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+//using TransLionApp.Files;
 
 namespace TransLionApp
 {
@@ -17,6 +18,7 @@ namespace TransLionApp
     public partial class ShellPage : Shell
     {
         public ICommand PdfCommand => new Command<string>(async (url) => await Launcher.OpenAsync(url));
+        //public ICommand NewPdfCommand => new Command<string>();
         public ShellPage()
         {
           
