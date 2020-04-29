@@ -199,7 +199,11 @@
     <MenuItem Text="WERKWIJZER WET VERBETERING" x:Name="subtitle"
               Command="{Binding PdfCommand}"
               CommandParameter="https://www.translion.nl/images/werkwijzer-poortwachter.pdf" />
- 
+
+    <MenuItem Text="SOLLICITATIEHANDLEIDING" 
+              Command="{Binding PdfCommand}" 
+              CommandParameter="https://drive.google.com/file/d/1ItV4pJSyAu9ZSjdAd3PsbDpK2ot4aKPQ/view?usp=sharing"/>
+
     <FlyoutItem Title="WIE ZIJN WIJ" Shell.BackgroundColor="White" Route="wiezijnwij"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:WieZijnWij}"></ShellContent>
@@ -213,6 +217,15 @@
     <FlyoutItem Title="SCHEMA WET VERBETERING" Shell.BackgroundColor="White" Route="schemawetverbetering"
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:SchemaWetVerbeteringPoortwachter}"></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title=" " IsEnabled="False" Route="space4">
+        <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="PORTAL" Shell.BackgroundColor="White" Route="clientportal"
+                Shell.ForegroundColor="Black">
+        <ShellContent ContentTemplate=""></ShellContent>
     </FlyoutItem>
 
     <FlyoutItem Title=" " IsEnabled="False" Route="space4">

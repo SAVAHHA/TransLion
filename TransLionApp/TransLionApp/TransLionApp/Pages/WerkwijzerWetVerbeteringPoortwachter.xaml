@@ -6,6 +6,6 @@
              x:Class="TransLionApp.Pages.WerkwijzerWetVerbeteringPoortwachter">
     
     <ContentPage.Content>
-        <WebView Source="https://www.translion.nl/images/werkwijzer-poortwachter.pdf" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+        <WebView Source="https://drive.google.com/file/d/1ItV4pJSyAu9ZSjdAd3PsbDpK2ot4aKPQ/view?usp=sharing" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
     </ContentPage.Content>
 </ContentPage>
