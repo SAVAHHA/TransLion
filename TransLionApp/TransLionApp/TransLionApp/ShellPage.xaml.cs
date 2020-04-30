@@ -9,6 +9,8 @@ using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 //using TransLionApp.Files;
+using MySqlConnector;
+using MySql.Data.MySqlClient;
 
 namespace TransLionApp
 {
@@ -19,6 +21,9 @@ namespace TransLionApp
     {
         public ICommand PdfCommand => new Command<string>(async (url) => await Launcher.OpenAsync(url));
         //public ICommand NewPdfCommand => new Command<string>();
+       
+
+        
         public ShellPage()
         {
           
@@ -27,4 +32,6 @@ namespace TransLionApp
             //Verzuimbegeleiding verzuimbegeleiding = new Verzuimbegeleiding();
         }
     }
+
+    
 }

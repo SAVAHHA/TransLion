@@ -225,7 +225,7 @@
 
     <FlyoutItem Title="PORTAL" Shell.BackgroundColor="White" Route="clientportal"
                 Shell.ForegroundColor="Black">
-        <ShellContent ContentTemplate=""></ShellContent>
+        <ShellContent ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
     </FlyoutItem>
 
     <FlyoutItem Title=" " IsEnabled="False" Route="space4">
