@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C916E813-AA48-4BA9-A289-D8E22865605A}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\Users\Анна\Desktop\48 logo.png = ..\..\Users\Анна\Desktop\48 logo.png
+		Class1.cs = Class1.cs
 	EndProjectSection
 EndProject
 Global

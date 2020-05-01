@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj": {}
+    "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj": {
+    "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+        "projectUniqueName": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
         "projectName": "TransLionApp.Android",
-        "projectPath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
-        "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\obj\\",
+        "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+        "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Анна\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
-                "projectPath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
+              "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+                "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.64.2, )"
+            },
             "Xamarin.Android.Support.v7.AppCompat": {
               "target": "Package",
               "version": "[28.0.0.3, )"
@@ -62,20 +66,20 @@
         }
       }
     },
-    "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+    "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+        "projectUniqueName": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
         "projectName": "TransLionApp",
-        "projectPath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
-        "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\obj\\",
+        "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+        "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Анна\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -103,6 +107,14 @@
             "LiveXAML": {
               "target": "Package",
               "version": "[2.1.73, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.64.2, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
