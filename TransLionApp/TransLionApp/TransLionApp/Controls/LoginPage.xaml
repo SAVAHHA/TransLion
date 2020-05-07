@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="White"
+             x:Class="TransLionApp.Controls.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Frame BackgroundColor="White" VerticalOptions="Fill" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="0"></Frame>
+                <StackLayout Spacing="0" Grid.Column="0" Grid.Row="0">
+                    <Label Text="Trans Lion" TextColor="Silver" HorizontalTextAlignment="End"
+                           FontSize="25" Margin="0, 0, 12, 0"
+                    />
+                    <Label Text="De HRM dienstverlener" TextColor = "#6095be" HorizontalTextAlignment="End"
+                           FontSize="12" Margin="0, 0, 8, 8"
+                    />
+                </StackLayout>
+            </Grid>
+            
+            <Label Text="Inloggen" Margin="10"></Label>
+            <Entry Text="Login" Margin="10,0,10,0" HorizontalOptions="Fill"></Entry>
+            <Entry IsPassword="True" Text="0000" Margin="10,10,10,0" HorizontalOptions="Fill"></Entry>
+            <Button x:Name="LoginButton" Clicked="LoginButton_Clicked" BackgroundColor="White" BorderColor="#439aff" BorderWidth="1" TextColor="#439aff" Text="Inloggen" Margin="10" HorizontalOptions="Fill"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

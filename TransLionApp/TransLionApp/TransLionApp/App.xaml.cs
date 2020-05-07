@@ -10,7 +10,7 @@ namespace TransLionApp
         public App()
         {
             InitializeComponent();
-            
+            //MainPage = new Pages.User.UserDashboardPage();
             MainPage = new ShellPage();
         }
 

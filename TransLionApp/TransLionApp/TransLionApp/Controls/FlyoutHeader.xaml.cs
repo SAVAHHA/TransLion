@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.ComponentModel;
 using Xamarin.Forms;
+using TransLionApp;
 using Xamarin.Forms.Xaml;
 
 namespace TransLionApp.Controls
@@ -15,6 +16,18 @@ namespace TransLionApp.Controls
         public FlyoutHeader()
         {
             InitializeComponent();
+        }
+
+        private async void LogginButton_Clicked(object sender, EventArgs e)
+        {
+            
+            await Navigation.PushModalAsync(new LoginPage());
+            
+        }
+
+        public void UserEntered()
+        {
+
         }
     }
 }
