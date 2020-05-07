@@ -268,8 +268,11 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.pdb
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csprojAssemblyReference.cache
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\LoginPage.xaml.g.cs
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminDashboardPage.xaml.g.cs
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminSollicitatiePage.xaml.g.cs
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\UserDashboardPage.xaml.g.cs
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\UserSollicitatiePage.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csproj.CoreCompileInputs.cache
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminDashboardPage.xaml.g.cs
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\LoginPage.xaml.g.cs
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\UserDashboardPage.xaml.g.cs
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminWIAaanvraagPage.xaml.g.cs
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\UserWIAaanvraagPage.xaml.g.cs
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Controls\LoginPage.xaml.g.cs

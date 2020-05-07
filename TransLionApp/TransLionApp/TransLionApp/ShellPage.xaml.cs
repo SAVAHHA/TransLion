@@ -21,14 +21,15 @@ namespace TransLionApp
     {
         public ICommand PdfCommand => new Command<string>(async (url) => await Launcher.OpenAsync(url));
         //public ICommand NewPdfCommand => new Command<string>();
-       
 
+        public bool Enter;
         
         public ShellPage()
         {
           
             InitializeComponent();
             BindingContext = this;
+            Enter = false;
             //Verzuimbegeleiding verzuimbegeleiding = new Verzuimbegeleiding();
         }
     }

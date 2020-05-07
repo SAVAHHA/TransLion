@@ -4,12 +4,41 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+            
              x:Class="TransLionApp.Pages.User.UserDashboardPage">
+    
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid RowSpacing="0" VerticalOptions="FillAndExpand">
+            <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
+                 <StackLayout x:Name="mainStackLayout">
+                        <Label x:Name="welcomeUserLabel" Text="Goedemiddag," FontSize="Large" Margin="10,0,10,0"></Label>
+
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <BoxView BackgroundColor="#f5f5f5" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Row="0"></BoxView>
+
+                        </Grid>
+
+                        <Button x:Name="BlueButton" Text="Bekijk nu de online sollicitatietips!" TextColor="White" BackgroundColor="#439aff" Clicked="BlueButton_Clicked" Margin="10"></Button>
+                        <Button x:Name="OrangeButton" BackgroundColor="#ffb63e" TextColor="White" Clicked="OrangeButton_Clicked" Text="Jouw laatste sollicitatie" Margin="10,0,10,0"></Button>
+                        <Button x:Name="WhiteButton" BorderColor="#439aff" BackgroundColor="White" TextColor="#439aff" Clicked="WhiteButton_Clicked" Text="Jouw WIA-aanvraag" Margin="10"></Button>
+                    </StackLayout>
+            </ScrollView>
+
+            <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
+                <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="15, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 15, 5" Clicked="callButton_Clicked"></Button>
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

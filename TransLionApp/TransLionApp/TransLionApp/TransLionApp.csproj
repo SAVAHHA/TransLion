@@ -13,29 +13,29 @@
   <ItemGroup>
     <PackageReference Include="LiveXAML" Version="2.1.73" />
     <PackageReference Include="MySql.Data" Version="8.0.20" />
+    <PackageReference Include="MySqlConnector" Version="0.64.2" />
     <PackageReference Include="Syncfusion.Licensing" Version="18.1.0.43" />
     <PackageReference Include="Syncfusion.Xamarin.Pdf" Version="18.1.0.43" />
     <PackageReference Include="Xam.Plugins.Messaging" Version="5.2.0" />
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.530" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
     <PackageReference Include="Xamarin.Forms.Maps" Version="4.5.0.530" />
-    <PackageReference Include="XamlSpyLibs" Version="3.0.5" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Pages\User\UserSollicitatiePage.xaml.cs">
-      <DependentUpon>UserSollicitatiePage.xaml</DependentUpon>
-    </Compile>
     <Compile Update="ShellPage.xaml.cs">
       <DependentUpon>ShellPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Controls\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Pages\Admin\AdminDashboardPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\Admin\AdminSollicitatiePage.xaml">
+    <EmbeddedResource Update="Pages\Admin\AdminWIAaanvraagPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Pages\LoginPage.xaml">
@@ -44,7 +44,7 @@
     <EmbeddedResource Update="Pages\User\UserDashboardPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\User\UserSollicitatiePage.xaml">
+    <EmbeddedResource Update="Pages\User\UserWIAaanvraagPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
