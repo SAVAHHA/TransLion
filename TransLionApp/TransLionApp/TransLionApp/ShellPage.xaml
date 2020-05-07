@@ -153,6 +153,11 @@
         </ResourceDictionary>
     </Shell.Resources>
 
+    <FlyoutItem Title="USER SOLLICITATIE" Shell.BackgroundColor="White" Route="headerUserSollicitatie"
+                Shell.ForegroundColor="Black">
+        <ShellContent x:Name="UserSollicitatie" Route="SollicitatiePage" ContentTemplate="{DataTemplate pages:User.UserSollicitatiePage}"></ShellContent>
+    </FlyoutItem>
+
     <FlyoutItem Title="HOME PAGE"  Shell.BackgroundColor="White" Route="headerHomepage"
              Shell.ForegroundColor="Black">
         <ShellContent x:Name="HomePage"  Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
