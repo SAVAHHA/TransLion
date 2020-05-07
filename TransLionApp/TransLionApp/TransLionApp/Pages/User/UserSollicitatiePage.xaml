@@ -7,20 +7,41 @@
              
              x:Class="TransLionApp.Pages.User.UserSollicitatiePage">
     <ContentPage.Content>
-        <StackLayout>
+       
+        <Grid>
             <Shell.TitleView>
                 <view:BarView/>
             </Shell.TitleView>
-            
-            <Label Text="{Binding name}" FontSize="Medium"/>
-            <TableView BackgroundColor="LightGray" Intent="Data">
-                <TableRoot>
-                    <TableSection Title="Ring">
-                        <SwitchCell Text="New Voice Mail" />
-                        <SwitchCell Text="New Mail" On="true" />
-                    </TableSection>
-                </TableRoot>
-            </TableView>
-        </StackLayout>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0"  Text="Goedemmidag, Peter!" FontSize="Large"/>
+            <Grid Grid.Row="2" Margin="0,0,0,0" RowSpacing="0" ColumnSpacing="0">
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+              
+                <Label Grid.Column="0" Grid.Row="0" Text="Eetste ziektedag:" BackgroundColor="LightGray" TextColor="Black"  />
+                <Label Grid.Column="1" Grid.Row="0" Text="Laatste ziektedag:" BackgroundColor="LightGray" TextColor="Black" HorizontalTextAlignment="End"/>
+                <Label Grid.Column="0" Grid.Row="1" Text="13-04-2019" BackgroundColor="LightGray" TextColor="Black"/>
+                <Label Grid.Column="1" Grid.Row="1" Text="24-04-2020" BackgroundColor="LightGray" TextColor="Black" HorizontalTextAlignment="End" Padding="0,0,0,0"/>
+                <Label Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray"></Label>
+                <Label Grid.Row="2" Grid.Column="0" BackgroundColor="LightGray"></Label>
+
+            </Grid>
+            <Button Grid.Row="3" Text="Bekijk nu de online sollicitatietips!" TextColor="White" BackgroundColor="LightBlue"></Button>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
