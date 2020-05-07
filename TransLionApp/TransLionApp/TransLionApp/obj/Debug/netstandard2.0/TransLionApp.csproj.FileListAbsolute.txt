@@ -221,7 +221,6 @@ C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLi
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\bin\Debug\netstandard2.0\TransLionApp.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\bin\Debug\netstandard2.0\ref\TransLionApp.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\bin\Debug\netstandard2.0\TransLionApp.pdb
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csprojAssemblyReference.cache
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Controls\FlyoutHeader.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\ContactPage.xaml.g.cs
@@ -276,3 +275,5 @@ C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLi
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminWIAaanvraagPage.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\UserWIAaanvraagPage.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Controls\LoginPage.xaml.g.cs
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminSollicitatiePage.xaml.g.cs
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\UserSollicitatiePage.xaml.g.cs

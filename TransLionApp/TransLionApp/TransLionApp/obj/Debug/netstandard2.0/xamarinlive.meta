@@ -24,6 +24,11 @@
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
+      <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\Pages\Admin\AdminSollicitatiePage.xaml</FilePath>
+      <Hash>4A-6B-9A-43-B7-DE-3C-2A-E6-D5-14-F4-C7-B0-F5-F5</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
       <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\Pages\Admin\AdminWIAaanvraagPage.xaml</FilePath>
       <Hash>C1-A1-8D-F2-EA-E6-7B-FB-24-02-20-FB-A9-B4-BD-35</Hash>
       <Properties />
@@ -69,6 +74,11 @@
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
+      <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\Pages\User\UserSollicitatiePage.xaml</FilePath>
+      <Hash>CA-B9-75-35-C8-F7-58-49-B0-94-48-C3-A7-54-64-87</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
       <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\Pages\User\UserWIAaanvraagPage.xaml</FilePath>
       <Hash>D2-9A-03-BE-1C-94-C7-18-6B-3D-65-97-EB-45-E5-09</Hash>
       <Properties />
@@ -95,7 +105,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\ShellPage.xaml</FilePath>
-      <Hash>23-B0-E3-A9-8C-3F-90-C7-3D-4A-EB-7A-2B-7B-CA-3B</Hash>
+      <Hash>5D-77-8C-80-B5-4A-43-3A-26-BC-7D-E9-05-F6-90-31</Hash>
       <Properties>
         <string>Shell.ItemTemplate</string>
         <string>Shell.MenuItemTemplate</string>
