@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wtmo/2UB4QD5A4zao+YpV4Ys1gzG5kNnfw+6bC7tIhhc3/eYeammTyy+UJqBHHKNhD0sTsD0G9sT9UygDUO76w==",
+  "dgSpecHash": "TohKw7xEplcOBJOfObc0bkOL9M7CYKLn/ABWRwhJ70VZg1onVHgaB/OptsSv+YXOwR4AUJiJYL4WViXqg2jPRA==",
   "success": true,
   "projectFilePath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Анна\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\mysql.data\\8.0.20\\mysql.data.8.0.20.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\mysqlconnector\\0.64.2\\mysqlconnector.0.64.2.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\ssh.net\\2016.1.0\\ssh.net.2016.1.0.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\sshnet.security.cryptography\\1.2.0\\sshnet.security.cryptography.1.2.0.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.licensing\\18.1.0.43\\syncfusion.licensing.18.1.0.43.nupkg.sha512",
@@ -51,8 +52,7 @@
     "C:\\Users\\Анна\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.530\\xamarin.forms.maps.4.5.0.530.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xamlspylibs\\3.0.5\\xamlspylibs.3.0.5.nupkg.sha512"
+    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.530\\xamarin.forms.maps.4.5.0.530.nupkg.sha512"
   ],
   "logs": []
 }

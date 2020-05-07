@@ -142,6 +142,20 @@
           "lib/netstandard2.0/Zstandard.Net.dll": {}
         }
       },
+      "MySqlConnector/0.64.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Memory": "4.5.0",
+          "System.Threading.Tasks.Extensions": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MySqlConnector.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -269,12 +283,12 @@
           "lib/netstandard2.0/System.Buffers.dll": {}
         }
       },
-      "System.Collections/4.0.11": {
+      "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
-          "Microsoft.NETCore.Targets": "1.0.1",
-          "System.Runtime": "4.1.0"
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
         },
         "compile": {
           "ref/netstandard1.3/System.Collections.dll": {}
@@ -987,15 +1001,15 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.0.0": {
+      "System.Threading.Tasks.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
-          "System.Collections": "4.0.11",
-          "System.Runtime": "4.1.0",
-          "System.Threading.Tasks": "4.0.11"
+          "System.Collections": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
         },
         "compile": {
-          "lib/netstandard1.0/_._": {}
+          "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {}
         },
         "runtime": {
           "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {}
@@ -1178,15 +1192,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {}
-        }
-      },
-      "XamlSpyLibs/3.0.5": {
-        "type": "package",
-        "compile": {
-          "lib/net46/XamlSpy.dll": {}
-        },
-        "runtime": {
-          "lib/net46/XamlSpy.dll": {}
         }
       }
     }
@@ -1426,6 +1431,34 @@
         "lib/netstandard2.1/Zstandard.Net.dll",
         "mysql.data.8.0.20.nupkg.sha512",
         "mysql.data.nuspec"
+      ]
+    },
+    "MySqlConnector/0.64.2": {
+      "sha512": "JzhwIP8zR936bYI2bsUvZZhiWOWnsWt8onhKFEths9BpK9HhBWWHcpFoo7rnEN0FzmBZQlSbXEoTIa4jvMYghQ==",
+      "type": "package",
+      "path": "mysqlconnector/0.64.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MySqlConnector.dll",
+        "lib/net45/MySqlConnector.xml",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/netcoreapp2.1/MySqlConnector.dll",
+        "lib/netcoreapp2.1/MySqlConnector.xml",
+        "lib/netcoreapp3.0/MySqlConnector.dll",
+        "lib/netcoreapp3.0/MySqlConnector.xml",
+        "lib/netstandard1.3/MySqlConnector.dll",
+        "lib/netstandard1.3/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.0.64.2.nupkg.sha512",
+        "mysqlconnector.nuspec"
       ]
     },
     "NETStandard.Library/2.0.3": {
@@ -1735,10 +1768,10 @@
         "version.txt"
       ]
     },
-    "System.Collections/4.0.11": {
-      "sha512": "YUJGz6eFKqS0V//mLt25vFGrrCvOnsXjlvFQs+KimpwNxug9x0Pzy4PlFMU3Q2IzqAa9G2L4LsK3+9vCBK7oTg==",
+    "System.Collections/4.3.0": {
+      "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
-      "path": "system.collections/4.0.11",
+      "path": "system.collections/4.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1799,7 +1832,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.collections.4.0.11.nupkg.sha512",
+        "system.collections.4.3.0.nupkg.sha512",
         "system.collections.nuspec"
       ]
     },
@@ -4369,10 +4402,10 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "System.Threading.Tasks.Extensions/4.0.0": {
-      "sha512": "pH4FZDsZQ/WmgJtN4LWYmRdJAEeVkyriSwrv2Teoe5FOU0Yxlb6II6GL8dBPOfRmutHGATduj3ooMt7dJ2+i+w==",
+    "System.Threading.Tasks.Extensions/4.3.0": {
+      "sha512": "npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
       "type": "package",
-      "path": "system.threading.tasks.extensions/4.0.0",
+      "path": "system.threading.tasks.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4382,7 +4415,7 @@
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
-        "system.threading.tasks.extensions.4.0.0.nupkg.sha512",
+        "system.threading.tasks.extensions.4.3.0.nupkg.sha512",
         "system.threading.tasks.extensions.nuspec"
       ]
     },
@@ -5142,40 +5175,20 @@
         "xamarin.forms.maps.4.5.0.530.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
-    },
-    "XamlSpyLibs/3.0.5": {
-      "sha512": "MT+SoB7WN9xw+k0qkcorSHtzcbhzRe/dGjRtjBRpiw0Alw7jNVhE+Tync9GTXEa5vsG7GN1LqwyoQDKv8Ur8lw==",
-      "type": "package",
-      "path": "xamlspylibs/3.0.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/monoandroid50/XamlSpy.dll",
-        "lib/net4/XamlSpy.dll",
-        "lib/net46/XamlSpy.dll",
-        "lib/sl5/XamlSpy.dll",
-        "lib/uap10.0/XamlSpy.dll",
-        "lib/win81/XamlSpy.dll",
-        "lib/wp81/XamlSpy.dll",
-        "lib/wpa81/XamlSpy.dll",
-        "lib/xamarin.ios10/XamlSpy.dll",
-        "xamlspylibs.3.0.5.nupkg.sha512",
-        "xamlspylibs.nuspec"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "LiveXAML >= 2.1.73",
       "MySql.Data >= 8.0.20",
+      "MySqlConnector >= 0.64.2",
       "NETStandard.Library >= 2.0.3",
       "Syncfusion.Licensing >= 18.1.0.43",
       "Syncfusion.Xamarin.Pdf >= 18.1.0.43",
       "Xam.Plugins.Messaging >= 5.2.0",
       "Xamarin.Essentials >= 1.5.2",
       "Xamarin.Forms >= 4.5.0.530",
-      "Xamarin.Forms.Maps >= 4.5.0.530",
-      "XamlSpyLibs >= 3.0.5"
+      "Xamarin.Forms.Maps >= 4.5.0.530"
     ]
   },
   "packageFolders": {
@@ -5228,6 +5241,10 @@
             "target": "Package",
             "version": "[8.0.20, )"
           },
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[0.64.2, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -5257,10 +5274,6 @@
           "Xamarin.Forms.Maps": {
             "target": "Package",
             "version": "[4.5.0.530, )"
-          },
-          "XamlSpyLibs": {
-            "target": "Package",
-            "version": "[3.0.5, )"
           }
         },
         "imports": [
@@ -5276,17 +5289,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"XamlSpyLibs 3.0.5\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETStandard,Version=v2.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "XamlSpyLibs",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

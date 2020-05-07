@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GlfG2Td3Nua4/mPp+tfss0c2BsLO01N7CaquH02Qx6wUiFN5gWUvvfr/JO0CHnmhaVpl8EkhcEWIc1fDJYye/Q==",
+  "dgSpecHash": "f96tY3XQ2i2P3hY0Qfrkkf/SxxOC+1eCLGK9wv7aPnhAZJO2EcxCzIPNXroQrF1a2XHehn54aCQBlNdUEGXyQQ==",
   "success": true,
   "projectFilePath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
   "expectedPackageFiles": [
@@ -94,8 +94,7 @@
     "C:\\Users\\Анна\\.nuget\\packages\\xamarin.googleplayservices.base\\71.1610.0\\xamarin.googleplayservices.base.71.1610.0.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\xamarin.googleplayservices.basement\\71.1620.0\\xamarin.googleplayservices.basement.71.1620.0.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\xamarin.googleplayservices.maps\\71.1610.0\\xamarin.googleplayservices.maps.71.1610.0.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.googleplayservices.tasks\\71.1601.0\\xamarin.googleplayservices.tasks.71.1601.0.nupkg.sha512",
-    "C:\\Users\\Анна\\.nuget\\packages\\xamlspylibs\\3.0.5\\xamlspylibs.3.0.5.nupkg.sha512"
+    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.googleplayservices.tasks\\71.1601.0\\xamarin.googleplayservices.tasks.71.1601.0.nupkg.sha512"
   ],
   "logs": []
 }

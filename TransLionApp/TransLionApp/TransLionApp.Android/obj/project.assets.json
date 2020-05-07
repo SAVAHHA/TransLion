@@ -1428,28 +1428,19 @@
           "build/MonoAndroid90/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
-      "XamlSpyLibs/3.0.5": {
-        "type": "package",
-        "compile": {
-          "lib/monoandroid50/XamlSpy.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid50/XamlSpy.dll": {}
-        }
-      },
       "TransLionApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "LiveXAML": "2.1.73",
           "MySql.Data": "8.0.20",
+          "MySqlConnector": "0.64.2",
           "Syncfusion.Licensing": "18.1.0.43",
           "Syncfusion.Xamarin.Pdf": "18.1.0.43",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.530",
-          "Xamarin.Forms.Maps": "4.5.0.530",
-          "XamlSpyLibs": "3.0.5"
+          "Xamarin.Forms.Maps": "4.5.0.530"
         },
         "compile": {
           "bin/placeholder/TransLionApp.dll": {}
@@ -3349,6 +3340,7 @@
         "lib/MonoAndroid10/Plugin.Messaging.Abstractions.pdb",
         "lib/MonoAndroid10/Plugin.Messaging.Abstractions.xml",
         "lib/MonoAndroid10/Plugin.Messaging.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.dll.mdb",
         "lib/MonoAndroid10/Plugin.Messaging.pdb",
         "lib/MonoAndroid10/Plugin.Messaging.xml",
         "lib/UAP10/Plugin.Messaging.Abstractions.dll",
@@ -4600,26 +4592,6 @@
         "lib/monoandroid90/Xamarin.GooglePlayServices.Tasks.dll",
         "xamarin.googleplayservices.tasks.71.1601.0.nupkg.sha512",
         "xamarin.googleplayservices.tasks.nuspec"
-      ]
-    },
-    "XamlSpyLibs/3.0.5": {
-      "sha512": "MT+SoB7WN9xw+k0qkcorSHtzcbhzRe/dGjRtjBRpiw0Alw7jNVhE+Tync9GTXEa5vsG7GN1LqwyoQDKv8Ur8lw==",
-      "type": "package",
-      "path": "xamlspylibs/3.0.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/monoandroid50/XamlSpy.dll",
-        "lib/net4/XamlSpy.dll",
-        "lib/net46/XamlSpy.dll",
-        "lib/sl5/XamlSpy.dll",
-        "lib/uap10.0/XamlSpy.dll",
-        "lib/win81/XamlSpy.dll",
-        "lib/wp81/XamlSpy.dll",
-        "lib/wpa81/XamlSpy.dll",
-        "lib/xamarin.ios10/XamlSpy.dll",
-        "xamlspylibs.3.0.5.nupkg.sha512",
-        "xamlspylibs.nuspec"
       ]
     },
     "TransLionApp/1.0.0": {

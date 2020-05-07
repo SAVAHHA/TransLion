@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[8.0.20, )"
             },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.64.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -79,10 +83,6 @@
             "Xamarin.Forms.Maps": {
               "target": "Package",
               "version": "[4.5.0.530, )"
-            },
-            "XamlSpyLibs": {
-              "target": "Package",
-              "version": "[3.0.5, )"
             }
           },
           "imports": [
