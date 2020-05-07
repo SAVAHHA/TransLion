@@ -4904,3 +4904,9 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\System.Xml.XPath.XmlDocument.pdb
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\Ubiety.Dns.Core.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\Zstandard.Net.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\flata\FF7BCECF7A4C9A46.stamp
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\flata\FF7BCECF7A4C9A46.flata
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\XamlSpy.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\src\crc64a6dd3c09b2feab12\OverlayWindow.java
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\src\crc64a6dd3c09b2feab12\SelectionShapeView.java
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\src\crc64dcc389bc5a2bd664\ActivityTrackerService.java

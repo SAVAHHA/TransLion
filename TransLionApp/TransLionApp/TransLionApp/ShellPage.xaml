@@ -227,6 +227,8 @@
                 Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
     </FlyoutItem>
+    
+    
 
     <FlyoutItem Title=" " IsEnabled="False" Route="space4">
         <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
@@ -236,5 +238,4 @@
              Shell.ForegroundColor="Black">
         <ShellContent ContentTemplate="{DataTemplate pages:ContactPage}"></ShellContent>
     </FlyoutItem>
-
 </Shell>

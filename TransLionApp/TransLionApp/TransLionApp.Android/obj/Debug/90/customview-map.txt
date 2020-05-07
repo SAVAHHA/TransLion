@@ -35,12 +35,14 @@ layer-list;obj\Debug\90\res\drawable\splash_screen.xml
 LinearLayout;C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\lp\41\jl\res\layout\bottomtablayout.xml
 paths;C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\lp\41\jl\res\values\styles.xml
+resources;C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\lp\47\jl\res\values\strings.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml
 set;C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\lp\41\jl\res\anim\enterfromleft.xml
 set;C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\lp\41\jl\res\anim\enterfromright.xml
 set;C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\lp\41\jl\res\anim\exittoleft.xml
 set;C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\lp\41\jl\res\anim\exittoright.xml
+string;C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\lp\47\jl\res\values\strings.xml
 style;C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\lp\41\jl\res\values\styles.xml
 style;obj\Debug\90\res\values\styles.xml
 translate;C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\lp\41\jl\res\anim\enterfromleft.xml
