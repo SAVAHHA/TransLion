@@ -7,41 +7,101 @@
              
              x:Class="TransLionApp.Pages.User.UserSollicitatiePage">
     <ContentPage.Content>
-       
-        <Grid>
-            <Shell.TitleView>
-                <view:BarView/>
-            </Shell.TitleView>
-            <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
-            <Label Grid.Row="0"  Text="Goedemmidag, Peter!" FontSize="Large"/>
-            <Grid Grid.Row="2" Margin="0,0,0,0" RowSpacing="0" ColumnSpacing="0">
-                
+            <Grid>
+                <Shell.TitleView>
+                    <view:BarView/>
+                </Shell.TitleView>
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="105"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="120"> </RowDefinition>
+                    <RowDefinition Height="72"></RowDefinition>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-              
-                <Label Grid.Column="0" Grid.Row="0" Text="Eetste ziektedag:" BackgroundColor="LightGray" TextColor="Black"  />
-                <Label Grid.Column="1" Grid.Row="0" Text="Laatste ziektedag:" BackgroundColor="LightGray" TextColor="Black" HorizontalTextAlignment="End"/>
-                <Label Grid.Column="0" Grid.Row="1" Text="13-04-2019" BackgroundColor="LightGray" TextColor="Black"/>
-                <Label Grid.Column="1" Grid.Row="1" Text="24-04-2020" BackgroundColor="LightGray" TextColor="Black" HorizontalTextAlignment="End" Padding="0,0,0,0"/>
-                <Label Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray"></Label>
-                <Label Grid.Row="2" Grid.Column="0" BackgroundColor="LightGray"></Label>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0"  Text="Goedemmidag, Peter!" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="5,0,0,0" BackgroundColor="Transparent"/>
+            <Label Grid.Row="1" Text="Het bestand 'Gegevens' is aan jouw account toegevoegd." TextColor="Black" Margin="5,0,0,0" BackgroundColor="Transparent"></Label>
+            <Frame Grid.Row="2" WidthRequest="10" BackgroundColor="LightGray" BorderColor="Transparent" CornerRadius="10" Padding="0,0,0,0" Margin="5,0,5,0">
+                <Grid  Margin="0,0,0,0" RowSpacing="0" ColumnSpacing="0">
 
-            </Grid>
-            <Button Grid.Row="3" Text="Bekijk nu de online sollicitatietips!" TextColor="White" BackgroundColor="LightBlue"></Button>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"></RowDefinition>
+                        <RowDefinition Height="25"></RowDefinition>
+                        <RowDefinition Height="10"></RowDefinition>
+                        <RowDefinition Height="20"></RowDefinition>
+                        <RowDefinition Height="20"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Column="0" Grid.Row="0" Text="Eetste ziektedag:" BackgroundColor="Transparent" TextColor="Black" Margin="5,5,0,0" />
+                    <Label Grid.Column="1" Grid.Row="0" Text="Laatste ziektedag:" BackgroundColor="Transparent" TextColor="Black" HorizontalTextAlignment="End" Margin="0,5,5,0"/>
+                    <Label Grid.Column="0" Grid.Row="1" FontAttributes="Bold" Text="13-04-2019" BackgroundColor="Transparent" TextColor="Black" Margin="5,0,0,0"/>
+                    <Label Grid.Column="1" Grid.Row="1" FontAttributes="Bold" Text="24-04-2020" BackgroundColor="Transparent" TextColor="Black" Margin="0,0,5,0" HorizontalTextAlignment="End" Padding="0,0,0,0"/>
+                    <Label Grid.Column="0" Grid.Row="2" Text=" "></Label>
+                    <Label Grid.Column="0" Grid.Row="3" Text="Laatste begeleidingsdag:" BackgroundColor="Transparent" TextColor="Black" Margin="5,0,0,0"/>
+                    <Label Grid.Column="0" Grid.Row="4" Text="13-04-2020" FontAttributes="Bold" BackgroundColor="Transparent" TextColor="Black" Margin="5,0,0,0"/>
+                    
+
+                </Grid>
+            </Frame>
+
+            <Button Grid.Row="3" Padding="0,0,0,0" Text="Bekijk nu de online sollicitatietips!" CornerRadius="10" TextColor="White" BackgroundColor="LightBlue" Margin="5,0,5,0"></Button>
+                
+            <Frame Grid.Row="4" WidthRequest="10" BackgroundColor="Orange" BorderColor="Transparent" CornerRadius="10" Padding="0,0,0,0" Margin="5,0,5,0">
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Text="Jouw laatste sollicitatie" TextColor="White" BackgroundColor="Transparent" Margin="5,5,0,0"></Label>
+                        <Label Grid.Row="1" Text="Bedrijf X" TextColor="White" BackgroundColor="Transparent" FontSize="Large" Margin="5,0,0,0"></Label>
+                    </Grid>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Grid.Row="0" Text="Status:" TextColor="White" BackgroundColor="Orange" Padding="0,0,0,0" Margin="5,0,0,0"></Label>
+                        <Label Grid.Column="0" Grid.Row="1" Text="Datum:" TextColor="White" BackgroundColor="Orange" Margin="5,0,0,0"></Label>
+                        <Label Grid.Column="1" Grid.Row="0" Text="In behandeling" FontAttributes="Bold" TextColor="White" BackgroundColor="Orange" ></Label>
+                        <Label Grid.Column="1" Grid.Row="1" Text="24-04-2020" FontAttributes="Bold" TextColor="White" BackgroundColor="Orange" ></Label>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+            <Frame Grid.Row="5" BorderColor="LightBlue" Padding="0,0,0,0" BackgroundColor="White" Margin="5,0,5,0" CornerRadius="10" HasShadow="False">
+                <StackLayout>
+                    <Label  Text="Jouw WIA-aanvraag" TextColor="LightBlue" BackgroundColor="Transparent" Margin="5,5,0,0" ></Label>
+                    <Grid  Margin="0,0,0,0" RowSpacing="0" ColumnSpacing="0">
+                        <Grid.RowDefinitions>
+
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Column="0" Grid.Row="0" Text="Status:" TextColor="LightBlue" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
+                        <Label Grid.Column="0" Grid.Row="1" Text="Datum:" TextColor="LightBlue" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
+                        <Label Grid.Column="1" Grid.Row="0" Text="Geaccepteerd" FontAttributes="Bold" TextColor="LightBlue" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
+                        <Label Grid.Column="1" Grid.Row="1" Text="24-04-2020" FontAttributes="Bold" TextColor="LightBlue" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+            
         </Grid>
+            
+       
     </ContentPage.Content>
 </ContentPage>
