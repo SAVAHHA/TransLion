@@ -11,7 +11,7 @@ namespace TransLionApp.Controls
 
 		public DataTemplate SubTemplate { get; set; }
 
-		public DataTemplate SpaceTemplate { get; set; }
+		//public DataTemplate SpaceTemplate { get; set; }
 
 		protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
 		{
@@ -21,14 +21,15 @@ namespace TransLionApp.Controls
 			}
 			else
 			{
-				if (item is ShellItem && ((ShellItem)item).Route.Contains("space"))
-				{
-					return SpaceTemplate;
-				}
-				else
-				{
-					return SubTemplate;
-				}
+				//if (item is ShellItem && ((ShellItem)item).Route.Contains("space"))
+				//{
+				//	return SpaceTemplate;
+				//}
+				//else
+				//{
+				//	return SubTemplate;
+				//}
+				return SubTemplate;
 			}
 		}
 	}

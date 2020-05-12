@@ -118,6 +118,15 @@
           "lib/netstandard2.1/MySqlConnector.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "SSH.NET/2016.1.0": {
         "type": "package",
         "dependencies": {
@@ -1435,6 +1444,7 @@
           "LiveXAML": "2.1.73",
           "MySql.Data": "8.0.20",
           "MySqlConnector": "0.64.2",
+          "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "18.1.0.43",
           "Syncfusion.Xamarin.Pdf": "18.1.0.43",
           "Xam.Plugins.Messaging": "5.2.0",
@@ -1684,6 +1694,37 @@
         "logo.png",
         "mysqlconnector.0.64.2.nupkg.sha512",
         "mysqlconnector.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "SSH.NET/2016.1.0": {
@@ -4611,24 +4652,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Анна\\.nuget\\packages\\": {},
+    "C:\\Users\\Anna\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
       "projectName": "TransLionApp.Android",
-      "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\obj\\",
+      "projectPath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Анна\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -4642,8 +4683,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
-              "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
+            "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+              "projectPath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
             }
           }
         }

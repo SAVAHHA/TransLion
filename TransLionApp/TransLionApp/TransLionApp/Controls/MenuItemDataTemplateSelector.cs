@@ -7,9 +7,9 @@ namespace TransLionApp.Controls
 {
     public class MenuItemDataTemplateSelector: DataTemplateSelector
     {
-		public DataTemplate SpaceTemplate { get; set; }
+		//public DataTemplate SpaceTemplate { get; set; }
 
-		public DataTemplate TitleTemplate { get; set; }
+		//public DataTemplate TitleTemplate { get; set; }
 
 		public DataTemplate SubTemplate { get; set; }
 

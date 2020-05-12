@@ -13,10 +13,15 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\Controls\LoginPage.xaml</FilePath>
-      <Hash>62-6E-7D-9A-F9-9A-5B-2E-B7-8A-85-07-84-3E-52-6D</Hash>
+      <Hash>3C-12-A9-5C-C2-57-DC-F5-14-BD-D1-B9-79-5D-89-45</Hash>
       <Properties>
         <string>BackgroundColor</string>
       </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\Controls\TestPage.xaml</FilePath>
+      <Hash>60-69-1A-02-2B-6B-3E-1F-5D-E3-34-1A-D6-A6-A2-A9</Hash>
+      <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\Pages\Admin\AdminDashboardPage.xaml</FilePath>
@@ -40,8 +45,10 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\Pages\HomePage.xaml</FilePath>
-      <Hash>86-3B-B3-EC-8E-5E-76-9F-BC-61-B2-26-AD-65-85-B0</Hash>
-      <Properties />
+      <Hash>3A-0C-B2-5D-37-FD-5F-35-A9-C9-7A-27-CD-4F-8D-D1</Hash>
+      <Properties>
+        <string>BackgroundColor</string>
+      </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\Pages\Jobhunting.xaml</FilePath>
@@ -105,16 +112,21 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\ShellPage.xaml</FilePath>
-      <Hash>5D-77-8C-80-B5-4A-43-3A-26-BC-7D-E9-05-F6-90-31</Hash>
+      <Hash>7A-57-1B-C0-33-79-03-68-30-3F-3A-BD-F9-8F-6D-67</Hash>
       <Properties>
+        <string>CurrentItem</string>
+        <string>Shell.BackgroundColor</string>
+        <string>Shell.ForegroundColor</string>
         <string>Shell.ItemTemplate</string>
         <string>Shell.MenuItemTemplate</string>
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\Views\BarView.xaml</FilePath>
-      <Hash>41-E0-B5-32-EA-92-FC-EC-E4-61-17-3D-57-F3-27-19</Hash>
-      <Properties />
+      <Hash>A0-59-0C-19-B0-AD-5B-09-13-58-8D-BB-DE-59-9A-BC</Hash>
+      <Properties>
+        <string>BackgroundColor</string>
+      </Properties>
     </XamlFileMeta>
   </Files>
 </XamlProjectMeta>

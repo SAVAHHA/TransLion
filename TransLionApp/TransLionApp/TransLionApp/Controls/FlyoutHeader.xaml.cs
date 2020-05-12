@@ -20,9 +20,9 @@ namespace TransLionApp.Controls
 
         private async void LogginButton_Clicked(object sender, EventArgs e)
         {
-            
+            //var test = new TestPage();
             await Navigation.PushModalAsync(new LoginPage());
-            
+           //test.DisplayStack();
         }
 
         public void UserEntered()
