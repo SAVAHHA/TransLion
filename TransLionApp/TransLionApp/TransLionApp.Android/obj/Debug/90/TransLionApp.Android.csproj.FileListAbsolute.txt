@@ -4949,3 +4949,4 @@ C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLi
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\System.Xml.XPath.XmlDocument.pdb
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\Ubiety.Dns.Core.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\Zstandard.Net.dll
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll

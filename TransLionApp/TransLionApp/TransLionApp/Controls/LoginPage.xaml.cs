@@ -20,9 +20,24 @@ namespace TransLionApp.Controls
         
         private async void LoginButton_Clicked(object sender, EventArgs e)
         {
-            var shellPage = new ShellPage();
-            shellPage.Enter = true;
+            //var shellPage = new ShellPage();
+            //shellPage.Enter = true;
+            //var enter = new Enter() { HasEntered = 1 };
             await Navigation.PopModalAsync();
+            LoginButton.Text = "Uitloggen";
+            //var enter = new Enter() { HasEntered = 1 };
+            //shellPage.AddItem();
+
+            //NavigationPage navPage = (NavigationPage)Application.Current.MainPage;
+            //IReadOnlyList<Page> navStack = navPage.Navigation.NavigationStack;
+            //ShellPage homePage = navStack[navPage.Navigation.NavigationStack.Count - 1] as ShellPage;
+
+            //await DisplayAlert("h", "no", "oh");
+
+            //if (homePage != null)
+            //{
+            //    homePage.enter.HasEntered = 1;
+            //}
         }
     }
 }

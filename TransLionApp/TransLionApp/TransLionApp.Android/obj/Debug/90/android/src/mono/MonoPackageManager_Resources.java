@@ -11,6 +11,7 @@ public class MonoPackageManager_Resources {
 		"K4os.Hash.xxHash.dll",
 		"MySql.Data.dll",
 		"MySqlConnector.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.Messaging.Abstractions.dll",
 		"Plugin.Messaging.dll",
 		"Renci.SshNet.dll",
