@@ -152,8 +152,12 @@
 
         </ResourceDictionary>
     </Shell.Resources>
+    <FlyoutItem Title="ADMIN DASHBOARD" Shell.BackgroundColor="White" Route="headerAdminDashboard"
+                Shell.ForegroundColor="Black">
+        <ShellContent x:Name="AdminDashboard" Route="DashboardPage" ContentTemplate="{DataTemplate pages:Admin.AdminDashboardPage}"></ShellContent>
+    </FlyoutItem>
 
-    <FlyoutItem Title="USER SOLLICITATIE" Shell.BackgroundColor="White" Route="headerUserSollicitatie"
+    <FlyoutItem Title="USER NOT SOLLICITATIE" Shell.BackgroundColor="White" Route="headerUserSollicitatie"
                 Shell.ForegroundColor="Black">
         <ShellContent x:Name="UserSollicitatie" Route="SollicitatiePage" ContentTemplate="{DataTemplate pages:User.UserSollicitatiePage}"></ShellContent>
     </FlyoutItem>
