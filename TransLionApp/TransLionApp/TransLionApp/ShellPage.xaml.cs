@@ -87,7 +87,7 @@ namespace TransLionApp
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new HomePage()} }
+                        Items = { new ShellContent {Content = new SollicitatiePage()} }
                     }
                 }
 
@@ -132,7 +132,7 @@ namespace TransLionApp
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new HomePage()} }
+                        Items = { new ShellContent {Content = new SollicitatiePage()} }
                     }
                 }
 
