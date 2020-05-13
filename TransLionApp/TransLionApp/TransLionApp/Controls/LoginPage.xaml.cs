@@ -31,7 +31,6 @@ namespace TransLionApp.Controls
                 string myConnectionString = "Server=www.db4free.net;Port=3306;User Id=translion;Password=translion2020;Database=translion;OldGuids=True";
                 MySqlConnection connection = new MySqlConnection(myConnectionString);
                 connection.Open();
-                //await DisplayAlert("You entered", "", "ok");
                 MySqlCommand newCommand = new MySqlCommand("SELECT * FROM Entry WHERE Login=@login", connection);
                 newCommand.Parameters.AddWithValue("@login", login);
                 MySqlDataReader mySqlDataReader = newCommand.ExecuteReader();
@@ -81,26 +80,17 @@ namespace TransLionApp.Controls
             {
                 await DisplayAlert("No Internet connection", ex.InnerException?.Message, "ok");
             }
+        }
 
+        private void loginEntry_Focused(object sender, FocusEventArgs e)
+        {
+            loginEntry.Text = "";
+        }
 
-
-            //var shellPage = new ShellPage();
-            //shellPage.Enter = true;
-            //var enter = new Enter() { HasEntered = 1 };
-            
-            //var enter = new Enter() { HasEntered = 1 };
-            //shellPage.AddItem();
-
-            //NavigationPage navPage = (NavigationPage)Application.Current.MainPage;
-            //IReadOnlyList<Page> navStack = navPage.Navigation.NavigationStack;
-            //ShellPage homePage = navStack[navPage.Navigation.NavigationStack.Count - 1] as ShellPage;
-
-            //await DisplayAlert("h", "no", "oh");
-
-            //if (homePage != null)
-            //{
-            //    homePage.enter.HasEntered = 1;
-            //}
+        private void passwordEntry_Focused(object sender, FocusEventArgs e)
+        {
+            passwordEntry.Text = "";
+            passwordEntry.IsPassword = true;
         }
     }
 }

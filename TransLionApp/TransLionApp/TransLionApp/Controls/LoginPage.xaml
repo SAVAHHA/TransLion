@@ -29,14 +29,24 @@
             
             <Label Text="Inloggen" TextColor="Black" FontSize="Large" Margin="10"></Label>
 
-            <!--<Grid>
+            <Grid>
                 <Grid.RowDefinitions>
+                    <RowDefinition ></RowDefinition>
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
-            </Grid>-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Frame BackgroundColor="White" BorderColor="Gray" HasShadow="True" CornerRadius="10" Margin="10" VerticalOptions="Fill" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="0"></Frame>
+                <Entry x:Name="loginEntry" Text="Login" Focused="loginEntry_Focused" VerticalOptions="Center" FontSize="15" TextColor="Gray" Margin="15,0,15,0" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="0"></Entry>
+
+                <Frame BackgroundColor="White" BorderColor="Gray" HasShadow="True" CornerRadius="10" Margin="10" Grid.Column="0" Grid.Row="1"></Frame>
+                <Entry x:Name="passwordEntry"  Text="Password" TextColor="Gray" VerticalOptions="Center" FontSize="15" Focused="passwordEntry_Focused" Margin="15,0,15,0" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="1"></Entry>
+            </Grid>
             
-            <Entry x:Name="loginEntry" Text="Login" Margin="10,0,10,0" HorizontalOptions="Fill"></Entry>
-            <Entry x:Name="passwordEntry" IsPassword="True" Text="0000" Margin="10,10,10,0" HorizontalOptions="Fill"></Entry>
+            <!--<Entry x:Name="loginEntry" Text="Login" Margin="10,0,10,0" HorizontalOptions="Fill"></Entry>
+            <Entry x:Name="passwordEntry" IsPassword="True" Text="0000" Margin="10,10,10,0" HorizontalOptions="Fill"></Entry>-->
             <Button x:Name="LoginButton" Clicked="LoginButton_Clicked" BackgroundColor="White" BorderColor="#439aff" BorderWidth="1" TextColor="#439aff" Text="Inloggen" Margin="10" HorizontalOptions="Fill"></Button>
         </StackLayout>
     </ContentPage.Content>
