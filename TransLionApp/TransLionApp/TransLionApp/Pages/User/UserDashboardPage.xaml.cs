@@ -22,9 +22,9 @@ namespace TransLionApp.Pages.User
             InitializeComponent();
         }
 
-        private void BlueButton_Clicked(object sender, EventArgs e)
+        private async void BlueButton_Clicked(object sender, EventArgs e)
         {
-
+            await Shell.Current.GoToAsync("///sollicitatie");
         }
 
         private void WhiteButton_Clicked(object sender, EventArgs e)

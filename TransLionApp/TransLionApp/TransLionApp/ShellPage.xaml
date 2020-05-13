@@ -218,6 +218,7 @@
         <ShellContent ContentTemplate="{DataTemplate pages:ReIntegratie2eSpoor}"></ShellContent>
     </FlyoutItem>
 
+  
     <!--<FlyoutItem Title=" " IsEnabled="False" Route="space2">
         <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
     </FlyoutItem>-->
