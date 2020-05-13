@@ -1,1 +1,1 @@
-<Devices><Device id="BH903MVV5K"><ResultingAbi></ResultingAbi><SdkVersion>26</SdkVersion></Device><Device id="UEEDU18813005802"><ResultingAbi>arm64-v8a</ResultingAbi><SdkVersion>28</SdkVersion></Device></Devices>
+<Devices><Device id="BH903MVV5K"><ResultingAbi>arm64-v8a</ResultingAbi><SdkVersion>26</SdkVersion></Device><Device id="emulator-5554"><ResultingAbi>x86</ResultingAbi><SdkVersion>28</SdkVersion></Device></Devices>

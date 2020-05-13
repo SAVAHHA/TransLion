@@ -8,6 +8,8 @@ using TransLionApp;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MySql.Data.MySqlClient;
+using System.IO;
+using System.Reflection;
 
 namespace TransLionApp.Controls
 {
@@ -18,9 +20,43 @@ namespace TransLionApp.Controls
 
         public LoginPage()
         {
+
+            //WriteText(2);
+            ReadText();
+
             InitializeComponent();
         }
+
+        public async void ReadText()
+        {
+            string result = "";
+            var assembly = Assembly.GetExecutingAssembly();
+            string resourceName = assembly.GetManifestResourceNames()
+            .Single(str => str.EndsWith("Enter.txt"));
+
+            using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                result = reader.ReadToEnd();
+            }
+
+            await DisplayAlert("", result, "OK");
+        }
         
+        public void WriteText(int type)
+        {
+            var assembly = Assembly.GetExecutingAssembly();
+            string resourceName = assembly.GetManifestResourceNames()
+            .Single(str => str.EndsWith("Enter.txt"));
+
+            using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+            using (StreamWriter writer = new StreamWriter(stream))
+            {
+                writer.WriteLine(10);
+                //writer.Write(type.ToString());
+            }
+        }
+
         private async void LoginButton_Clicked(object sender, EventArgs e)
         {
             var login = loginEntry.Text;
@@ -56,10 +92,10 @@ namespace TransLionApp.Controls
                         if (password == passwordGet.ToString())
                         {
                             await DisplayAlert("You logged as", type, "OK");
-                            //await Navigation.PushModalAsync(new MainPage(Int32.Parse(id.ToString()), name.ToString()));
-                            //await Navigation.PushModalAsync(new TabbedMainPage());
                             await Navigation.PopModalAsync();
                             LoginButton.Text = "Uitloggen";
+
+
                         }
                         else
                         {
