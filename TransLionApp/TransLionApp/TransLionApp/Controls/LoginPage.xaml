@@ -45,8 +45,6 @@
                 <Entry x:Name="passwordEntry"  Text="Password" TextColor="Gray" VerticalOptions="Center" FontSize="15" Focused="passwordEntry_Focused" Margin="15,0,15,0" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="1"></Entry>
             </Grid>
             
-            <!--<Entry x:Name="loginEntry" Text="Login" Margin="10,0,10,0" HorizontalOptions="Fill"></Entry>
-            <Entry x:Name="passwordEntry" IsPassword="True" Text="0000" Margin="10,10,10,0" HorizontalOptions="Fill"></Entry>-->
             <Button x:Name="LoginButton" Clicked="LoginButton_Clicked" BackgroundColor="White" BorderColor="#439aff" BorderWidth="1" TextColor="#439aff" Text="Inloggen" Margin="10" HorizontalOptions="Fill"></Button>
         </StackLayout>
     </ContentPage.Content>
