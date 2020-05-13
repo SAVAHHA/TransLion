@@ -14,7 +14,7 @@
     <ContentPage.Content>
         <Grid RowSpacing="0">
             <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
-                <StackLayout x:Name="mainStackLayout">
+                <StackLayout x:Name="mainStackLayout" HorizontalOptions="FillAndExpand">
                     <Image Source="BluePictureForPages" HorizontalOptions="FillAndExpand"></Image>
                     <StackLayout Spacing="0" Margin="10,0,10,0">
                         <Label Text="Contact" FontSize="36" Margin="0,10,0,10" TextColor="Black" FontAttributes="Bold,Italic"></Label>
@@ -76,7 +76,7 @@
                             <Button Text="Linkedin" TextColor="#518bb8" Clicked="linkedinButton0_Clicked" BackgroundColor="Transparent" FontSize="14"></Button>
                         </StackLayout>
                     </StackLayout>
-                    <map:Map x:Name="map" MapType="Street" HasZoomEnabled="True"
+                    <!--<map:Map x:Name="map" MapType="Street" HasZoomEnabled="True"
                                MoveToLastRegionOnLayoutChange="False" HeightRequest="400" Margin="0,0,0,10">
                         <x:Arguments>
                             <map:MapSpan>
@@ -106,7 +106,23 @@
                                  </map:Pin.Position>
                              </map:Pin>
                          </map:Map.Pins>
-                     </map:Map>
+                     </map:Map>-->
+
+                    <Grid HorizontalOptions="FillAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition ></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <!--<BoxView BackgroundColor="Pink" Grid.Column="0" Grid.Row="0" HorizontalOptions="FillAndExpand"></BoxView>-->
+                        
+
+                        <Image Source="map" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Aspect="AspectFill" Grid.Column="0" Grid.Row="0">
+                        </Image>
+                    </Grid>
+                    
                 </StackLayout>
             </ScrollView>
 

@@ -4906,3 +4906,4 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\Zstandard.Net.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\MySqlConnector.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\map.png
