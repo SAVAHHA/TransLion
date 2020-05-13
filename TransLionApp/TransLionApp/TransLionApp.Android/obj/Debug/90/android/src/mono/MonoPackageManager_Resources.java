@@ -3,28 +3,15 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "TransLionApp.Android.dll" comes first in this list. */
 		"TransLionApp.Android.dll",
-		"BouncyCastle.Crypto.dll",
 		"FormsViewGroup.dll",
-		"Google.Protobuf.dll",
-		"K4os.Compression.LZ4.dll",
-		"K4os.Compression.LZ4.Streams.dll",
-		"K4os.Hash.xxHash.dll",
-		"MySql.Data.dll",
 		"MySqlConnector.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Messaging.Abstractions.dll",
 		"Plugin.Messaging.dll",
-		"Renci.SshNet.dll",
-		"SshNet.Security.Cryptography.dll",
 		"Syncfusion.Compression.Portable.dll",
 		"Syncfusion.Licensing.dll",
 		"Syncfusion.Pdf.Portable.dll",
-		"System.Configuration.ConfigurationManager.dll",
-		"System.Security.AccessControl.dll",
-		"System.Security.Permissions.dll",
-		"System.Security.Principal.Windows.dll",
 		"TransLionApp.dll",
-		"Ubiety.Dns.Core.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -73,7 +60,6 @@ public class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Basement.dll",
 		"Xamarin.GooglePlayServices.Maps.dll",
 		"Xamarin.GooglePlayServices.Tasks.dll",
-		"Zstandard.Net.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

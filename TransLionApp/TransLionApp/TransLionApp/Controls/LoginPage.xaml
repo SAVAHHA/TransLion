@@ -35,8 +35,8 @@
                 </Grid.RowDefinitions>
             </Grid>-->
             
-            <Entry Text="Login" Margin="10,0,10,0" HorizontalOptions="Fill"></Entry>
-            <Entry IsPassword="True" Text="0000" Margin="10,10,10,0" HorizontalOptions="Fill"></Entry>
+            <Entry x:Name="loginEntry" Text="Login" Margin="10,0,10,0" HorizontalOptions="Fill"></Entry>
+            <Entry x:Name="passwordEntry" IsPassword="True" Text="0000" Margin="10,10,10,0" HorizontalOptions="Fill"></Entry>
             <Button x:Name="LoginButton" Clicked="LoginButton_Clicked" BackgroundColor="White" BorderColor="#439aff" BorderWidth="1" TextColor="#439aff" Text="Inloggen" Margin="10" HorizontalOptions="Fill"></Button>
         </StackLayout>
     </ContentPage.Content>
