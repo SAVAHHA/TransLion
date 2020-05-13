@@ -14,7 +14,7 @@ using TransLionApp.Pages.User;
 using Newtonsoft.Json;
 using MySql.Data.MySqlClient;
 using System.IO;
-using Org.BouncyCastle.Bcpg;
+//using Org.BouncyCastle.Bcpg;
 
 namespace TransLionApp
 {
