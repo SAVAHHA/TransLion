@@ -6,6 +6,7 @@
              xmlns:pages="clr-namespace:TransLionApp.Pages" 
              xmlns:controls="clr-namespace:TransLionApp.Controls"
              mc:Ignorable="d"
+             Routing.Route="shellpage"
              x:Class="TransLionApp.ShellPage" CurrentItem="{x:Reference HomePage}"
              Shell.BackgroundColor="White"
              Shell.ForegroundColor="Black"
@@ -194,7 +195,7 @@
 
     <FlyoutItem Title="Home page"  Shell.BackgroundColor="White" Route="homepage"
              Shell.ForegroundColor="Black" TabIndex="9">
-        <ShellContent x:Name="HomePage" Shell.BackgroundColor="White" Shell.ForegroundColor="Black" Route="HomePage" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
+        <ShellContent x:Name="HomePage" Route="home" Shell.BackgroundColor="White" Shell.ForegroundColor="Black" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
     </FlyoutItem>
 
   
@@ -274,7 +275,7 @@
         <ShellContent Title="informatie" IsEnabled="True" ContentTemplate="{DataTemplate pages:UWVPage}"></ShellContent>
     </FlyoutItem>-->
 
-    <FlyoutItem Title="Contact" Shell.BackgroundColor="White" Route="contacts"
+    <FlyoutItem Title="Contact" Shell.BackgroundColor="White" Route="headercontacts"
              Shell.ForegroundColor="Black" TabIndex="17">
         <ShellContent ContentTemplate="{DataTemplate pages:ContactPage}"></ShellContent>
     </FlyoutItem>

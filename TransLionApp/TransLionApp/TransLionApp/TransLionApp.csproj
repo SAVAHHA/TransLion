@@ -11,15 +11,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Enter.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="LiveXAML" Version="2.1.73" />
     <PackageReference Include="MySqlConnector" Version="0.66.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
     <PackageReference Include="Syncfusion.Licensing" Version="18.1.0.43" />
     <PackageReference Include="Syncfusion.Xamarin.Pdf" Version="18.1.0.43" />
     <PackageReference Include="Xam.Plugins.Messaging" Version="5.2.0" />
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.530" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
     <PackageReference Include="Xamarin.Forms.Maps" Version="4.5.0.530" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Enter.txt" />
   </ItemGroup>
 
   <ItemGroup>

@@ -132,33 +132,33 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.csproj.CopyComplete
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.exe
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.pdb
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\BouncyCastle.Crypto.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Google.Protobuf.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\K4os.Compression.LZ4.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\K4os.Compression.LZ4.Streams.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\K4os.Hash.xxHash.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\MySql.Data.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Ubiety.Dns.Core.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Zstandard.Net.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Renci.SshNet.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SshNet.Security.Cryptography.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Buffers.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Configuration.ConfigurationManager.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Diagnostics.TraceSource.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Memory.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Net.NameResolution.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Security.AccessControl.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Security.Cryptography.Algorithms.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Security.Permissions.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Security.Principal.Windows.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Text.Encoding.CodePages.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\TransLionApp.iOS.exe
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\TransLionApp.iOS.pdb
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\BouncyCastle.Crypto.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Google.Protobuf.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\K4os.Compression.LZ4.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\K4os.Compression.LZ4.Streams.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\K4os.Hash.xxHash.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\MySql.Data.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Ubiety.Dns.Core.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Zstandard.Net.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\MySqlConnector.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Renci.SshNet.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SshNet.Security.Cryptography.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Syncfusion.Licensing.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Syncfusion.Compression.Portable.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Syncfusion.Pdf.Portable.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Buffers.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Configuration.ConfigurationManager.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Diagnostics.TraceSource.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Memory.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Net.NameResolution.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Security.AccessControl.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Security.Cryptography.Algorithms.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Security.Permissions.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Security.Principal.Windows.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Text.Encoding.CodePages.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Plugin.Messaging.Abstractions.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Plugin.Messaging.Abstractions.pdb
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Plugin.Messaging.dll
@@ -221,5 +221,4 @@ C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLi
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.csproj.CopyComplete
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.exe
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.pdb
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\MySqlConnector.dll
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll

@@ -21,6 +21,7 @@ namespace TransLionApp
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
+    [QueryProperty("Type", "type")]
     public partial class ShellPage : Shell
     {
         public ICommand PdfCommand => new Command<string>(async (url) => await Launcher.OpenAsync(url));
@@ -30,15 +31,27 @@ namespace TransLionApp
             HasEntered = 0
         };
 
-       
+        public string _type;
+
+        public string Type
+        {
+            set
+            {
+                BindingContext = People.people.FirstOrDefault(m => m.Type.ToString() == Uri.UnescapeDataString(value));
+                _type = Uri.UnescapeDataString(value);
+            }
+            get { return _type; }
+        }
+
         public ShellPage()
         {
             BackgroundColor = Color.White;
-            
+            Routing.RegisterRoute("sollicitatiePage", typeof(SollicitatiePage));
             InitializeComponent();
             CurrentItem = HomePage;
             BackgroundColor = Color.White;
             BindingContext = this;
+            PrintType();
         }
 
         protected override void OnAppearing()
@@ -304,7 +317,10 @@ namespace TransLionApp
             CurrentItem = HomePage;
         }
 
-  
+        public async void PrintType()
+        {
+            await DisplayAlert("", Type, "ok");
+        }
     }
 
     

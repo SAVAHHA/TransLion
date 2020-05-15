@@ -8,6 +8,7 @@ using Xamarin.Essentials;
 using Plugin.Messaging;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using TransLionApp;
 
 namespace TransLionApp.Pages.User
 {
@@ -87,6 +88,11 @@ namespace TransLionApp.Pages.User
             }
             lastScrollPoint = e.ScrollY;
             translating = false;
+        }
+
+        private async void bekijk_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("sollicitatiePage");
         }
     }
 }
