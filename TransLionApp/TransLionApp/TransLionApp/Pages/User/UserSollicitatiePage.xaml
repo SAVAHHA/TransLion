@@ -59,7 +59,7 @@
                             </Grid>
                         </Frame>
 
-                        <Button Grid.Row="3" Padding="0,0,0,0" Text="Bekijk nu de online sollicitatietips!" CornerRadius="10" TextColor="White" BackgroundColor="#439aff" Margin="5,0,5,0"></Button>
+                        <Button Grid.Row="3" Padding="0,0,0,0" Text="Bekijk nu de online sollicitatietips!" x:Name="bekijk" Clicked="bekijk_Clicked" CornerRadius="10" TextColor="White" BackgroundColor="#439aff" Margin="5,0,5,0"></Button>
 
                         <Frame Grid.Row="4" WidthRequest="10" BackgroundColor="#ffb63e" BorderColor="Transparent" CornerRadius="10" Padding="0,0,0,0" Margin="5,0,5,0">
                             <StackLayout>
