@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using MySql.Data.MySqlClient;
 using System.IO;
 using System.Reflection;
+using TransLionApp.Data;
 
 namespace TransLionApp.Controls
 {
@@ -25,6 +26,14 @@ namespace TransLionApp.Controls
            //ReadText();
            
             InitializeComponent();
+            TestMessage();
+        }
+
+        
+
+        public async void TestMessage()
+        {
+            await DisplayAlert("IMPORTANT THING:", "To log in as a user enter login:user password:1111, to log in as an admin enter login:admin password:2222 ", "I see");
         }
 
         //public async void ReadText()
@@ -131,17 +140,30 @@ namespace TransLionApp.Controls
         {
             var login = loginEntry.Text;
             var password = passwordEntry.Text;
-            var type = 2;
+            //var type = 2;
+
+            if (login == "user")
+            {
+                await App.Database.SaveUserAsync(new Person { Login = "user", Password = "1111", Type = "user" });
+            }
+            if (login == "admin")
+            {
+                await App.Database.SaveUserAsync(new Person { Login = "admin", Password = "2222", Type = "admin" });
+            }
 
             //Person person = new Person { Type = type, Password = password, Login = login };
             //await DisplayAlert("", "created", "ok");
             //People _people = new People(login, password, type);
-            
+
             //People.people.Add(person);
 
 
             //await DisplayAlert("", "added", "ok");
-            await Shell.Current.GoToAsync("//shellpage/homepage/home");
+
+
+            App.Current.MainPage = new ShellPage();
+
+            //await Shell.Current.GoToAsync("//shellpage/homepage/home");
             //Shell.Current.FlyoutIsPresented = false;
         }
 

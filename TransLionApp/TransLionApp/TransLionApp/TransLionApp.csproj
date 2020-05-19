@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <None Remove="Enter.txt" />
+    <None Remove="Files\PDFDocumentTransLion.pdf" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +30,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Enter.txt" />
+    <EmbeddedResource Include="Files\PDFDocumentTransLion.pdf" />
   </ItemGroup>
 
   <ItemGroup>

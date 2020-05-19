@@ -7,6 +7,7 @@ using System.ComponentModel;
 using Xamarin.Forms;
 using TransLionApp;
 using Xamarin.Forms.Xaml;
+using TransLionApp.Pages;
 
 namespace TransLionApp.Controls
 {
@@ -15,19 +16,35 @@ namespace TransLionApp.Controls
     {
         public FlyoutHeader()
         {
+            
+
             InitializeComponent();
+
+            if (App.ID != 0)
+            {
+                LogginButton.Text = "Uitloggen";
+            }
         }
+
+      
 
         private async void LogginButton_Clicked(object sender, EventArgs e)
         {
-            //var test = new TestPage();
-            await Navigation.PushModalAsync(new LoginPage());
-           //test.DisplayStack();
+            if (App.ID != 0)
+            {
+                await App.Database.DeleteUserAsync(App.ID);
+                App.Current.MainPage = new ShellPage();
+                //await Navigation.PushModalAsync(new HomePage());
+                //await Shell.Current.GoToAsync();
+
+            }
+            else
+            {
+                await Navigation.PushModalAsync(new LoginPage());
+
+            }
         }
 
-        public void UserEntered()
-        {
-
-        }
+       
     }
 }
