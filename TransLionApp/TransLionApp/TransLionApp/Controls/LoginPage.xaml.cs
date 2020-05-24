@@ -144,11 +144,11 @@ namespace TransLionApp.Controls
 
             if (login == "user")
             {
-                await App.Database.SaveUserAsync(new Person { Login = "user", Password = "1111", Type = "user" });
+                await App.Database.SaveUserAsync(new Person { Login = "user", NamePerson = "User", Password = "1111", Type = "user" });
             }
             if (login == "admin")
             {
-                await App.Database.SaveUserAsync(new Person { Login = "admin", Password = "2222", Type = "admin" });
+                await App.Database.SaveUserAsync(new Person { Login = "admin", NamePerson = "Admin", Password = "2222", Type = "admin" });
             }
 
             //Person person = new Person { Type = type, Password = password, Login = login };

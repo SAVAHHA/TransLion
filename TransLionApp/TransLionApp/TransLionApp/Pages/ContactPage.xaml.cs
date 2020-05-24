@@ -7,7 +7,7 @@ using Xamarin.Essentials;
 using Plugin.Messaging;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Xamarin.Forms.Maps;
+//using Xamarin.Forms.Maps;
 
 namespace TransLionApp.Pages
 {

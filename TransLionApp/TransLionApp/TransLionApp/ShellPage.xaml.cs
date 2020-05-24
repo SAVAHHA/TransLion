@@ -11,6 +11,7 @@ using Xamarin.Forms;
 using TransLionApp.Controls;
 using TransLionApp.Pages;
 using TransLionApp.Pages.User;
+using TransLionApp.Pages.Admin;
 using Newtonsoft.Json;
 using MySql.Data.MySqlClient;
 using System.IO;
@@ -25,14 +26,11 @@ namespace TransLionApp
     {
         public ICommand PdfCommand => new Command<string>(async (url) => await Launcher.OpenAsync(url));
 
-
-       
-        
-
         public ShellPage()
         {
             BackgroundColor = Color.White;
             Routing.RegisterRoute("sollicitatiePage", typeof(SollicitatiePage));
+            //Routing.RegisterRoute("userwia", typeof(UserWIAaanvraagPage));
             InitializeComponent();
 
             if (App.Login != "")
@@ -47,10 +45,16 @@ namespace TransLionApp
                 }
             }
 
-
+           // R();
             CurrentItem = HomePage;
             BackgroundColor = Color.White;
             BindingContext = this;
+        }
+
+        private async void R()
+        {
+            var y = App.Database.GetUserAsync(App.ID).Result;
+            await DisplayAlert(App.ID.ToString(), App.NamePerson, "OK");
         }
 
         protected override void OnAppearing()
@@ -100,7 +104,7 @@ namespace TransLionApp
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new UserSollicitatiePage()} }
+                        Items = { new ShellContent {Content = new UserDashboard()} }
                     }
                 }
 
@@ -124,13 +128,13 @@ namespace TransLionApp
             Items.Add(new FlyoutItem
             {
                 Title = "WIA-aanvraag",
-                IsEnabled = false,
+                IsEnabled = true,
                 Route = "wiaaanvraag",
                 Items =
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new HomePage()} }
+                        Items = { new ShellContent {Content = new UserWIAaanvraag()} }
                     }
                 }
 
@@ -359,7 +363,7 @@ namespace TransLionApp
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new UserSollicitatiePage()} }
+                        Items = { new ShellContent {Content = new AdminDashboardPage()} }
                     }
                 }
 
@@ -368,13 +372,13 @@ namespace TransLionApp
             Items.Add(new FlyoutItem
             {
                 Title = "Clienten",
-                IsEnabled = false,
+                IsEnabled = true,
                 Route = "clienten",
                 Items =
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new SollicitatiePage()} }
+                        Items = { new ShellContent {Content = new ClientenPage()} }
                     }
                 }
 

@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "MWckMBR5tislLd5+OHb12qlxOlSzooGl4arTmkHHnXuobJeducwb6D7Vp4UEGqfqp+n92NtRBFyaj1R7gwUkzg==",
+  "dgSpecHash": "OG+gDaYhQftONvV/RHA7bEvL3JuKC+0ZLvRTN0yLdZ87obwaWlcsBrb8CBBr6kVrnxrQu0v5GUVAg6dxF7Gr7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Anna\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\mysqlconnector\\0.64.2\\mysqlconnector.0.64.2.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
@@ -69,6 +68,26 @@
       "warningLevel": 1,
       "message": "Обнаружено понижение версии пакета MySqlConnector с 0.66.0 на 0.64.2. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.Android -> TransLionApp -> MySqlConnector (>= 0.66.0) \r\n TransLionApp.Android -> MySqlConnector (>= 0.64.2)",
       "libraryId": "MySqlConnector",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Essentials с 1.5.3.2 на 1.5.2. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.Android -> TransLionApp -> Xamarin.Essentials (>= 1.5.3.2) \r\n TransLionApp.Android -> Xamarin.Essentials (>= 1.5.2)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Forms с 4.6.0.800 на 4.5.0.530. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.Android -> TransLionApp -> Xamarin.Forms (>= 4.6.0.800) \r\n TransLionApp.Android -> Xamarin.Forms (>= 4.5.0.530)",
+      "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"
       ]

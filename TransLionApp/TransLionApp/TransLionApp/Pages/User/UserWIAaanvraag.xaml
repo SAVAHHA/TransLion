@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:TransLionApp"
+             xmlns:view="clr-namespace:TransLionApp.Views"
+             x:Class="TransLionApp.Pages.User.UserWIAaanvraag">
+    <Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Margin="10,0,10,0" TextColor="Black" x:Name="UserNameLabel" Text="{x:Static local:App.NamePerson}" FontAttributes="Bold" FontSize="Large"></Label>
+            <Label Text="WIA-aanvraag" x:Name="testLabel" Margin="10"></Label>
+        
+
+            <Frame BorderColor="#439aff" BackgroundColor="White" Margin="5,0,5,0" CornerRadius="10" HasShadow="False">
+                <StackLayout>
+                    <Grid RowSpacing="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" >
+                            <Label Text="Status:" TextColor="#439aff" Margin="5"></Label>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="0" >
+                            <Label Text="Datum:" TextColor="#439aff" Margin="5"></Label>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

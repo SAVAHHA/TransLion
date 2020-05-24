@@ -2,12 +2,6 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "LiveXAML/2.1.73": {
-        "type": "package",
-        "build": {
-          "build/netstandard2.0/_._": {}
-        }
-      },
       "MySqlConnector/0.66.0": {
         "type": "package",
         "compile": {
@@ -271,15 +265,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "LiveXAML": "2.1.73",
           "MySqlConnector": "0.66.0",
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "18.1.0.43",
           "Syncfusion.Xamarin.Pdf": "18.1.0.43",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.530",
-          "Xamarin.Forms.Maps": "4.5.0.530",
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.6.0.800",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -291,12 +283,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "LiveXAML/2.1.73": {
-        "type": "package",
-        "build": {
-          "build/netstandard2.0/_._": {}
-        }
-      },
       "MySqlConnector/0.66.0": {
         "type": "package",
         "compile": {
@@ -560,15 +546,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "LiveXAML": "2.1.73",
           "MySqlConnector": "0.66.0",
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "18.1.0.43",
           "Syncfusion.Xamarin.Pdf": "18.1.0.43",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.530",
-          "Xamarin.Forms.Maps": "4.5.0.530",
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.6.0.800",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -580,12 +564,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "LiveXAML/2.1.73": {
-        "type": "package",
-        "build": {
-          "build/netstandard2.0/_._": {}
-        }
-      },
       "MySqlConnector/0.66.0": {
         "type": "package",
         "compile": {
@@ -849,15 +827,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "LiveXAML": "2.1.73",
           "MySqlConnector": "0.66.0",
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "18.1.0.43",
           "Syncfusion.Xamarin.Pdf": "18.1.0.43",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.530",
-          "Xamarin.Forms.Maps": "4.5.0.530",
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.6.0.800",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -869,12 +845,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "LiveXAML/2.1.73": {
-        "type": "package",
-        "build": {
-          "build/netstandard2.0/_._": {}
-        }
-      },
       "MySqlConnector/0.66.0": {
         "type": "package",
         "compile": {
@@ -1138,15 +1108,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "LiveXAML": "2.1.73",
           "MySqlConnector": "0.66.0",
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "18.1.0.43",
           "Syncfusion.Xamarin.Pdf": "18.1.0.43",
           "Xam.Plugins.Messaging": "5.2.0",
-          "Xamarin.Essentials": "1.5.2",
-          "Xamarin.Forms": "4.5.0.530",
-          "Xamarin.Forms.Maps": "4.5.0.530",
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.6.0.800",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -1159,27 +1127,6 @@
     }
   },
   "libraries": {
-    "LiveXAML/2.1.73": {
-      "sha512": "WuyZAgaVvGIN4MoOR5VK3X8PFiCv3swffxzMd6Nf7cJIf32zCjbTgrkasY5K8NSNZ2U4y2nFgLAZ4oeqUvueEA==",
-      "type": "package",
-      "path": "livexaml/2.1.73",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/netstandard2.0/LiveXAML.targets",
-        "build/netstandard2.0/XamarinLive.Build.dll",
-        "build/netstandard2.0/XamarinLive.Common.dll",
-        "build/netstandard2.0/minified.cs",
-        "build/netstandard2.0/minified.tpl.cs",
-        "build/portable-win+net45+wp80+win81+wpa81/LiveXAML.targets",
-        "build/portable-win+net45+wp80+win81+wpa81/XamarinLive.Build.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/XamarinLive.Common.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/minified.cs",
-        "build/portable-win+net45+wp80+win81+wpa81/minified.tpl.cs",
-        "livexaml.2.1.73.nupkg.sha512",
-        "livexaml.nuspec"
-      ]
-    },
     "MySqlConnector/0.66.0": {
       "sha512": "laGcF5yxoWsBaoYJVkJXxsxiyIpz2lQn8FobpZiSGTWHEJQfhIlKHxhmXyUwD9WOsINKYJ3kmGNqkFojZW3VSA==",
       "type": "package",
@@ -1921,5 +1868,33 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Essentials с 1.5.3.2 на 1.5.2. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.iOS -> TransLionApp -> Xamarin.Essentials (>= 1.5.3.2) \r\n TransLionApp.iOS -> Xamarin.Essentials (>= 1.5.2)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Forms с 4.6.0.800 на 4.5.0.530. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.iOS -> TransLionApp -> Xamarin.Forms (>= 4.6.0.800) \r\n TransLionApp.iOS -> Xamarin.Forms (>= 4.5.0.530)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

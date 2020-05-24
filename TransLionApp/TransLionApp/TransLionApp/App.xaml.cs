@@ -10,15 +10,15 @@ namespace TransLionApp
 {
     public partial class App : Application
     {
-        public const string DATABASE_NAME = "table.db";
-        static Table database;
-        public static Table Database
+        public const string DATABASE_NAME = "tablepeople.db";
+        static TablePeople database;
+        public static TablePeople Database
         {
             get
             {
                 if (database == null)
                 {
-                    database = new Table(
+                    database = new TablePeople(
                         Path.Combine(
                             Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), DATABASE_NAME));
                 }
@@ -68,6 +68,22 @@ namespace TransLionApp
                 {
                     var users = App.Database.GetUsersAsync().Result;
                     return users[0].Type;
+                }
+                else
+                {
+                    return "";
+                }
+            }
+        }
+
+        public static string NamePerson
+        {
+            get
+            {
+                if (App.ID != 0)
+                {
+                    var users = App.Database.GetUsersAsync().Result;
+                    return users[0].NamePerson;
                 }
                 else
                 {
