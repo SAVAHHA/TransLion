@@ -12,6 +12,7 @@ using TransLionApp.Controls;
 using TransLionApp.Pages;
 using TransLionApp.Pages.User;
 using TransLionApp.Pages.Admin;
+using TransLionApp.Views;
 using Newtonsoft.Json;
 using MySql.Data.MySqlClient;
 using System.IO;
@@ -30,7 +31,7 @@ namespace TransLionApp
         {
             BackgroundColor = Color.White;
             Routing.RegisterRoute("sollicitatiePage", typeof(SollicitatiePage));
-            //Routing.RegisterRoute("userwia", typeof(UserWIAaanvraagPage));
+            Routing.RegisterRoute("userdetail", typeof(UserDetailPage));
             InitializeComponent();
 
             if (App.Login != "")

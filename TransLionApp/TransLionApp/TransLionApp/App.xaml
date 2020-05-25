@@ -6,6 +6,24 @@
              mc:Ignorable="d"
              x:Class="TransLionApp.App">
     <Application.Resources>
+        <DataTemplate x:Key="UserTemplate">
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0"
+                       Text="{Binding NamePerson}"
+                       FontAttributes="Bold"></Label>
+
+                <Label Grid.Row="1"
+                       Text="{Binding Login}"></Label>
+            </Grid>
+        </DataTemplate>
 
     </Application.Resources>
 </Application>

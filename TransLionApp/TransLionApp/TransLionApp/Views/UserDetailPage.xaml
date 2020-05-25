@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TransLionApp.Views.UserDetailPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--<Grid Margin="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    
+                    <Image Source="ic_action_arrow_back_ios" Grid.Column="0" Grid.Row="0"></Image>
+                    <Label Text="Clienten" Grid.Column="1" Grid.Row="0" VerticalOptions="Center"></Label>
+                    <Button BackgroundColor="Transparent" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="0" x:Name="BackButton" Clicked="BackButton_Clicked"></Button>
+
+                </Grid>-->
+
+                <Label Text="{Binding NamePerson}" TextColor="Black" FontSize="Title" Margin="5"></Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

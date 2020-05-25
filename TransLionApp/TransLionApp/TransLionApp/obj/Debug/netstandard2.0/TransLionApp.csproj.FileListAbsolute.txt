@@ -267,11 +267,9 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminDashboardPage.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\LoginPage.xaml.g.cs
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\UserDashboardPage.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminWIAaanvraagPage.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Controls\LoginPage.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminSollicitatiePage.xaml.g.cs
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\UserSollicitatiePage.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Controls\LoginPage.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminDashboardPage.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminSollicitatiePage.xaml.g.cs
@@ -288,3 +286,5 @@ C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLi
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\UserWIAaanvraag.xaml.g.cs
 C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\ClientenPage.xaml.g.cs
+C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\UserDashboard.xaml.g.cs
+C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Views\UserDetailPage.xaml.g.cs

@@ -190,7 +190,7 @@
 
     <FlyoutItem Title="Menu" IsEnabled="False"  Shell.BackgroundColor="White" Route="headerMenu"
              Shell.ForegroundColor="Black" TabIndex="8">
-        <ShellContent Shell.BackgroundColor="White" x:Name="UserDashboard" Shell.ForegroundColor="Black" Route="Homeage" ContentTemplate="{DataTemplate pages:User.UserSollicitatiePage}"></ShellContent>
+        <ShellContent Shell.BackgroundColor="White" x:Name="UserDashboard" Shell.ForegroundColor="Black" Route="Homeage" ContentTemplate="{DataTemplate pages:User.UserDashboard}"></ShellContent>
         <ShellContent  Shell.BackgroundColor="White" x:Name="AdminDashboard" Shell.ForegroundColor="Black" Route="Homeage" ContentTemplate="{DataTemplate pages:Admin.AdminSollicitatiePage}"></ShellContent>
 
     </FlyoutItem>

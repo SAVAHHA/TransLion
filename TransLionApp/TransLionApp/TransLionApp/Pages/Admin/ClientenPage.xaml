@@ -4,10 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:data="clr-namespace:TransLionApp.Data"
              x:Class="TransLionApp.Pages.Admin.ClientenPage">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
+                <!--<Button Text=" Vorige" x:Name="backButton" Clicked="backButton_Clicked"></Button>-->
                 <Grid HorizontalOptions="Fill">
                     <Grid.RowDefinitions>
                         <RowDefinition></RowDefinition>
@@ -17,9 +19,31 @@
                         <ColumnDefinition></ColumnDefinition>
                     </Grid.ColumnDefinitions>
 
-                    <Label Text="Clienten" TextColor="Black" FontSize="Large" Grid.Column="0" Grid.Row="0" Margin="5"></Label>
-                    <Label Text="+" TextColor="Black" HorizontalOptions="End" Grid.Column="1" Grid.Row="0"></Label>
+                    <Label Text="Clienten" TextColor="Black" FontSize="Large" Margin="10,0,0,0" VerticalOptions="Center" Grid.Column="0" Grid.Row="0"></Label>
+                    <Button x:Name="plusButton" Text="+" BackgroundColor="White" TextColor="Black" FontSize="Large" HorizontalOptions="End" Margin="0,0,10,0" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" Clicked="plusButton_Clicked"></Button>
                 </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame BackgroundColor="White" BorderColor="Gray" HasShadow="True" CornerRadius="10" Margin="10,0,10,0" VerticalOptions="Fill" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="0"></Frame>
+                    <SearchBar Placeholder="Zoek clienten" TextChanged="SearchBar_TextChanged" Grid.Row="0" Grid.Column="0" Margin="10,0,10,0"></SearchBar>
+                </Grid>
+                <CollectionView x:Name="searchResults"
+                                Margin="20"
+                                ItemsSource="{x:Static data:UserData.Users}"
+                                ItemTemplate="{StaticResource UserTemplate}"
+                                SelectionMode="Single"
+                                SelectionChanged="CollectionView_SelectionChanged"></CollectionView>
+
+                <!--<ListView x:Name="searchResults" ItemsSource="{Binding ts}">
+                    
+                </ListView>-->
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
