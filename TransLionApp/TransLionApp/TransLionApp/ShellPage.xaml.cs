@@ -11,6 +11,8 @@ using Xamarin.Forms;
 using TransLionApp.Controls;
 using TransLionApp.Pages;
 using TransLionApp.Pages.User;
+using TransLionApp.Pages.Admin;
+using TransLionApp.Views;
 using Newtonsoft.Json;
 using MySql.Data.MySqlClient;
 using System.IO;
@@ -21,46 +23,66 @@ namespace TransLionApp
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
-    [QueryProperty("Type", "type")]
     public partial class ShellPage : Shell
     {
         public ICommand PdfCommand => new Command<string>(async (url) => await Launcher.OpenAsync(url));
-
-        public Enter enter = new Enter
-        {
-            HasEntered = 0
-        };
-
-        public string _type;
-
-        public string Type
-        {
-            set
-            {
-                BindingContext = People.people.FirstOrDefault(m => m.Type.ToString() == Uri.UnescapeDataString(value));
-                _type = Uri.UnescapeDataString(value);
-            }
-            get { return _type; }
-        }
 
         public ShellPage()
         {
             BackgroundColor = Color.White;
             Routing.RegisterRoute("sollicitatiePage", typeof(SollicitatiePage));
+            Routing.RegisterRoute("userdetail", typeof(UserDetailPage));
+            Routing.RegisterRoute("useredit", typeof(UserEdit));
+            Routing.RegisterRoute("adduser", typeof(AddUser));
             InitializeComponent();
+
+            if (App.Login != "")
+            {
+                if (App.Type == "user")
+                {
+                    UserPart();
+                }
+                else
+                {
+                    AdminPart();
+                }
+            }
+
+           // R();
             CurrentItem = HomePage;
             BackgroundColor = Color.White;
             BindingContext = this;
-            PrintType();
+        }
+
+        private async void R()
+        {
+            var y = App.Database.GetUserAsync(App.ID).Result;
+            await DisplayAlert(App.ID.ToString(), App.NamePerson, "OK");
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
 
+            if (App.Login != "")
+            {
+                if (App.Type == "user")
+                {
+                    UserPart();
+                }
+                else
+                {
+                    AdminPart();
+                }
+            }
+
+        }
+
+        public void UserPart()
+        {
             Items.Clear();
 
-            
+
             Items.Add(new FlyoutItem
             {
                 Title = "Account",
@@ -85,7 +107,7 @@ namespace TransLionApp
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new UserSollicitatiePage()} }
+                        Items = { new ShellContent {Content = new UserDashboard()} }
                     }
                 }
 
@@ -109,13 +131,13 @@ namespace TransLionApp
             Items.Add(new FlyoutItem
             {
                 Title = "WIA-aanvraag",
-                IsEnabled = false,
+                IsEnabled = true,
                 Route = "wiaaanvraag",
                 Items =
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new HomePage()} }
+                        Items = { new ShellContent {Content = new UserWIAaanvraag()} }
                     }
                 }
 
@@ -308,18 +330,270 @@ namespace TransLionApp
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new ContactPage()} }
+                        Items = { new ShellContent { Content = new ContactPage() } }
+                    }
+                }
+
+            });
+            CurrentItem = HomePage;
+        }
+
+        public void AdminPart()
+        {
+            Items.Clear();
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Account",
+                IsEnabled = false,
+                Route = "headerAccount",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new HomePage()} }
                     }
                 }
 
             });
 
-            CurrentItem = HomePage;
-        }
+            Items.Add(new FlyoutItem
+            {
+                Title = "Dashboard",
+                IsEnabled = true,
+                Route = "dashboard",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new AdminDashboardPage()} }
+                    }
+                }
 
-        public async void PrintType()
-        {
-            await DisplayAlert("", Type, "ok");
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Clienten",
+                IsEnabled = true,
+                Route = "clienten",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new ClientenPage()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Bedrijven",
+                IsEnabled = false,
+                Route = "bedrijven",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new HomePage()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Sollicitatieoverzicht",
+                IsEnabled = false,
+                Route = "sollicitatieoverzicht",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new HomePage()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "WIA-aanvragen",
+                IsEnabled = false,
+                Route = "wiaaanvragen",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new SollicitatiePage()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Menu",
+                IsEnabled = false,
+                Route = "headerMenu",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new HomePage()} }
+                    }
+                }
+
+            });
+            Items.Add(new FlyoutItem
+            {
+                Title = "Home page",
+                IsEnabled = true,
+                Route = "homepage",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new HomePage(), } }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Verzzuimbegeleiding",
+                IsEnabled = true,
+                Route = "verzuimbegeleiding",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new Verzuimbegeleiding()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Jobhunting",
+                IsEnabled = true,
+                Route = "jobhunting",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new Jobhunting()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Re-integratie 2e spoor",
+                IsEnabled = true,
+                Route = "reintegratie",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new ReIntegratie2eSpoor()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "UWV",
+                IsEnabled = true,
+                Route = "uwv",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new UWVPage()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new MenuItem
+            {
+                Text = "Werkwijzer wet verbetering",
+                Command = PdfCommand,
+                CommandParameter = "https://www.translion.nl/images/werkwijzer-poortwachter.pdf"
+            });
+
+            Items.Add(new MenuItem
+            {
+                Text = "Sollicitatiehandleiding",
+                Command = PdfCommand,
+                CommandParameter = "https://drive.google.com/file/d/1ItV4pJSyAu9ZSjdAd3PsbDpK2ot4aKPQ/view?usp=sharing"
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Wie zijn wij",
+                IsEnabled = true,
+                Route = "wiezijnwij",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new WieZijnWij()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "1e en 2e spoor",
+                IsEnabled = true,
+                Route = "spoor",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new Page1eEn2eSpoor()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Schema wetverbetering",
+                IsEnabled = true,
+                Route = "schemawetverbetering",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new SchemaWetVerbeteringPoortwachter()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Contact",
+                IsEnabled = true,
+                Route = "headerContact",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent { Content = new ContactPage() } }
+                    }
+                }
+
+            });
         }
     }
 

@@ -2,12 +2,6 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "LiveXAML/2.1.73": {
-        "type": "package",
-        "build": {
-          "build/netstandard2.0/LiveXAML.targets": {}
-        }
-      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -236,7 +230,7 @@
           "lib/netstandard1.0/Plugin.Messaging.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.2": {
+      "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -248,7 +242,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.530": {
+      "Xamarin.Forms/4.6.0.800": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -264,43 +258,10 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
-      },
-      "Xamarin.Forms.Maps/4.5.0.530": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.5.0.530"
-        },
-        "compile": {
-          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "LiveXAML/2.1.73": {
-      "sha512": "WuyZAgaVvGIN4MoOR5VK3X8PFiCv3swffxzMd6Nf7cJIf32zCjbTgrkasY5K8NSNZ2U4y2nFgLAZ4oeqUvueEA==",
-      "type": "package",
-      "path": "livexaml/2.1.73",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/netstandard2.0/LiveXAML.targets",
-        "build/netstandard2.0/XamarinLive.Build.dll",
-        "build/netstandard2.0/XamarinLive.Common.dll",
-        "build/netstandard2.0/minified.cs",
-        "build/netstandard2.0/minified.tpl.cs",
-        "build/portable-win+net45+wp80+win81+wpa81/LiveXAML.targets",
-        "build/portable-win+net45+wp80+win81+wpa81/XamarinLive.Build.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/XamarinLive.Common.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/minified.cs",
-        "build/portable-win+net45+wp80+win81+wpa81/minified.tpl.cs",
-        "livexaml.2.1.73.nupkg.sha512",
-        "livexaml.nuspec"
-      ]
-    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -1093,10 +1054,10 @@
         "xam.plugins.messaging.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.5.2": {
-      "sha512": "qHxkrkx5jIC0X/qWhxCPZ3MuuOJm8bfCzAoUtlpOBSE4oV0JhrkTezK0A+IV+k/MeJ3zKc8FexaIXah9rlCTIw==",
+    "Xamarin.Essentials/1.5.3.2": {
+      "sha512": "BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
       "type": "package",
-      "path": "xamarin.essentials/1.5.2",
+      "path": "xamarin.essentials/1.5.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1137,14 +1098,14 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.5.2.nupkg.sha512",
+        "xamarin.essentials.1.5.3.2.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.5.0.530": {
-      "sha512": "ViHc4HlMUQEt3bR+PpDebHRXAuRCg67XC8UJ/JgQ0CJ11CiB35WT+NBJHipr0cGyHxGwoBhTwA/rKbQtIAy7eg==",
+    "Xamarin.Forms/4.6.0.800": {
+      "sha512": "9BkqdiqdaigD+QlHqmHHMm32NNo7mnuIG+fOgIbSbzzqT1MKN+KPVgem8OUkKOnFP4u6piq9D99xrVafKSztIg==",
       "type": "package",
-      "path": "xamarin.forms/4.5.0.530",
+      "path": "xamarin.forms/4.6.0.800",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1407,8 +1368,8 @@
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/Themes/generic.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/PageControlStyle.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/PickerStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/PromptDialog.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Resources.xaml",
-        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/SliderStyle.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/StepperControl.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xaml",
@@ -1439,6 +1400,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/Themes/generic.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/PageControlStyle.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/PickerStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/PromptDialog.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Resources.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/SliderStyle.xaml",
@@ -1449,80 +1411,42 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.5.0.530.nupkg.sha512",
+        "xamarin.forms.4.6.0.800.nupkg.sha512",
         "xamarin.forms.nuspec"
-      ]
-    },
-    "Xamarin.Forms.Maps/4.5.0.530": {
-      "sha512": "2wyq7r3CIiXfgJvBI/SUphUgaT+HX6BdAZC+ZkF0TpZ16xMIAPDskyqBjmKt0iRQLV/1NV/s0ov16/xMqm5XLw==",
-      "type": "package",
-      "path": "xamarin.forms.maps/4.5.0.530",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
-        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
-        "lib/tizen40/Xamarin.Forms.Maps.dll",
-        "lib/tizen40/Xamarin.Forms.Maps.xml",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.4.5.0.530.nupkg.sha512",
-        "xamarin.forms.maps.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "LiveXAML >= 2.1.73",
       "MySqlConnector >= 0.66.0",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
       "Syncfusion.Licensing >= 18.1.0.43",
       "Syncfusion.Xamarin.Pdf >= 18.1.0.43",
       "Xam.Plugins.Messaging >= 5.2.0",
-      "Xamarin.Essentials >= 1.5.2",
-      "Xamarin.Forms >= 4.5.0.530",
-      "Xamarin.Forms.Maps >= 4.5.0.530",
+      "Xamarin.Essentials >= 1.5.3.2",
+      "Xamarin.Forms >= 4.6.0.800",
       "sqlite-net-pcl >= 1.6.292"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Анна\\.nuget\\packages\\": {},
+    "C:\\Users\\Anna\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+      "projectUniqueName": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
       "projectName": "TransLionApp",
-      "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
-      "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\obj\\",
+      "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Анна\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1547,10 +1471,6 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "LiveXAML": {
-            "target": "Package",
-            "version": "[2.1.73, )"
-          },
           "MySqlConnector": {
             "target": "Package",
             "version": "[0.66.0, )"
@@ -1579,15 +1499,11 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.5.2, )"
+            "version": "[1.5.3.2, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.5.0.530, )"
-          },
-          "Xamarin.Forms.Maps": {
-            "target": "Package",
-            "version": "[4.5.0.530, )"
+            "version": "[4.6.0.800, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",
@@ -1604,7 +1520,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -4,17 +4,23 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:view="clr-namespace:TransLionApp.Views"
              mc:Ignorable="d"
+             xmlns:local="clr-namespace:TransLionApp"
              x:Class="TransLionApp.Pages.Admin.AdminDashboardPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label  Text="Goedemmidag, Administrator!" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="5,0,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"/>
-            <Grid>
+            <StackLayout Orientation="Horizontal" Spacing="0">
+                <Label Text="Goedemmidag, " FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="5,0,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
+                <Label Text="{x:Static local:App.NamePerson}" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,0,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
+                <Label Text="!" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,0,0,5" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
+            </StackLayout>
+             <Grid>
                 <Frame Grid.Row="0" Grid.Column="0" Padding="0,0,0,0" BackgroundColor="LightGray" CornerRadius="10" Margin="5,0,5,0">
                     <StackLayout>
                         <Label Text="Clienten" FontSize="Medium" FontAttributes="Bold" Margin="5,0,0,0"></Label>
                         <Label Text="Zoek clienten" Margin="5,0,0,0"></Label>
                     </StackLayout>
                 </Frame>
+                
                 <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="LightGray" CornerRadius="10" Padding="0,0,0,0" Margin="5,0,5,0">
                     <StackLayout>
                         <Label Text="Bedrijven" FontSize="Medium" FontAttributes="Bold" Margin="5,0,0,0"></Label>

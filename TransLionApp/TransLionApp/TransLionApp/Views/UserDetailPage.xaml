@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:view="clr-namespace:TransLionApp.Views"
+             x:Class="TransLionApp.Views.UserDetailPage">
+    <Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="0">
+                <!--<Grid Margin="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    
+                    <Image Source="ic_action_arrow_back_ios" Grid.Column="0" Grid.Row="0"></Image>
+                    <Label Text="Clienten" Grid.Column="1" Grid.Row="0" VerticalOptions="Center"></Label>
+                    <Button BackgroundColor="Transparent" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="0" x:Name="BackButton" Clicked="BackButton_Clicked"></Button>
+
+                </Grid>-->
+                <Grid HorizontalOptions="Fill">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="{Binding NamePerson}" TextColor="Black" FontSize="Title" VerticalOptions="Center" FontAttributes="Bold" Margin="10,0,0,0" Grid.Column="0" Grid.Row="0"></Label>
+                    <Button ImageSource="ic_action_create" BackgroundColor="Transparent" x:Name="editButton" HorizontalOptions="End" Margin="5" Clicked="editButton_Clicked" Grid.Row="0" Grid.Column="1"></Button>
+                </Grid>
+
+                <Label Text="Geboren op 17 maart 1974" Margin="10,0,10,10" FontAttributes="Italic"></Label>
+
+                <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray">
+                    <StackLayout Padding="0">
+                        <Label Text="Geranduslaan 34" TextColor="Black"></Label>
+                        <Label Text="1234HH" TextColor="Black"></Label>
+                        <Label Text="Rotterdam" TextColor="Black"></Label>
+                    </StackLayout>
+                    
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="False" Margin="10" BorderColor="LightGray">
+                    <StackLayout Padding="0">
+                        <Label Text="06 - 12 34 56 78 9" TextColor="Black"></Label>
+                        <Label Text="lalal@gmail.com" TextColor="Black"></Label>
+                    </StackLayout>
+                </Frame>
+                
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

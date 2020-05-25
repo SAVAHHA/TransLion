@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:view="clr-namespace:TransLionApp.Views"
+             x:Class="TransLionApp.Views.AddUser">
+    <Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Registreer nieuwe clienten" TextColor="Black" FontSize="Title" Margin="10,0,10,0" FontAttributes="Bold"></Label>
+                
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry x:Name="firstNameButton" Placeholder="Voomaam" Grid.Column="0" Grid.Row="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry x:Name="lastNameEntry" Placeholder="Achtemaam" Grid.Row="0" Grid.Column="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry x:Name="dateOfBirthEntry" Placeholder="Geboortedatum" Grid.Row="0" Grid.Column="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry x:Name="PhonenemberEntry" Placeholder="Telefoonnummer" Grid.Row="0" Grid.Column="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry x:Name="emailEntry" Placeholder="E-mailadres" Grid.Column="0" Grid.Row="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry x:Name="adressEntry" Placeholder="Straat + Huisnummer" Grid.Column="0" Grid.Row="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry x:Name="postcodeEntry" Placeholder="Postcode" Grid.Column="0" Grid.Row="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry x:Name="cityEntry" Placeholder="Plaats" Grid.Column="0" Grid.Row="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Button x:Name="registrationButton" Clicked="registrationButton_Clicked"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

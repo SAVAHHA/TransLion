@@ -28,6 +28,6 @@
             </Grid>
                
             <Button Text="Inloggen" x:Name="LogginButton" Clicked="LogginButton_Clicked"></Button>
-    </StackLayout>
+        </StackLayout>
     </ContentView.Content>
 </ContentView>
