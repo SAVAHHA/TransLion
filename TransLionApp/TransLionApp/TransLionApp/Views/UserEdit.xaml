@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:view="clr-namespace:TransLionApp.Views"
+             x:Class="TransLionApp.Views.UserEdit">
+    <Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Gegevens bewerken" TextColor="Black" FontSize="Title" Margin="10,0,0,0" FontAttributes="Bold"></Label>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry Text="{Binding NamePerson}" Grid.Column="0" Grid.Row="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+                
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry Text="Surname" Grid.Row="0" Grid.Column="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry Text="17-03-1974" Grid.Row="0" Grid.Column="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+                
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry Text="06 - 12 34 56 78 9" Grid.Row="0" Grid.Column="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry Text="lalal@gmail.com" Grid.Column="0" Grid.Row="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry Text="Gerarduslaan 34" Grid.Column="0" Grid.Row="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry Text="1234HH" Grid.Column="0" Grid.Row="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray" Grid.Column="0" Grid.Row="0"></Frame>
+                    <Entry Text="Rotterdam" Grid.Column="0" Grid.Row="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
+                </Grid>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -32,6 +32,7 @@ namespace TransLionApp
             BackgroundColor = Color.White;
             Routing.RegisterRoute("sollicitatiePage", typeof(SollicitatiePage));
             Routing.RegisterRoute("userdetail", typeof(UserDetailPage));
+            Routing.RegisterRoute("useredit", typeof(UserEdit));
             InitializeComponent();
 
             if (App.Login != "")

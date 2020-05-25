@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "inA5G2Eu84vje5j0HBbYgrOdXaYGqg8E81a88TV4zYJlAc9SbraUo636fNLyxE+0VYWdw3BVMEvC6EO0pZgHeA==",
+  "dgSpecHash": "mycJ2UbMOKnnJTDP8YgxBjUIx03FnzC8G28B78mjYRY50A6qElOi4LPogUZ69m3hqjfN/6nS9gzR+esEIvS1Yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\mysqlconnector\\0.66.0\\mysqlconnector.0.66.0.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",

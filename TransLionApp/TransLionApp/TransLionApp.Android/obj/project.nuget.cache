@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OG+gDaYhQftONvV/RHA7bEvL3JuKC+0ZLvRTN0yLdZ87obwaWlcsBrb8CBBr6kVrnxrQu0v5GUVAg6dxF7Gr7g==",
+  "dgSpecHash": "pMuMuzP8Dm4TLGWECEPyooTZ3ssYDBkYZzPlYbdIED7eALlvTnc3bBmEwRDKHVvZbPmw52/2GuA+UHQ1Fugqmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\mysqlconnector\\0.64.2\\mysqlconnector.0.64.2.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",

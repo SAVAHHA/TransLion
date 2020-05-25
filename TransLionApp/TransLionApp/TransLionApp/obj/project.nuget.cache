@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MJS+vbIMlD2R2f9zG0a5jfEoN1UcakEKGUnjeYCjHCP2kVBG7TP8I+bRsvp5VW/7jmAWy/nJmIyLiQMxUsLHxw==",
+  "dgSpecHash": "7uXHka/BEJZx9PZWOiF79e4oYYa9nMun7G8ITgcOlBPuYM69IefQQAYbIqGTtWhdiH7Kkn4DPWi4TetPVABzHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
