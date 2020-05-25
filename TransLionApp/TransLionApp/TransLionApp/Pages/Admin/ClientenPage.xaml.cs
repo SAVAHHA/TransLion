@@ -23,9 +23,9 @@ namespace TransLionApp.Pages.Admin
             InitializeComponent();
         }
 
-        private void plusButton_Clicked(object sender, EventArgs e)
+        private async void plusButton_Clicked(object sender, EventArgs e)
         {
-
+            await Shell.Current.GoToAsync("adduser");
         }
 
         private void backButton_Clicked(object sender, EventArgs e)

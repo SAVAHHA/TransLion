@@ -19,8 +19,8 @@
                         <ColumnDefinition></ColumnDefinition>
                     </Grid.ColumnDefinitions>
 
-                    <Label Text="Clienten" TextColor="Black" FontSize="Large" Margin="10,0,0,0" VerticalOptions="Center" Grid.Column="0" Grid.Row="0"></Label>
-                    <Button x:Name="plusButton" Text="+" BackgroundColor="White" TextColor="Black" FontSize="Large" HorizontalOptions="End" Margin="0,0,10,0" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" Clicked="plusButton_Clicked"></Button>
+                    <Label Text="Clienten" FontAttributes="Bold" TextColor="Black" FontSize="Large" Margin="10,0,0,0" VerticalOptions="Center" Grid.Column="0" Grid.Row="0"></Label>
+                    <Button x:Name="plusButton" FontAttributes="Bold" Text="+" BackgroundColor="White" TextColor="Black" FontSize="Large" HorizontalOptions="End" Margin="0,0,10,0" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" Clicked="plusButton_Clicked"></Button>
                 </Grid>
 
                 <Grid>

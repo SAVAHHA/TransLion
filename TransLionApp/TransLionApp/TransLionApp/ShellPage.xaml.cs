@@ -33,6 +33,7 @@ namespace TransLionApp
             Routing.RegisterRoute("sollicitatiePage", typeof(SollicitatiePage));
             Routing.RegisterRoute("userdetail", typeof(UserDetailPage));
             Routing.RegisterRoute("useredit", typeof(UserEdit));
+            Routing.RegisterRoute("adduser", typeof(AddUser));
             InitializeComponent();
 
             if (App.Login != "")
