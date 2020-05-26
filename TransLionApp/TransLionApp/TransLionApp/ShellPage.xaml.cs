@@ -116,13 +116,28 @@ namespace TransLionApp
             Items.Add(new FlyoutItem
             {
                 Title = "Sollicitatieoverzicht",
-                IsEnabled = false,
+                IsEnabled = true,
                 Route = "sollicitatieoverzicht",
                 Items =
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new SollicitatiePage()} }
+                        Items = { new ShellContent {Content = new Sollicitatieoverzicht()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Bedrijf",
+                IsEnabled = true,
+                Route = "bedrijf",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new BedrijfPage()} }
                     }
                 }
 

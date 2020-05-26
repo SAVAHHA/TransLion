@@ -92,9 +92,6 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\BluePictureForPages.JPG">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
@@ -122,6 +119,17 @@
     <ImageAsset Include="Assets.xcassets\mail.imageset\mail.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\BluePictureForPages-1.JPG" />
+    <ImageAsset Include="Assets.xcassets\ic_action_arrow_back_ios.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ic_action_arrow_back_ios.imageset\ic_action_arrow_back_ios.png" />
+    <ImageAsset Include="Assets.xcassets\map.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\map.imageset\map.png" />
+    <ImageAsset Include="Assets.xcassets\logo192.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\logo192.imageset\logo192.png" />
+    <ImageAsset Include="Assets.xcassets\ic_action_create.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ic_action_create.imageset\ic_action_create.png" />
+    <ImageAsset Include="Assets.xcassets\fax.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\fax.imageset\fax.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -132,10 +140,10 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.530" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.800" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
     <PackageReference Include="Xamarin.Forms.Maps">
-      <Version>4.5.0.530</Version>
+      <Version>4.6.0.800</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -156,6 +164,11 @@
     <Folder Include="Assets.xcassets\newPoint.imageset\" />
     <Folder Include="Assets.xcassets\paw.imageset\" />
     <Folder Include="Assets.xcassets\point.imageset\" />
+    <Folder Include="Assets.xcassets\ic_action_arrow_back_ios.imageset\" />
+    <Folder Include="Assets.xcassets\map.imageset\" />
+    <Folder Include="Assets.xcassets\logo192.imageset\" />
+    <Folder Include="Assets.xcassets\ic_action_create.imageset\" />
+    <Folder Include="Assets.xcassets\fax.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\logos.jpg" />
