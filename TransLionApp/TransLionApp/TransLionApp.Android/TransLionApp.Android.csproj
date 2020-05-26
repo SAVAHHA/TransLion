@@ -72,6 +72,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\RobotoLightFont.ttf" />
+    <Compile Include="google-services.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "441297952289",
+    "firebase_url": "https://translionapp.firebaseio.com",
+    "project_id": "translionapp",
+    "storage_bucket": "translionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441297952289:android:382079a8ed61cf54e8cd60",
+        "android_client_info": {
+          "package_name": "com.company.translionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441297952289-2htkrqpsr0qn090ohslej5ij714t7g6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVHWIaUs2bmZ6rDJDOwIdNcUObf4cfwzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441297952289-2htkrqpsr0qn090ohslej5ij714t7g6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
