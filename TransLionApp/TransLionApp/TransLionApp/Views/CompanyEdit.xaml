@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:view="clr-namespace:TransLionApp.Views"
+             x:Class="TransLionApp.Views.CompanyEdit">
+    <Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Gegevens bewerken" TextColor="Black" FontSize="Title" Margin="10,0,0,0" FontAttributes="Bold"></Label>
+                <Entry Text="Bedrijf X"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry Text="Elena Volkova"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry Text="123456789"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry Text="lenavolkova@mail.ru"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry Text="Sanochnaya 20"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry Text="426039"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry Text="Izhevsk"  Margin="15,0,15,0" TextColor="Gray"></Entry>   
+                <Button Text="Opslaan"  Margin="15,0,15,0" TextColor="Blue" ></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
