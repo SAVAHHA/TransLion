@@ -414,7 +414,7 @@ namespace TransLionApp
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new BedrijfPage()} }
+                        Items = { new ShellContent {Content = new BedrijvenPage()} }
                     }
                 }
 

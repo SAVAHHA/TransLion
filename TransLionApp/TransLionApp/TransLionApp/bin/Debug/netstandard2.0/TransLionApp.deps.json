@@ -12,8 +12,8 @@
           "MySqlConnector": "0.66.0",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.Licensing": "18.1.0.43",
-          "Syncfusion.Xamarin.Pdf": "18.1.0.43",
+          "Syncfusion.Licensing": "18.1.0.54",
+          "Syncfusion.Xamarin.Pdf": "18.1.0.54",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.800",
@@ -98,31 +98,31 @@
           }
         }
       },
-      "Syncfusion.Licensing/18.1.0.43": {
+      "Syncfusion.Licensing/18.1.0.54": {
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "18.1.0.43",
-            "fileVersion": "18.1.0.43"
+            "assemblyVersion": "18.1.0.54",
+            "fileVersion": "18.1.0.54"
           }
         }
       },
-      "Syncfusion.Xamarin.Compression/18.1.0.43": {
+      "Syncfusion.Xamarin.Compression/18.1.0.54": {
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "assemblyVersion": "18.1451.0.43",
-            "fileVersion": "18.1451.0.43"
+            "assemblyVersion": "18.1451.0.54",
+            "fileVersion": "18.1451.0.54"
           }
         }
       },
-      "Syncfusion.Xamarin.Pdf/18.1.0.43": {
+      "Syncfusion.Xamarin.Pdf/18.1.0.54": {
         "dependencies": {
-          "Syncfusion.Licensing": "18.1.0.43",
-          "Syncfusion.Xamarin.Compression": "18.1.0.43"
+          "Syncfusion.Licensing": "18.1.0.54",
+          "Syncfusion.Xamarin.Compression": "18.1.0.54"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "assemblyVersion": "18.1451.0.43",
-            "fileVersion": "18.1451.0.43"
+            "assemblyVersion": "18.1451.0.54",
+            "fileVersion": "18.1451.0.54"
           }
         }
       },
@@ -316,26 +316,26 @@
       "path": "sqlitepclraw.provider.e_sqlite3/2.0.3",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512"
     },
-    "Syncfusion.Licensing/18.1.0.43": {
+    "Syncfusion.Licensing/18.1.0.54": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DjNl4PYMo1oxTuhxQEgDpyyoqiXpWw1Wu0h7HWuTTR8RfANEaMKRXvTSSIM7ju1952gOMb4ec9UJOjBLGwelUA==",
-      "path": "syncfusion.licensing/18.1.0.43",
-      "hashPath": "syncfusion.licensing.18.1.0.43.nupkg.sha512"
+      "sha512": "sha512-oIPt2jg/QtRigkWiYv4X9tB8//ov5xpO1P452RdO4r/3c8wBHZr97rbmGWxt/JwnARU3Rwfq19OeZ0jaOZpGAA==",
+      "path": "syncfusion.licensing/18.1.0.54",
+      "hashPath": "syncfusion.licensing.18.1.0.54.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.Compression/18.1.0.43": {
+    "Syncfusion.Xamarin.Compression/18.1.0.54": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tZwqVFnEXjeKcBxPREf8AQW9jOua3S1sAgHbAPxcZ+NSqYYYkzbYSWriZI0GmvR3JRm9tqJ1/2vghdsd5oW6gA==",
-      "path": "syncfusion.xamarin.compression/18.1.0.43",
-      "hashPath": "syncfusion.xamarin.compression.18.1.0.43.nupkg.sha512"
+      "sha512": "sha512-P0vRRKbn0gsFcalG07rrBNhvxlIsEOSY3zc2OGeM8NMYPnfTGE/nkwVIH1lcgYgxSflkn9AnaOoZuBh7ORTr7Q==",
+      "path": "syncfusion.xamarin.compression/18.1.0.54",
+      "hashPath": "syncfusion.xamarin.compression.18.1.0.54.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.Pdf/18.1.0.43": {
+    "Syncfusion.Xamarin.Pdf/18.1.0.54": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-07ssAjej/wZ/hC5doSye9r1f7otPi6WWYYTvhwYnpItZ3Kba+OEQFOETqQ7tbR+p+Uza6SXKPJQUu6HxT8ZFdw==",
-      "path": "syncfusion.xamarin.pdf/18.1.0.43",
-      "hashPath": "syncfusion.xamarin.pdf.18.1.0.43.nupkg.sha512"
+      "sha512": "sha512-EMoZww3Jju+n38sY336LJtcFCqEZjejRfDniUGR5j7auP0ASsC2XAloVJPO4YS4zDhfLCxYYYBvHAc+Y2Z5f2g==",
+      "path": "syncfusion.xamarin.pdf/18.1.0.54",
+      "hashPath": "syncfusion.xamarin.pdf.18.1.0.54.nupkg.sha512"
     },
     "System.Buffers/4.4.0": {
       "type": "package",

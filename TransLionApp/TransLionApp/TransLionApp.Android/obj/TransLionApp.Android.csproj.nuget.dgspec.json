@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/TransLionApp.Android.csproj": {}
+    "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj": {}
   },
   "projects": {
-    "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/TransLionApp.Android.csproj": {
+    "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/TransLionApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
         "projectName": "TransLionApp.Android",
-        "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/TransLionApp.Android.csproj",
-        "packagesPath": "/Users/elenavolkova/.nuget/packages/",
-        "outputPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/obj/",
+        "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+        "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/elenavolkova/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj": {
-                "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj"
+              "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+                "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
               }
             }
           }
@@ -60,22 +66,28 @@
         }
       }
     },
-    "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj": {
+    "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj",
+        "projectUniqueName": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
         "projectName": "TransLionApp",
-        "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj",
-        "packagesPath": "/Users/elenavolkova/.nuget/packages/",
-        "outputPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/obj/",
+        "projectPath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+        "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/elenavolkova/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -141,7 +153,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
