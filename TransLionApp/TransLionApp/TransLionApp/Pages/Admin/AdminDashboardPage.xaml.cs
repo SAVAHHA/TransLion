@@ -29,7 +29,7 @@ namespace TransLionApp.Pages.Admin
 
         private async void Sollicitatie_Clicked(object sender, EventArgs e)
         {
-
+            await Shell.Current.GoToAsync("/sollicitatiePage");
         }
 
         private async void Clienten_Clicked(object sender, EventArgs e)
