@@ -62,7 +62,9 @@
                                 Margin="10"
                                 ItemsSource="{x:Static data:UserData.Users}"
                                 ItemTemplate="{StaticResource UserWIATemplate}"
-                                SelectionMode="Single"></CollectionView>
+                                SelectionMode="Single">
+                    
+                </CollectionView>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

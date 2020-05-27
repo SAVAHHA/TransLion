@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              mc:Ignorable="d"
+             xmlns:data="clr-namespace:TransLionApp.Data"
              xmlns:local="clr-namespace:TransLionApp"
              xmlns:view="clr-namespace:TransLionApp.Views"
              x:Class="TransLionApp.Pages.User.Sollicitatieoverzicht">
@@ -11,11 +12,36 @@
     <Shell.TitleView>
         <view:BarView/>
     </Shell.TitleView>
+    <ContentPage.Resources>
+        <DataTemplate x:Key="SollicitatieOverzichtTemplate">
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
 
+                <Label Grid.Row="0"
+                       Text="{Binding Name}"
+                       FontAttributes="Bold">
+
+                </Label>
+                <Label Grid.Row="1"
+                       Text="{Binding Contact}">
+         
+                </Label>
+
+            </Grid>
+        </DataTemplate>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <Grid RowSpacing="0">
             <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
                 <StackLayout Margin="10,10,10,0">
+                    <Label Text="Sollicitatieoverzicht" FontSize="Large" FontAttributes="Bold" TextColor="Black"></Label>
                     <Grid Margin="0,10,0,10">
                         <Grid.RowDefinitions>
                             <RowDefinition></RowDefinition>
@@ -38,27 +64,14 @@
                         </StackLayout>
                         <Button BackgroundColor="Transparent" Grid.Row="0" CornerRadius="10" Clicked="bedrijfButton_Clicked"></Button>
                     </Grid>
-                    <Label Text="Eerdere sollicitaties" FontAttributes="Bold" FontSize="27" Margin="10,0,10,0"></Label>
-                    <ListView>
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <ViewCell>
-                                    <StackLayout>
-                                        <StackLayout Orientation="Horizontal">
-                                            <Label Text="Bedrijf " FontSize="20"></Label>
-                                            <Label x:Name="CompanyName" FontSize="20"></Label>
-                                        </StackLayout>
-                                        <StackLayout Orientation="Horizontal">
-                                            <Label Text="Status: " FontSize="16" FontAttributes="Italic"></Label>
-                                            <Label x:Name="Status" FontSize="16" FontAttributes="Italic"></Label>
-                                            <Label Text=" / Datum: " FontSize="16" FontAttributes="Italic"></Label>
-                                            <Label x:Name="Date" FontSize="16" FontAttributes="Italic"></Label>
-                                        </StackLayout>
-                                    </StackLayout>
-                                </ViewCell>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
+                    <Label Text="Eerdere sollicitaties" TextColor="Black" FontAttributes="Bold" FontSize="Medium" Margin="10,0,10,0"></Label>
+                    
+                    <CollectionView x:Name="SollicitatieOverzichtCollectionView"
+                                Margin="10"
+                                ItemsSource="{x:Static data:CompanyData.Companies}"
+                                ItemTemplate="{StaticResource SollicitatieOverzichtTemplate}"
+                                SelectionMode="Single">
+                    </CollectionView>
                 </StackLayout>
             </ScrollView>
             <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
