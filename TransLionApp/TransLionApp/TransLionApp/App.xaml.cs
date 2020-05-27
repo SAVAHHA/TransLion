@@ -60,6 +60,7 @@ namespace TransLionApp
             }
         }
 
+        
         public static string Type
         {
             get

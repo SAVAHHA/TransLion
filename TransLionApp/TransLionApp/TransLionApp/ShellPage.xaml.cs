@@ -162,13 +162,13 @@ namespace TransLionApp
             Items.Add(new FlyoutItem
             {
                 Title = "Mijn gegevens",
-                IsEnabled = false,
+                IsEnabled = true,
                 Route = "mijngegevens",
                 Items =
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new HomePage()} }
+                        Items = { new ShellContent {Content = new Mijngegevens()} }
                     }
                 }
 
