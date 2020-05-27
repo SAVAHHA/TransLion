@@ -36,18 +36,10 @@
                 <CollectionView x:Name="searchResults"
                                 Margin="20"
                                 ItemsSource="{x:Static data:CompanyData.Companies}"
+                                ItemTemplate="{StaticResource CompanyTemplate}"
                                 SelectionMode="Single"
-                                >
-                    <CollectionView.ItemTemplate>
-                            <DataTemplate>
-                                <ViewCell>
-                                    <StackLayout Orientation="Horizontal">
-                                        <Label Text="Bedrijf" FontSize="20" FontAttributes="Bold"></Label>
-                                        <Label x:Name="CompanyName" FontSize="20"></Label>
-                                    </StackLayout>
-                                </ViewCell>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
+                                SelectionChanged="CollectionView_SelectionChanged">
+                    
                 </CollectionView>
 
                 <!--<ListView x:Name="searchResults" ItemsSource="{Binding ts}">
