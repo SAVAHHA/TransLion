@@ -93,6 +93,104 @@ namespace TransLionApp
             }
         }
 
+        public static string Address
+        {
+            get
+            {
+                if (App.ID != 0)
+                {
+                    var users = App.Database.GetUsersAsync().Result;
+                    return users[0].Address;
+                }
+                else
+                {
+                    return "";
+                }
+            }
+        }
+        public static string City
+        {
+            get
+            {
+                if (App.ID != 0)
+                {
+                    var users = App.Database.GetUsersAsync().Result;
+                    return users[0].City;
+                }
+                else
+                {
+                    return "";
+                }
+            }
+        }
+        public static string BirthDate
+        {
+            get
+            {
+                if (App.ID != 0)
+                {
+                    var users = App.Database.GetUsersAsync().Result;
+                    return users[0].BirthDate;
+                }
+                else
+                {
+                    return "";
+                }
+            }
+        }
+
+
+        
+        
+
+        public static string Phone
+        {
+            get
+            {
+                if (App.ID != 0)
+                {
+                    var users = App.Database.GetUsersAsync().Result;
+                    return users[0].Phone;
+                }
+                else
+                {
+                    return "";
+                }
+            }
+        }
+
+        public static string Postcode
+        {
+            get
+            {
+                if (App.ID != 0)
+                {
+                    var users = App.Database.GetUsersAsync().Result;
+                    return users[0].Postcode;
+                }
+                else
+                {
+                    return "";
+                }
+            }
+        }
+
+        public static string Email
+        {
+            get
+            {
+                if (App.ID != 0)
+                {
+                    var users = App.Database.GetUsersAsync().Result;
+                    return users[0].Email;
+                }
+                else
+                {
+                    return "";
+                }
+            }
+        }
+
         public App()
         {
             InitializeComponent();

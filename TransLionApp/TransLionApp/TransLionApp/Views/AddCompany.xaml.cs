@@ -6,6 +6,7 @@ namespace TransLionApp.Views
 {
     public partial class AddCompany : ContentPage
     {
+        
         public AddCompany()
         {
             InitializeComponent();
