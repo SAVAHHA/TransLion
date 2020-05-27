@@ -31,13 +31,13 @@
                     </Grid.ColumnDefinitions>
 
                     <Frame BackgroundColor="White" BorderColor="Gray" HasShadow="True" CornerRadius="10" Margin="10,0,10,0" VerticalOptions="Fill" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="0"></Frame>
-                    <SearchBar Placeholder="Zoek clienten" TextChanged="SearchBar_TextChanged" Grid.Row="0" Grid.Column="0" Margin="10,0,10,0"></SearchBar>
+                    <SearchBar Placeholder="Zoek clienten"  Grid.Row="0" Grid.Column="0" Margin="10,0,10,0"></SearchBar>
                 </Grid>
                 <CollectionView x:Name="searchResults"
                                 Margin="20"
                                 ItemsSource="{x:Static data:CompanyData.Companies}"
                                 SelectionMode="Single"
-                                SelectionChanged="CollectionView_SelectionChanged">
+                                >
                     <CollectionView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>

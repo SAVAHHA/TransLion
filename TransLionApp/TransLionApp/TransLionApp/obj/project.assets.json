@@ -167,7 +167,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "Syncfusion.Licensing/18.1.0.43": {
+      "Syncfusion.Licensing/18.1.0.54": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
@@ -176,7 +176,7 @@
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Compression/18.1.0.43": {
+      "Syncfusion.Xamarin.Compression/18.1.0.54": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
@@ -185,11 +185,11 @@
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Pdf/18.1.0.43": {
+      "Syncfusion.Xamarin.Pdf/18.1.0.54": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "18.1.0.43",
-          "Syncfusion.Xamarin.Compression": "18.1.0.43"
+          "Syncfusion.Licensing": "18.1.0.54",
+          "Syncfusion.Xamarin.Compression": "18.1.0.54"
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
@@ -636,10 +636,10 @@
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
-    "Syncfusion.Licensing/18.1.0.43": {
-      "sha512": "DjNl4PYMo1oxTuhxQEgDpyyoqiXpWw1Wu0h7HWuTTR8RfANEaMKRXvTSSIM7ju1952gOMb4ec9UJOjBLGwelUA==",
+    "Syncfusion.Licensing/18.1.0.54": {
+      "sha512": "oIPt2jg/QtRigkWiYv4X9tB8//ov5xpO1P452RdO4r/3c8wBHZr97rbmGWxt/JwnARU3Rwfq19OeZ0jaOZpGAA==",
       "type": "package",
-      "path": "syncfusion.licensing/18.1.0.43",
+      "path": "syncfusion.licensing/18.1.0.54",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -659,14 +659,14 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.18.1.0.43.nupkg.sha512",
+        "syncfusion.licensing.18.1.0.54.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Compression/18.1.0.43": {
-      "sha512": "tZwqVFnEXjeKcBxPREf8AQW9jOua3S1sAgHbAPxcZ+NSqYYYkzbYSWriZI0GmvR3JRm9tqJ1/2vghdsd5oW6gA==",
+    "Syncfusion.Xamarin.Compression/18.1.0.54": {
+      "sha512": "P0vRRKbn0gsFcalG07rrBNhvxlIsEOSY3zc2OGeM8NMYPnfTGE/nkwVIH1lcgYgxSflkn9AnaOoZuBh7ORTr7Q==",
       "type": "package",
-      "path": "syncfusion.xamarin.compression/18.1.0.43",
+      "path": "syncfusion.xamarin.compression/18.1.0.54",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -676,14 +676,14 @@
         "lib/netstandard2.0/Syncfusion.Compression.Portable.xml",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Compression.Portable.xml",
-        "syncfusion.xamarin.compression.18.1.0.43.nupkg.sha512",
+        "syncfusion.xamarin.compression.18.1.0.54.nupkg.sha512",
         "syncfusion.xamarin.compression.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Pdf/18.1.0.43": {
-      "sha512": "07ssAjej/wZ/hC5doSye9r1f7otPi6WWYYTvhwYnpItZ3Kba+OEQFOETqQ7tbR+p+Uza6SXKPJQUu6HxT8ZFdw==",
+    "Syncfusion.Xamarin.Pdf/18.1.0.54": {
+      "sha512": "EMoZww3Jju+n38sY336LJtcFCqEZjejRfDniUGR5j7auP0ASsC2XAloVJPO4YS4zDhfLCxYYYBvHAc+Y2Z5f2g==",
       "type": "package",
-      "path": "syncfusion.xamarin.pdf/18.1.0.43",
+      "path": "syncfusion.xamarin.pdf/18.1.0.54",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -693,7 +693,7 @@
         "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.XML",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Pdf.Portable.dll",
-        "syncfusion.xamarin.pdf.18.1.0.43.nupkg.sha512",
+        "syncfusion.xamarin.pdf.18.1.0.54.nupkg.sha512",
         "syncfusion.xamarin.pdf.nuspec"
       ]
     },
@@ -1071,7 +1071,6 @@
         "lib/MonoAndroid10/Plugin.Messaging.Abstractions.pdb",
         "lib/MonoAndroid10/Plugin.Messaging.Abstractions.xml",
         "lib/MonoAndroid10/Plugin.Messaging.dll",
-        "lib/MonoAndroid10/Plugin.Messaging.dll.mdb",
         "lib/MonoAndroid10/Plugin.Messaging.pdb",
         "lib/MonoAndroid10/Plugin.Messaging.xml",
         "lib/UAP10/Plugin.Messaging.Abstractions.dll",
@@ -1469,8 +1468,8 @@
       "MySqlConnector >= 0.66.0",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
-      "Syncfusion.Licensing >= 18.1.0.43",
-      "Syncfusion.Xamarin.Pdf >= 18.1.0.43",
+      "Syncfusion.Licensing >= 18.1.0.54",
+      "Syncfusion.Xamarin.Pdf >= 18.1.0.54",
       "Xam.Plugins.Messaging >= 5.2.0",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.6.0.800",
@@ -1535,11 +1534,11 @@
           },
           "Syncfusion.Licensing": {
             "target": "Package",
-            "version": "[18.1.0.43, )"
+            "version": "[18.1.0.54, )"
           },
           "Syncfusion.Xamarin.Pdf": {
             "target": "Package",
-            "version": "[18.1.0.43, )"
+            "version": "[18.1.0.54, )"
           },
           "Xam.Plugins.Messaging": {
             "target": "Package",

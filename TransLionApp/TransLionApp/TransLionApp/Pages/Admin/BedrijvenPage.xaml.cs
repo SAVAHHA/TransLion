@@ -20,5 +20,20 @@ namespace TransLionApp.Pages.Admin
             InitializeComponent();
         }
 
+        private void plusButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+        private async void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            //string _userLogin = (e.CurrentSelection.FirstOrDefault() as UserInfo).Login;
+            string _companyName = (e.CurrentSelection.FirstOrDefault() as CompanyInfo).Name;
+            await Shell.Current.GoToAsync($"companydetail?companyname={_companyName}");
+        }
     }
 }

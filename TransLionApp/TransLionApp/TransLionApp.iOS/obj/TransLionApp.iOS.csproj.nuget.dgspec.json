@@ -123,11 +123,11 @@
             },
             "Syncfusion.Licensing": {
               "target": "Package",
-              "version": "[18.1.0.43, )"
+              "version": "[18.1.0.54, )"
             },
             "Syncfusion.Xamarin.Pdf": {
               "target": "Package",
-              "version": "[18.1.0.43, )"
+              "version": "[18.1.0.54, )"
             },
             "Xam.Plugins.Messaging": {
               "target": "Package",
