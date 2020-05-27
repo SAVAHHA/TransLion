@@ -65,12 +65,13 @@
                         <Button BackgroundColor="Transparent" Grid.Row="0" CornerRadius="10" Clicked="bedrijfButton_Clicked"></Button>
                     </Grid>
                     <Label Text="Eerdere sollicitaties" TextColor="Black" FontAttributes="Bold" FontSize="Medium" Margin="10,0,10,0"></Label>
-                    
+
                     <CollectionView x:Name="SollicitatieOverzichtCollectionView"
-                                Margin="10"
+                        Margin="10"
                                 ItemsSource="{x:Static data:CompanyData.Companies}"
                                 ItemTemplate="{StaticResource SollicitatieOverzichtTemplate}"
-                                SelectionMode="Single">
+                                SelectionMode="Single"
+                                SelectionChanged="SollicitatieOverzichtCollectionView_SelectionChanged">
                     </CollectionView>
                 </StackLayout>
             </ScrollView>

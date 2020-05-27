@@ -92,6 +92,15 @@ namespace TransLionApp.Pages.User
         {
             await Shell.Current.GoToAsync("///bedrijf");
         }
+
+        private async void SollicitatieOverzichtCollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var Company = e.CurrentSelection as CompanyInfo;
+            string Name = Company.Name; 
+            await Shell.Current.GoToAsync($"companydetail?companyname={Name}"); 
+
+
+        }
     }
 
 
