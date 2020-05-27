@@ -34,6 +34,7 @@ namespace TransLionApp
             Routing.RegisterRoute("userdetail", typeof(UserDetailPage));
             Routing.RegisterRoute("useredit", typeof(UserEdit));
             Routing.RegisterRoute("adduser", typeof(AddUser));
+            Routing.RegisterRoute("wiadetail", typeof(WIADetailPage));
             InitializeComponent();
 
             if (App.Login != "")
@@ -435,13 +436,13 @@ namespace TransLionApp
             Items.Add(new FlyoutItem
             {
                 Title = "WIA-aanvragen",
-                IsEnabled = false,
+                IsEnabled = true,
                 Route = "wiaaanvragen",
                 Items =
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new SollicitatiePage()} }
+                        Items = { new ShellContent {Content = new AdminWIAaanvraagPage()} }
                     }
                 }
 
