@@ -16,7 +16,7 @@
             <Label Text="{x:Static local:App.NamePerson}" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,0,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Geboren op "></Label>
-                <Label Text="{x:Static local:App.}"></Label>
+                <!--<Label Text="{x:Static local:App.}"></Label>-->
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

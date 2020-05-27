@@ -35,6 +35,8 @@ namespace TransLionApp
             Routing.RegisterRoute("useredit", typeof(UserEdit));
             Routing.RegisterRoute("adduser", typeof(AddUser));
             Routing.RegisterRoute("wiadetail", typeof(WIADetailPage));
+            Routing.RegisterRoute("companydetail", typeof(CompanyDetailPage));
+            Routing.RegisterRoute("companyedit", typeof(CompanyEdit));
             InitializeComponent();
 
             if (App.Login != "")
@@ -406,13 +408,13 @@ namespace TransLionApp
             Items.Add(new FlyoutItem
             {
                 Title = "Bedrijven",
-                IsEnabled = false,
+                IsEnabled = true,
                 Route = "bedrijven",
                 Items =
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new HomePage()} }
+                        Items = { new ShellContent {Content = new BedrijfPage()} }
                     }
                 }
 
