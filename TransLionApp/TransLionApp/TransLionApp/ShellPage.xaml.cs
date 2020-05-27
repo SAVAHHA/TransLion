@@ -179,7 +179,7 @@ namespace TransLionApp
             Items.Add(new FlyoutItem
             {
                 Title = "Sollicitatietips",
-                IsEnabled = false,
+                IsEnabled = true,
                 Route = "sollicitatietips",
                 Items =
                 {

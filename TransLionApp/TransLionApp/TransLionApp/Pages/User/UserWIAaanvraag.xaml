@@ -35,6 +35,8 @@
                         <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="0" >
                             <Label Text="Datum:" TextColor="#439aff" Margin="5"></Label>
                         </StackLayout>
+                        
+                        
                     </Grid>
                 </StackLayout>
             </Frame>

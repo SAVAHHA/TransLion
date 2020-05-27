@@ -138,8 +138,8 @@ namespace TransLionApp.Controls
 
         private async void LoginButton_Clicked(object sender, EventArgs e)
         {
-            var login = loginEntry.Text;
-            var password = passwordEntry.Text;
+            var login = loginEntry.Text.ToLower();
+            var password = passwordEntry.Text.ToLower();
             //var type = 2;
 
             if (login == "user")

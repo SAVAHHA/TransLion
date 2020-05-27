@@ -4,8 +4,32 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:view="clr-namespace:TransLionApp.Views"
              xmlns:data="clr-namespace:TransLionApp.Data"
              x:Class="TransLionApp.Pages.Admin.BedrijvenPage">
+
+    <Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>
+
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor"
+                                        Value="#bbd3e3" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
@@ -18,8 +42,8 @@
                         <ColumnDefinition></ColumnDefinition>
                     </Grid.ColumnDefinitions>
 
-                    <Label Text="Bedrijven" FontAttributes="Bold" TextColor="Black" FontSize="Large" Margin="10,0,0,0" VerticalOptions="Center" Grid.Column="0" Grid.Row="0"></Label>
-                    <Button x:Name="plusButton" FontAttributes="Bold" Text="+" BackgroundColor="White" TextColor="Black" FontSize="Large" HorizontalOptions="End" Margin="0,0,10,0" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" Clicked="plusButton_Clicked"></Button>
+                    <Label Text="Bedrijven" FontAttributes="Bold" TextColor="Black" FontSize="Title" Margin="10,5,0,0" VerticalOptions="Center" Grid.Column="0" Grid.Row="0"></Label>
+                    <Button x:Name="plusButton" FontAttributes="Bold" Text="+" BackgroundColor="White" TextColor="Black" FontSize="Title" HorizontalOptions="End" Margin="0,0,10,0" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" Clicked="plusButton_Clicked"></Button>
                 </Grid>
 
                 <Grid>
@@ -34,7 +58,7 @@
                     <SearchBar Placeholder="Zoek clienten"  Grid.Row="0" Grid.Column="0" Margin="10,0,10,0"></SearchBar>
                 </Grid>
                 <CollectionView x:Name="searchResults"
-                                Margin="20"
+                                Margin="10"
                                 ItemsSource="{x:Static data:CompanyData.Companies}"
                                 ItemTemplate="{StaticResource CompanyTemplate}"
                                 SelectionMode="Single"

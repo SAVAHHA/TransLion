@@ -59,7 +59,7 @@ namespace TransLionApp.Pages.Admin
 
         private void deleteWIAButton_Clicked(object sender, EventArgs e)
         {
-
+           // string _userLogin = (WIAusersCollectionView.CurrentSelection.FirstOrDefault() as UserInfo).Login;
             //await DisplayAlert(WIAusersCollectionView.SelectedItem.ToString(), "", "o");
         }
     }
