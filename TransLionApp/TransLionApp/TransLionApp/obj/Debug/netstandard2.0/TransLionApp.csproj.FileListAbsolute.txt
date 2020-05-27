@@ -293,3 +293,4 @@ C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLi
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\BedrijfPage.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\Sollicitatieoverzicht.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Views\WIADetailPage.xaml.g.cs
+C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\Mijngegevens.xaml.g.cs
