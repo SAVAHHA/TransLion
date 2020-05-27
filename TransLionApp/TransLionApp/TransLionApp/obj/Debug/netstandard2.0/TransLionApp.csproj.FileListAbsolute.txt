@@ -298,3 +298,4 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\BedrijvenPage.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\BedrijfPage.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\Sollicitatieoverzicht.xaml.g.cs
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\User\Mijngegevens.xaml.g.cs
