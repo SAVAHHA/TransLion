@@ -1,32 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "P/U11qZMCBGF30l4Qdd45YXQTX33647iwnBNZbW3bSNssKbNdksAH52/JjWBG7wznO2U/mBY+jVtrp4YYH7a4w==",
+  "dgSpecHash": "so5jZz+eaI8Qt2IPF8OGBku/bRTJJkwt2+66BcCY17eOOB8y5v9WbK1t3icWh3cBh+YontMn+y6nXM2LXtiAtg==",
   "success": true,
-  "projectFilePath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/TransLionApp.iOS.csproj",
+  "projectFilePath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/elenavolkova/.nuget/packages/mysqlconnector/0.66.0/mysqlconnector.0.66.0.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/syncfusion.licensing/18.1.0.43/syncfusion.licensing.18.1.0.43.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/syncfusion.xamarin.compression/18.1.0.43/syncfusion.xamarin.compression.18.1.0.43.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/syncfusion.xamarin.pdf/18.1.0.43/syncfusion.xamarin.pdf.18.1.0.43.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/xam.plugins.messaging/5.2.0/xam.plugins.messaging.5.2.0.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/xamarin.forms/4.6.0.800/xamarin.forms.4.6.0.800.nupkg.sha512",
-    "/Users/elenavolkova/.nuget/packages/xamarin.forms.maps/4.6.0.800/xamarin.forms.maps.4.6.0.800.nupkg.sha512"
+    "C:\\Users\\Анна\\.nuget\\packages\\mysqlconnector\\0.66.0\\mysqlconnector.0.66.0.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.licensing\\18.1.0.43\\syncfusion.licensing.18.1.0.43.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.xamarin.compression\\18.1.0.43\\syncfusion.xamarin.compression.18.1.0.43.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\syncfusion.xamarin.pdf\\18.1.0.43\\syncfusion.xamarin.pdf.18.1.0.43.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.forms\\4.6.0.800\\xamarin.forms.4.6.0.800.nupkg.sha512",
+    "C:\\Users\\Анна\\.nuget\\packages\\xamarin.forms.maps\\4.6.0.800\\xamarin.forms.maps.4.6.0.800.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.iOS/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

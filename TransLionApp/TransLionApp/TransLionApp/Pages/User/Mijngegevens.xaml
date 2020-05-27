@@ -16,7 +16,16 @@
             <Label Text="{x:Static local:App.NamePerson}" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,0,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Geboren op "></Label>
-                <Label Text="{x:Static local:App.}"></Label>
+                <Label Text="{x:Static local:App.BirthDate}"></Label>
+                <Frame BackgroundColor="Transparent" CornerRadius="10" BorderColor="LightGray" Padding="0,0,0,0" Margin="5,0,5,0">
+                    <Grid>
+                        <Label Text="{x:Static local:App.Address}"></Label>
+                        <Label Text="{x:Static local:App.Postcode}"></Label>
+                        <Label ></Label>
+                    </Grid>
+                    
+                </Frame>
+                
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

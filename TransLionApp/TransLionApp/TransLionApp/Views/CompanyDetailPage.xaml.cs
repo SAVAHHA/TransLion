@@ -4,7 +4,7 @@ using Xamarin.Forms;
 
 namespace TransLionApp.Views
 {
-    public partial class CompanyDetailPage : ContentView
+    public partial class CompanyDetailPage : ContentPage
     {
         public CompanyDetailPage()
         {
