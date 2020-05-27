@@ -7,7 +7,7 @@
              x:Class="TransLionApp.App">
     <Application.Resources>
         <DataTemplate x:Key="UserTemplate">
-            <Grid Padding="10">
+            <Grid Padding="5">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>
                     <RowDefinition Height="Auto"></RowDefinition>
@@ -26,7 +26,7 @@
         </DataTemplate>
 
         <DataTemplate x:Key="CompanyTemplate">
-            <Grid Padding="10">
+            <Grid Padding="5">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>
                     <RowDefinition Height="Auto"></RowDefinition>
