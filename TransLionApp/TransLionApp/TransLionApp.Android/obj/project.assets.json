@@ -2605,39 +2605,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Анна\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/elenavolkova/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+      "projectUniqueName": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/TransLionApp.Android.csproj",
       "projectName": "TransLionApp.Android",
-      "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\obj\\",
+      "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/TransLionApp.Android.csproj",
+      "packagesPath": "/Users/elenavolkova/.nuget/packages/",
+      "outputPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Анна\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/elenavolkova/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
-              "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
+            "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj": {
+              "projectPath": "/Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp/TransLionApp.csproj"
             }
           }
         }
@@ -2672,10 +2665,16 @@
   },
   "logs": [
     {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/elenavolkova/Projects/TransLion/TransLionApp/TransLionApp/TransLionApp.Android/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
+    {
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Обнаружено понижение версии пакета MySqlConnector с 0.66.0 на 0.64.2. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.Android -> TransLionApp -> MySqlConnector (>= 0.66.0) \r\n TransLionApp.Android -> MySqlConnector (>= 0.64.2)",
+      "message": "Detected package downgrade: MySqlConnector from 0.66.0 to 0.64.2. Reference the package directly from the project to select a different version. \n TransLionApp.Android -> TransLionApp -> MySqlConnector (>= 0.66.0) \n TransLionApp.Android -> MySqlConnector (>= 0.64.2)",
       "libraryId": "MySqlConnector",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"
@@ -2685,7 +2684,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Обнаружено понижение версии пакета Xamarin.Essentials с 1.5.3.2 на 1.5.2. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.Android -> TransLionApp -> Xamarin.Essentials (>= 1.5.3.2) \r\n TransLionApp.Android -> Xamarin.Essentials (>= 1.5.2)",
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.5.3.2 to 1.5.2. Reference the package directly from the project to select a different version. \n TransLionApp.Android -> TransLionApp -> Xamarin.Essentials (>= 1.5.3.2) \n TransLionApp.Android -> Xamarin.Essentials (>= 1.5.2)",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"
@@ -2695,7 +2694,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Обнаружено понижение версии пакета Xamarin.Forms с 4.6.0.800 на 4.5.0.530. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n TransLionApp.Android -> TransLionApp -> Xamarin.Forms (>= 4.6.0.800) \r\n TransLionApp.Android -> Xamarin.Forms (>= 4.5.0.530)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.6.0.800 to 4.5.0.530. Reference the package directly from the project to select a different version. \n TransLionApp.Android -> TransLionApp -> Xamarin.Forms (>= 4.6.0.800) \n TransLionApp.Android -> Xamarin.Forms (>= 4.5.0.530)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"
