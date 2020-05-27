@@ -10,17 +10,60 @@
     <Shell.TitleView>
         <view:BarView/>
     </Shell.TitleView>
+    
     <ContentPage.Content>
-        <StackLayout>
-            
-            <Label Text="{x:Static local:App.NamePerson}" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,0,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
-            <StackLayout Orientation="Horizontal">
-                <Label Text="Geboren op "></Label>
-                <!--<Label Text="{x:Static local:App.}"></Label>-->
+        <ScrollView>
+            <StackLayout Margin="10,0,10,0">
+
+                <Label Text="Peter de Groot" TextColor="Black" FontSize="Title" VerticalOptions="Center" FontAttributes="Bold"></Label>
+                <Label Text="Geboren op 17 maart 1974"  FontAttributes="Italic" TextColor="Black"></Label>
+
+                <Frame CornerRadius="10" HasShadow="False"  BorderColor="LightGray">
+                    <StackLayout Padding="0">
+                        <Label Text="Geranduslaan 34" TextColor="Black"></Label>
+                        <Label Text="1234HH" TextColor="Black"></Label>
+                        <Label Text="Rotterdam" TextColor="Black"></Label>
+                    </StackLayout>
+                    
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="False"  BorderColor="LightGray">
+                    <StackLayout Padding="0">
+                        <Label Text="06 - 12 34 56 78 9" TextColor="Black"></Label>
+                        <Label Text="lalal@gmail.com" TextColor="Black"></Label>
+                    </StackLayout>
+                </Frame>
+                <Label Text="Mijn CV" TextColor="Black"></Label>
+                <Frame CornerRadius="10" HasShadow="False"  BackgroundColor="#439aff">
+                    <StackLayout Padding="0">
+                        <Label Text="Bekijk jouw meest recente CV" TextColor="White" FontAttributes="Bold"></Label>
+                        <Label Text="Geupload op: 24-04-2020" TextColor="White"></Label>
+                    </StackLayout>
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="mail"></Image>
+                    <StackLayout>
+                        <Label Text="CV Bedrijf Z" FontAttributes="Bold" TextColor="Black"></Label>
+                        <Label Text="Geupload op: 24-04-2020" TextColor="Black"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <Button Text="Upload nieuwe CV" TextColor="#439aff" BackgroundColor="White" BorderColor="#439aff"></Button>
+                <Label Text="Mijn sollicitatiebrieven" TextColor="Black"></Label>
+                <!--<a collection needed here>-->
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="mail"></Image>
+                    <StackLayout>
+                        <Label Text="Sollicitatiebrief Bedrijf Z" FontAttributes="Bold" TextColor="Black"></Label>
+                        <Label Text="Geupload op: 24-04-2020" TextColor="Black"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <Button Text="Upload nieuwe sollicitatiebrief" TextColor="#439aff" BackgroundColor="White" BorderColor="#439aff"></Button>
+                
             </StackLayout>
-        </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
+
 
 
     

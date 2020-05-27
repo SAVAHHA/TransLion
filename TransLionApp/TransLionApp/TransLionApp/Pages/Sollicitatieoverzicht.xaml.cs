@@ -6,6 +6,8 @@ using Plugin.Messaging;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using TransLionApp;
+using TransLionApp.Data;
+using System.Linq;
 
 namespace TransLionApp.Pages.User
 {
@@ -18,8 +20,22 @@ namespace TransLionApp.Pages.User
         public Sollicitatieoverzicht()
         {
             InitializeComponent();
+            var Companies = from _company in CompanyData.Companies    
+                              select _company;
+
+            List<CompanyInfo> companiesList = new List<CompanyInfo>();
+
+            for (int i = 1; i < Companies.Count(); i++)
+            {
+                var _company = Companies.ElementAt(i);
+                companiesList.Add(_company);
+            }
+
+            SollicitatieOverzichtCollectionView.ItemsSource = companiesList;
+
         }
 
+       
         private void emailButton_Clicked(object sender, EventArgs e)
         {
             var emailMessenger = CrossMessaging.Current.EmailMessenger;

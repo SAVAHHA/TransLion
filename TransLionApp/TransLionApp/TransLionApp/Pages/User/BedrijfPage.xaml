@@ -16,11 +16,10 @@
         <Grid RowSpacing="0">
             <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
                 <StackLayout Margin="10,0,10,0">
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="Bedrijf" FontAttributes="Bold" FontSize="30"></Label>
-                        <Label Text="X" x:Name="CompanyName" FontAttributes="Bold" FontSize="30"></Label>
-                    </StackLayout>
-                    <Label Text="Medewerker Verkoop" FontSize="25" ></Label>
+                   
+                    <Label Text="Bedrijf X" x:Name="CompanyName" FontAttributes="Bold" FontSize="35" TextColor="Black"></Label>
+                    
+                    <Label Text="Medewerker Verkoop" FontSize="Medium" TextColor="Black" ></Label>
                     <Grid Padding="0,10,0,10">
                         <Grid.RowDefinitions>
                             <RowDefinition></RowDefinition>
@@ -37,11 +36,11 @@
                             </StackLayout>
                         </StackLayout>
                     </Grid>
-                    <Label Text="Contactpersoon" FontSize="17"></Label>
-                    <Label Text="Jan van Eyck" FontSize="19" FontAttributes="Bold" Margin="0,0,0,10"></Label>
-                    <Label Text="Wijze solliciteren" FontSize="17"></Label>
-                    <Label Text="In behandeling" FontSize="19" FontAttributes="Bold" Margin="0,0,0,10"></Label>
-                    <Label Text="Ontvangen bestanden" FontAttributes="Bold" FontSize="27"></Label>
+                    <Label TextColor="Black" Text="Contactpersoon" FontSize="17"></Label>
+                    <Label TextColor="Black" Text="Jan van Eyck" FontSize="19" FontAttributes="Bold" Margin="0,0,0,10"></Label>
+                    <Label TextColor="Black" Text="Wijze solliciteren" FontSize="17"></Label>
+                    <Label TextColor="Black" Text="In behandeling" FontSize="19" FontAttributes="Bold" Margin="0,0,0,10"></Label>
+                    <Label TextColor="Black"  Text="Ontvangen bestanden" FontAttributes="Bold" FontSize="27"></Label>
                     <ListView>
                         <ListView.ItemTemplate>
                             <DataTemplate>
