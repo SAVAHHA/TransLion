@@ -16,5 +16,31 @@ namespace TransLionApp.Pages.Admin
         {
             InitializeComponent();
         }
+
+        private async void WIAaanvraagButton_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("///wiaaanvragen");
+        }
+
+        private async void Sollicitatieoverizicht_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("///sollicitatieoverzicht"); 
+        }
+
+        private async void Sollicitatie_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private async void Clienten_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("///clienten");
+            
+        }
+
+        private async void BedrijvenButton_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("///bedrijven");
+        }
     }
 }

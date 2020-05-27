@@ -71,12 +71,6 @@ namespace TransLionApp.Pages.User
             translating = false;
         }
 
-        private async void vorigeButton_Clicked(object sender, EventArgs e)
-        {
-            await Shell.Current.GoToAsync("sollicitatieoverzich");
-        }
-
-
     }
 }
 

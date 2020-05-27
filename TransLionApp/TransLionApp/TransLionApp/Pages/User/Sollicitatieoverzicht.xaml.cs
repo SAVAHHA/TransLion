@@ -72,14 +72,9 @@ namespace TransLionApp.Pages.User
             translating = false;
         }
 
-        private async void vorigeButton_Clicked(object sender, EventArgs e)
-        {
-            await Shell.Current.GoToAsync("dashboard");
-        }
-
         private async void bedrijfButton_Clicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("bedrijf");
+            await Shell.Current.GoToAsync("///bedrijf");
         }
     }
 
