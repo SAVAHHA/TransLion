@@ -1,5 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TransLionApp.Pages.User.Mijngegevens">
+<ContentPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:TransLionApp"
+             xmlns:view="clr-namespace:TransLionApp.Views"
+             x:Class="TransLionApp.Pages.User.Mijngegevens">
+    <Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>
     <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="{x:Static local:App.NamePerson}" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,0,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Geboren op "></Label>
+                <Label Text="{x:Static local:App.}"></Label>
+            </StackLayout>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
+
+
+    
