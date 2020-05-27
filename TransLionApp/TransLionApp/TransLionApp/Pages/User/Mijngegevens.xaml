@@ -10,17 +10,86 @@
     <Shell.TitleView>
         <view:BarView/>
     </Shell.TitleView>
+    
     <ContentPage.Content>
-        <StackLayout>
-            
-            <Label Text="{x:Static local:App.NamePerson}" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,0,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
-            <StackLayout Orientation="Horizontal">
-                <Label Text="Geboren op "></Label>
-                <!--<Label Text="{x:Static local:App.}"></Label>-->
+        <ScrollView>
+            <StackLayout Spacing="0">
+                <!--<Grid Margin="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    
+                    <Image Source="ic_action_arrow_back_ios" Grid.Column="0" Grid.Row="0"></Image>
+                    <Label Text="Clienten" Grid.Column="1" Grid.Row="0" VerticalOptions="Center"></Label>
+                    <Button BackgroundColor="Transparent" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="0" x:Name="BackButton" Clicked="BackButton_Clicked"></Button>
+
+                </Grid>-->
+                <Grid HorizontalOptions="Fill">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="{Binding NamePerson}" TextColor="Black" FontSize="Title" VerticalOptions="Center" FontAttributes="Bold" Margin="10,0,0,0" Grid.Column="0" Grid.Row="0"></Label>
+                    
+                </Grid>
+
+                <Label Text="Geboren op 17 maart 1974" Margin="10,0,10,10" FontAttributes="Italic"></Label>
+
+                <Frame CornerRadius="10" HasShadow="False" Margin="10,0,10,0" BorderColor="LightGray">
+                    <StackLayout Padding="0">
+                        <Label Text="Geranduslaan 34" TextColor="Black"></Label>
+                        <Label Text="1234HH" TextColor="Black"></Label>
+                        <Label Text="Rotterdam" TextColor="Black"></Label>
+                    </StackLayout>
+                    
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="False" Margin="10" BorderColor="LightGray">
+                    <StackLayout Padding="0">
+                        <Label Text="06 - 12 34 56 78 9" TextColor="Black"></Label>
+                        <Label Text="lalal@gmail.com" TextColor="Black"></Label>
+                    </StackLayout>
+                </Frame>
+                <Label Text="Mijn CV"></Label>
+                <Frame CornerRadius="10" HasShadow="False" Margin="10" BackgroundColor="Blue">
+                    <StackLayout Padding="0">
+                        <Label Text="Bekijk jouw meest recente CV" TextColor="Black" FontAttributes="Bold"></Label>
+                        <Label Text="Geupload op: 24-04-2020" TextColor="Black"></Label>
+                    </StackLayout>
+                </Frame>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="mail"></Image>
+                    <StackLayout>
+                        <Label Text="CV Bedrijf Z" TextColor="Black"></Label>
+                        <Label Text="Geupload op: 24-04-2020" TextColor="Black"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <Button Text="Upload nieuwe CV" TextColor="Blue" BackgroundColor="Transparent" BorderColor="Blue"></Button>
+                <Label Text="Mijn sollicitatiebrieven"></Label>
+                <!--<a collection needed here>-->
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="mail"></Image>
+                    <StackLayout>
+                        <Label Text="Sollicitatiebrief Bedrijf Z" TextColor="Black"></Label>
+                        <Label Text="Geupload op: 24-04-2020" TextColor="Black"></Label>
+                    </StackLayout>
+                </StackLayout>
+                <Button Text="Upload nieuwe sollicitatiebrief" TextColor="Blue" BackgroundColor="Transparent" BorderColor="Blue"></Button>
+                
             </StackLayout>
-        </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
+
 
 
     
