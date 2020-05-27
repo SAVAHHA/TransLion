@@ -406,15 +406,48 @@ namespace TransLionApp
             Items.Add(new FlyoutItem
             {
                 Title = "Bedrijven",
-                IsEnabled = false,
+                IsEnabled = true,
                 Route = "bedrijven",
                 Items =
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new HomePage()} }
+                        Items = { new ShellContent {Content = new BedrijvenPage()} }
                     }
                 }
+
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "AdminBedrijf",
+                IsEnabled = true,
+                Route = "adminbedrijf",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new AdminBedrijfPage()} }
+                    }
+                }
+
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "AddCompany",
+                IsEnabled = true,
+                Route = "addcompany",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new AddCompany()} }
+                    }
+                }
+
 
             });
 
