@@ -2,19 +2,24 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:view="clr-namespace:TransLionApp.Views"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              mc:Ignorable="d"
+             xmlns:view="clr-namespace:TransLionApp.Views"
              xmlns:local="clr-namespace:TransLionApp"
              x:Class="TransLionApp.Pages.Admin.AdminDashboardPage">
+    <Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>
+    
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Orientation="Horizontal" Spacing="0">
-                <Label Text="Goedemmidag, " FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="5,0,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
-                <Label Text="{x:Static local:App.NamePerson}" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,0,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
-                <Label Text="!" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,0,0,5" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
+                <Label Text="Goedemmidag, " FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="10,5,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
+                <Label Text="{x:Static local:App.NamePerson}" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,5,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
+                <Label Text="!" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,5,0,10" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
             </StackLayout>
              <Grid>
-                <Frame Grid.Row="0" Grid.Column="0" Padding="0,0,0,0" BackgroundColor="LightGray" CornerRadius="10" Margin="5,0,5,0"></Frame>
+                <Frame Grid.Row="0" Grid.Column="0" Padding="0,0,0,0" BackgroundColor="LightGray" CornerRadius="5" Margin="5,0,5,0"></Frame>
                 <StackLayout Margin="5,0,0,0">
                     <Label Text="Clienten" FontSize="Medium" FontAttributes="Bold" Margin="5,0,0,0"></Label>
                     <Label Text="Zoek clienten" Margin="5,0,0,0"></Label>
@@ -22,7 +27,7 @@
                 <Button Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0" BackgroundColor="Transparent" Opacity="0" IsEnabled="True" x:Name="Clienten" Clicked="Clienten_Clicked"></Button>
                
 
-                <Frame Grid.Row="0"  Grid.Column="1" BackgroundColor="LightGray" CornerRadius="10" Padding="0,0,0,0" Margin="5,0,5,0"></Frame>
+                <Frame Grid.Row="0"  Grid.Column="1" BackgroundColor="LightGray" CornerRadius="5" Padding="0,0,0,0" Margin="5,0,5,0"></Frame>
                 <StackLayout   Margin="5,0,0,0" Grid.Row="0"  Grid.Column="1" >
                         <Label Text="Bedrijven" FontSize="Medium" FontAttributes="Bold" Margin="5,0,0,0"></Label>
                     <Label Text="Zoek bedrijven" Margin="5,0,0,0"></Label>
@@ -31,7 +36,7 @@
                 </Button>
             </Grid>
             <Grid>
-                <Frame  Grid.Row="0"  WidthRequest="10" HeightRequest="120" BackgroundColor="Orange" BorderColor="Transparent" CornerRadius="10" Padding="0,0,0,0" Margin="5,0,5,0"></Frame>
+                <Frame  Grid.Row="0"  WidthRequest="10" HeightRequest="120" BackgroundColor="Orange" BorderColor="Transparent" CornerRadius="5" Padding="0,0,0,0" Margin="5,0,5,0"></Frame>
                 <StackLayout  Margin="5,0,0,0">
                     <Grid>
                         <Grid.RowDefinitions>
@@ -68,7 +73,7 @@
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
 
-                <Frame HeightRequest="80" Grid.Column="0" BorderColor="#439aff" Padding="0,0,0,0" BackgroundColor="White" Margin="5,0,5,0" CornerRadius="10" HasShadow="False"></Frame>
+                <Frame HeightRequest="80" Grid.Column="0" BorderColor="#439aff" Padding="0,0,0,0" BackgroundColor="White" Margin="5,0,5,0" CornerRadius="5" HasShadow="False"></Frame>
                 <StackLayout  Margin="5,0,0,0">
                     <Label Text="Laatste WIA-aanvraag" TextColor="#439aff" BackgroundColor="Transparent" Margin="5,5,0,0" ></Label>
                     <Label Grid.Column="1" Grid.Row="0" Text="Peter de Groot" FontAttributes="Bold" TextColor="#439aff" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
@@ -84,7 +89,7 @@
                 <Button Grid.Column="0" Opacity="0" IsEnabled="True" x:Name="WIAaanvraagButton" Clicked="WIAaanvraagButton_Clicked" VerticalOptions="Fill" HorizontalOptions="Fill">
                 </Button>
 
-                <Frame  HeightRequest="80" Grid.Column="1"  BackgroundColor="#439aff" CornerRadius="10" Padding="0,0,0,0" Margin="5,0,5,0"></Frame>
+                <Frame  HeightRequest="80" Grid.Column="1"  BackgroundColor="#439aff" CornerRadius="5" Padding="0,0,0,0" Margin="5,0,5,0"></Frame>
                 <StackLayout  Margin="5,0,0,0" Grid.Column="1">
                     <Label Margin="5,5,0,0" Text="Sollicitatie" TextColor="White" FontSize="Body" FontAttributes="Bold"></Label>
                  </StackLayout>

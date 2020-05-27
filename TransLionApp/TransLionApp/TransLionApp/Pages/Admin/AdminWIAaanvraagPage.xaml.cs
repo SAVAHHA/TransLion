@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Syncfusion.Compression.Zip;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,13 +31,15 @@ namespace TransLionApp.Pages.Admin
             latestUserNameLabel.Text = lastUser.NamePerson;
             lastUserDateLabel.Text = lastUser.LastDateOfWatching.ToString();
 
-            
+            SortedUsers = new List<UserInfo>();
 
-            //for (int i = 1; i < UsersSorted.Count(); i++)
-            //{
-            //    var _user = UsersSorted.ElementAt(i);
-            //    SortedUsers.Add(_user);
-            //}
+            for (int i = 1; i < UsersSorted.Count(); i++)
+            {
+                var _user = UsersSorted.ElementAt(i);
+                SortedUsers.Add(_user);
+            }
+
+            WIAusersCollectionView.ItemsSource = SortedUsers;
 
             //MainStackLayout.Children.Add(new Grid
             //{

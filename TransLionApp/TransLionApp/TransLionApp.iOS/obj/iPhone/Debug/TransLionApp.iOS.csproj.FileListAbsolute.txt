@@ -202,10 +202,8 @@ C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLi
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\obj\iPhone\Debug\TransLionApp.iOS.pdb
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SQLite-net.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_green.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
-C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.sqlite3.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\MySqlConnector.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SQLite-net.dll
@@ -213,3 +211,8 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.sqlite3.dll
+C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Buffers.dll
+C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Memory.dll
+C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll

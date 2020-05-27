@@ -37,7 +37,7 @@
                             <Label Text="!" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,0,0,5" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
                         </StackLayout>
                         <Label Grid.Row="1" Text="Het bestand 'Gegevens' is aan jouw account toegevoegd." TextColor="Black" Margin="5,0,0,0" BackgroundColor="Transparent"></Label>
-                        <Frame Grid.Row="2" WidthRequest="10" BackgroundColor="LightGray" BorderColor="Transparent" CornerRadius="10" Padding="0,0,0,0" Margin="5,0,5,0">
+                        <Frame Grid.Row="2" WidthRequest="10" BackgroundColor="LightGray" BorderColor="Transparent" CornerRadius="5" Padding="0,0,0,0" Margin="5,0,5,0">
                             <Grid  Margin="0,0,0,0" RowSpacing="0" ColumnSpacing="0">
 
                                 <Grid.RowDefinitions>
@@ -64,9 +64,9 @@
                             </Grid>
                         </Frame>
 
-                        <Button Grid.Row="3" Padding="0,0,0,0" Text="Bekijk nu de online sollicitatietips!" x:Name="bekijk" Clicked="bekijk_Clicked" CornerRadius="10" TextColor="White" BackgroundColor="#439aff" Margin="5,0,5,0"></Button>
+                        <Button Grid.Row="3" Padding="0,0,0,0" Text="Bekijk nu de online sollicitatietips!" x:Name="bekijk" Clicked="bekijk_Clicked" CornerRadius="5" TextColor="White" BackgroundColor="#439aff" Margin="5,0,5,0"></Button>
 
-                        <Frame Grid.Row="4" WidthRequest="10" BackgroundColor="#ffb63e" BorderColor="Transparent" CornerRadius="10" Padding="0,0,0,0" Margin="5,0,5,0">
+                        <Frame Grid.Row="4" WidthRequest="10" BackgroundColor="#ffb63e" BorderColor="Transparent" CornerRadius="5" Padding="0,0,0,0" Margin="5,0,5,0">
                             <StackLayout>
                                 <Grid>
                                     <Grid.RowDefinitions>
@@ -93,7 +93,7 @@
                             </StackLayout>
                         </Frame>
                         
-                        <Frame Grid.Row="5" BorderColor="#439aff" Padding="0,0,0,0" BackgroundColor="White" Margin="5,0,5,0" CornerRadius="10" HasShadow="False">
+                        <Frame Grid.Row="5" BorderColor="#439aff" Padding="0,0,0,0" BackgroundColor="White" Margin="5,0,5,0" CornerRadius="5" HasShadow="False">
                             <StackLayout>
                                 <Label  Text="Jouw WIA-aanvraag" TextColor="#439aff" BackgroundColor="Transparent" Margin="5,5,0,0" ></Label>
                                 <Grid  Margin="0,0,0,0" RowSpacing="0" ColumnSpacing="0">
