@@ -12,5 +12,7 @@ namespace TransLionApp.Data
         public string Type { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
+        //public string LastDateOfWatching { get; set; }
+        public DateTime LastDateOfWatching { get; set; }
     }
 }

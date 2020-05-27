@@ -4,12 +4,66 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:data="clr-namespace:TransLionApp.Data"
              x:Class="TransLionApp.Pages.Admin.AdminWIAaanvraagPage">
+    <ContentPage.Resources>
+        <DataTemplate x:Key="UserWIATemplate">
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0"
+                       Text="{Binding NamePerson}"
+                       FontAttributes="Bold"></Label>
+
+                <Label Grid.Row="1"
+                       Text="{Binding Login}"></Label>
+
+                <Button ImageSource="ic_action_delete_outline" Clicked="deleteWIAButton_Clicked" BackgroundColor="Transparent" x:Name="deleteWIAButton" Grid.Column="1" Grid.RowSpan="2" Grid.Row="0" HorizontalOptions="End"></Button>
+            </Grid>
+        </DataTemplate>
+    </ContentPage.Resources>
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout x:Name="MainStackLayout">
+                <Label Text="WIA-aanvragen" TextColor="Black" FontSize="Large" Margin="10,5,0,0" FontAttributes="Bold"></Label>
+
+                <Grid Margin="10" HorizontalOptions="Fill">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Frame BorderColor="#439aff" CornerRadius="10" HasShadow="False" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0" Grid.Row="0" BackgroundColor="White"></Frame>
+                    <StackLayout Grid.Row="0" Grid.Column="0">
+                        <Label Text="Laatste WIA-aanvraag" Margin="10,5,10,0" TextColor="#439aff"></Label>
+                        <Label x:Name="latestUserNameLabel" Margin="10,0,10,0" TextColor="#439aff" FontAttributes="Bold"></Label>
+
+                        <StackLayout Orientation="Horizontal" Spacing="0">
+                            <Label Text="Datum" TextColor="#439aff" Margin="10,0,10,0"></Label>
+                            <Label x:Name="lastUserDateLabel" TextColor="#439aff" FontAttributes="Bold" Margin="5,0,10,5"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                    <Button BackgroundColor="Transparent" x:Name="wiaDetailButton" Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" Clicked="wiaDetailButton_Clicked"></Button>
+                </Grid>
+
+                <Label Text="Eerdere WIA-aanvraagen" TextColor="Black" FontSize="Large" Margin="10,0,10,10" FontAttributes="Bold"></Label>
+
+                <CollectionView x:Name="WIAusersCollectionView"
+                                Margin="10"
+                                ItemsSource="{x:Static data:UserData.Users}"
+                                ItemTemplate="{StaticResource UserWIATemplate}"
+                                SelectionMode="Single"></CollectionView>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

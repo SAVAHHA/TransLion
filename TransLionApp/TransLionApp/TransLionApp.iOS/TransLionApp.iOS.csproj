@@ -119,17 +119,39 @@
     <ImageAsset Include="Assets.xcassets\mail.imageset\mail.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\BluePictureForPages-1.JPG" />
-    <ImageAsset Include="Assets.xcassets\ic_action_arrow_back_ios.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\ic_action_arrow_back_ios.imageset\ic_action_arrow_back_ios.png" />
-    <ImageAsset Include="Assets.xcassets\map.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\map.imageset\map.png" />
-    <ImageAsset Include="Assets.xcassets\logo192.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\logo192.imageset\logo192.png" />
-    <ImageAsset Include="Assets.xcassets\ic_action_create.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\ic_action_create.imageset\ic_action_create.png" />
-    <ImageAsset Include="Assets.xcassets\fax.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\fax.imageset\fax.png" />
+    <ImageAsset Include="Assets.xcassets\BluePictureForPages.imageset\BluePictureForPages-1.JPG">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\ic_action_arrow_back_ios.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\ic_action_arrow_back_ios.imageset\ic_action_arrow_back_ios.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\map.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\map.imageset\map.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\logo192.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\logo192.imageset\logo192.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\ic_action_create.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\ic_action_create.imageset\ic_action_create.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\fax.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\fax.imageset\fax.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
