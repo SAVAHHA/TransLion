@@ -9,7 +9,7 @@ using TransLionApp;
 using TransLionApp.Data;
 using System.Linq;
 
-namespace TransLionApp.Pages.User
+namespace TransLionApp.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Sollicitatieoverzicht : ContentPage

@@ -7,7 +7,7 @@
              xmlns:data="clr-namespace:TransLionApp.Data"
              xmlns:local="clr-namespace:TransLionApp"
              xmlns:view="clr-namespace:TransLionApp.Views"
-             x:Class="TransLionApp.Pages.User.Sollicitatieoverzicht">
+             x:Class="TransLionApp.Pages.Sollicitatieoverzicht">
 
     <Shell.TitleView>
         <view:BarView/>

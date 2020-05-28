@@ -423,13 +423,13 @@ namespace TransLionApp
             Items.Add(new FlyoutItem
             {
                 Title = "Sollicitatieoverzicht",
-                IsEnabled = false,
+                IsEnabled = true,
                 Route = "sollicitatieoverzicht",
                 Items =
                 {
                     new Tab
                     {
-                        Items = { new ShellContent {Content = new HomePage()} }
+                        Items = { new ShellContent {Content = new Sollicitatieoverzicht()} }
                     }
                 }
 

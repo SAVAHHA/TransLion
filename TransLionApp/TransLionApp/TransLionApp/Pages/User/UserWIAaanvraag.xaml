@@ -17,8 +17,8 @@
             <Label Text="WIA-aanvraag" x:Name="testLabel" Margin="10"></Label>
         
 
-            <Frame BorderColor="#439aff" BackgroundColor="White" Margin="5,0,5,0" CornerRadius="10" HasShadow="False">
-                <StackLayout>
+            <Frame BorderColor="#439aff" BackgroundColor="White" Margin="5,0,5,0" CornerRadius="5" HasShadow="False">
+                <StackLayout Padding="0">
                     <Grid RowSpacing="0">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto"></RowDefinition>
@@ -39,6 +39,12 @@
                         
                     </Grid>
                 </StackLayout>
+            </Frame>
+
+            <Label Text="Overige informatie" TextColor="Black" FontSize="Large" Margin="10"></Label>
+
+            <Frame Margin="10,0,10,0" HasShadow="False" CornerRadius="5">
+                <Label Text="Lorem ipsum dolor sit amet, ..............." TextColor="Black"></Label>
             </Frame>
         </StackLayout>
     </ContentPage.Content>

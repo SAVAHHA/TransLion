@@ -46,6 +46,14 @@
               "target": "Package",
               "version": "[0.64.2, )"
             },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.64.2, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
             "Xamarin.Android.Support.v7.AppCompat": {
               "target": "Package",
               "version": "[28.0.0.3, )"
@@ -54,7 +62,19 @@
               "target": "Package",
               "version": "[1.5.2, )"
             },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            },
             "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.5.0.530, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.5.0.530, )"
+            },
+            "Xamarin.Forms.Maps": {
               "target": "Package",
               "version": "[4.5.0.530, )"
             },

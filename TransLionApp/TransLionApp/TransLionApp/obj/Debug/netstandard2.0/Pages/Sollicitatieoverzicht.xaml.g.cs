@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TransLionApp.Pages.Sollicitatieoverzicht.xaml", "Pages/Sollicitatieoverzicht.xaml", typeof(global::TransLionApp.Pages.User.Sollicitatieoverzicht))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TransLionApp.Pages.Sollicitatieoverzicht.xaml", "Pages/Sollicitatieoverzicht.xaml", typeof(global::TransLionApp.Pages.Sollicitatieoverzicht))]
 
-namespace TransLionApp.Pages.User {
+namespace TransLionApp.Pages {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\Sollicitatieoverzicht.xaml")]

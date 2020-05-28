@@ -59,6 +59,8 @@ namespace TransLionApp.Pages.Admin
 
         private void deleteWIAButton_Clicked(object sender, EventArgs e)
         {
+            //var tt = e.
+            var user = WIAusersCollectionView.SelectedItem as UserInfo;
            // string _userLogin = (WIAusersCollectionView.CurrentSelection.FirstOrDefault() as UserInfo).Login;
             //await DisplayAlert(WIAusersCollectionView.SelectedItem.ToString(), "", "o");
         }

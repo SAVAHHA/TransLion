@@ -26,7 +26,7 @@ namespace TransLionApp.Controls
            //ReadText();
            
             InitializeComponent();
-            TestMessage();
+            //TestMessage();
         }
 
         
