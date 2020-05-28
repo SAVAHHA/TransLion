@@ -10,7 +10,7 @@ namespace TransLionApp.Data
     {
         [PrimaryKey, AutoIncrement, Column("_id")]
         public int ID_inApp { get; set; }
-        public int ID { get; set; }
+        public int ID { get; set; } //ID из 
         public string NamePerson { get; set; }
         public string Type { get; set; }
         public string Login { get; set; }

@@ -27,13 +27,28 @@ namespace TransLionApp.Pages.Admin
 
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            SearchBar searchBar = (SearchBar)sender;
+            searchResults.ItemsSource = GetCompanies(searchBar.Text);
         }
         private async void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             //string _userLogin = (e.CurrentSelection.FirstOrDefault() as UserInfo).Login;
             string _companyName = (e.CurrentSelection.FirstOrDefault() as CompanyInfo).Name;
             await Shell.Current.GoToAsync($"companydetail?companyname={_companyName}");
+        }
+
+        private IEnumerable<CompanyInfo> GetCompanies(string searchText = null)
+        {
+            if (string.IsNullOrWhiteSpace(searchText))
+            {
+                return CompanyData.Companies;
+            }
+            else
+            {
+                //return UserData.Users.Where(p => p.SurnamePerson.ToLower().StartsWith(searchText));
+                return CompanyData.Companies.Where(p => p.Name.ToLower().Contains(searchText.ToLower()));
+
+            }
         }
     }
 }

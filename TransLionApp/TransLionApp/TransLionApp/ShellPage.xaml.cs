@@ -44,14 +44,16 @@ namespace TransLionApp
                 if (App.Type == "user")
                 {
                     UserPart();
+                    //CurrentItem = UserDashboard;
                 }
                 else
                 {
                     AdminPart();
+                    //CurrentItem = AdminDashboard;
                 }
             }
 
-           // R();
+            //R();
             CurrentItem = HomePage;
             BackgroundColor = Color.White;
             BindingContext = this;
@@ -103,6 +105,7 @@ namespace TransLionApp
 
             Items.Add(new FlyoutItem
             {
+
                 Title = "Dashboard",
                 IsEnabled = true,
                 Route = "dashboard",
@@ -353,7 +356,9 @@ namespace TransLionApp
                 }
 
             });
-            CurrentItem = HomePage;
+            //CurrentItem = "//dashboard";
+            //await Shell.Current.GoToAsync("//dashboard");
+            //Shell.Current 
         }
 
         public void AdminPart()

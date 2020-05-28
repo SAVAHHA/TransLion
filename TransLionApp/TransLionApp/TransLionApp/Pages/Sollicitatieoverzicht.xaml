@@ -12,6 +12,7 @@
     <Shell.TitleView>
         <view:BarView/>
     </Shell.TitleView>
+    
     <ContentPage.Resources>
         <DataTemplate x:Key="SollicitatieOverzichtTemplate">
             <Grid Padding="10">
@@ -21,19 +22,43 @@
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0"
-                       Text="{Binding Name}"
-                       FontAttributes="Bold">
+                <StackLayout Orientation="Horizontal" Spacing="0" Grid.Row="0" Grid.Column="0">
+                    <Label Text="Bedrijf " TextColor="#474747"></Label>
+                    <Label Text="{Binding Name}"
+                       FontAttributes="Bold"></Label>
+                </StackLayout>
 
-                </Label>
-                <Label Grid.Row="1"
-                       Text="{Binding Contact}">
-         
-                </Label>
+                <StackLayout Orientation="Horizontal" Spacing="0" Grid.Row="1" Grid.Column="0">
+                    <Label Text="Status: " TextColor="#474747" FontAttributes="Italic"></Label>
+                    <Label Text=" / Datum: "
+                           TextColor="#474747"
+                           FontAttributes="Italic"></Label>
+                </StackLayout>
+            </Grid>
+        </DataTemplate>
 
+        <DataTemplate x:Key="UserTemplate">
+            <Grid Padding="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Orientation="Horizontal" Spacing="0" Grid.Row="0" Grid.Column="0">
+                    <Label Text="{Binding SurnamePerson}"
+                           TextColor="#474747"
+                           FontAttributes="Bold"></Label>
+                    <Label Text=", " FontAttributes="Bold" TextColor="#474747"></Label>
+                    <Label Text="{Binding NamePerson}" TextColor="#474747"></Label>
+                </StackLayout>
+
+                <!--<Label Grid.Row="1"
+                       Text="{Binding Login}"></Label>-->
             </Grid>
         </DataTemplate>
     </ContentPage.Resources>

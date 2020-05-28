@@ -10,6 +10,7 @@ namespace TransLionApp.Data
         public int ID { get; set; }
         //отдельно имя и фамилия
         public string NamePerson { get; set; }
+        public string SurnamePerson { get; set; }
         public string Type { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }

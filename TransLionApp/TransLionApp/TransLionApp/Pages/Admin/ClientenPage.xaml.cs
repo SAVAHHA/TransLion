@@ -54,7 +54,8 @@ namespace TransLionApp.Pages.Admin
             }
             else
             {
-                return UserData.Users.Where(p => p.NamePerson.StartsWith(searchText));
+                return UserData.Users.Where(p => p.SurnamePerson.ToLower().Contains(searchText.ToLower()));
+                //return UserData.Users.Where(p)
             }
         }
     }
