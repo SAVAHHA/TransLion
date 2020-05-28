@@ -95,10 +95,16 @@ namespace TransLionApp.Pages.User
             await Shell.Current.GoToAsync("sollicitatiePage");
         }
 
-        private async void wia_Clicked(object sender, EventArgs e)
+
+        private async void laatstesollicitatieframebutton_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("///sollicitatieoverzicht");
+        }
+
+        private async void wiaanvraagbutton_Clicked(object sender, EventArgs e)
         {
             await Shell.Current.GoToAsync("///wiaaanvraag");
-            //await Navigation.PushModalAsync(new UserWIAaanvraagPage());
+
         }
     }
 }
