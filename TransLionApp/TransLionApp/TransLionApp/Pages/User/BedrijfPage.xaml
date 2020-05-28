@@ -18,8 +18,8 @@
                 <StackLayout Margin="10,0,10,0">
                    
                     <Label Text="Bedrijf X" x:Name="CompanyName" FontAttributes="Bold" FontSize="35" TextColor="Black"></Label>
-                    
-                    <Label Text="Medewerker Verkoop" FontSize="Medium" TextColor="Black" ></Label>
+
+                    <!--<Label Text="Medewerker Verkoop" FontSize="Medium" TextColor="Black" ></Label>-->
                     <Grid Padding="0,10,0,10">
                         <Grid.RowDefinitions>
                             <RowDefinition></RowDefinition>

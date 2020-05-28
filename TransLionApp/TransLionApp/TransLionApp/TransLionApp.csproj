@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <None Remove="Files\PDFDocumentTransLion.pdf" />
+    <None Remove="Files\TipsMockup.csv" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +28,12 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Files\PDFDocumentTransLion.pdf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Files\TipsMockup.csv">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
