@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TransLionApp.Views.UserEdit.xaml", "Views/UserEdit.xaml", typeof(global::TransLionApp.Views.UserEdit))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TransLionApp.UserEdit.xaml", "UserEdit.xaml", typeof(global::TransLionApp.Views.UserEdit))]
 
 namespace TransLionApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\UserEdit.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("UserEdit.xaml")]
     public partial class UserEdit : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

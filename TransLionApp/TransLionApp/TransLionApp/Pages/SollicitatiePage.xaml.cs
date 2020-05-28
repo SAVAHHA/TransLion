@@ -15,6 +15,9 @@ namespace TransLionApp.Pages
         public SollicitatiePage()
         {
             InitializeComponent();
+            
         }
+
+        
     }
 }
