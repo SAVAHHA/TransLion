@@ -4881,3 +4881,4 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\System.Memory.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\icon_home_gray.png

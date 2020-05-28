@@ -271,7 +271,6 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminDashboardPage.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminSollicitatiePage.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\Admin\AdminWIAaanvraagPage.xaml.g.cs
-C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csprojAssemblyReference.cache
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Controls\TestPage.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Pages\SollicitatiePage.xaml.g.cs
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csproj.CoreCompileInputs.cache
@@ -311,3 +310,4 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Views\UserEdit.xaml.g.cs
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Views\WIADetailPage.xaml.g.cs
 C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csprojAssemblyReference.cache
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csprojAssemblyReference.cache
