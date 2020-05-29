@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2+SEqkxqmcxM0NVhIfGlTD9gfA0P+t93xEbf0IlZsJbOuW/PDTRiCKiFueD9IuEkGKBcLW0IOvZTh3yiXwBT9w==",
+  "dgSpecHash": "1zlsu+6Ycqow8hIh/L/W3j+Mcx+GIcLl9Qv2Tn9qCxUFXmLCRLOf5gn9TMalMexxAX2mhdjAXTZsmDO5qyhlfw==",
   "success": true,
   "projectFilePath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Анна\\.nuget\\packages\\microsoft.data.sqlite.core\\3.1.4\\microsoft.data.sqlite.core.3.1.4.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\mysqlconnector\\0.64.2\\mysqlconnector.0.64.2.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",

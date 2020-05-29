@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BzbfPb4NJuxNjlnnkBGYGVPwVvjVXFFJvbDLbpi+Ea6MLrhesFUe0+HN6MG6Ed6YzlCMoZ+lSAh7nEuojPC7qA==",
+  "dgSpecHash": "Pzv+Qo1jnA6uNXaiK9MA8eCM5PE8Mjux2WH0wNVi7zsAh7x35BuwclGbjhT8zbjWhZnKhRpu7vQMCgzk9z8bIg==",
   "success": true,
   "projectFilePath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Анна\\.nuget\\packages\\microsoft.data.sqlite.core\\3.1.4\\microsoft.data.sqlite.core.3.1.4.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Анна\\.nuget\\packages\\mysqlconnector\\0.66.0\\mysqlconnector.0.66.0.nupkg.sha512",

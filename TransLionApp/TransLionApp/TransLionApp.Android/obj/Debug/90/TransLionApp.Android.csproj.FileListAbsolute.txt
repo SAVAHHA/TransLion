@@ -4883,3 +4883,4 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\
 C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\icon_home_gray.png
 C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\res\drawable\icon_home_gray.png
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.Android\obj\Debug\90\android\assets\Microsoft.Data.Sqlite.dll

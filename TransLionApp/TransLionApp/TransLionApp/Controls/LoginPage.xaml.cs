@@ -66,90 +66,92 @@ namespace TransLionApp.Controls
         //    }
         //}
 
-        //private async void LoginButton_Clicked(object sender, EventArgs e)
-        //{
-        //    var login = loginEntry.Text;
-        //    var password = passwordEntry.Text;
-
-        //    try
-        //    {
-        //        string myConnectionString = "Server=www.db4free.net;Port=3306;User Id=translion;Password=translion2020;Database=translion;OldGuids=True";
-        //        MySqlConnection connection = new MySqlConnection(myConnectionString);
-        //        connection.Open();
-        //        MySqlCommand newCommand = new MySqlCommand("SELECT * FROM Entry WHERE Login=@login", connection);
-        //        newCommand.Parameters.AddWithValue("@login", login);
-        //        MySqlDataReader mySqlDataReader = newCommand.ExecuteReader();
-        //        if (mySqlDataReader.HasRows)
-        //        {
-        //            while (mySqlDataReader.Read())
-        //            {
-        //                object id = mySqlDataReader.GetValue(0);
-        //                object loginGet = mySqlDataReader.GetValue(1);
-        //                object passwordGet = mySqlDataReader.GetValue(2);
-        //                object typeGet = mySqlDataReader.GetValue(3);
-        //                string type;
-
-        //                if (Int32.Parse(typeGet.ToString()) == 1)
-        //                {
-        //                    type = "admin";
-        //                }
-        //                else
-        //                {
-        //                    type = "user";
-        //                }
-
-        //                if (password == passwordGet.ToString())
-        //                {
-        //                    await DisplayAlert("You logged as", type, "OK");
-        //                    if (type == "user")
-        //                    {
-
-        //                        await Shell.Current.GoToAsync("//shellpage/homepage/home");
-        //                        //Shell.Current.FlyoutIsPresented = false;
-        //                    }
-        //                    else
-        //                    {
-        //                        await DisplayAlert("", "u'r an admin", "wait");
-        //                    }
-
-
-
-        //                }
-        //                else
-        //                {
-        //                    await DisplayAlert("Rejected", "Incorrect password", "OK");
-        //                    passwordEntry.Text = "";
-        //                }
-        //            }
-        //        }
-        //        else
-        //        {
-        //            await DisplayAlert("Rejected", "No user with such login", "OK");
-        //            loginEntry.Text = "";
-        //            passwordEntry.Text = "";
-        //        }
-        //        connection.Close();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        await DisplayAlert("No Internet connection", ex.InnerException?.Message, "ok");
-        //    }
-        //}
-
         private async void LoginButton_Clicked(object sender, EventArgs e)
         {
-            var login = loginEntry.Text.ToLower();
-            var password = passwordEntry.Text.ToLower();
-            //var type = 2;
+            var login = loginEntry.Text;
+            var password = passwordEntry.Text;
 
-            if (login == "user")
+            try
             {
-                await App.Database.SaveUserAsync(new Person { Login = "user", NamePerson = "User", Password = "1111", Type = "user" });
+                string myConnectionString = "Server=www.db4free.net;Port=3306;User Id=translion;Password=translion2020;Database=translion;OldGuids=True";
+                MySqlConnection connection = new MySqlConnection(myConnectionString);
+                connection.Open();
+                MySqlCommand newCommand1 = new MySqlCommand("SET GLOBAL connect_timeout=28800", connection);
+                MySqlCommand newCommand = new MySqlCommand("SELECT * FROM Entry WHERE Login=@login", connection);
+                newCommand.Parameters.AddWithValue("@login", login);
+                MySqlDataReader mySqlDataReader = newCommand.ExecuteReader();
+                if (mySqlDataReader.HasRows)
+                {
+                    while (mySqlDataReader.Read())
+                    {
+                        object id = mySqlDataReader.GetValue(0);
+                        object loginGet = mySqlDataReader.GetValue(1);
+                        object passwordGet = mySqlDataReader.GetValue(2);
+                        object typeGet = mySqlDataReader.GetValue(3);
+                        string type;
+
+                        if (Int32.Parse(typeGet.ToString()) == 1)
+                        {
+                            type = "admin";
+                        }
+                        else
+                        {
+                            type = "user";
+                        }
+
+                        if (password == passwordGet.ToString())
+                        {
+                            await DisplayAlert("You logged as", type, "OK");
+                            if (type == "user")
+                            {
+
+                                await Shell.Current.GoToAsync("//shellpage/homepage/home");
+                                //Shell.Current.FlyoutIsPresented = false;
+                            }
+                            else
+                            {
+                                await DisplayAlert("", "u'r an admin", "wait");
+                            }
+
+
+
+                        }
+                        else
+                        {
+                            await DisplayAlert("Rejected", "Incorrect password", "OK");
+                            passwordEntry.Text = "";
+                        }
+                    }
+                }
+                else
+                {
+                    await DisplayAlert("Rejected", "No user with such login", "OK");
+                    loginEntry.Text = "";
+                    passwordEntry.Text = "";
+                }
+                connection.Close();
             }
-            if (login == "admin")
+            catch (Exception ex)
             {
-                await App.Database.SaveUserAsync(new Person { Login = "admin", NamePerson = "Admin", Password = "2222", Type = "admin" });
+                await DisplayAlert("No Internet connection", ex.InnerException?.Message, "ok");
             }
+        }
+
+        //private async void LoginButton_Clicked(object sender, EventArgs e)
+        //{
+        //    var login = loginEntry.Text.ToLower();
+        //    var password = passwordEntry.Text.ToLower();
+        //    //var type = 2;
+
+        //    if (login == "user")
+        //    {
+        //        await App.Database.SaveUserAsync(new Person { Login = "user", NamePerson = "User", Password = "1111", Type = "user" });
+        //    }
+        //    if (login == "admin")
+        //    {
+        //        await App.Database.SaveUserAsync(new Person { Login = "admin", NamePerson = "Admin", Password = "2222", Type = "admin" });
+        //    }
+            
 
             //Person person = new Person { Type = type, Password = password, Login = login };
             //await DisplayAlert("", "created", "ok");
@@ -161,7 +163,7 @@ namespace TransLionApp.Controls
             //await DisplayAlert("", "added", "ok");
 
 
-            App.Current.MainPage = new ShellPage();
+            //App.Current.MainPage = new ShellPage();
 
             //await Shell.Current.GoToAsync("//shellpage/homepage/home");
             //Shell.Current.FlyoutIsPresented = false;

@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "TransLionApp.Android.dll" comes first in this list. */
 		"TransLionApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.Data.Sqlite.dll",
 		"MySqlConnector.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Messaging.Abstractions.dll",
