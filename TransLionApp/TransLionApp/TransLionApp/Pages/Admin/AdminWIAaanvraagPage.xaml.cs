@@ -38,7 +38,7 @@ namespace TransLionApp.Pages.Admin
             {
                 var _user = UsersSorted.ElementAt(i);
                 SortedUsers.Add(_user);
-                numbers.Add(i);
+                numbers.Add(i-1);
             }
 
             WIAusersCollectionView.ItemsSource = SortedUsers;
@@ -67,6 +67,18 @@ namespace TransLionApp.Pages.Admin
             var user = WIAusersCollectionView.SelectedItem as UserInfo;
            // string _userLogin = (WIAusersCollectionView.CurrentSelection.FirstOrDefault() as UserInfo).Login;
             //await DisplayAlert(WIAusersCollectionView.SelectedItem.ToString(), "", "o");
+        }
+
+        private async void BinsCollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            int _index = Int32.Parse(e.CurrentSelection.FirstOrDefault().ToString());
+            //await DisplayAlert(_index, "", "O");
+            WIAusersCollectionView.IsEnabled = true;
+            SortedUsers.Remove(SortedUsers[_index]);
+            var ResortedUsers = SortedUsers;
+            WIAusersCollectionView = new CollectionView();
+            WIAusersCollectionView.ItemsSource = ResortedUsers;
+            await DisplayAlert(SortedUsers.Count.ToString(), SortedUsers.FirstOrDefault().SurnamePerson, "O");
         }
     }
 }
