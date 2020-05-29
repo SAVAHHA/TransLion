@@ -190,6 +190,60 @@ namespace TransLionApp
                 }
             }
         }
+        
+
+        
+        public static string LastGuidanceDay
+        {
+            get
+            {
+                if (App.ID != 0)
+                {
+                    var users = App.Database.GetUsersAsync().Result;
+                    
+                    string data = users[0].LastGuidanceDay.ToString();
+                    return data;
+                }
+                else
+                {
+                    return "-";
+                }
+            }
+        }
+
+        public static string LastDayOfSickness
+{
+            get
+            {
+                if (App.ID != 0)
+                {
+                    var users = App.Database.GetUsersAsync().Result;
+                    string data = users[0].LastDayOfSickness.ToString();
+                    return data;
+                }
+                else
+                {
+                    return "-";
+                }
+            }
+        }
+
+        public static string FirstDayOfSickness
+{
+            get
+            {
+                if (App.ID != 0)
+                {
+                    var users = App.Database.GetUsersAsync().Result;
+                    string data = users[0].FirstDayOfSickness.ToString();
+                    return data;
+                }
+                else
+                {
+                    return "-";
+                }
+            }
+        }
 
         public App()
         {

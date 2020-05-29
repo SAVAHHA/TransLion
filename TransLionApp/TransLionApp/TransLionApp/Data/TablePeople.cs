@@ -18,6 +18,7 @@ namespace TransLionApp.Data
         {
             return database.Table<Person>().ToListAsync();
         }
+
         public Task<int> SaveUserAsync(Person person)
         {
             return database.InsertAsync(person);

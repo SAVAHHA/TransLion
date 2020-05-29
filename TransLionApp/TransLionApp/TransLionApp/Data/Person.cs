@@ -21,5 +21,9 @@ namespace TransLionApp.Data
         public string Email { get; set; }
         public string Address { get; set; }
         public string Phone { get; set; }
+        public DateTime LastGuidanceDay { get; set; }
+        public DateTime LastDayOfSickness { get; set; }
+        public DateTime FirstDayOfSickness { get; set; }
+
     }
 }

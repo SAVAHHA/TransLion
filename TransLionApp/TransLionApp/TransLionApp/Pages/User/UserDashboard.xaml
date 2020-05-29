@@ -54,11 +54,11 @@
 
                                 <Label Grid.Column="0" Grid.Row="0" Text="Eetste ziektedag:" BackgroundColor="Transparent" TextColor="Black" Margin="5,5,0,0" />
                                 <Label Grid.Column="1" Grid.Row="0" Text="Laatste ziektedag:" BackgroundColor="Transparent" TextColor="Black" HorizontalTextAlignment="End" Margin="0,5,5,0"/>
-                                <Label Grid.Column="0" Grid.Row="1" FontAttributes="Bold" Text="13-04-2019" BackgroundColor="Transparent" TextColor="Black" Margin="5,0,0,0"/>
-                                <Label Grid.Column="1" Grid.Row="1" FontAttributes="Bold" Text="24-04-2020" BackgroundColor="Transparent" TextColor="Black" Margin="0,0,5,0" HorizontalTextAlignment="End" Padding="0,0,0,0"/>
+                                <Label Grid.Column="0" Grid.Row="1" FontAttributes="Bold" Text="{x:Static local:App.FirstDayOfSickness}" BackgroundColor="Transparent" TextColor="Black" Margin="5,0,0,0"/>
+                                <Label Grid.Column="1" Grid.Row="1" FontAttributes="Bold" Text="{x:Static local:App.LastDayOfSickness}" BackgroundColor="Transparent" TextColor="Black" Margin="0,0,5,0" HorizontalTextAlignment="End" Padding="0,0,0,0"/>
                                 <Label Grid.Column="0" Grid.Row="2" Text=" "></Label>
                                 <Label Grid.Column="0" Grid.Row="3" Text="Laatste begeleidingsdag:" BackgroundColor="Transparent" TextColor="Black" Margin="5,0,0,0"/>
-                                <Label Grid.Column="0" Grid.Row="4" Text="13-04-2020" FontAttributes="Bold" BackgroundColor="Transparent" TextColor="Black" Margin="5,0,0,0"/>
+                                <Label Grid.Column="0" Grid.Row="4" Text="{x:Static local:App.LastGuidanceDay}" FontAttributes="Bold" BackgroundColor="Transparent" TextColor="Black" Margin="5,0,0,0"/>
                             </Grid>
                         </Frame>
 
@@ -72,7 +72,7 @@
                                     <RowDefinition></RowDefinition>
                                 </Grid.RowDefinitions>
                                 <Label Grid.Row="0" Text="Jouw laatste sollicitatie" TextColor="White"  Margin="5,5,0,0"></Label>
-                                <Label Grid.Row="1" Text="Bedrijf X" TextColor="White"  FontSize="Large" Margin="5,0,0,0"></Label>
+                                <Label x:Name="bedrijfNameLabel" Grid.Row="1" Text="Bedrijf X" TextColor="White"  FontSize="Large" Margin="5,0,0,0"></Label>
                             </Grid>
                             <Grid>
                                 <Grid.RowDefinitions>

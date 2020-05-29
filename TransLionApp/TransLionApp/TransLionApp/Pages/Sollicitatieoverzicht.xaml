@@ -25,7 +25,7 @@
                 </Grid.ColumnDefinitions>
 
                 <StackLayout Orientation="Horizontal" Spacing="0" Grid.Row="0" Grid.Column="0">
-                    <Label Text="Bedrijf " TextColor="#474747"></Label>
+                    <Label Text="Bedrijf " TextColor="#474747" ></Label>
                     <Label Text="{Binding Name}"
                        FontAttributes="Bold"></Label>
                 </StackLayout>
