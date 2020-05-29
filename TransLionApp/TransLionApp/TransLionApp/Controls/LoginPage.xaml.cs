@@ -171,7 +171,7 @@ namespace TransLionApp.Controls
             //Shell.Current.FlyoutIsPresented = false;
 
 
-            private void loginEntry_Focused(object sender, FocusEventArgs e)
+        private void loginEntry_Focused(object sender, FocusEventArgs e)
         {
             loginEntry.Text = "";
         }

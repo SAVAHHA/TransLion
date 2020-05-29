@@ -32,14 +32,18 @@ namespace TransLionApp.Pages.Admin
             lastUserDateLabel.Text = lastUser.LastDateOfWatching.ToString();
 
             SortedUsers = new List<UserInfo>();
+            List<int> numbers = new List<int>();
 
             for (int i = 1; i < UsersSorted.Count(); i++)
             {
                 var _user = UsersSorted.ElementAt(i);
                 SortedUsers.Add(_user);
+                numbers.Add(i);
             }
 
             WIAusersCollectionView.ItemsSource = SortedUsers;
+            BinsCollectionView.ItemsSource = numbers;
+           
 
             //MainStackLayout.Children.Add(new Grid
             //{

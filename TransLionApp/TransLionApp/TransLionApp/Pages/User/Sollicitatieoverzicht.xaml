@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d"
+             xmlns:data="clr-namespace:TransLionApp.Data"
+             xmlns:local="clr-namespace:TransLionApp"
+             xmlns:view="clr-namespace:TransLionApp.Views"
+             x:Class="TransLionApp.Pages.User.Sollicitatieoverzicht">
+
+    <Shell.TitleView>
+        <view:BarView/>
+    </Shell.TitleView>
+
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor"
+                                        Value="#bbd3e3" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+
+        <DataTemplate x:Key="SollicitatieOverzichtTemplate">
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Orientation="Horizontal" Spacing="0" Grid.Row="0" Grid.Column="0">
+                    <Label Text="Bedrijf " TextColor="#474747" ></Label>
+                    <Label Text="{Binding Name}"
+                       FontAttributes="Bold"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Spacing="0" Grid.Row="1" Grid.Column="0">
+                    <Label Text="Status: " TextColor="#474747" FontAttributes="Italic"></Label>
+                    <Label Text=" / Datum: "
+                           TextColor="#474747"
+                           FontAttributes="Italic"></Label>
+                    <Label Text="{Binding UserDate}"
+                           TextColor="#474747"
+                           FontAttributes="Italic"></Label>
+                </StackLayout>
+            </Grid>
+        </DataTemplate>
+
+        <!--<DataTemplate x:Key="UserTemplate">
+            <Grid Padding="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Orientation="Horizontal" Spacing="0" Grid.Row="0" Grid.Column="0">
+                    <Label Text="{Binding SurnamePerson}"
+                           TextColor="#474747"
+                           FontAttributes="Bold"></Label>
+                    <Label Text=", " FontAttributes="Bold" TextColor="#474747"></Label>
+                    <Label Text="{Binding NamePerson}" TextColor="#474747"></Label>
+                </StackLayout>
+
+                --><!--<Label Grid.Row="1"
+                       Text="{Binding Login}"></Label>--><!--
+            </Grid>
+        </DataTemplate>-->
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
+                <StackLayout Margin="10,10,10,0">
+                    <Label Text="Sollicitatieoverzicht" FontSize="Large" FontAttributes="Bold" TextColor="Black"></Label>
+                    <Grid Margin="0,10,0,10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <BoxView BackgroundColor="#ffb63e" Grid.Row="0" CornerRadius="10"></BoxView>
+                        <StackLayout Grid.Row="0" Padding="7,7,7,7">
+                            <Label Text="Jouw laatste sollicitatie" TextColor="White" FontSize="17"></Label>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Bedrijf" FontAttributes="Bold" TextColor="White" FontSize="30"></Label>
+                                <!--<Label Text="Respect the society" x:Name="CompanyName" FontAttributes="Bold" TextColor="White" FontSize="30"></Label>-->
+                                <Label x:Name="lastCompanyNameLabel" FontAttributes="Bold" TextColor="White" FontSize="30"></Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Status:" TextColor="White" FontSize="17"></Label>
+                                <Label Text="Respect the society" x:Name="Status" FontAttributes="Bold" TextColor="White" FontSize="17"></Label>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Datum:" TextColor="White" FontSize="17"></Label>
+                                <!--<Label Text="Respect the society" x:Name="Date" FontAttributes="Bold" TextColor="White" FontSize="17"></Label>-->
+                                <Label x:Name="lastCompanyDateLabel" FontAttributes="Bold" TextColor="White" FontSize="17"></Label> 
+                            </StackLayout>
+                        </StackLayout>
+                        <Button BackgroundColor="Transparent" Grid.Row="0" CornerRadius="10" Clicked="bedrijfButton_Clicked"></Button>
+                    </Grid>
+                    <Label Text="Eerdere sollicitaties" TextColor="Black" FontAttributes="Bold" FontSize="Medium" Margin="10,0,10,0"></Label>
+
+                    <CollectionView x:Name="SollicitatieOverzichtCollectionView"
+                        Margin="10"
+                                ItemsSource="{x:Static data:CompanyData.Companies}"
+                                ItemTemplate="{StaticResource SollicitatieOverzichtTemplate}"
+                                SelectionMode="Single"
+                                SelectionChanged="SollicitatieOverzichtCollectionView_SelectionChanged">
+                    </CollectionView>
+                </StackLayout>
+            </ScrollView>
+            <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
+                <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="15, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 15, 5" Clicked="callButton_Clicked"></Button>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
+
