@@ -5,6 +5,7 @@ using TransLionApp.Controls;
 using TransLionApp.Data;
 using System.IO;
 using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 
 namespace TransLionApp
 {
@@ -26,7 +27,17 @@ namespace TransLionApp
             }
         }
 
+        public static MySqlConnection GetConnection()
+        {
+            string myConnectionString = "Server=translionhse.database.windows.net;User ID=lenavolkova;Password=translion2020!; Database = translionhse.TransLion.dbo; Connection Timeout=500;";
 
+            MySqlConnection conn = new MySqlConnection(myConnectionString);
+            conn.Open();
+            return conn;
+            
+            
+
+        }
 
         public static int ID
         {

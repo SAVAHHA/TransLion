@@ -15,8 +15,8 @@
         <ScrollView>
             <StackLayout Margin="10,0,10,0">
 
-                <Label Text="Peter de Groot" TextColor="Black" FontSize="Title" VerticalOptions="Center" FontAttributes="Bold"></Label>
-                <Label Text="Geboren op 17 maart 1974"  FontAttributes="Italic" TextColor="Black"></Label>
+                <Label Text="Peter de Groot" TextColor="#474747" FontSize="35" VerticalOptions="Center" FontAttributes="Bold"></Label>
+                <Label Text="Geboren op 17 maart 1974"  FontAttributes="Italic" TextColor="#474747"></Label>
 
                 <Frame CornerRadius="10" HasShadow="False"  BorderColor="LightGray">
                     <StackLayout Padding="0">

@@ -18,11 +18,11 @@
                 <StackLayout Margin="10,0,10,0">
                                        
                     <StackLayout Orientation="Horizontal" Spacing="0">
-                        <Label Text="Bedrijf " x:Name="CompanyName" FontAttributes="Bold" FontSize="35" TextColor="Black"></Label>
-                        <Label Text="{Binding Name}" FontSize="35"></Label>
+                        <Label Text="Bedrijf " x:Name="CompanyName" FontAttributes="Bold" FontSize="35" TextColor="#474747"></Label>
+                        <Label Text="{Binding Name}" TextColor="#474747" FontSize="35"></Label>
                     </StackLayout>
                     
-                    <Label Text="Medewerker Verkoop" FontSize="Medium" TextColor="Black" ></Label>
+                    
                     <Grid Padding="0,10,0,10">
                         <Grid.RowDefinitions>
                             <RowDefinition></RowDefinition>
