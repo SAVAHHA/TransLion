@@ -12,14 +12,14 @@
     </Shell.TitleView>
 
     <ContentPage.Content>
-        <Grid>
         <ScrollView Scrolled="ScrollView_Scrolled">
+            <Grid>
             <StackLayout>
-            <Label Margin="10,0,10,0" TextColor="Black" x:Name="UserNameLabel" Text="{x:Static local:App.NamePerson}" FontAttributes="Bold" FontSize="Large"></Label>
-            <Label Text="WIA-aanvraag" x:Name="testLabel" Margin="10"></Label>
+            <Label Margin="10,0,10,0" TextColor="#474747" x:Name="UserNameLabel" Text="{x:Static local:App.NamePerson}" FontAttributes="Bold" FontSize="35"></Label>
+            <Label Text="WIA-aanvraag" x:Name="testLabel" Margin="10,5,5,5"></Label>
         
 
-            <Frame BorderColor="#439aff" BackgroundColor="White" Margin="5,0,5,0" CornerRadius="5" HasShadow="False">
+            <Frame Margin="10,0,10,0" Padding="5,5,5,5" BorderColor="#439aff" BackgroundColor="White" CornerRadius="5" HasShadow="False">
                 <StackLayout Padding="0">
                     <Grid RowSpacing="0">
                         <Grid.RowDefinitions>
@@ -31,32 +31,35 @@
                         </Grid.ColumnDefinitions>
 
                         <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" >
-                            <Label Text="Status:" TextColor="#439aff" Margin="5"></Label>
+                            <Label Text="Status:" TextColor="#439aff" Margin="5,0,0,0"></Label>
+                            <Label HorizontalOptions="StartAndExpand" Text="aaaaa" TextColor="#439aff" FontAttributes="Bold" ></Label>
                         </StackLayout>
 
                         <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="0" >
-                            <Label Text="Datum:" TextColor="#439aff" Margin="5"></Label>
-                        </StackLayout>
+                            <Label Text="Datum:" TextColor="#439aff" Margin="5,0,0,0"></Label>
+                                    <Label HorizontalOptions="StartAndExpand" Text="bbbbbb" TextColor="#439aff" FontAttributes="Bold" ></Label>
+                                </StackLayout>
                         
                         
                     </Grid>
                 </StackLayout>
             </Frame>
 
-            <Label Text="Overige informatie" TextColor="Black" FontSize="Large" Margin="10"></Label>
+            <Label Text="Overige informatie" TextColor="#474747" FontSize="Large" Margin="10"></Label>
 
-            <Frame Margin="10,0,10,0" HasShadow="False" CornerRadius="5">
-                <Label Text="Lorem ipsum dolor sit amet, ..............." TextColor="Black"></Label>
+            <Frame Padding="10,5,10,5" Margin="10,0,10,0" BorderColor="#474747" BackgroundColor="Transparent"  HasShadow="False" CornerRadius="5">
+                        <Label TextColor="#474747" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." ></Label>
             </Frame>
             
         </StackLayout>
             
-        </ScrollView>
+        
             <Grid x:Name="PanelGrid"  VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
                 <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
                 <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="15, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
                 <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 15, 5" Clicked="callButton_Clicked"></Button>
             </Grid>
         </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -24,10 +24,10 @@
                         <Grid.RowDefinitions>
                             <RowDefinition Height="30"></RowDefinition>
                             <RowDefinition Height="20"></RowDefinition>
-                            <RowDefinition Height="105"></RowDefinition>
-                            <RowDefinition Height="40"></RowDefinition>
                             <RowDefinition Height="120"></RowDefinition>
-                            <RowDefinition Height="72"></RowDefinition>
+                            <RowDefinition Height="50"></RowDefinition>
+                            <RowDefinition Height="125"></RowDefinition>
+                            <RowDefinition Height="80"></RowDefinition>
                             <RowDefinition></RowDefinition>
                             <RowDefinition></RowDefinition>
                         </Grid.RowDefinitions>
@@ -37,8 +37,8 @@
                             <Label Text="!" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,0,0,5" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
                         </StackLayout>
                         <Label Grid.Row="1" Text="Het bestand 'Gegevens' is aan jouw account toegevoegd." TextColor="Black" Margin="5,0,0,0" BackgroundColor="Transparent"></Label>
-                        <Frame Grid.Row="2" WidthRequest="10" BackgroundColor="#f5f5f5" BorderColor="Transparent" CornerRadius="5" Padding="0,0,0,0" Margin="5,5,5,5">
-                            <Grid  Margin="0,0,0,0" RowSpacing="0" ColumnSpacing="0" BackgroundColor="Transparent" >
+                        <Frame Grid.Row="2" WidthRequest="10" BackgroundColor="#f5f5f5" BorderColor="Transparent" CornerRadius="5"  Margin="5,5,5,5" Padding="0,5,0,5">
+                            <Grid  Margin="0,0,0,0" Padding="0,0,0,5" RowSpacing="0" ColumnSpacing="0" BackgroundColor="Transparent" >
 
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="25"></RowDefinition>
@@ -65,8 +65,8 @@
                         <Button Grid.Row="3" Padding="0,0,0,0" Text="Bekijk nu de online sollicitatietips!" x:Name="bekijk" Clicked="bekijk_Clicked" CornerRadius="5" TextColor="White" BackgroundColor="#439aff" Margin="5,5,5,5"></Button>
 
                         <Frame Grid.Row="4" WidthRequest="10" BackgroundColor="#ffb63e" BorderColor="Transparent" CornerRadius="5" Padding="0,0,0,0" Margin="5,5,5,5">
-                        <StackLayout Grid.Row="4" BackgroundColor="#ffb63e">
-                            <Grid BackgroundColor="Transparent" RowSpacing="0">
+                        <StackLayout Grid.Row="4" BackgroundColor="#ffb63e" Padding="0,0,0,10">
+                            <Grid BackgroundColor="Transparent" RowSpacing="0" >
                                 <Grid.RowDefinitions>
                                     <RowDefinition></RowDefinition>
                                     <RowDefinition></RowDefinition>
@@ -94,7 +94,7 @@
                         </Button>
 
                         <Frame WidthRequest="10" Grid.Row="5" BorderColor="#439aff"  Padding="0,0,0,0" BackgroundColor="White" Margin="5,5,5,0" CornerRadius="5" HasShadow="False">
-                            <StackLayout BackgroundColor="Transparent">
+                            <StackLayout BackgroundColor="Transparent" Padding="0,0,0,10">
                                 <Label  Text="Jouw WIA-aanvraag" TextColor="#439aff" BackgroundColor="Transparent" Margin="5,5,0,0" ></Label>
                                 <Grid BackgroundColor="Transparent" Margin="0,0,0,0" RowSpacing="0" ColumnSpacing="0">
                                     <Grid.RowDefinitions>
