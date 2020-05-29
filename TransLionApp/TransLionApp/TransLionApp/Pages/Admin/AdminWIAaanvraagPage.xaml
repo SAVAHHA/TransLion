@@ -31,15 +31,14 @@
                     <RowDefinition Height="20"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="250"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0"
+                <Label Grid.Row="0" Grid.Column="0"
                        Text="{Binding NamePerson}"
                        FontAttributes="Bold"></Label>
 
-                <Label Grid.Row="1"
+                <Label Grid.Row="1" Grid.Column="0"
                        Text="{Binding Login}"></Label>
 
             </Grid>
@@ -54,7 +53,7 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Image Source="ic_action_delete_outline" HorizontalOptions="End" VerticalOptions="Center"></Image>
+                <Image Source="ic_action_delete_outline" HorizontalOptions="End" VerticalOptions="Center" Grid.Column="0" Grid.Row="0"></Image>
 
             </Grid>
         </DataTemplate>
@@ -99,6 +98,7 @@
 
                     <CollectionView x:Name="BinsCollectionView"
                                     ItemTemplate="{StaticResource BinTemplate}"
+                                    SelectionChanged="BinsCollectionView_SelectionChanged"
                                     SelectionMode="Single"></CollectionView>
                                     
                 </StackLayout>
