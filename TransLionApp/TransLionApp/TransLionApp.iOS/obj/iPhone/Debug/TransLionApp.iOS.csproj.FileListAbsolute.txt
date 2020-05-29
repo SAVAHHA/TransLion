@@ -219,3 +219,4 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Buffers.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Memory.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Microsoft.Data.Sqlite.dll
