@@ -35,11 +35,14 @@
                     <Label Text=" / Datum: "
                            TextColor="#474747"
                            FontAttributes="Italic"></Label>
+                    <Label Text="{Binding UserDate}"
+                           TextColor="#474747"
+                           FontAttributes="Italic"></Label>
                 </StackLayout>
             </Grid>
         </DataTemplate>
 
-        <DataTemplate x:Key="UserTemplate">
+        <!--<DataTemplate x:Key="UserTemplate">
             <Grid Padding="5">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>
@@ -57,10 +60,10 @@
                     <Label Text="{Binding NamePerson}" TextColor="#474747"></Label>
                 </StackLayout>
 
-                <!--<Label Grid.Row="1"
-                       Text="{Binding Login}"></Label>-->
+                --><!--<Label Grid.Row="1"
+                       Text="{Binding Login}"></Label>--><!--
             </Grid>
-        </DataTemplate>
+        </DataTemplate>-->
     </ContentPage.Resources>
     <ContentPage.Content>
         <Grid RowSpacing="0">
@@ -76,7 +79,8 @@
                             <Label Text="Jouw laatste sollicitatie" TextColor="White" FontSize="17"></Label>
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Bedrijf" FontAttributes="Bold" TextColor="White" FontSize="30"></Label>
-                                <Label Text="Respect the society" x:Name="CompanyName" FontAttributes="Bold" TextColor="White" FontSize="30"></Label>
+                                <!--<Label Text="Respect the society" x:Name="CompanyName" FontAttributes="Bold" TextColor="White" FontSize="30"></Label>-->
+                                <Label x:Name="lastCompanyNameLabel" FontAttributes="Bold" TextColor="White" FontSize="30"></Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Status:" TextColor="White" FontSize="17"></Label>
@@ -84,7 +88,8 @@
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Datum:" TextColor="White" FontSize="17"></Label>
-                                <Label Text="Respect the society" x:Name="Date" FontAttributes="Bold" TextColor="White" FontSize="17"></Label>
+                                <!--<Label Text="Respect the society" x:Name="Date" FontAttributes="Bold" TextColor="White" FontSize="17"></Label>-->
+                                <Label x:Name="lastCompanyDateLabel" FontAttributes="Bold" TextColor="White" FontSize="17"></Label> 
                             </StackLayout>
                         </StackLayout>
                         <Button BackgroundColor="Transparent" Grid.Row="0" CornerRadius="10" Clicked="bedrijfButton_Clicked"></Button>

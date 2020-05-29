@@ -10,15 +10,15 @@ namespace TransLionApp
 {
     public partial class App : Application
     {
-        public const string DATABASE_NAME = "tablepeople.db";
-        static TablePeople database;
-        public static TablePeople Database
+        public const string DATABASE_NAME = "tablepeoplelocal.db";
+        static TablePeopleLocal database;
+        public static TablePeopleLocal Database
         {
             get
             {
                 if (database == null)
                 {
-                    database = new TablePeople(
+                    database = new TablePeopleLocal(
                         Path.Combine(
                             Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), DATABASE_NAME));
                 }

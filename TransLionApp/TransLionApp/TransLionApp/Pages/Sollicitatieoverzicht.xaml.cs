@@ -22,18 +22,6 @@ namespace TransLionApp.Pages
         public Sollicitatieoverzicht()
         {
             InitializeComponent();
-            //var Companies = from _company in CompanyData.Companies    
-            //                  select _company;
-
-            //List<CompanyInfo> companiesList = new List<CompanyInfo>();
-
-            //for (int i = 1; i < Companies.Count(); i++)
-            //{
-            //    var _company = Companies.ElementAt(i);
-            //    companiesList.Add(_company);
-            //}
-
-            //SollicitatieOverzichtCollectionView.ItemsSource = companiesList;
 
             var lastCompany = new CompanyInfo();
             var CompanySorted = from _company in CompanyData.Companies
@@ -44,18 +32,18 @@ namespace TransLionApp.Pages
                 lastCompany = _company;
                 break;
             }
-            latestUserNameLabel.Text = lastUser.NamePerson;
-            lastUserDateLabel.Text = lastUser.LastDateOfWatching.ToString();
+            lastCompanyNameLabel.Text = lastCompany.Name;
+            lastCompanyDateLabel.Text = lastCompany.UserDate.ToString();
 
             SortedCompanies = new List<CompanyInfo>();
 
-            for (int i = 1; i < UsersSorted.Count(); i++)
+            for (int i = 1; i < CompanySorted.Count(); i++)
             {
-                var _user = UsersSorted.ElementAt(i);
-                SortedUsers.Add(_user);
+                var _user = CompanySorted.ElementAt(i);
+                SortedCompanies.Add(_user);
             }
 
-            WIAusersCollectionView.ItemsSource = SortedUsers;
+            SollicitatieOverzichtCollectionView.ItemsSource = SortedCompanies;
 
         }
 
@@ -114,19 +102,14 @@ namespace TransLionApp.Pages
 
         private async void bedrijfButton_Clicked(object sender, EventArgs e)
         {
-            //string Name = (e.CurrentSelection.FirstOrDefault() as CompanyInfo).Name;
-           // await Shell.Current.GoToAsync("bedrijf?");
+            string Name = lastCompanyNameLabel.Text;
+            await Shell.Current.GoToAsync($"bedrijf?companyname={Name}");
         }
 
         private async void SollicitatieOverzichtCollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             string Name = (e.CurrentSelection.FirstOrDefault() as CompanyInfo).Name;
-            //await DisplayAlert(Name, "", "O");
-            //var Company = e.CurrentSelection as CompanyInfo;
-            //string Name = Company.Name; 
             await Shell.Current.GoToAsync($"bedrijf?companyname={Name}"); 
-
-
         }
     }
 
