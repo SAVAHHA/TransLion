@@ -14,24 +14,48 @@ namespace TransLionApp.Pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Sollicitatieoverzicht : ContentPage
     {
+        public IList<CompanyInfo> SortedCompanies { get; set; }
+
         private double lastScrollPoint = 0;
         private bool translating = false;
         private bool isVisible = true;
         public Sollicitatieoverzicht()
         {
             InitializeComponent();
-            var Companies = from _company in CompanyData.Companies    
-                              select _company;
+            //var Companies = from _company in CompanyData.Companies    
+            //                  select _company;
 
-            List<CompanyInfo> companiesList = new List<CompanyInfo>();
+            //List<CompanyInfo> companiesList = new List<CompanyInfo>();
 
-            for (int i = 1; i < Companies.Count(); i++)
+            //for (int i = 1; i < Companies.Count(); i++)
+            //{
+            //    var _company = Companies.ElementAt(i);
+            //    companiesList.Add(_company);
+            //}
+
+            //SollicitatieOverzichtCollectionView.ItemsSource = companiesList;
+
+            var lastCompany = new CompanyInfo();
+            var CompanySorted = from _company in CompanyData.Companies
+                          orderby _company.UserDate descending
+                          select _company;
+            foreach (var _company in CompanySorted)
             {
-                var _company = Companies.ElementAt(i);
-                companiesList.Add(_company);
+                lastCompany = _company;
+                break;
+            }
+            latestUserNameLabel.Text = lastUser.NamePerson;
+            lastUserDateLabel.Text = lastUser.LastDateOfWatching.ToString();
+
+            SortedCompanies = new List<CompanyInfo>();
+
+            for (int i = 1; i < UsersSorted.Count(); i++)
+            {
+                var _user = UsersSorted.ElementAt(i);
+                SortedUsers.Add(_user);
             }
 
-            SollicitatieOverzichtCollectionView.ItemsSource = companiesList;
+            WIAusersCollectionView.ItemsSource = SortedUsers;
 
         }
 
@@ -90,14 +114,17 @@ namespace TransLionApp.Pages
 
         private async void bedrijfButton_Clicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("///bedrijf");
+            //string Name = (e.CurrentSelection.FirstOrDefault() as CompanyInfo).Name;
+           // await Shell.Current.GoToAsync("bedrijf?");
         }
 
         private async void SollicitatieOverzichtCollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var Company = e.CurrentSelection as CompanyInfo;
-            string Name = Company.Name; 
-            await Shell.Current.GoToAsync($"companydetail?companyname={Name}"); 
+            string Name = (e.CurrentSelection.FirstOrDefault() as CompanyInfo).Name;
+            //await DisplayAlert(Name, "", "O");
+            //var Company = e.CurrentSelection as CompanyInfo;
+            //string Name = Company.Name; 
+            await Shell.Current.GoToAsync($"bedrijf?companyname={Name}"); 
 
 
         }

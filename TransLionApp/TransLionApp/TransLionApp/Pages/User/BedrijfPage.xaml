@@ -16,8 +16,11 @@
         <Grid RowSpacing="0">
             <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
                 <StackLayout Margin="10,0,10,0">
-                   
-                    <Label Text="Bedrijf X" x:Name="CompanyName" FontAttributes="Bold" FontSize="35" TextColor="Black"></Label>
+                                       
+                    <StackLayout Orientation="Horizontal" Spacing="0">
+                        <Label Text="Bedrijf " x:Name="CompanyName" FontAttributes="Bold" FontSize="35" TextColor="Black"></Label>
+                        <Label Text="{Binding Name}" FontSize="35"></Label>
+                    </StackLayout>
                     
                     <Label Text="Medewerker Verkoop" FontSize="Medium" TextColor="Black" ></Label>
                     <Grid Padding="0,10,0,10">

@@ -6,12 +6,38 @@ using Plugin.Messaging;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using TransLionApp;
+using TransLionApp.Data;
+using System.Linq;
 
 namespace TransLionApp.Pages.User
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
+    [QueryProperty("CName", "companyname")]
     public partial class BedrijfPage : ContentPage
     {
+        public string CName
+        {
+            set
+            {
+                BindingContext = CompanyData.Companies.FirstOrDefault(m => m.Name == Uri.UnescapeDataString(value));
+            }
+        }
+
+
+        //public string _companyName;
+        //public string CompanyName
+        //{
+        //    set
+        //    {
+        //        BindingContext = CompanyData.Companies.FirstOrDefault(m => m.Name == Uri.UnescapeDataString(value));
+        //        //_companyName = Uri.UnescapeDataString(value);
+        //    }
+        //    //get
+        //    //{
+
+        //    //    return _companyName;
+        //    //}
+        //}
         private double lastScrollPoint = 0;
         private bool translating = false;
         private bool isVisible = true;

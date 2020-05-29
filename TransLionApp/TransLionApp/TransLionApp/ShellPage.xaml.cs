@@ -37,6 +37,7 @@ namespace TransLionApp
             Routing.RegisterRoute("wiadetail", typeof(WIADetailPage));
             Routing.RegisterRoute("companydetail", typeof(CompanyDetailPage));
             Routing.RegisterRoute("companyedit", typeof(CompanyEdit));
+            Routing.RegisterRoute("bedrijf", typeof(BedrijfPage));
             InitializeComponent();
 
             if (App.Login != "")
@@ -134,20 +135,20 @@ namespace TransLionApp
 
             });
 
-            Items.Add(new FlyoutItem
-            {
-                Title = "Bedrijf",
-                IsEnabled = true,
-                Route = "bedrijf",
-                Items =
-                {
-                    new Tab
-                    {
-                        Items = { new ShellContent {Content = new BedrijfPage()} }
-                    }
-                }
+            //Items.Add(new FlyoutItem
+            //{
+            //    Title = "Bedrijf",
+            //    IsEnabled = true,
+            //    Route = "bedrijf",
+            //    Items =
+            //    {
+            //        new Tab
+            //        {
+            //            Items = { new ShellContent {Content = new BedrijfPage()} }
+            //        }
+            //    }
 
-            });
+            //});
 
             Items.Add(new FlyoutItem
             {
