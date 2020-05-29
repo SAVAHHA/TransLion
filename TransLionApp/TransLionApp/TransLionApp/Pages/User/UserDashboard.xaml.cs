@@ -9,6 +9,7 @@ using Plugin.Messaging;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using TransLionApp;
+using System.Data.Common;
 
 namespace TransLionApp.Pages.User
 {
@@ -22,20 +23,29 @@ namespace TransLionApp.Pages.User
         public UserDashboard()
         {
             string login = "kleshenkoaa";
-            string name = "Anna";
-            InitializeComponent();
             
+            InitializeComponent();
+            //string myConnectionString = "Server=www.db4free.net;Port=3306;User Id=translion;Password=translion2020;Database=translion;OldGuids=True";
+            //        MySqlConnection connection = new MySqlConnection(myConnectionString);
+            //        connection.Open();
+            //        MySqlCommand newCommand1 = new MySqlCommand("SET GLOBAL connect_timeout=28800", connection);
+            //        MySqlCommand newCommand = new MySqlCommand("SELECT * FROM Entry WHERE Login=@login", connection);
+            //        newCommand.Parameters.AddWithValue("@login", login);
+            //        MySqlDataReader mySqlDataReader = newCommand.ExecuteReader();
             //string query1 = "CREATE TABLE Company(CompanyKey INTEGER NOT NULL,Name CHAR(30) NULL,Email CHAR(30) NULL,Adress CHAR(50) NULL,PersonName CHAR(30) NULL,Phone CHAR(11) NULL,Postcode CHAR(6) NULL,City CHAR(30) NULL);ALTER TABLE Company ADD CONSTRAINT XPKCompany PRIMARY KEY(CompanyKey);CREATE TABLE Entry(EntryKey CHAR(18) NOT NULL,Login CHAR(18) NULL,Password CHAR(18) NULL,UserKey INTEGER NOT NULL,AdminKey INTEGER NOT NULL); ALTER TABLE Entry ADD CONSTRAINT XPKEntry PRIMARY KEY(EntryKey, UserKey, AdminKey); CREATE TABLE StatusKey(StatusKey INTEGER NOT NULL,Name CHAR(18) NULL);ALTER TABLE StatusKey ADD CONSTRAINT XPKStatusKey PRIMARY KEY(StatusKey); CREATE TABLE UserInfo2(Doc1 CHAR(50) NULL,Doc2 CHAR(50) NULL,Doc3 CHAR(50) NULL,Password CHAR(18) NULL,Name CHAR(30) NULL, FirstDayOfSickness DATE NULL,LastDayOfSickness DATE NULL,LastGuidanceDay DATE NULL,CompanyName CHAR(30) NULL,CompanyDate DATE NULL,WIADate DATE NULL,WIAStatusKey INTEGER NULL,CompanyStatusKey INTEGER NULL,Login CHAR(30) NULL,UserKey INTEGER NOT NULL); ALTER TABLE UserInfo2 ADD CONSTRAINT XPKUserInfo2 PRIMARY KEY(UserKey); ALTER TABLE Entry ADD CONSTRAINT R_23 FOREIGN KEY(UserKey) REFERENCES UserInfo2(UserKey); ALTER TABLE UserInfo2 ADD CONSTRAINT R_16 FOREIGN KEY(WIAStatusKey) REFERENCES StatusKey(StatusKey); ALTER TABLE UserInfo2 ADD CONSTRAINT R_17 FOREIGN KEY(WIAStatusKey) REFERENCES StatusKey(StatusKey); ALTER TABLE UserInfo2 ADD CONSTRAINT R_18 FOREIGN KEY(CompanyStatusKey) REFERENCES StatusKey(StatusKey); ";
-            string getinfo = "SELECT Name FROM UserInfo2 WHERE Login =" + login;
+            string getinfo = "SELECT Name FROM StatusKey WHERE StatusKey.StatusKey=1";
+            
+            string myConnectionString = "Server=translionhse.database.windows.net;User ID=lenavolkova;Password=translion2020!; Database = translionhse.TransLion.dbo; Connection Timeout=200;";
 
-            //string myConnectionString = "Server=www.db4free.net;Port=3306;User Id=translion_annak;Password=09262000;Database=translion_db;OldGuids=True";
-            //MySqlConnection conn = new MySqlConnection(myConnectionString);
-            //conn.Open();
-            //MySqlCommand command = new MySqlCommand(getinfo, conn); 
-            //string name = command.ExecuteScalar().ToString();      
-            //conn.Close();
+            //string s1 = "Server=tcp:translionhse.database.windows.net,1433;Database=TransLion;Uid=lenavolkova;Pwd=translion2020!;Connection Timeout=200;";
+            MySqlConnection conn = new MySqlConnection(myConnectionString);
+            conn.Open();
+            MySqlCommand command = new MySqlCommand(getinfo, conn);
+            string result = command.ExecuteReader().ToString();
+            conn.Close();
 
-           
+
+
         }
 
         private void emailButton_Clicked(object sender, EventArgs e)

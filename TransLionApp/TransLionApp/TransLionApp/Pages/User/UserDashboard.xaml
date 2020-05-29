@@ -109,7 +109,7 @@
 
                                     <Label Grid.Column="0" Grid.Row="0" Text="Status:" TextColor="#439aff" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
                                     <Label Grid.Column="0" Grid.Row="1" Text="Datum:" TextColor="#439aff" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
-                                    <Label Grid.Column="1" Grid.Row="0" Text="Geaccepteerd" FontAttributes="Bold" TextColor="#439aff"  Margin="5,0,0,0"></Label>
+                                    <Label Grid.Column="1" Grid.Row="0" x:Name="StatusLabel" FontAttributes="Bold" TextColor="#439aff"  Margin="5,0,0,0"></Label>
                                     <Label Grid.Column="1" Grid.Row="1" Text="24-04-2020" FontAttributes="Bold" TextColor="#439aff" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
                                 </Grid>
                             </StackLayout>
