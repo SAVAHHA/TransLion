@@ -38,13 +38,15 @@ namespace TransLionApp.Pages
             listTips.Add(listtip);
             listTips.Add(listtip);
             SollicitatieTipsCollectionView.ItemsSource = listTips;
-
-
+            
+            
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
+        
 
+        public void buttonmore_Clicked(object sender, EventArgs e)
+        {
+           
         }
         //читаем из файла TipsMockup
         //public static List<List<string>> GetSollicitatieTips() 

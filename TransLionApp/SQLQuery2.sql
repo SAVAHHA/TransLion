@@ -1,0 +1,1 @@
+﻿select Name from StatusKey where StatusKey.StatusKey=1
