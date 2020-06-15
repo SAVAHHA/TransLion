@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qf05npms2Q48mDMHMTC6ewHdk51D87qEhxNFptWC5kxXOadZSg7RYjFSbgYIhJXJIsWuWJnPtKUuWxzOPXGo3w==",
+  "dgSpecHash": "NYhSDMMAjDhhbGidW0Ju0L3xIMCddPERGi5a9uOLv3ILPC3CPVb5tleS3O3X0XDDDG82Xj2XB4bnkhp02JBPtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\microsoft.data.sqlite.core\\3.1.4\\microsoft.data.sqlite.core.3.1.4.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

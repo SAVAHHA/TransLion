@@ -15,6 +15,9 @@ namespace TransLionApp.Pages.User
     [QueryProperty("UserLogin", "userlogin")]
     public partial class Mijngegevens : ContentPage
     {
+        private double lastScrollPoint = 0;
+        private bool translating = false;
+        private bool isVisible = true;
         public string _userLogin;
         public string UserLogin
         {
@@ -32,6 +35,12 @@ namespace TransLionApp.Pages.User
         public Mijngegevens()
         {
             InitializeComponent();
+        }
+
+        private void linkedinButton0_Clicked(object sender, EventArgs e)
+        {
+            Uri siteUri = new Uri("https://www.linkedin.com/company/trans-lion");
+            Launcher.OpenAsync(siteUri);
         }
 
         private void emailButton_Clicked(object sender, EventArgs e)
@@ -58,5 +67,32 @@ namespace TransLionApp.Pages.User
             Launcher.OpenAsync(siteUri);
         }
 
+        private async void ScrollView_Scrolled(object sender, ScrolledEventArgs e)
+        {
+            if (translating)
+                return;
+            uint mills = 100;
+            translating = true;
+            if (e.ScrollY > lastScrollPoint)
+            {
+                // hide
+                if (isVisible)
+                {
+                    await PanelGrid.TranslateTo(PanelGrid.TranslationX, PanelGrid.TranslationY + PanelGrid.HeightRequest, mills);
+                    isVisible = false;
+                }
+            }
+            else
+            {
+                // show
+                if (!isVisible)
+                {
+                    await PanelGrid.TranslateTo(PanelGrid.TranslationX, PanelGrid.TranslationY - PanelGrid.HeightRequest, mills);
+                    isVisible = true;
+                }
+            }
+            lastScrollPoint = e.ScrollY;
+            translating = false;
+        }
     }
 }

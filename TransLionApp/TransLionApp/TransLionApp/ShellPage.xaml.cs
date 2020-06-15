@@ -45,25 +45,16 @@ namespace TransLionApp
                 if (App.Type == "user")
                 {
                     UserPart();
-                    //CurrentItem = UserDashboard;
                 }
                 else
                 {
                     AdminPart();
-                    //CurrentItem = AdminDashboard;
                 }
             }
 
-            //R();
             CurrentItem = HomePage;
             BackgroundColor = Color.White;
             BindingContext = this;
-        }
-
-        private async void R()
-        {
-            var y = App.Database.GetUserAsync(App.ID).Result;
-            await DisplayAlert(App.ID.ToString(), App.NamePerson, "OK");
         }
 
         protected override void OnAppearing()
@@ -109,7 +100,7 @@ namespace TransLionApp
 
                 Title = "Dashboard",
                 IsEnabled = true,
-                Route = "dashboard",
+                Route = "dashboardUser",
                 Items =
                 {
                     new Tab
@@ -134,21 +125,6 @@ namespace TransLionApp
                 }
 
             });
-
-            //Items.Add(new FlyoutItem
-            //{
-            //    Title = "Bedrijf",
-            //    IsEnabled = true,
-            //    Route = "bedrijf",
-            //    Items =
-            //    {
-            //        new Tab
-            //        {
-            //            Items = { new ShellContent {Content = new BedrijfPage()} }
-            //        }
-            //    }
-
-            //});
 
             Items.Add(new FlyoutItem
             {
@@ -357,9 +333,6 @@ namespace TransLionApp
                 }
 
             });
-            //CurrentItem = "//dashboard";
-            //await Shell.Current.GoToAsync("//dashboard");
-            //Shell.Current 
         }
 
         public void AdminPart()
@@ -385,7 +358,7 @@ namespace TransLionApp
             {
                 Title = "Dashboard",
                 IsEnabled = true,
-                Route = "dashboard",
+                Route = "dashboardAdmin",
                 Items =
                 {
                     new Tab

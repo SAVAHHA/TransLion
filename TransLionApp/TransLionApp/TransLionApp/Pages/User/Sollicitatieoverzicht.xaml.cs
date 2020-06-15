@@ -23,6 +23,11 @@ namespace TransLionApp.Pages.User
         {
             InitializeComponent();
 
+            if (App.Type == "admin")
+            {
+                MainGrid.Children.Remove(PanelGrid);
+            }
+
             var lastCompany = new CompanyInfo();
             var CompanySorted = from _company in CompanyData.Companies
                           orderby _company.UserDate descending

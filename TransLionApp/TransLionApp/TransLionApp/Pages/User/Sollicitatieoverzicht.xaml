@@ -82,7 +82,7 @@
         </DataTemplate>-->
     </ContentPage.Resources>
     <ContentPage.Content>
-        <Grid RowSpacing="0">
+        <Grid RowSpacing="0" x:Name="MainGrid">
             <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
                 <StackLayout Margin="10,10,10,0">
                     <Label Text="Sollicitatieoverzicht" FontSize="Large" FontAttributes="Bold" TextColor="Black"></Label>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gl18w4iPLxqBrX+921Fm/CP2+NY+nes11VOpZeeLLqcCmhL87bk6ncyST3cTBBjYtq1k3m2ZZo2widIEDvASNw==",
+  "dgSpecHash": "m9HNxV5K23VOYrtJiiUQzsK6jpWvIvJbDdkE6pch0Vucb/AmAv/iOTJK7ua5JFwCjvqEd7/0fwYwnaSAE1izQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anna\\source\\repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anna\\.nuget\\packages\\microsoft.data.sqlite.core\\3.1.4\\microsoft.data.sqlite.core.3.1.4.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\mysqlconnector\\0.64.2\\mysqlconnector.0.64.2.nupkg.sha512",

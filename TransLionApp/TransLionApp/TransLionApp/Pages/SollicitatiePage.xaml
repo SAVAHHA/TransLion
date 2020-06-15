@@ -12,93 +12,22 @@
     <Shell.TitleView>
         <view:BarView/>
     </Shell.TitleView>
+    
+    
     <ContentPage.Resources>
         <DataTemplate x:Key="SollicitatietipsTipTemplate" x:Name="SollicitatietipsTipTemplateName">
             <ScrollView>
                 <StackLayout Spacing="10">
-            <Frame  CornerRadius="5" BorderColor="#717171" Opacity="50"  BackgroundColor="Transparent" Padding="0,0,0,0" Margin="0,5,0,5">
-                <Grid RowSpacing="0">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="40"></RowDefinition>
-                        <RowDefinition Height="112" x:Name="row1"></RowDefinition>
-                        <RowDefinition></RowDefinition>
-                    </Grid.RowDefinitions>
-                    <StackLayout Grid.Row="0" Orientation="Horizontal" >
-                        <Label TextColor="#474747" Text="1. Title Tip" FontSize="Large"  Margin="5,5,0,0"></Label>
-                        <Button HorizontalOptions="EndAndExpand" x:Name="redactingTipsButton" ImageSource="ic_action_create.png" BackgroundColor="Transparent">
-                            <Button.Triggers>
-                                <DataTrigger TargetType="Button"
-                                                Binding="{Binding Source={x:Static local:App.Type}, Path=App.Type}"
-                                                 
-                                                Value="user">
-                                    <Setter Property="IsEnabled" Value="True"/>
-                                    <Setter Property="IsVisible" Value="False"/>
-                                </DataTrigger>
-
-                            </Button.Triggers>
-                        </Button>
-                    </StackLayout>
-                    <StackLayout Grid.Row="1" Spacing="0" >
-                        <Label HeightRequest="89" Padding="5,5,5,0" Margin="5,0,0,0" Grid.Row="1" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." >
-                           
-                        </Label>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition x:Name="column1"  Width="80"></ColumnDefinition>
-                                <ColumnDefinition ></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
+                    <Frame  CornerRadius="5" BorderColor="#717171" Opacity="50"  BackgroundColor="Transparent" Padding="0,0,0,0" Margin="0,5,0,5">
+                        <Grid RowSpacing="0">
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="15"></RowDefinition>
-                            </Grid.RowDefinitions>
-                            <Button Padding="7,0,0,0" Grid.Column="0" Clicked="buttonmore_Clicked" BackgroundColor="Transparent" x:Name="buttonmore" Text="lees meer..." FontAttributes="Italic"  TextColor="#439aff"  Margin="2,0,0,0"></Button>
-
-                        </Grid>
-                    </StackLayout>
-                </Grid>
-            </Frame>
-            
-                </StackLayout>
-            </ScrollView>
-        </DataTemplate>
-
-        
-    </ContentPage.Resources>
-
-
-    <ContentPage.Content>
-        <ScrollView Padding="0" >
-            <StackLayout Margin="5,0,5,0" Spacing="10" VerticalOptions="Fill" >
-
-                <Label TextColor="#474747" FontSize="35" Text="Sollicitatietips" FontAttributes="Bold" Margin="10,0,10,0" ></Label>
-                <!-- <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition></RowDefinition>
-                            <RowDefinition></RowDefinition>
-                            <RowDefinition></RowDefinition>
-                        </Grid.RowDefinitions>
-                </Grid>-->
-
-                <CollectionView x:Name="SollicitatieTipsCollectionView"
-                        Margin="10" 
-                                ItemTemplate="{StaticResource SollicitatietipsTipTemplate}"
-                                SelectionMode="None" >
-                </CollectionView>
-                
-            </StackLayout>
-        </ScrollView>
-    </ContentPage.Content>
-</ContentPage>
-<!-- <Frame Grid.Row="0" CornerRadius="10" BackgroundColor="Transparent" Padding="0,0,0,0" Margin="5,0,5,0">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition></RowDefinition>
-                                <RowDefinition Height="90"></RowDefinition>
+                                <RowDefinition Height="40"></RowDefinition>
+                                <RowDefinition Height="112" x:Name="row1"></RowDefinition>
                                 <RowDefinition></RowDefinition>
                             </Grid.RowDefinitions>
-                            <StackLayout Grid.Row="0" Orientation="Horizontal">
-                                <Label  TextColor="Black" Text="1. Title Tip" FontSize="Large"  Margin="5,5,0,0"></Label>
-                                <Button x:Name="redactingTipsButton" ImageSource="ic_action_create.png" >
-
+                            <StackLayout Grid.Row="0" Orientation="Horizontal" >
+                                <Label TextColor="#474747" Text="1. Title Tip" FontSize="Large"  Margin="5,5,0,0"></Label>
+                                <!--<Button HorizontalOptions="EndAndExpand" x:Name="redactingTipsButton" ImageSource="ic_action_create.png" BackgroundColor="Transparent">
                                     <Button.Triggers>
                                         <DataTrigger TargetType="Button"
                                                 Binding="{Binding Source={x:Static local:App.Type}, Path=App.Type}"
@@ -109,38 +38,57 @@
                                         </DataTrigger>
 
                                     </Button.Triggers>
-                                </Button>
+                                </Button>-->
                             </StackLayout>
-                            <Label Grid.Row="1" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." Margin="5,0,0,5"></Label>
-                            <Label Grid.Row="2" Text="lees meer" FontAttributes="Italic" TextColor="#439aff"  Margin="5,0,0,0"></Label>
+                            <StackLayout Grid.Row="1" Spacing="0" >
+                                <Label HeightRequest="89" Padding="5,5,5,0" Margin="5,0,0,0" Grid.Row="1" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." >
+
+                                </Label>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition x:Name="column1"  Width="80"></ColumnDefinition>
+                                        <ColumnDefinition ></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="15"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Button Padding="7,0,0,0" Grid.Column="0" Clicked="buttonmore_Clicked" BackgroundColor="Transparent" x:Name="buttonmore" Text="lees meer..." FontAttributes="Italic"  TextColor="#439aff"  Margin="2,0,0,0"></Button>
+
+                                </Grid>
+                            </StackLayout>
                         </Grid>
                     </Frame>
 
+                </StackLayout>
+            </ScrollView>
+        </DataTemplate>
 
 
-                    <Frame Grid.Row="1" CornerRadius="10" BackgroundColor="Transparent" Padding="0,0,0,0" Margin="5,0,5,0">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition></RowDefinition>
-                                <RowDefinition Height="90"></RowDefinition>
-                                <RowDefinition></RowDefinition>
-                            </Grid.RowDefinitions>
-                            <Label Grid.Row="0" TextColor="Black" Text="2. Title Tip" FontSize="Large"  Margin="5,5,0,0"></Label>
-                            <Label Grid.Row="1" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." Margin="5,0,0,5"></Label>
-                            <Label Grid.Row="2" Text="lees meer" FontAttributes="Italic" TextColor="#439aff"  Margin="5,0,0,0"></Label>
-                        </Grid>
-                    </Frame>
+    </ContentPage.Resources>
 
-                    <Frame Grid.Row="2" CornerRadius="10" BackgroundColor="Transparent" Padding="0,0,0,0" Margin="5,0,5,0">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition></RowDefinition>
-                                <RowDefinition Height="90"></RowDefinition>
-                                <RowDefinition></RowDefinition>
-                            </Grid.RowDefinitions>
-                            <Label Grid.Row="0" TextColor="Black" Text="3. Title Tip" FontSize="Large"  Margin="5,5,0,0"></Label>
-                            <Label Grid.Row="1" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." Margin="5,0,0,5"></Label>
-                            <Label Grid.Row="2" Text="lees meer" FontAttributes="Italic" TextColor="LightBlue"  Margin="5,0,0,0"></Label>
-                        </Grid>
-                    </Frame>-->
+
+    <ContentPage.Content>
+        <Grid>
+            <ScrollView Padding="0"  Grid.Row="0"  Scrolled="ScrollView_Scrolled">
+                <StackLayout Margin="5,0,5,0" Spacing="10" VerticalOptions="Fill" >
+
+                    <Label TextColor="#474747" FontSize="35" Text="Sollicitatietips" FontAttributes="Bold" Margin="10,0,10,0" ></Label>
+
+                    <CollectionView x:Name="SollicitatieTipsCollectionView"
+                        Margin="10" 
+                                ItemTemplate="{StaticResource SollicitatietipsTipTemplate}"
+                                SelectionMode="None" >
+                    </CollectionView>
+
+                </StackLayout>
+            </ScrollView>
+
+            <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
+                <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="15, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 15, 5" Clicked="callButton_Clicked"></Button>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
         
