@@ -74,7 +74,7 @@
     <EmbeddedResource Update="Views\UserDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="UserEdit.xaml">
+    <EmbeddedResource Update="Views\UserEdit.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\WIADetailPage.xaml">
