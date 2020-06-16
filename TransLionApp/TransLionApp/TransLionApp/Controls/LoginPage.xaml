@@ -16,7 +16,7 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Frame BackgroundColor="White" VerticalOptions="Fill" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="0"></Frame>
+                <Frame BackgroundColor="White" VerticalOptions="Fill" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="0" HasShadow="True"></Frame>
                 <StackLayout Spacing="0" Grid.Column="0" Grid.Row="0">
                     <Label Text="Trans Lion" TextColor="Silver" HorizontalTextAlignment="End"
                            FontSize="25" Margin="0, 0, 12, 0"
@@ -38,10 +38,10 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Frame BackgroundColor="White" BorderColor="Gray" HasShadow="True" CornerRadius="10" Margin="10" VerticalOptions="Fill" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="0"></Frame>
+                <Frame BackgroundColor="White" BorderColor="Gray" HasShadow="False" CornerRadius="10" Margin="10" VerticalOptions="Fill" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="0"></Frame>
                 <Entry x:Name="loginEntry" Text="Login" Focused="loginEntry_Focused" VerticalOptions="Center" FontSize="15" TextColor="Gray" Margin="15,0,15,0" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="0"></Entry>
 
-                <Frame BackgroundColor="White" BorderColor="Gray" HasShadow="True" CornerRadius="10" Margin="10" Grid.Column="0" Grid.Row="1"></Frame>
+                <Frame BackgroundColor="White" BorderColor="Gray" HasShadow="False" CornerRadius="10" Margin="10" Grid.Column="0" Grid.Row="1"></Frame>
                 <Entry x:Name="passwordEntry"  Text="Password" TextColor="Gray" VerticalOptions="Center" FontSize="15" Focused="passwordEntry_Focused" Margin="15,0,15,0" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="1"></Entry>
             </Grid>
             

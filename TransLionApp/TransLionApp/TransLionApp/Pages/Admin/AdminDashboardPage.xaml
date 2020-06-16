@@ -35,7 +35,7 @@
                 </Button>
             </Grid>
             <Grid>
-                <Frame  Grid.Row="0"  WidthRequest="10" HeightRequest="120" BackgroundColor="Orange" BorderColor="Transparent" CornerRadius="5" Padding="0,0,0,0" Margin="5,5,5,5"></Frame>
+                <Frame  Grid.Row="0"  WidthRequest="10" HeightRequest="120" BackgroundColor="Orange" HasShadow="False" BorderColor="Transparent" CornerRadius="5" Padding="0,0,0,0" Margin="5,5,5,5"></Frame>
                 <StackLayout  Margin="5,0,0,0">
                     <Grid>
                         <Grid.RowDefinitions>
