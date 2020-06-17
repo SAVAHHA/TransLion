@@ -33,7 +33,6 @@
 
   <ItemGroup>
     <Resource Include="Files\TipsMockup.csv">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
 

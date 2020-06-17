@@ -14,13 +14,13 @@
         <ScrollView>
             <StackLayout>
                 <Label Text="Gegevens bewerken" TextColor="Black" FontSize="Title" Margin="10,0,0,0" FontAttributes="Bold"></Label>
-                <Entry Text="Bedrijfsnaam"  Margin="15,0,15,0" TextColor="Gray"></Entry>
-                <Entry Text="Contactpersoon"  Margin="15,0,15,0" TextColor="Gray"></Entry>
-                <Entry Text="Telefoonnummer"  Margin="15,0,15,0" TextColor="Gray"></Entry>
-                <Entry Text="E-mailadres"  Margin="15,0,15,0" TextColor="Gray"></Entry>
-                <Entry Text="Straat + Huisnummer"  Margin="15,0,15,0" TextColor="Gray"></Entry>
-                <Entry Text="Postcode"  Margin="15,0,15,0" TextColor="Gray"></Entry>
-                <Entry Text="Plaats"  Margin="15,0,15,0" TextColor="Gray"></Entry>   
+                <Entry x:Name="companyNameEntry" Placeholder="Bedrijfsnaam"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry x:Name="contactEntry" Placeholder="Contactpersoon"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry x:Name="phoneNumberEntry" Placeholder="Telefoonnummer"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry x:Name="emailNameEntry" Placeholder="E-mailadres"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry x:Name="addressNameEntry" Placeholder="Straat + Huisnummer"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry x:Name="postcodeNameEntry" Placeholder="Postcode"  Margin="15,0,15,0" TextColor="Gray"></Entry>
+                <Entry x:Name="cityNameEntry" Placeholder="Plaats"  Margin="15,0,15,0" TextColor="Gray"></Entry>   
                 <Button Text="Toevoegen"  Margin="15,0,15,0" TextColor="Blue" ></Button>
             </StackLayout>
         </ScrollView>

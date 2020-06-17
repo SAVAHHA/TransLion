@@ -37,7 +37,7 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
 
-                    <Label Text="Bedrijf X" TextColor="Black" FontSize="Title" VerticalOptions="Center" FontAttributes="Bold" Margin="10,0,0,0" Grid.Column="0" Grid.Row="0"></Label>
+                    <Label Text="{Binding CompanyName}" TextColor="Black" FontSize="Title" VerticalOptions="Center" FontAttributes="Bold" Margin="10,0,0,0" Grid.Column="0" Grid.Row="0"></Label>
                     <Button ImageSource="ic_action_create" BackgroundColor="Transparent" x:Name="editButton" HorizontalOptions="End" Margin="5" Clicked="editButton_Clicked" Grid.Row="0" Grid.Column="1"></Button>
                 </Grid>
 

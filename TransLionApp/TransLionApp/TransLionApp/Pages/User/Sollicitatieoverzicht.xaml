@@ -100,7 +100,7 @@
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Status:" TextColor="White" FontSize="17"></Label>
-                                <Label Text="Respect the society" x:Name="Status" FontAttributes="Bold" TextColor="White" FontSize="17"></Label>
+                                <Label Text="In behandeling" x:Name="Status" FontAttributes="Bold" TextColor="White" FontSize="17"></Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Datum:" TextColor="White" FontSize="17"></Label>
