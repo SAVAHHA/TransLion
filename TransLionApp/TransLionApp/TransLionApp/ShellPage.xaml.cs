@@ -29,6 +29,7 @@ namespace TransLionApp
 
         public ShellPage()
         {
+            InitializeComponent();
             BackgroundColor = Color.White;
             Routing.RegisterRoute("sollicitatiePage", typeof(SollicitatiePage));
             Routing.RegisterRoute("userdetail", typeof(UserDetailPage));
@@ -38,21 +39,24 @@ namespace TransLionApp
             Routing.RegisterRoute("companydetail", typeof(CompanyDetailPage));
             Routing.RegisterRoute("companyedit", typeof(CompanyEdit));
             Routing.RegisterRoute("bedrijf", typeof(BedrijfPage));
-            InitializeComponent();
+            Routing.RegisterRoute("loginpage", typeof(LoginPage));
+            //InitializeComponent();
 
             if (App.Login != "")
             {
                 if (App.Type == "user")
                 {
                     UserPart();
+                    CurrentItem = HomePage;
                 }
                 else
                 {
                     AdminPart();
+                    CurrentItem = HomePage;
                 }
             }
-
             CurrentItem = HomePage;
+
             BackgroundColor = Color.White;
             BindingContext = this;
         }

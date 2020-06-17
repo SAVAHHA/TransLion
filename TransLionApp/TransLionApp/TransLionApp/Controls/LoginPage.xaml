@@ -4,11 +4,16 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:view="clr-namespace:TransLionApp.Views"
              BackgroundColor="White"
              x:Class="TransLionApp.Controls.LoginPage">
+    <NavigationPage.TitleView>
+        <view:BarView/>
+    </NavigationPage.TitleView>
+
     <ContentPage.Content>
         <StackLayout>
-            <Grid>
+            <!--<Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>
                 </Grid.RowDefinitions>
@@ -25,7 +30,7 @@
                            FontSize="12" Margin="0, 0, 8, 8"
                     />
                 </StackLayout>
-            </Grid>
+            </Grid>-->
             
             <Label Text="Inloggen" TextColor="Black" FontSize="Large" Margin="10"></Label>
 

@@ -40,8 +40,10 @@ namespace TransLionApp.Controls
             }
             else
             {
-                await Navigation.PushModalAsync(new LoginPage());
-
+                var navPage = new NavigationPage(new LoginPage());
+                navPage.BarBackgroundColor = Color.White;
+                await Navigation.PushModalAsync(navPage);
+               // await Shell.Current.GoToAsync("loginpage");
             }
         }
 
