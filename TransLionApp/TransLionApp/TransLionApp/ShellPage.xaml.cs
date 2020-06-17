@@ -35,6 +35,7 @@ namespace TransLionApp
             Routing.RegisterRoute("userdetail", typeof(UserDetailPage));
             Routing.RegisterRoute("useredit", typeof(UserEdit));
             Routing.RegisterRoute("adduser", typeof(AddUser));
+            Routing.RegisterRoute("addcompany", typeof(AddCompany));
             Routing.RegisterRoute("wiadetail", typeof(WIADetailPage));
             Routing.RegisterRoute("companydetail", typeof(CompanyDetailPage));
             Routing.RegisterRoute("companyedit", typeof(CompanyEdit));

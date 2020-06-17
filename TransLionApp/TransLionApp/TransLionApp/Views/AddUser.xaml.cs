@@ -21,9 +21,12 @@ namespace TransLionApp.Views
         {
             string _email = emailEntry.Text;
             var emailMessenger = CrossMessaging.Current.EmailMessenger;
+
+            
+
             if (emailMessenger.CanSendEmail)
             {
-                emailMessenger.SendEmail(_email, "тема письма", "текст письма");
+                emailMessenger.SendEmail(_email, "TransLion", "текст письма");
             }
         }
     }
