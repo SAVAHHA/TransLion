@@ -108,7 +108,7 @@
 
     <FlyoutItem Title="Home page"  Shell.BackgroundColor="White" Route="homepage"
              Shell.ForegroundColor="Black" >
-        <ShellContent x:Name="HomePage" Route="home" Shell.BackgroundColor="White" Shell.ForegroundColor="Black" ContentTemplate="{DataTemplate pages:HomePage}"></ShellContent>
+        <ShellContent x:Name="HomePage" Route="home" Shell.BackgroundColor="White" Shell.ForegroundColor="Black" ContentTemplate="{DataTemplate pages:HomePage}" ></ShellContent>
     </FlyoutItem>
 
     <FlyoutItem Title="Verzzuimbegeleiding" Route="verzuimbegeleiding" Shell.BackgroundColor="White"

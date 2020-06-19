@@ -25,13 +25,14 @@
                     <Label Text="Zoek clienten" Margin="5,0,0,0"></Label>
                 </StackLayout>
                 <Button  Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0" BackgroundColor="Transparent" Opacity="0" IsEnabled="True" x:Name="Clienten" Clicked="Clienten_Clicked"></Button>
-                
-                 <Frame HasShadow="False" Grid.Row="0"  Grid.Column="1" BackgroundColor="#f5f5f5" CornerRadius="5" Padding="0,0,0,0" Margin="5,0,5,0"></Frame>
+
+                <!--<Frame x:Name="frameB" HasShadow="False" Grid.Row="0"  Grid.Column="1" BackgroundColor="#f5f5f5" CornerRadius="5" Padding="0,0,0,0" Margin="5,0,5,0"></Frame>-->
+                <BoxView Grid.Row="0"  Grid.Column="1" BackgroundColor="#f5f5f5" CornerRadius="5" Margin="5,0,5,0"></BoxView>
                 <StackLayout  Margin="5,0,0,0" Grid.Row="0"  Grid.Column="1" >
                     <Label Text="Bedrijven" FontSize="Medium" FontAttributes="Bold" Margin="5,0,0,0"></Label>
                     <Label Text="Zoek bedrijven" Margin="5,0,0,0"></Label>
                 </StackLayout>
-                <Button  Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="1"  HeightRequest="80" BackgroundColor="Transparent" Opacity="0" IsEnabled="True" x:Name="BedrijvenButton" Clicked="BedrijvenButton_Clicked">
+                <Button  Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="1" HeightRequest="80" BackgroundColor="Transparent" Opacity="0" IsEnabled="True" x:Name="BedrijvenButton" Clicked="BedrijvenButton_Clicked">
                 </Button>
             </Grid>
             <Grid>

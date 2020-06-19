@@ -56,10 +56,21 @@ namespace TransLionApp
                     CurrentItem = HomePage;
                 }
             }
+            else
+            {
+               // PlainPart();
+               // Go();
+
+            }
             CurrentItem = HomePage;
 
             BackgroundColor = Color.White;
             BindingContext = this;
+        }
+
+        private async void Go()
+        {
+            await Shell.Current.GoToAsync("adduser");
         }
 
         protected override void OnAppearing()
@@ -77,7 +88,180 @@ namespace TransLionApp
                     AdminPart();
                 }
             }
+            else
+            {
+                PlainPart();
+            }
 
+        }
+
+        public void PlainPart()
+        {
+            Items.Clear();
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Menu",
+                IsEnabled = false,
+                Route = "headerMenu",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new HomePage()} }
+                    }
+                }
+
+            });
+            Items.Add(new FlyoutItem
+            {
+                Title = "Home page",
+                IsEnabled = true,
+                Route = "homepage",
+                Items =
+                {
+                    new Tab
+                    {
+                        
+                        Items = { new ShellContent {Content = new HomePage()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Verzzuimbegeleiding",
+                IsEnabled = true,
+                Route = "verzuimbegeleiding",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new Verzuimbegeleiding()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Jobhunting",
+                IsEnabled = true,
+                Route = "jobhunting",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new Jobhunting()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Re-integratie 2e spoor",
+                IsEnabled = true,
+                Route = "reintegratie",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new ReIntegratie2eSpoor()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "UWV",
+                IsEnabled = true,
+                Route = "uwv",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new UWVPage()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new MenuItem
+            {
+                Text = "Werkwijzer wet verbetering",
+                Command = PdfCommand,
+                CommandParameter = "https://www.translion.nl/images/werkwijzer-poortwachter.pdf"
+            });
+
+            Items.Add(new MenuItem
+            {
+                Text = "Sollicitatiehandleiding",
+                Command = PdfCommand,
+                CommandParameter = "https://drive.google.com/file/d/1ItV4pJSyAu9ZSjdAd3PsbDpK2ot4aKPQ/view?usp=sharing"
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Wie zijn wij",
+                IsEnabled = true,
+                Route = "wiezijnwij",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new WieZijnWij()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "1e en 2e spoor",
+                IsEnabled = true,
+                Route = "spoor",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new Page1eEn2eSpoor()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Schema wetverbetering",
+                IsEnabled = true,
+                Route = "schemawetverbetering",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent {Content = new SchemaWetVerbeteringPoortwachter()} }
+                    }
+                }
+
+            });
+
+            Items.Add(new FlyoutItem
+            {
+                Title = "Contact",
+                IsEnabled = true,
+                Route = "headerContact",
+                Items =
+                {
+                    new Tab
+                    {
+                        Items = { new ShellContent { Content = new ContactPage() } }
+                    }
+                }
+
+            });
         }
 
         public void UserPart()
