@@ -82,7 +82,7 @@ namespace TransLionApp.Pages
 
         private async void toContactsButton_Clicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("///headerContacts");
+            await Shell.Current.GoToAsync("///headercontacts");
         }
     }
 }
