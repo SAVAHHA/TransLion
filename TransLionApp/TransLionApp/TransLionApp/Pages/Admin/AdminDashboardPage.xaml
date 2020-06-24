@@ -18,26 +18,41 @@
                 <Label Text="{x:Static local:App.NamePerson}" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,5,0,0" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
                 <Label Text="!" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="0,5,0,10" BackgroundColor="Transparent" Padding="0,0,0,0"></Label>
             </StackLayout>
-             <Grid HeightRequest="55">
+
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
                 <Frame HasShadow="False" Grid.Row="0" Grid.Column="0" Padding="0,0,0,0" BackgroundColor="#f5f5f5" CornerRadius="5" Margin="5,0,5,0"></Frame>
                 <StackLayout Margin="5,0,0,0">
                     <Label Text="Clienten" FontSize="Medium" FontAttributes="Bold" Margin="5,0,0,0"></Label>
-                    <Label Text="Zoek clienten" Margin="5,0,0,0"></Label>
+                    <Label Text="Zoek clienten" Margin="5,0,0,10"></Label>
                 </StackLayout>
-                <Button  Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0" BackgroundColor="Transparent" Opacity="0" IsEnabled="True" x:Name="Clienten" Clicked="Clienten_Clicked"></Button>
+                <Button  Grid.Row="0" Text="" Grid.Column="0" BackgroundColor="Transparent" x:Name="Clienten" Clicked="Clienten_Clicked"></Button>
 
-                <!--<Frame x:Name="frameB" HasShadow="False" Grid.Row="0"  Grid.Column="1" BackgroundColor="#f5f5f5" CornerRadius="5" Padding="0,0,0,0" Margin="5,0,5,0"></Frame>-->
                 <BoxView Grid.Row="0"  Grid.Column="1" BackgroundColor="#f5f5f5" CornerRadius="5" Margin="5,0,5,0"></BoxView>
                 <StackLayout  Margin="5,0,0,0" Grid.Row="0"  Grid.Column="1" >
                     <Label Text="Bedrijven" FontSize="Medium" FontAttributes="Bold" Margin="5,0,0,0"></Label>
-                    <Label Text="Zoek bedrijven" Margin="5,0,0,0"></Label>
+                    <Label Text="Zoek bedrijven" Margin="5,0,0,10"></Label>
                 </StackLayout>
-                <Button  Grid.Row="0" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="1" HeightRequest="80" BackgroundColor="Transparent" Opacity="0" IsEnabled="True" x:Name="BedrijvenButton" Clicked="BedrijvenButton_Clicked">
+                <Button  Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent" IsEnabled="True" x:Name="BedrijvenButton" Clicked="BedrijvenButton_Clicked">
                 </Button>
             </Grid>
+
+
+
             <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
                 <Frame  Grid.Row="0"  WidthRequest="10" HeightRequest="120" BackgroundColor="Orange" HasShadow="False" BorderColor="Transparent" CornerRadius="5" Padding="0,0,0,0" Margin="5,5,5,5"></Frame>
-                <StackLayout  Margin="5,0,0,0">
+                <StackLayout Grid.Row="0" Margin="5,0,0,0">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition></RowDefinition>
@@ -45,7 +60,7 @@
                         </Grid.RowDefinitions>
                         <Label Grid.Row="0" Text="Laatste sollicitatie" TextColor="White" BackgroundColor="Transparent" Margin="5,10,0,0" Padding="0,0,0,0"></Label>
                         <Label Grid.Row="1" Text="Peter de Groot" TextColor="White" BackgroundColor="Transparent" FontSize="Large" Margin="5,0,0,0" Padding="0,0,0,0"></Label>
-                        
+
                     </Grid>
                     <Grid>
                         <Grid.RowDefinitions>
@@ -53,7 +68,7 @@
                             <RowDefinition></RowDefinition>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="60"></ColumnDefinition>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
                             <ColumnDefinition></ColumnDefinition>
                         </Grid.ColumnDefinitions>
                         <Label Grid.Column="0" Grid.Row="0" Text="Bedrijf:" TextColor="White" BackgroundColor="Orange" Padding="0,0,0,0" Margin="5,0,0,0"></Label>
@@ -62,16 +77,20 @@
                         <Label Grid.Column="1" Grid.Row="1" Text="24-04-2020" FontAttributes="Bold" TextColor="White" BackgroundColor="Transparent" ></Label>
                     </Grid>
                 </StackLayout>
-                <Button Grid.Row="0" HeightRequest="120" BackgroundColor="Transparent" Opacity="0" IsEnabled="True" x:Name="Sollicitatieoverizicht" Clicked="Sollicitatieoverizicht_Clicked">
+
+                <Button Grid.Row="0" BackgroundColor="Transparent" IsEnabled="True" x:Name="Sollicitatieoverizicht" Clicked="Sollicitatieoverizicht_Clicked">
                 </Button>
             </Grid>
+
 
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
 
                 <Frame HeightRequest="80" Grid.Column="0" BorderColor="#439aff" Padding="0,0,0,0" BackgroundColor="White" Margin="5,0,5,0" CornerRadius="5" HasShadow="False"></Frame>
                 <StackLayout  Margin="5,0,0,0">
@@ -79,23 +98,23 @@
                     <Label Grid.Column="1" Grid.Row="0" Text="Peter de Groot" FontAttributes="Bold" TextColor="#439aff" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="50"></ColumnDefinition>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
                             <ColumnDefinition></ColumnDefinition>
                         </Grid.ColumnDefinitions>
                         <Label Grid.Column="0"  Text="Datum:" TextColor="#439aff" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
                         <Label Grid.Column="1" Text="24-04-2020" FontAttributes="Bold" TextColor="#439aff" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
                     </Grid>
                 </StackLayout>
-                <Button Grid.Column="0" Opacity="0" IsEnabled="True" x:Name="WIAaanvraagButton" Clicked="WIAaanvraagButton_Clicked" VerticalOptions="Fill" HorizontalOptions="Fill">
+                <Button Grid.Column="0" IsEnabled="True" x:Name="WIAaanvraagButton" Clicked="WIAaanvraagButton_Clicked">
                 </Button>
 
                 <Frame HasShadow="False" HeightRequest="80" Grid.Column="1"  BackgroundColor="#439aff" CornerRadius="5" Padding="0,0,0,0" Margin="5,0,5,0"></Frame>
                 <StackLayout  Margin="5,0,0,0" Grid.Column="1">
                     <Label Margin="5,5,0,0" Text="Sollicitatie" TextColor="White" FontSize="Body" FontAttributes="Bold"></Label>
-                 </StackLayout>
-                <Button Grid.Column="1" VerticalOptions="Fill" HorizontalOptions="Fill" BackgroundColor="Transparent" Opacity="0" IsEnabled="True" x:Name="Sollicitatie" Clicked="Sollicitatie_Clicked">
+                </StackLayout>
+                <Button Grid.Column="1" BackgroundColor="Transparent" IsEnabled="True" x:Name="Sollicitatie" Clicked="Sollicitatie_Clicked">
                 </Button>
-                
+
             </Grid>
         </StackLayout>
     </ContentPage.Content>

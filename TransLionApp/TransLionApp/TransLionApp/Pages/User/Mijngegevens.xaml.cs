@@ -1,6 +1,7 @@
 ﻿using Plugin.Messaging;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,8 @@ using TransLionApp.Data;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Plugin.FilePicker;
+using Plugin.FilePicker.Abstractions;
 
 namespace TransLionApp.Pages.User
 {
@@ -93,6 +96,51 @@ namespace TransLionApp.Pages.User
             }
             lastScrollPoint = e.ScrollY;
             translating = false;
+        }
+
+
+        private async void uploadNieuweCSVButton_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                var fileData = await CrossFilePicker.Current.PickFile();
+                if (fileData == null)
+                    return; // user canceled file picking 
+
+                string fileName = fileData.FileName;
+                string contents = System.Text.Encoding.UTF8.GetString(fileData.DataArray);
+                string filePath = GetFilePath(fileName);
+
+
+
+
+                var text = LoadTextAsync(filePath);
+                using (StreamWriter writer = File.CreateText(filePath))
+                {
+                    await writer.WriteAsync(text.Result);
+                }
+            }
+
+            catch (Exception ex)
+            {
+                await DisplayAlert("Notification", "An error " + ex.ToString() + " occured", "Cancel");
+            }
+        }
+
+        public async Task<string> LoadTextAsync(string filename)
+        {
+            using (StreamReader reader = File.OpenText(GetFilePath(filename)))
+            {
+                return await reader.ReadToEndAsync();
+            }
+        }
+        string GetFilePath(string filename)
+        {
+            return Path.Combine(GetDocsPath(), filename);
+        }
+        string GetDocsPath()
+        {
+            return Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         }
     }
 }
