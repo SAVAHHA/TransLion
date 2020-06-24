@@ -15,10 +15,10 @@
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "18.1.0.54",
           "Syncfusion.Xamarin.Pdf": "18.1.0.54",
-          "Xam.Plugin.FilePicker": "1.1.0",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.800",
+          "Xamarin.Plugin.FilePicker": "2.1.41",
           "sqlite-net-pcl": "1.7.335"
         },
         "runtime": {
@@ -209,18 +209,6 @@
           }
         }
       },
-      "Xam.Plugin.FilePicker/1.1.0": {
-        "runtime": {
-          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.FilePicker.Abstractions.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.FilePicker.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Xam.Plugins.Messaging/5.2.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3"
@@ -260,6 +248,14 @@
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "4.6.0.474"
+          }
+        }
+      },
+      "Xamarin.Plugin.FilePicker/2.1.41": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.FilePicker.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
           }
         }
       }
@@ -425,13 +421,6 @@
       "path": "system.threading.tasks.extensions/4.3.0",
       "hashPath": "system.threading.tasks.extensions.4.3.0.nupkg.sha512"
     },
-    "Xam.Plugin.FilePicker/1.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ORzNG6dEgdBZnIdmbQCpNB4LSSTjBebwGjb1XZrgfbBGjX9muHBfZeQwOnNRvcGlm6fkylzTj2rDslDA1E/JFA==",
-      "path": "xam.plugin.filepicker/1.1.0",
-      "hashPath": "xam.plugin.filepicker.1.1.0.nupkg.sha512"
-    },
     "Xam.Plugins.Messaging/5.2.0": {
       "type": "package",
       "serviceable": true,
@@ -452,6 +441,13 @@
       "sha512": "sha512-9BkqdiqdaigD+QlHqmHHMm32NNo7mnuIG+fOgIbSbzzqT1MKN+KPVgem8OUkKOnFP4u6piq9D99xrVafKSztIg==",
       "path": "xamarin.forms/4.6.0.800",
       "hashPath": "xamarin.forms.4.6.0.800.nupkg.sha512"
+    },
+    "Xamarin.Plugin.FilePicker/2.1.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SFJp7AEq6YFZ72mw+CxGMQcMzBYhA0b5NkhSyE5b+prCiNli7bKI5pWOT+mbyFng0En8LfeY0dEbedpkecQFQw==",
+      "path": "xamarin.plugin.filepicker/2.1.41",
+      "hashPath": "xamarin.plugin.filepicker.2.1.41.nupkg.sha512"
     }
   }
 }

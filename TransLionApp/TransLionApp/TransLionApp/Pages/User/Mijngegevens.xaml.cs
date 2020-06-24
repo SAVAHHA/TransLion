@@ -142,5 +142,34 @@ namespace TransLionApp.Pages.User
         {
             return Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         }
+
+        private async void uploadNieuweCSVButton2_Clicked(object sender, EventArgs e)
+        {
+
+            try
+            {
+                var fileData = await CrossFilePicker.Current.PickFile();
+                if (fileData == null)
+                    return; // user canceled file picking 
+
+                string fileName = fileData.FileName;
+                string contents = System.Text.Encoding.UTF8.GetString(fileData.DataArray);
+                string filePath = GetFilePath(fileName);
+
+
+
+
+                var text = LoadTextAsync(filePath);
+                using (StreamWriter writer = File.CreateText(filePath))
+                {
+                    await writer.WriteAsync(text.Result);
+                }
+            }
+
+            catch (Exception ex)
+            {
+                await DisplayAlert("Notification", "An error " + ex.ToString() + " occured", "Cancel");
+            }
+        }
     }
 }

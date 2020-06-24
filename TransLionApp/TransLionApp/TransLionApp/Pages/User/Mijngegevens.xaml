@@ -59,7 +59,7 @@
                             <Label Text="Geupload op: 24-04-2020" TextColor="Black"></Label>
                         </StackLayout>
                     </StackLayout>
-                    <Button Text="Upload nieuwe sollicitatiebrief" TextColor="#439aff" BackgroundColor="White" BorderColor="#439aff"></Button>
+                    <Button Text="Upload nieuwe sollicitatiebrief" TextColor="#439aff" BackgroundColor="White" x:Name="uploadNieuweCSVButton2" Clicked="uploadNieuweCSVButton2_Clicked" BorderColor="#439aff"></Button>
                 </StackLayout>
             </ScrollView>
 
