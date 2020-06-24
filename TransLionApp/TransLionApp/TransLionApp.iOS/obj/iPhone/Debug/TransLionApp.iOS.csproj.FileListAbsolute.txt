@@ -221,3 +221,5 @@ C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Microsoft.Data.Sqlite.dll
 C:\Users\Anna\source\repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Plugin.FilePicker.dll
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp.iOS\bin\iPhone\Debug\Plugin.FilePicker.pdb
