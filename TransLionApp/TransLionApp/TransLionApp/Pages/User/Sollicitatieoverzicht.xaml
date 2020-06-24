@@ -82,7 +82,7 @@
         </DataTemplate>-->
     </ContentPage.Resources>
     <ContentPage.Content>
-        <Grid RowSpacing="0">
+        <Grid RowSpacing="0" x:Name="MainGrid">
             <ScrollView Padding="0" Scrolled="ScrollView_Scrolled">
                 <StackLayout Margin="10,10,10,0">
                     <Label Text="Sollicitatieoverzicht" FontSize="Large" FontAttributes="Bold" TextColor="Black"></Label>
@@ -100,7 +100,7 @@
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Status:" TextColor="White" FontSize="17"></Label>
-                                <Label Text="Respect the society" x:Name="Status" FontAttributes="Bold" TextColor="White" FontSize="17"></Label>
+                                <Label Text="In behandeling" x:Name="Status" FontAttributes="Bold" TextColor="White" FontSize="17"></Label>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="Datum:" TextColor="White" FontSize="17"></Label>

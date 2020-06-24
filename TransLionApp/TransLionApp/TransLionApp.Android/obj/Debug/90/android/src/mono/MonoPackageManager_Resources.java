@@ -7,6 +7,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Data.Sqlite.dll",
 		"MySqlConnector.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.FilePicker.dll",
 		"Plugin.Messaging.Abstractions.dll",
 		"Plugin.Messaging.dll",
 		"SQLite-net.dll",

@@ -111,7 +111,7 @@
                     <Entry x:Name="cityEntry" Placeholder="Plaats" Grid.Column="0" Grid.Row="0" Margin="15,0,15,0" TextColor="Gray"></Entry>
                 </Grid>
 
-                <Button x:Name="registrationButton" Clicked="registrationButton_Clicked"></Button>
+                <Button x:Name="registrationButton" Text="Registreer" Margin="20,0,20,0" BackgroundColor="White" BorderColor="#439aff" BorderWidth="1" TextColor="#439aff" Clicked="registrationButton_Clicked"></Button>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

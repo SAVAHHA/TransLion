@@ -15,6 +15,7 @@ namespace TransLionApp.Pages.Admin
         public AdminDashboardPage()
         {
             InitializeComponent();
+           // frameB.HasShadow = false;
         }
 
         private async void WIAaanvraagButton_Clicked(object sender, EventArgs e)

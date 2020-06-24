@@ -12,59 +12,63 @@
     </Shell.TitleView>
     
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Margin="10,0,10,0">
+        <Grid>
+            <ScrollView>
+                <StackLayout Margin="10,0,10,0">
 
-                <Label Text="Peter de Groot" TextColor="#474747" FontSize="35" VerticalOptions="Center" FontAttributes="Bold"></Label>
-                <Label Text="Geboren op 17 maart 1974"  FontAttributes="Italic" TextColor="#474747"></Label>
+                    <Label Text="{x:Static local:App.NamePerson}" TextColor="#474747" FontSize="35" VerticalOptions="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Geboren op 17 maart 1974"  FontAttributes="Italic" TextColor="#474747"></Label>
 
-                <Frame CornerRadius="10" HasShadow="False"  BorderColor="LightGray">
-                    <StackLayout Padding="0">
-                        <Label Text="Geranduslaan 34" TextColor="Black"></Label>
-                        <Label Text="1234HH" TextColor="Black"></Label>
-                        <Label Text="Rotterdam" TextColor="Black"></Label>
+                    <Frame CornerRadius="10" HasShadow="False"  BorderColor="LightGray">
+                        <StackLayout Padding="0">
+                            <Label Text="Geranduslaan 34" TextColor="Black"></Label>
+                            <Label Text="1234HH" TextColor="Black"></Label>
+                            <Label Text="Rotterdam" TextColor="Black"></Label>
+                        </StackLayout>
+
+                    </Frame>
+
+                    <Frame CornerRadius="10" HasShadow="False"  BorderColor="LightGray">
+                        <StackLayout Padding="0">
+                            <Label Text="06 - 12 34 56 78 9" TextColor="Black"></Label>
+                            <Label Text="lalal@gmail.com" TextColor="Black"></Label>
+                        </StackLayout>
+                    </Frame>
+                    <Label Text="Mijn CV" TextColor="Black"></Label>
+                    <Frame CornerRadius="10" HasShadow="False"  BackgroundColor="#439aff">
+                        <StackLayout Padding="0">
+                            <Label Text="Bekijk jouw meest recente CV" TextColor="White" FontAttributes="Bold"></Label>
+                            <Label Text="Geupload op: 24-04-2020" TextColor="White"></Label>
+                        </StackLayout>
+                    </Frame>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="mail"></Image>
+                        <StackLayout>
+                            <Label Text="CV Bedrijf Z" FontAttributes="Bold" TextColor="Black"></Label>
+                            <Label Text="Geupload op: 24-04-2020" TextColor="Black"></Label>
+                        </StackLayout>
                     </StackLayout>
                     
-                </Frame>
+                    <Button Text="Upload nieuwe CV" TextColor="#439aff" BackgroundColor="White" x:Name="uploadNieuweCSVButton" Clicked="uploadNieuweCSVButton_Clicked" BorderColor="#439aff"></Button>
+                    <Label Text="Mijn sollicitatiebrieven" TextColor="Black"></Label>
+                    <!--<a collection needed here>-->
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="mail"></Image>
+                        <StackLayout>
+                            <Label Text="Sollicitatiebrief Bedrijf Z" FontAttributes="Bold" TextColor="Black"></Label>
+                            <Label Text="Geupload op: 24-04-2020" TextColor="Black"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                    <Button Text="Upload nieuwe sollicitatiebrief" TextColor="#439aff" BackgroundColor="White" x:Name="uploadNieuweCSVButton2" Clicked="uploadNieuweCSVButton2_Clicked" BorderColor="#439aff"></Button>
+                </StackLayout>
+            </ScrollView>
 
-                <Frame CornerRadius="10" HasShadow="False"  BorderColor="LightGray">
-                    <StackLayout Padding="0">
-                        <Label Text="06 - 12 34 56 78 9" TextColor="Black"></Label>
-                        <Label Text="lalal@gmail.com" TextColor="Black"></Label>
-                    </StackLayout>
-                </Frame>
-                <Label Text="Mijn CV" TextColor="Black"></Label>
-                <Frame CornerRadius="10" HasShadow="False"  BackgroundColor="#439aff">
-                    <StackLayout Padding="0">
-                        <Label Text="Bekijk jouw meest recente CV" TextColor="White" FontAttributes="Bold"></Label>
-                        <Label Text="Geupload op: 24-04-2020" TextColor="White"></Label>
-                    </StackLayout>
-                </Frame>
-                <StackLayout Orientation="Horizontal">
-                    <Image Source="mail"></Image>
-                    <StackLayout>
-                        <Label Text="CV Bedrijf Z" FontAttributes="Bold" TextColor="Black"></Label>
-                        <Label Text="Geupload op: 24-04-2020" TextColor="Black"></Label>
-                    </StackLayout>
-                </StackLayout>
-                <Button Text="Upload nieuwe CV" TextColor="#439aff" BackgroundColor="White" BorderColor="#439aff"></Button>
-                <Label Text="Mijn sollicitatiebrieven" TextColor="Black"></Label>
-                <!--<a collection needed here>-->
-                <StackLayout Orientation="Horizontal">
-                    <Image Source="mail"></Image>
-                    <StackLayout>
-                        <Label Text="Sollicitatiebrief Bedrijf Z" FontAttributes="Bold" TextColor="Black"></Label>
-                        <Label Text="Geupload op: 24-04-2020" TextColor="Black"></Label>
-                    </StackLayout>
-                </StackLayout>
-                <Button Text="Upload nieuwe sollicitatiebrief" TextColor="#439aff" BackgroundColor="White" BorderColor="#439aff"></Button>
-                <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
-                    <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
-                    <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="15, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
-                    <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 15, 5" Clicked="callButton_Clicked"></Button>
-                </Grid>
-            </StackLayout>
-        </ScrollView>
+            <Grid x:Name="PanelGrid" VerticalOptions="End" HeightRequest="44" BackgroundColor="#2e2e2e">
+                <Button x:Name="linkedinButton" Clicked="linkedinButton_Clicked" HeightRequest="38" Text="in" FontSize="13" WidthRequest="38" BackgroundColor="#518bb8" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" BorderRadius="19"></Button>
+                <Button x:Name="emailButton" Text="info@translion.nl" FontSize="10" TextColor="White" BackgroundColor="#4dc08f" WidthRequest="110" HorizontalOptions="Start" Margin="15, 5, 0, 5" Clicked="emailButton_Clicked"></Button>
+                <Button x:Name="callButton" Text="010 - 264 3030" FontSize="10" TextColor="White" WidthRequest="110" BackgroundColor="#4dc08f" HorizontalOptions="End" Margin="0, 5, 15, 5" Clicked="callButton_Clicked"></Button>
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
 

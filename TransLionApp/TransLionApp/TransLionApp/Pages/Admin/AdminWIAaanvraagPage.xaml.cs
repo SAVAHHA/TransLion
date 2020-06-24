@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using TransLionApp.Data;
@@ -15,6 +16,7 @@ namespace TransLionApp.Pages.Admin
     {
         //public IList<UserInfo> _sortedUsers = new IList<UserInfo>();
         public IList<UserInfo> SortedUsers { get; set; }
+        public IList<int> Bins { get; set; }
         
         public AdminWIAaanvraagPage()
         {
@@ -32,18 +34,19 @@ namespace TransLionApp.Pages.Admin
             lastUserDateLabel.Text = lastUser.LastDateOfWatching.ToString();
 
             SortedUsers = new List<UserInfo>();
-            List<int> numbers = new List<int>();
+            Bins = new List<int>();
+            //List<int> numbers = new List<int>();
 
             for (int i = 1; i < UsersSorted.Count(); i++)
             {
                 var _user = UsersSorted.ElementAt(i);
                 SortedUsers.Add(_user);
-                numbers.Add(i-1);
+                Bins.Add(i-1);
             }
 
             WIAusersCollectionView.ItemsSource = SortedUsers;
-            BinsCollectionView.ItemsSource = numbers;
-           
+            BinsCollectionView.ItemsSource = Bins;
+            
 
             //MainStackLayout.Children.Add(new Grid
             //{
@@ -75,10 +78,18 @@ namespace TransLionApp.Pages.Admin
             //await DisplayAlert(_index, "", "O");
             WIAusersCollectionView.IsEnabled = true;
             SortedUsers.Remove(SortedUsers[_index]);
+            Bins.Remove(Bins[Bins.Count() - 1]);
             var ResortedUsers = SortedUsers;
+            var NewBins = Bins;
             WIAusersCollectionView = new CollectionView();
             WIAusersCollectionView.ItemsSource = ResortedUsers;
-            await DisplayAlert(SortedUsers.Count.ToString(), SortedUsers.FirstOrDefault().SurnamePerson, "O");
+            BinsCollectionView = new CollectionView();
+            BinsCollectionView.ItemsSource = NewBins;
+
+            
+            //this = new AdminWIAaanvraagPage();
+            //await Shell.Current.GoToAsync("///wiaaanvragen");
+           // await DisplayAlert(SortedUsers.Count.ToString(), SortedUsers.FirstOrDefault().SurnamePerson, "O");
         }
     }
 }

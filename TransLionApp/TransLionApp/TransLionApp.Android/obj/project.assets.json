@@ -1052,6 +1052,18 @@
           "build/MonoAndroid90/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
+      "Xamarin.Plugin.FilePicker/2.1.41": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Plugin.FilePicker.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Plugin.FilePicker.dll": {}
+        }
+      },
       "TransLionApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1064,6 +1076,7 @@
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.800",
+          "Xamarin.Plugin.FilePicker": "2.1.41",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -2615,6 +2628,48 @@
         "xamarin.googleplayservices.tasks.nuspec"
       ]
     },
+    "Xamarin.Plugin.FilePicker/2.1.41": {
+      "sha512": "SFJp7AEq6YFZ72mw+CxGMQcMzBYhA0b5NkhSyE5b+prCiNli7bKI5pWOT+mbyFng0En8LfeY0dEbedpkecQFQw==",
+      "type": "package",
+      "path": "xamarin.plugin.filepicker/2.1.41",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.FilePicker.dll",
+        "lib/monoandroid10.0/Plugin.FilePicker.pdb",
+        "lib/monoandroid10.0/Plugin.FilePicker.xml",
+        "lib/monoandroid80/Plugin.FilePicker.dll",
+        "lib/monoandroid80/Plugin.FilePicker.pdb",
+        "lib/monoandroid80/Plugin.FilePicker.xml",
+        "lib/monoandroid81/Plugin.FilePicker.dll",
+        "lib/monoandroid81/Plugin.FilePicker.pdb",
+        "lib/monoandroid81/Plugin.FilePicker.xml",
+        "lib/monoandroid90/Plugin.FilePicker.dll",
+        "lib/monoandroid90/Plugin.FilePicker.pdb",
+        "lib/monoandroid90/Plugin.FilePicker.xml",
+        "lib/net45/Plugin.FilePicker.dll",
+        "lib/net45/Plugin.FilePicker.pdb",
+        "lib/net45/Plugin.FilePicker.xml",
+        "lib/netstandard1.0/Plugin.FilePicker.dll",
+        "lib/netstandard1.0/Plugin.FilePicker.pdb",
+        "lib/netstandard1.0/Plugin.FilePicker.xml",
+        "lib/netstandard2.0/Plugin.FilePicker.dll",
+        "lib/netstandard2.0/Plugin.FilePicker.pdb",
+        "lib/netstandard2.0/Plugin.FilePicker.xml",
+        "lib/uap10.0.16299/Plugin.FilePicker.dll",
+        "lib/uap10.0.16299/Plugin.FilePicker.pdb",
+        "lib/uap10.0.16299/Plugin.FilePicker.pri",
+        "lib/uap10.0.16299/Plugin.FilePicker.xml",
+        "lib/xamarinios10/Plugin.FilePicker.dll",
+        "lib/xamarinios10/Plugin.FilePicker.pdb",
+        "lib/xamarinios10/Plugin.FilePicker.xml",
+        "lib/xamarinmac20/Plugin.FilePicker.dll",
+        "lib/xamarinmac20/Plugin.FilePicker.pdb",
+        "lib/xamarinmac20/Plugin.FilePicker.xml",
+        "xamarin.plugin.filepicker.2.1.41.nupkg.sha512",
+        "xamarin.plugin.filepicker.nuspec"
+      ]
+    },
     "TransLionApp/1.0.0": {
       "type": "project",
       "path": "../TransLionApp/TransLionApp.csproj",
@@ -2632,24 +2687,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Анна\\.nuget\\packages\\": {},
+    "C:\\Users\\Anna\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
       "projectName": "TransLionApp.Android",
-      "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Анна\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp.Android\\obj\\",
+      "projectPath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\TransLionApp.Android.csproj",
+      "packagesPath": "C:\\Users\\Anna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Анна\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2663,8 +2718,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
-              "projectPath": "C:\\GitHub TransLion\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
+            "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj": {
+              "projectPath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp\\TransLionApp.csproj"
             }
           }
         }

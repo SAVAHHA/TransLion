@@ -90,19 +90,22 @@
                 <StackLayout Orientation="Horizontal" Spacing="0">
                     <CollectionView x:Name="WIAusersCollectionView"
                                 Margin="0"
-                                ItemsSource="{x:Static data:UserData.Users}"
+                                ItemsSource="{Binding SortedUsers}"
                                 ItemTemplate="{StaticResource UserWIATemplate}"
                                 SelectionMode="Single">
 
                     </CollectionView>
 
                     <CollectionView x:Name="BinsCollectionView"
+                                    ItemsSource="{Binding Bins}"
                                     ItemTemplate="{StaticResource BinTemplate}"
                                     SelectionChanged="BinsCollectionView_SelectionChanged"
                                     SelectionMode="Single"></CollectionView>
+                    
+                    
                                     
                 </StackLayout>
-                
+
                
             </StackLayout>
         </ScrollView>

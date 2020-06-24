@@ -13,7 +13,7 @@
     </Shell.TitleView>
 
     <ContentPage.Content>
-        <Grid RowSpacing="0" VerticalOptions="FillAndExpand">
+        <Grid RowSpacing="0" HorizontalOptions="Fill">
             <ScrollView Padding="0" Scrolled="ScrollView_Scrolled" VerticalOptions="FillAndExpand">
                 <StackLayout x:Name="mainStackLayout" VerticalOptions="FillAndExpand">
                     <StackLayout Spacing="0" VerticalOptions="FillAndExpand">

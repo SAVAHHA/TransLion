@@ -18,7 +18,6 @@ namespace TransLionApp.Pages.User
         private bool isVisible = true;
         public UserWIAaanvraag()
         {
-            //testEntry.Text = "uu";
             InitializeComponent();
         }
 
