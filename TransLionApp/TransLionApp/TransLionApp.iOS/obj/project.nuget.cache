@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "i02Jk7Iw/LKMjGu0woG64dXP3HUEvnMb7GKzmRJJlEVvPem0cAKgk3CETA1807zHXZrP2dJlgNpTK1vHsCf4LQ==",
+  "dgSpecHash": "iwMynAjoNL/mEjbY9AvaqnyNXnVN0DdERSN6/0hPUGqQY5HWgJlMJCK0y0BQXbEqDU5Q/SqsWCteTmxi01HBmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anna\\Source\\Repos\\TransLion_nineApril\\TransLionApp\\TransLionApp\\TransLionApp.iOS\\TransLionApp.iOS.csproj",
   "expectedPackageFiles": [
@@ -17,11 +17,11 @@
     "C:\\Users\\Anna\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\xam.plugin.filepicker\\1.1.0\\xam.plugin.filepicker.1.1.0.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms\\4.6.0.800\\xamarin.forms.4.6.0.800.nupkg.sha512",
-    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms.maps\\4.6.0.800\\xamarin.forms.maps.4.6.0.800.nupkg.sha512"
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.forms.maps\\4.6.0.800\\xamarin.forms.maps.4.6.0.800.nupkg.sha512",
+    "C:\\Users\\Anna\\.nuget\\packages\\xamarin.plugin.filepicker\\2.1.41\\xamarin.plugin.filepicker.2.1.41.nupkg.sha512"
   ],
   "logs": []
 }

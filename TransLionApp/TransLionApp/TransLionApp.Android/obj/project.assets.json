@@ -156,17 +156,6 @@
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
-      "Xam.Plugin.FilePicker/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/MonoAndroid10/Plugin.FilePicker.Abstractions.dll": {},
-          "lib/MonoAndroid10/Plugin.FilePicker.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/Plugin.FilePicker.Abstractions.dll": {},
-          "lib/MonoAndroid10/Plugin.FilePicker.dll": {}
-        }
-      },
       "Xam.Plugins.Messaging/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -1063,6 +1052,18 @@
           "build/MonoAndroid90/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
+      "Xamarin.Plugin.FilePicker/2.1.41": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Plugin.FilePicker.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Plugin.FilePicker.dll": {}
+        }
+      },
       "TransLionApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1072,10 +1073,10 @@
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Licensing": "18.1.0.54",
           "Syncfusion.Xamarin.Pdf": "18.1.0.54",
-          "Xam.Plugin.FilePicker": "1.1.0",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.800",
+          "Xamarin.Plugin.FilePicker": "2.1.41",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -1360,58 +1361,6 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "Xam.Plugin.FilePicker/1.1.0": {
-      "sha512": "ORzNG6dEgdBZnIdmbQCpNB4LSSTjBebwGjb1XZrgfbBGjX9muHBfZeQwOnNRvcGlm6fkylzTj2rDslDA1E/JFA==",
-      "type": "package",
-      "path": "xam.plugin.filepicker/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/Plugin.FilePicker.Abstractions.dll",
-        "lib/MonoAndroid10/Plugin.FilePicker.Abstractions.pdb",
-        "lib/MonoAndroid10/Plugin.FilePicker.Abstractions.xml",
-        "lib/MonoAndroid10/Plugin.FilePicker.dll",
-        "lib/MonoAndroid10/Plugin.FilePicker.pdb",
-        "lib/MonoAndroid10/Plugin.FilePicker.xml",
-        "lib/MonoTouch10/Plugin.FilePicker.Abstractions.dll",
-        "lib/MonoTouch10/Plugin.FilePicker.Abstractions.xml",
-        "lib/MonoTouch10/Plugin.FilePicker.dll",
-        "lib/MonoTouch10/Plugin.FilePicker.xml",
-        "lib/UAP10/Plugin.FilePicker.Abstractions.dll",
-        "lib/UAP10/Plugin.FilePicker.Abstractions.pdb",
-        "lib/UAP10/Plugin.FilePicker.Abstractions.xml",
-        "lib/UAP10/Plugin.FilePicker.dll",
-        "lib/UAP10/Plugin.FilePicker.pdb",
-        "lib/UAP10/Plugin.FilePicker.xml",
-        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.FilePicker.Abstractions.dll",
-        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.FilePicker.Abstractions.pdb",
-        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.FilePicker.Abstractions.xml",
-        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.FilePicker.dll",
-        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.FilePicker.pdb",
-        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.FilePicker.xml",
-        "lib/win8/Plugin.FilePicker.Abstractions.dll",
-        "lib/win8/Plugin.FilePicker.Abstractions.pdb",
-        "lib/win8/Plugin.FilePicker.Abstractions.xml",
-        "lib/win8/Plugin.FilePicker.dll",
-        "lib/win8/Plugin.FilePicker.pdb",
-        "lib/win8/Plugin.FilePicker.xml",
-        "lib/wp8/Plugin.FilePicker.Abstractions.dll",
-        "lib/wp8/Plugin.FilePicker.Abstractions.pdb",
-        "lib/wp8/Plugin.FilePicker.Abstractions.xml",
-        "lib/wp8/Plugin.FilePicker.dll",
-        "lib/wp8/Plugin.FilePicker.pdb",
-        "lib/wp8/Plugin.FilePicker.xml",
-        "lib/wpa81/Plugin.FilePicker.Abstractions.dll",
-        "lib/wpa81/Plugin.FilePicker.Abstractions.pdb",
-        "lib/wpa81/Plugin.FilePicker.Abstractions.xml",
-        "lib/wpa81/Plugin.FilePicker.dll",
-        "lib/wpa81/Plugin.FilePicker.pdb",
-        "lib/wpa81/Plugin.FilePicker.xml",
-        "readme.txt",
-        "xam.plugin.filepicker.1.1.0.nupkg.sha512",
-        "xam.plugin.filepicker.nuspec"
       ]
     },
     "Xam.Plugins.Messaging/5.2.0": {
@@ -2677,6 +2626,48 @@
         "lib/monoandroid90/Xamarin.GooglePlayServices.Tasks.dll",
         "xamarin.googleplayservices.tasks.71.1601.0.nupkg.sha512",
         "xamarin.googleplayservices.tasks.nuspec"
+      ]
+    },
+    "Xamarin.Plugin.FilePicker/2.1.41": {
+      "sha512": "SFJp7AEq6YFZ72mw+CxGMQcMzBYhA0b5NkhSyE5b+prCiNli7bKI5pWOT+mbyFng0En8LfeY0dEbedpkecQFQw==",
+      "type": "package",
+      "path": "xamarin.plugin.filepicker/2.1.41",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.FilePicker.dll",
+        "lib/monoandroid10.0/Plugin.FilePicker.pdb",
+        "lib/monoandroid10.0/Plugin.FilePicker.xml",
+        "lib/monoandroid80/Plugin.FilePicker.dll",
+        "lib/monoandroid80/Plugin.FilePicker.pdb",
+        "lib/monoandroid80/Plugin.FilePicker.xml",
+        "lib/monoandroid81/Plugin.FilePicker.dll",
+        "lib/monoandroid81/Plugin.FilePicker.pdb",
+        "lib/monoandroid81/Plugin.FilePicker.xml",
+        "lib/monoandroid90/Plugin.FilePicker.dll",
+        "lib/monoandroid90/Plugin.FilePicker.pdb",
+        "lib/monoandroid90/Plugin.FilePicker.xml",
+        "lib/net45/Plugin.FilePicker.dll",
+        "lib/net45/Plugin.FilePicker.pdb",
+        "lib/net45/Plugin.FilePicker.xml",
+        "lib/netstandard1.0/Plugin.FilePicker.dll",
+        "lib/netstandard1.0/Plugin.FilePicker.pdb",
+        "lib/netstandard1.0/Plugin.FilePicker.xml",
+        "lib/netstandard2.0/Plugin.FilePicker.dll",
+        "lib/netstandard2.0/Plugin.FilePicker.pdb",
+        "lib/netstandard2.0/Plugin.FilePicker.xml",
+        "lib/uap10.0.16299/Plugin.FilePicker.dll",
+        "lib/uap10.0.16299/Plugin.FilePicker.pdb",
+        "lib/uap10.0.16299/Plugin.FilePicker.pri",
+        "lib/uap10.0.16299/Plugin.FilePicker.xml",
+        "lib/xamarinios10/Plugin.FilePicker.dll",
+        "lib/xamarinios10/Plugin.FilePicker.pdb",
+        "lib/xamarinios10/Plugin.FilePicker.xml",
+        "lib/xamarinmac20/Plugin.FilePicker.dll",
+        "lib/xamarinmac20/Plugin.FilePicker.pdb",
+        "lib/xamarinmac20/Plugin.FilePicker.xml",
+        "xamarin.plugin.filepicker.2.1.41.nupkg.sha512",
+        "xamarin.plugin.filepicker.nuspec"
       ]
     },
     "TransLionApp/1.0.0": {
