@@ -306,3 +306,4 @@ C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLi
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csproj.CoreCompileInputs.cache
 C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\GitHub TransLion\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\Views\UserEdit.xaml.g.cs
+C:\Users\Anna\Source\Repos\TransLion_nineApril\TransLionApp\TransLionApp\TransLionApp\obj\Debug\netstandard2.0\TransLionApp.csprojAssemblyReference.cache

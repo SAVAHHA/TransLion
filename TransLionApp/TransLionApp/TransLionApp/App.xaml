@@ -29,7 +29,7 @@
             </Grid>
         </DataTemplate>
 
-        <DataTemplate x:Key="CompanyTemplate">
+        <DataTemplate x:Name="CompanyTemplate" x:Key="CompanyTemplate">
             <Grid Padding="5">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>

@@ -39,7 +39,11 @@ namespace TransLionApp.Pages.Admin
             {
                 var _user = UsersSorted.ElementAt(i);
                 SortedUsers.Add(_user);
-                Bins.Add(i-1);
+            }
+
+            for (int i = 0; i < SortedUsers.Count(); i++)
+            {
+                Bins.Add(i);
             }
 
             WIAusersCollectionView.ItemsSource = SortedUsers;
@@ -65,7 +69,7 @@ namespace TransLionApp.Pages.Admin
             //await DisplayAlert(_index, "", "O");
             WIAusersCollectionView.IsEnabled = true;
             SortedUsers.Remove(SortedUsers[_index]);
-            Bins.Remove(Bins[_index - 1]);
+            Bins.Remove(_index);
             var ResortedUsers = SortedUsers;
             var NewBins = Bins;
             WIAusersCollectionView = new CollectionView();
@@ -76,6 +80,8 @@ namespace TransLionApp.Pages.Admin
             BinsCollectionView.ItemTemplate = BinTemplate;
             BinsCollectionView.IsEnabled = true;
             BinsCollectionView.SelectionChanged += BinsCollectionView_SelectionChanged;
+            BinsCollectionView.IsEnabled = true;
+            BinsCollectionView.SelectionMode = SelectionMode.Single;
 
             collectionViewStackLayout.Children.Clear();
             collectionViewStackLayout.Children.Add(WIAusersCollectionView);
