@@ -24,6 +24,7 @@ namespace TransLionApp.Pages.Admin
             var UsersSorted = from _user in UserData.Users
                            orderby _user.LastDateOfWatching descending
                               select _user;
+           
             foreach (var _user in UsersSorted)
             {
                 lastUser = _user;
