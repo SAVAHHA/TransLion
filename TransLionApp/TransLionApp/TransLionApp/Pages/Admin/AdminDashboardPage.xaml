@@ -105,7 +105,7 @@
                         <Label Grid.Column="1" Text="24-04-2020" FontAttributes="Bold" TextColor="#439aff" BackgroundColor="Transparent" Margin="5,0,0,0"></Label>
                     </Grid>
                 </StackLayout>
-                <Button Grid.Column="0" IsEnabled="True" x:Name="WIAaanvraagButton" Clicked="WIAaanvraagButton_Clicked">
+                <Button Grid.Column="0" IsEnabled="True" BackgroundColor="Transparent" x:Name="WIAaanvraagButton" Clicked="WIAaanvraagButton_Clicked">
                 </Button>
 
                 <Frame HasShadow="False" HeightRequest="80" Grid.Column="1"  BackgroundColor="#439aff" CornerRadius="5" Padding="0,0,0,0" Margin="5,0,5,0"></Frame>

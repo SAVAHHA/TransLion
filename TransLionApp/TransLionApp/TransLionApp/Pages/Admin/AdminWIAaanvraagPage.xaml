@@ -24,7 +24,7 @@
             </Setter>
         </Style>
 
-        <DataTemplate x:Key="UserWIATemplate">
+        <DataTemplate x:Name="UserWIATemplate" x:Key="UserWIATemplate">
             <Grid Padding="10">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="20"></RowDefinition>
@@ -44,7 +44,7 @@
             </Grid>
         </DataTemplate>
 
-        <DataTemplate x:Key="BinTemplate">
+        <DataTemplate x:Name="BinTemplate" x:Key="BinTemplate">
             <Grid Padding="10">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="40"></RowDefinition>                    
@@ -87,7 +87,7 @@
 
                 <Label Text="Eerdere WIA-aanvraagen" TextColor="Black" FontSize="Large" Margin="10,0,10,10" FontAttributes="Bold"></Label>
 
-                <StackLayout Orientation="Horizontal" Spacing="0">
+                <StackLayout x:Name="collectionViewStackLayout" Orientation="Horizontal" Spacing="0">
                     <CollectionView x:Name="WIAusersCollectionView"
                                 Margin="0"
                                 ItemsSource="{Binding SortedUsers}"

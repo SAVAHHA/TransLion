@@ -17,9 +17,6 @@ namespace TransLionApp.Pages.Admin
         //public IEnumerable<UserInfo> ts { get; set; }
         public ClientenPage()
         {
-            //ts = UserData.Users;
-            //ListView searchResults = new ListView();
-            //searchResults.ItemsSource = UserData.Users;
             InitializeComponent();
         }
 

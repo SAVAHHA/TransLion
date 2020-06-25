@@ -14,7 +14,6 @@ namespace TransLionApp.Pages.Admin
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AdminWIAaanvraagPage : ContentPage
     {
-        //public IList<UserInfo> _sortedUsers = new IList<UserInfo>();
         public IList<UserInfo> SortedUsers { get; set; }
         public IList<int> Bins { get; set; }
         
@@ -35,7 +34,6 @@ namespace TransLionApp.Pages.Admin
 
             SortedUsers = new List<UserInfo>();
             Bins = new List<int>();
-            //List<int> numbers = new List<int>();
 
             for (int i = 1; i < UsersSorted.Count(); i++)
             {
@@ -46,17 +44,6 @@ namespace TransLionApp.Pages.Admin
 
             WIAusersCollectionView.ItemsSource = SortedUsers;
             BinsCollectionView.ItemsSource = Bins;
-            
-
-            //MainStackLayout.Children.Add(new Grid
-            //{
-            //    RowDefinitions = { new RowDefinition() },
-            //    ColumnDefinitions = {new ColumnDefinition()},
-            //    Children =
-            //    {
-            //        new 
-            //    }
-            //});
         }
 
         private async void wiaDetailButton_Clicked(object sender, EventArgs e)
@@ -78,18 +65,21 @@ namespace TransLionApp.Pages.Admin
             //await DisplayAlert(_index, "", "O");
             WIAusersCollectionView.IsEnabled = true;
             SortedUsers.Remove(SortedUsers[_index]);
-            Bins.Remove(Bins[Bins.Count() - 1]);
+            Bins.Remove(Bins[_index - 1]);
             var ResortedUsers = SortedUsers;
             var NewBins = Bins;
             WIAusersCollectionView = new CollectionView();
             WIAusersCollectionView.ItemsSource = ResortedUsers;
+            WIAusersCollectionView.ItemTemplate = UserWIATemplate;
             BinsCollectionView = new CollectionView();
             BinsCollectionView.ItemsSource = NewBins;
+            BinsCollectionView.ItemTemplate = BinTemplate;
+            BinsCollectionView.IsEnabled = true;
+            BinsCollectionView.SelectionChanged += BinsCollectionView_SelectionChanged;
 
-            
-            //this = new AdminWIAaanvraagPage();
-            //await Shell.Current.GoToAsync("///wiaaanvragen");
-           // await DisplayAlert(SortedUsers.Count.ToString(), SortedUsers.FirstOrDefault().SurnamePerson, "O");
+            collectionViewStackLayout.Children.Clear();
+            collectionViewStackLayout.Children.Add(WIAusersCollectionView);
+            collectionViewStackLayout.Children.Add(BinsCollectionView);
         }
     }
 }
