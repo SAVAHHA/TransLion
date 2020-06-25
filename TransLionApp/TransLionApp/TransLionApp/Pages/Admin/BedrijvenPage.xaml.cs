@@ -18,6 +18,7 @@ namespace TransLionApp.Pages.Admin
         public BedrijvenPage()
         {
             InitializeComponent();
+
         }
 
         private async void plusButton_Clicked(object sender, EventArgs e)
@@ -28,7 +29,7 @@ namespace TransLionApp.Pages.Admin
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             SearchBar searchBar = (SearchBar)sender;
-            searchResults.ItemsSource = GetCompanies(searchBar.Text);
+            searchResultsCollectionView.ItemsSource = GetCompanies(searchBar.Text);
         }
         private async void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

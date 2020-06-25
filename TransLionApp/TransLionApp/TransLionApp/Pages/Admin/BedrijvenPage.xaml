@@ -13,6 +13,44 @@
     </Shell.TitleView>
 
     <ContentPage.Resources>
+        <DataTemplate x:Name="CompanyTemplate" x:Key="CompanyTemplate">
+            <Grid Padding="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Orientation="Horizontal" Spacing="0" Grid.Row="0" Grid.Column="0">
+                    <Label Text="Bedrijf " TextColor="#474747" FontAttributes="Bold"></Label>
+                    <Label Text="{Binding Name}"
+                       FontAttributes="Bold"></Label>
+                </StackLayout>
+                <!--<Label Grid.Row="0"
+                       Text="{Binding Name}"
+                       FontAttributes="Bold"></Label>
+
+                <Label Grid.Row="1"
+                       Text="{Binding Contact}"></Label>-->
+            </Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Name="BinTemplate" x:Key="BinTemplate">
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Image Source="ic_action_delete_outline" HorizontalOptions="End" VerticalOptions="Center" Grid.Column="0" Grid.Row="0"></Image>
+
+            </Grid>
+        </DataTemplate>
+
         <Style TargetType="Grid">
             <Setter Property="VisualStateManager.VisualStateGroups">
                 <VisualStateGroupList>
@@ -57,14 +95,18 @@
                     <Frame BackgroundColor="White" BorderColor="Gray" HasShadow="False" CornerRadius="10" Margin="10,0,10,0" VerticalOptions="Fill" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="0"></Frame>
                     <SearchBar Placeholder="Zoek clienten" TextChanged="SearchBar_TextChanged" Grid.Row="0" Grid.Column="0" Margin="10,0,10,0"></SearchBar>
                 </Grid>
-                <CollectionView x:Name="searchResults"
+
+                <StackLayout x:Name="collectionViewStackLayout" Orientation="Horizontal" Spacing="0">
+                    <CollectionView x:Name="searchResultsCollectionView"
                                 Margin="10"
                                 ItemsSource="{x:Static data:CompanyData.Companies}"
                                 ItemTemplate="{StaticResource CompanyTemplate}"
                                 SelectionMode="Single"
                                 SelectionChanged="CollectionView_SelectionChanged">
-                    
-                </CollectionView>
+
+                    </CollectionView>
+
+                </StackLayout>
 
                 <!--<ListView x:Name="searchResults" ItemsSource="{Binding ts}">
                     
